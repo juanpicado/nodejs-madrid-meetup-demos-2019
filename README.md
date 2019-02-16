@@ -16,6 +16,8 @@ Ejecutar en la terminal
 
 ```
 npm install -g verdaccio
+
+verdaccio -c backup/config.yaml
 ```
 
 ## Instalando con Docker
@@ -29,4 +31,6 @@ docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio
 
 ## Demostraciones
 
-- 
+- Amazon S3 Bucket como almacenamiento con LocalStack
+- Link 3 registros con UpLinks y Permisos por Paquete
+- Creando un Plugin de autenticación.
