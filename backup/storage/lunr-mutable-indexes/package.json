@@ -1,0 +1,425 @@
+{
+	"name": "lunr-mutable-indexes",
+	"versions": {
+		"0.1.0": {
+			"name": "lunr-mutable-indexes",
+			"version": "0.1.0",
+			"description": "Mutable indexes for lunr.js 2.1.x",
+			"main": "lunr-mutable.js",
+			"scripts": {
+				"test": "make test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hoelzro/lunr-mutable-indexes.git"
+			},
+			"keywords": [
+				"search",
+				"lunr"
+			],
+			"author": {
+				"name": "Rob Hoelz"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/hoelzro/lunr-mutable-indexes/issues"
+			},
+			"devDependencies": {
+				"mocha": "^3.0.2",
+				"chai": "^4.1.2"
+			},
+			"homepage": "https://github.com/hoelzro/lunr-mutable-indexes#readme",
+			"dependencies": {
+				"lunr": "~2.1.5"
+			},
+			"gitHead": "fa95bcce23c3120f5e143658ccde89764fe9c132",
+			"_id": "lunr-mutable-indexes@0.1.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.3.0",
+			"_npmUser": {
+				"name": "hoelzro",
+				"email": "rob+npm@hoelz.ro"
+			},
+			"dist": {
+				"integrity": "sha512-GcvBl87Y9wxCa+ZNsGReFUfv3xUJwcYRIVLi+q82HGboOqpunsrgZu/9sUTVT28RIw/kTNyNFyrxuwAdfJpZqQ==",
+				"shasum": "09e4c3d66e221368199e1a7396ef1c8f9d96b0d4",
+				"tarball": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-0.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "hoelzro",
+					"email": "rob+npm@hoelz.ro"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-mutable-indexes-0.1.0.tgz_1515630029952_0.3412906553130597"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "lunr-mutable-indexes",
+			"version": "0.2.0",
+			"description": "Mutable indexes for lunr.js 2.1.x",
+			"main": "lunr-mutable.js",
+			"scripts": {
+				"prepare": "make lunr-mutable.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hoelzro/lunr-mutable-indexes.git"
+			},
+			"keywords": [
+				"search",
+				"lunr"
+			],
+			"author": {
+				"name": "Rob Hoelz"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/hoelzro/lunr-mutable-indexes/issues"
+			},
+			"devDependencies": {
+				"mocha": "^3.0.2",
+				"chai": "^4.1.2"
+			},
+			"homepage": "https://github.com/hoelzro/lunr-mutable-indexes#readme",
+			"dependencies": {
+				"lunr": "~2.1.5"
+			},
+			"gitHead": "4d839075d207f6727e85a0a90f91f49bec12653b",
+			"_id": "lunr-mutable-indexes@0.2.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "hoelzro",
+				"email": "rob+npm@hoelz.ro"
+			},
+			"dist": {
+				"integrity": "sha512-mOnjoCG/HGuqFGUE9yRSozl0+OpKRaJ7bGn8RDYAqqq317THGRCyV8qT0xdMRcz4Np+sT/fDye4CErAroNCT6w==",
+				"shasum": "3851e4df375b87e50561daed65bcd8332ace991b",
+				"tarball": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-0.2.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 32688
+			},
+			"maintainers": [
+				{
+					"name": "hoelzro",
+					"email": "rob+npm@hoelz.ro"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-mutable-indexes_0.2.0_1518293449459_0.47692225792589227"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.3.0": {
+			"name": "lunr-mutable-indexes",
+			"version": "0.3.0",
+			"description": "Mutable indexes for lunr.js 2.1.x or greater",
+			"main": "lunr-mutable.js",
+			"scripts": {
+				"test": "make test",
+				"prepare": "make lunr-mutable.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hoelzro/lunr-mutable-indexes.git"
+			},
+			"keywords": [
+				"search",
+				"lunr"
+			],
+			"author": {
+				"name": "Rob Hoelz"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/hoelzro/lunr-mutable-indexes/issues"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"mocha": "^5.1.1"
+			},
+			"homepage": "https://github.com/hoelzro/lunr-mutable-indexes#readme",
+			"dependencies": {
+				"lunr": ">= 2.1.5 < 2.3.0"
+			},
+			"gitHead": "f6f372fddf9bf94c525613849edaa5f901c2f6c9",
+			"_id": "lunr-mutable-indexes@0.3.0",
+			"_npmVersion": "6.0.1",
+			"_nodeVersion": "10.1.0",
+			"_npmUser": {
+				"name": "hoelzro",
+				"email": "rob+npm@hoelz.ro"
+			},
+			"dist": {
+				"integrity": "sha512-rU0n959Yb/GYsIDtDipjYlw94rxVAg8+fOFECycgYg6Pal0uk7nlOhk+qtK3cZoqQUp9Xgz6a4oO0RjpUmhBNQ==",
+				"shasum": "4156275807d2c9f9fae3d6855c44c24955984ba9",
+				"tarball": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-0.3.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 32758,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa9QZSCRA9TVsSAnZWagAAO7IP/1DXfDz8tSOHxn+8D0zn\nYbu9qEWiCy6xj0Vi9ZNgLrR0WGjgn7WUSIOYVBeXmerF733BPLRJwDwg4ip9\nle9muFKPdiW+FdTtQLQ7ddveeINXK36T12AWFFfWffTwsAX1OFjDV2eRH3sX\n5qqXyPRrXk1ooACsm2oGQgC7XytrYRETmZhOUy7/azganQJ9ZoEc39TA46Sr\nTLA38TDLaIIc6lMMWI06zNaHfDS2iwdMMvKSfcDuyZMa3UOzpFj63/DIIlxB\na+P7OAcCoUlL23cXfjtuDJx9QCSe7T2cb+esKs/zy0EsHbEX2MDdRSWpGbus\nWKe8IdZSp69kVK4M80u8ThUVTLCOCtygxfQEFJ6v+c7Pjj0nMxURyRrrhEtt\nCqj3ChfXbzyTdw+QN19pj5a/Wdhv2pJeUR/fSVbSpqy2rBkPve3YEzBRmL6Y\nRevkNcKp784/8o3nBE+9Jsfr4ek5eNc7kS3Ps2AVpLfBL0U7GmQN8kadlE8z\niTeAPPOfQM+ojMX7yvRTimPC50PB3Y1ttsxM2y0U26VZT+smiJrqr0Dab1en\nD5sOxX3EKMriPLH/KOje9aEUseA7k6Dr22yQo7H36+/cED7otL9GJ3bB4aBg\nf8210LGeujs+uFLNoWpDs49uhvqET2G5IdjI4um6MA4AuNJLR2JM8YI/uoKX\noRVf\r\n=Zug9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hoelzro",
+					"email": "rob+npm@hoelz.ro"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-mutable-indexes_0.3.0_1526007376728_0.999564863649473"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.3.0": {
+			"name": "lunr-mutable-indexes",
+			"version": "2.3.0",
+			"description": "Mutable indexes for lunr.js 2.x or greater",
+			"main": "lunr-mutable.js",
+			"scripts": {
+				"test": "make test",
+				"prepare": "make lunr-mutable.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hoelzro/lunr-mutable-indexes.git"
+			},
+			"keywords": [
+				"search",
+				"lunr"
+			],
+			"author": {
+				"name": "Rob Hoelz"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/hoelzro/lunr-mutable-indexes/issues"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"mocha": "^5.1.1"
+			},
+			"homepage": "https://github.com/hoelzro/lunr-mutable-indexes#readme",
+			"dependencies": {
+				"lunr": ">= 2.3.0 < 2.4.0"
+			},
+			"gitHead": "300c8540032ba48877e1338ad88916e4b87b9621",
+			"_id": "lunr-mutable-indexes@2.3.0",
+			"_npmVersion": "6.2.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "hoelzro",
+				"email": "rob+npm@hoelz.ro"
+			},
+			"dist": {
+				"integrity": "sha512-ZRlwBWsyRh2jUOogzG7YtdrKLugRNccMXKcBbgbf3oO5uz67KCuQuq+kwE0g9fodOpBfQh8j5gm2KcMmilZK8A==",
+				"shasum": "857038816a6ef46d220d365f4a5d90c6726922a5",
+				"tarball": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-2.3.0.tgz",
+				"fileCount": 15,
+				"unpackedSize": 35046,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbYbEPCRA9TVsSAnZWagAASDIP/3i6p55AlCZYJW0WFUm1\nR9aXH3f0hdelVyFKfzAh6q6f6XNzDVCZqAx/DC2Ul6gCwHV4/u6FwIS/nSe5\n+XNB4aqZ1IkuXVa6sVNGjdR59p/Rws9/VkVPSa2eSQPCrWZVGQsJh2/pnjlW\nttzoikar6GCghcEtBc6Vp5HFq6RgCHTmnFsttYqX97MaW9qLBmjka2Gi0H6O\nr6LvUlY/qg9x+5kpctHK/njUb4rwnoB3ws8wA9JftE1AFxyKC/YrbOsTlZfN\n99iQvrptcg2dZJZZ6Amcb1Mqpc0V2480evPCT/Thor7sH5Ojj66+SfD19gwv\nOqHBcFu9/cTASDXVbg9goBkSFV1nL89n4TTrJ1f9SqYLTOQsie68oAjwxEtU\nFD2uzjH/jif4sAtdz6IYNgr4YU8XsMbkvJB8p4lboia6Ow/7MYB7hvVu8KU9\n6jFrbQcRdoerpRJP8s6oysbcusUw4rs1IRQij3cNxkEY5aUNdwI+RFwJh1EY\nSQKxw7U3tVSa+tIEPrwYjoIRXH0zTA64hNGmvpm0HbOQy4aUAHkGV78NNSU6\nZSkTsxvOJd4F5SmZsK0eYsw0iuDSAKt8MeApkwIoFGoFNIMYlbKWJnuSJBVq\nNNP4ORgQ9HqFndZ3wi/ZRCOxdAWOPoE3egNN4Qx8VNQZ45oyqG35QSHNBA03\n1e8e\r\n=8859\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hoelzro",
+					"email": "rob+npm@hoelz.ro"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-mutable-indexes_2.3.0_1533128975156_0.4420542256516369"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.3.1": {
+			"name": "lunr-mutable-indexes",
+			"version": "2.3.1",
+			"description": "Mutable indexes for lunr.js 2.x or greater",
+			"main": "lunr-mutable.js",
+			"scripts": {
+				"test": "make test",
+				"prepare": "make lunr-mutable.js",
+				"prepublishOnly": "bash prepublish.sh"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hoelzro/lunr-mutable-indexes.git"
+			},
+			"keywords": [
+				"search",
+				"lunr"
+			],
+			"author": {
+				"name": "Rob Hoelz"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/hoelzro/lunr-mutable-indexes/issues"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"mocha": "^5.1.1"
+			},
+			"homepage": "https://github.com/hoelzro/lunr-mutable-indexes#readme",
+			"dependencies": {
+				"lunr": ">= 2.3.0 < 2.4.0"
+			},
+			"gitHead": "fc2149a7da0e6d28f05ad3aa9652ca415e94d52b",
+			"_id": "lunr-mutable-indexes@2.3.1",
+			"_npmVersion": "6.2.0",
+			"_nodeVersion": "10.7.0",
+			"_npmUser": {
+				"name": "hoelzro",
+				"email": "rob+npm@hoelz.ro"
+			},
+			"dist": {
+				"integrity": "sha512-ZWC2TF1w0DApSOGpWVPfb02RK2iE/hQ90t8Yd2Wphl5K5/w2WXmzusHL9PiXqTBhODfhSfFzPlxio27o+k5upw==",
+				"shasum": "5c20dab83e8c210326f69896b824be8f6e9449d3",
+				"tarball": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-2.3.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 33440,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbY6tHCRA9TVsSAnZWagAA+5AP/36MVrqH0vUcZ9HN/RV1\nAyK270/me6Qyri2WciQwGfyFvQ9EJkqTRwBfzSjvmDTpfgdR/pwKCaq3PhOS\n/Qqqk9IvL5lfBprrvH9tD/fOjwe3whg6v2MzyKccjI4Bdmba1SxejN/r10lG\nQMYGy5R+altqiJl0buWpLCoB/ymmnYSwWMBD8vxPJ5Uuelw5XBbZmpV91aI5\n78CDhBz+A4i5Skdh8cGpfXIFjWNMlC6e+5BT+XGos2U23yHYA/dZE9fXYX0Z\nkFfndYiiddNoxDB+FHpKm1NakSix2lfXv6j920AI9i883uzcpRDDLO9PJN5E\nO1gLPEpSZhBiYhXFn0SjNMK3uGWX08mEmeHhSsaG3ObmZFrR0kWGhjQoUB+K\n6U9/k9KXYChIVRp7gSYQ1VU5sBmDdYIxpN51XNBylRES2j6P5pKgM0o1pI3/\n8LjwA/B3kNl5YK0wXjwCWI3PQb/k9Cc/WZjLm6zGuadN/pVpWA2v/U9+8p3V\nZmtTap7g4DGy0mYf/ZIJlkbLIJRYThKaQTb9Ted85ko1U5BZqlGatSkbCZrN\n3Dr9PVibaTdBbyxjBTDlV2+sU51eKvHroFRHuFiCVRqliiL6WNKWnSXGwktU\nXMMe1WoboX++P1LmcrNajbpqB3y8ibAhO4JyCXjMzTp98W7jmC/xo5nMshkN\nXG3V\r\n=7wyM\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hoelzro",
+					"email": "rob+npm@hoelz.ro"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-mutable-indexes_2.3.1_1533258566789_0.009788204323492922"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.3.2": {
+			"name": "lunr-mutable-indexes",
+			"version": "2.3.2",
+			"description": "Mutable indexes for lunr.js 2.x or greater",
+			"main": "lunr-mutable.js",
+			"scripts": {
+				"test": "make test",
+				"prepare": "make lunr-mutable.js",
+				"prepublishOnly": "bash prepublish.sh"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hoelzro/lunr-mutable-indexes.git"
+			},
+			"keywords": [
+				"search",
+				"lunr"
+			],
+			"author": {
+				"name": "Rob Hoelz"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/hoelzro/lunr-mutable-indexes/issues"
+			},
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"mocha": "^5.1.1"
+			},
+			"homepage": "https://github.com/hoelzro/lunr-mutable-indexes#readme",
+			"dependencies": {
+				"lunr": ">= 2.3.0 < 2.4.0"
+			},
+			"gitHead": "663fc10ca0403f61c6ffc459fb41a158a43990c4",
+			"_id": "lunr-mutable-indexes@2.3.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.0.0",
+			"_npmUser": {
+				"name": "hoelzro",
+				"email": "rob+npm@hoelz.ro"
+			},
+			"dist": {
+				"integrity": "sha512-Han6cdWAPPFM7C2AigS2Ofl3XjAT0yVMrUixodJEpyg71zCtZ2yzXc3s+suc/OaNt4ca6WJBEzVnEIjxCTwFMw==",
+				"shasum": "864253489735d598c5140f3fb75c0a5c8be2e98c",
+				"tarball": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-2.3.2.tgz",
+				"fileCount": 17,
+				"unpackedSize": 40503,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb33d6CRA9TVsSAnZWagAAgaEP/2mB16fIqB0+ozWllNJ6\nHd1qMeUwwihJPohb6sCC/5NS+wtZ0U3TLf6NYcQlGUcWLViEY3HvBB9hjdi0\nY81piHTCPtZZMBIgdpuYvgM7pqTEWoZk82WSAWBxGkgmo1aLnheCXaRokbyg\ntuolpgIOqST/hisbbqlW3s0FlzdcqFv/5k+r+CY2h1RmttxH+5awxLjlAEXD\nR5ckrRRqJKMMwqOURNubYwfcCRoG91ScEj/ZgSRYiixbBXDPfRtckVxpl8cd\nrU/JZj9n+xJ2Yl7KGx660rIkihdxfXWbPsazsdnRtJEoDRw8ek2LPAaLTSwf\nQrB8k2EbLPB5wT9bE7YiGVOjhwLcWeUX/VBlJiYePRseL5pb8FS43grzTWgQ\nsDTrJqGEu3Pe7d4OOTveJN3WH151behir5Qc3N2K8gw8mP7nShaC/m0y51gk\nDujBetZI7GNgS6Bjfdex8Xj9aY9g5XeAz1OxhpM8xvyCsSF7Nbjjytg2xakV\n6aDksxo5ZuG0j4fhpt045iBVK7hxFymWibUuM2mDtIEttxXGkdghDIjkfHW9\ng1W+at0Ue4pdrpWFUr0ccycDMp6mkRf90bhDHrRCW/ulv0Km4+jGwYzQTTcC\nQOcxt1ScibjN3dD5aNcQlc6agYvU9J7bWSVBuf8MErUzxr09xnDMSUOjbu7f\n0CVE\r\n=vptn\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "hoelzro",
+					"email": "rob+npm@hoelz.ro"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lunr-mutable-indexes_2.3.2_1541371770380_0.7069094737890553"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2019-01-04T17:52:34.234Z",
+		"created": "2018-01-11T00:20:30.885Z",
+		"0.1.0": "2018-01-11T00:20:30.885Z",
+		"0.2.0": "2018-02-10T20:10:50.131Z",
+		"0.3.0": "2018-05-11T02:56:16.804Z",
+		"2.3.0": "2018-08-01T13:09:35.251Z",
+		"2.3.1": "2018-08-03T01:09:26.858Z",
+		"2.3.2": "2018-11-04T22:49:30.484Z"
+	},
+	"dist-tags": {
+		"latest": "2.3.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"2be7c301aafa7a93c5288a235cf7d498\"",
+			"fetched": 1550359655378
+		}
+	},
+	"_distfiles": {
+		"lunr-mutable-indexes-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-0.1.0.tgz",
+			"sha": "09e4c3d66e221368199e1a7396ef1c8f9d96b0d4",
+			"registry": "npmjs"
+		},
+		"lunr-mutable-indexes-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-0.2.0.tgz",
+			"sha": "3851e4df375b87e50561daed65bcd8332ace991b",
+			"registry": "npmjs"
+		},
+		"lunr-mutable-indexes-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-0.3.0.tgz",
+			"sha": "4156275807d2c9f9fae3d6855c44c24955984ba9",
+			"registry": "npmjs"
+		},
+		"lunr-mutable-indexes-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-2.3.0.tgz",
+			"sha": "857038816a6ef46d220d365f4a5d90c6726922a5",
+			"registry": "npmjs"
+		},
+		"lunr-mutable-indexes-2.3.1.tgz": {
+			"url": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-2.3.1.tgz",
+			"sha": "5c20dab83e8c210326f69896b824be8f6e9449d3",
+			"registry": "npmjs"
+		},
+		"lunr-mutable-indexes-2.3.2.tgz": {
+			"url": "https://registry.npmjs.org/lunr-mutable-indexes/-/lunr-mutable-indexes-2.3.2.tgz",
+			"sha": "864253489735d598c5140f3fb75c0a5c8be2e98c",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"lunr-mutable-indexes-2.3.1.tgz": {
+			"shasum": "5c20dab83e8c210326f69896b824be8f6e9449d3"
+		}
+	},
+	"_rev": "2-ee74150b4153336a",
+	"_id": "lunr-mutable-indexes",
+	"readme": "# Lunr Mutable Indexes - Mutable indexes for lunr.js 2.1.x\n\nWith the release of [lunr.js 2.0](https://github.com/olivernn/lunr.js), lunr\nremoved the ability to update existing indexes with new data.  While the space\nbenefits of this change are nice, some users need the flexibility of updating\ntheir indexes with new data.  That's what this library is for.\n\n# Example\n\nA simple search index can be created with the familiar `lunr` syntax; just substitute `lunr-mutable` for `lunr`.\n\n```js\n\nvar lunrMutable = require('lunr-mutable-indexes');\n\nvar index = lunrMutable(function () {\n  this.field('title')\n  this.field('body')\n\n  this.add({\n    \"title\": \"Twelfth-Night\",\n    \"body\": \"If music be the food of love, play on: Give me excess of it…\",\n    \"author\": \"William Shakespeare\",\n    \"id\": \"1\"\n  })\n})\n```\n\nNow, with a mutable index, we can add...\n\n```js\nindex.add({\n    \"title\": \"Merchant of Venice\",\n    \"body\": \"You speak an infinite deal of nothing.\",\n    \"author\": \"William Shakespeare\",\n    \"id\": \"2\"\n});\n```\n\nRemove...\n\n```js\nindex.remove({ id: \"1\" });\n```\n\nOr update existing documents.\n\n```js\nindex.update({\n    \"body\": \"With mirth and laughter let old wrinkles come.\",\n    \"id\": \"2\"\n});\n```\n\nIndex serialization also works, with the Index namespace accessible through the `lunr-mutable-indexes` object.\n\n```js\n// Serialize an index:\nvar serialized = JSON.stringify(index);\n\n// ...and deserialize it later:\nvar sameIndex = lunrMutable.Index.load(JSON.parse(serialized));\n```\n\n# Caveats\n\nThe main tradeoffs with `lunr-mutable-index` were originally discussed in [this PR](https://github.com/olivernn/lunr.js/pull/315) in `lunr`.\n* Mutable indexes work by having a handle to their original builder - this inflates the index size a bit.\n* Changing a builder's tokenizer won't persist across serialization boundaries.\n* Gaps in builder.termIndex may build up when documents are deleted.\n* The index is completely rebuilt when a document is added/updated/removed\n\nWork is ongoing to make improvements with these potential drawbacks, but please feel free to contribute fixes!\n\n# Thanks\n\nI wrote a simple extension to lunr.js - I would like to thank the following people for helping to make my life easier:\n\n  * Oliver Nightingale (@olivernn) for writing lunr.js in the first place!\n  * John Kupko (@k00p) for making the library easier to use and helping with some of the NPM plumbing!"
+}

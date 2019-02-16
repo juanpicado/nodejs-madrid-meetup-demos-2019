@@ -1,0 +1,771 @@
+{
+	"name": "@verdaccio/file-locking",
+	"versions": {
+		"0.0.1-beta": {
+			"name": "@verdaccio/file-locking",
+			"version": "0.0.1-beta",
+			"description": "",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [],
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"_id": "@verdaccio/file-locking@0.0.1-beta",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "4.6.1",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-kjNqHwiwDCwQhKV8CPxzkn9ZUmvcCfOwFqDQs6tH7iQ5MChUcCfYwdY/NaIUmCB5Q/ufJBWMKVWw1pY7GziJRg==",
+				"shasum": "b4af134d44eb8ef98d2b8ea53b7f84c825d1bf4e",
+				"tarball": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.1-beta.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/file-locking-0.0.1-beta.tgz_1499319245061_0.6353796122130007"
+			},
+			"directories": {}
+		},
+		"0.0.1": {
+			"name": "@verdaccio/file-locking",
+			"version": "0.0.1",
+			"description": "library that handle file locking",
+			"main": "lib/index.js",
+			"keywords": [
+				"lock",
+				"fs"
+			],
+			"devDependencies": {
+				"babel-cli": "6.24.1",
+				"babel-core": "6.22.1",
+				"babel-plugin-istanbul": "^4.1.4",
+				"babel-polyfill": "6.23.0",
+				"babel-preset-es2015": "6.22.0",
+				"babel-preset-es2017": "6.24.1",
+				"cross-env": "^5.0.1",
+				"eslint": "4.1.1",
+				"eslint-config-google": "0.8.0",
+				"mocha": "3.4.2",
+				"nyc": "^11.0.3"
+			},
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"dependencies": {
+				"babel-polyfill": "^6.3.14",
+				"babel-require": "^1.0.1",
+				"lockfile": "1.0.1",
+				"lodash": "4.17.4"
+			},
+			"nyc": {
+				"include": [
+					"src/**/*.js"
+				],
+				"all": true,
+				"cache": true,
+				"sourceMap": false,
+				"instrument": false,
+				"report-dir": "./tests-report",
+				"reporter": [
+					"text",
+					"html"
+				]
+			},
+			"scripts": {
+				"test": "npm run lint && mocha --require babel-polyfill  --compilers js:babel-core/register ./test/**/*.spec.js",
+				"lint": "eslint .",
+				"build": "babel src/ --out-dir lib/ --copy-files",
+				"cover": "cross-env NODE_ENV=test nyc npm t"
+			},
+			"engines": {
+				"node": ">=4.6.1",
+				"npm": ">=2.15.9"
+			},
+			"gitHead": "45f67afc73d81d6d74097862b4a3b7957b364de8",
+			"_id": "@verdaccio/file-locking@0.0.1",
+			"_npmVersion": "5.1.0",
+			"_nodeVersion": "4.6.1",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Acbnm+9u5uOyv2NvYR0zL/X611/yjSwWEdU45FDHwvzUzbaP+kkj3WaQeolmnqYaWQD5RFWIggYsgOmK1QagHA==",
+				"shasum": "e202e1f1c1cdb2a1f8e4641b348390a89b6363e8",
+				"tarball": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/file-locking-0.0.1.tgz_1499505401472_0.7540914982091635"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "@verdaccio/file-locking",
+			"version": "0.0.2",
+			"description": "library that handle file locking",
+			"main": "lib/index.js",
+			"keywords": [
+				"lock",
+				"fs"
+			],
+			"devDependencies": {
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-plugin-istanbul": "4.1.4",
+				"babel-polyfill": "6.23.0",
+				"babel-preset-es2015": "6.24.1",
+				"babel-preset-es2017": "6.24.1",
+				"babel-require": "1.0.1",
+				"cross-env": "5.0.1",
+				"eslint": "4.1.1",
+				"eslint-config-google": "^0.9.1",
+				"mocha": "3.4.2",
+				"nyc": "11.0.3"
+			},
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"dependencies": {
+				"babel-polyfill": "6.23.0",
+				"lockfile": "1.0.3",
+				"lodash": "4.17.4"
+			},
+			"nyc": {
+				"include": [
+					"src/**/*.js"
+				],
+				"all": true,
+				"cache": true,
+				"sourceMap": false,
+				"instrument": false,
+				"report-dir": "./tests-report",
+				"reporter": [
+					"text",
+					"html"
+				]
+			},
+			"scripts": {
+				"test": "npm run lint && mocha --require babel-polyfill  --compilers js:babel-core/register ./test/**/*.spec.js",
+				"lint": "eslint .",
+				"build": "babel src/ --out-dir lib/ --copy-files",
+				"cover": "cross-env NODE_ENV=test nyc npm t"
+			},
+			"engines": {
+				"node": ">=4.6.1",
+				"npm": ">=2.15.9"
+			},
+			"gitHead": "8b5ebe9bf1a82cf89d824e8ae81c6ceb1daa9c2f",
+			"_id": "@verdaccio/file-locking@0.0.2",
+			"_npmVersion": "5.1.0",
+			"_nodeVersion": "4.6.1",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-AQnCmCOekH6P4sGMEARmjn2rRyRHJYAnz2KDqfL7b53fF4pfQnUMD1yzskt4HHUuF/uj8Cj8NfobaB+hk8ytIw==",
+				"shasum": "1e3855ad7321b686e0bd2802adbf90056f9d3150",
+				"tarball": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/file-locking-0.0.2.tgz_1499516582395_0.9131067970301956"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "@verdaccio/file-locking",
+			"version": "0.0.3",
+			"description": "library that handle file locking",
+			"main": "lib/index.js",
+			"keywords": [
+				"lock",
+				"fs"
+			],
+			"devDependencies": {
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-plugin-istanbul": "4.1.4",
+				"babel-polyfill": "6.23.0",
+				"babel-preset-es2015": "6.24.1",
+				"babel-require": "1.0.1",
+				"cross-env": "5.0.1",
+				"eslint": "4.1.1",
+				"eslint-config-google": "0.9.1",
+				"mocha": "3.4.2",
+				"nyc": "11.0.3"
+			},
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"dependencies": {
+				"babel-polyfill": "6.23.0",
+				"lockfile": "1.0.3",
+				"lodash": "4.17.4"
+			},
+			"nyc": {
+				"include": [
+					"src/**/*.js"
+				],
+				"all": true,
+				"cache": true,
+				"sourceMap": false,
+				"instrument": false,
+				"report-dir": "./tests-report",
+				"reporter": [
+					"text",
+					"html"
+				]
+			},
+			"scripts": {
+				"test": "npm run lint && mocha --require babel-polyfill  --compilers js:babel-core/register ./test/**/*.spec.js",
+				"lint": "eslint .",
+				"build": "babel src/ --out-dir lib/ --copy-files",
+				"cover": "cross-env NODE_ENV=test nyc npm t"
+			},
+			"engines": {
+				"node": ">=4.6.1",
+				"npm": ">=2.15.9"
+			},
+			"gitHead": "aec06aa291e710979e50357647a7b48143023d59",
+			"_id": "@verdaccio/file-locking@0.0.3",
+			"_npmVersion": "5.1.0",
+			"_nodeVersion": "4.6.1",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-AW33KbRZ3xAEZzFgnYnMdXrvj2LniqqUqHyMPAxytRvpeGnZj208SqtEiuzrkzNOn4EzSeKglbyg83Hc0jRF3g==",
+				"shasum": "32d3702ff5184d1d3893f0f1d47629ad33d1c113",
+				"tarball": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/file-locking-0.0.3.tgz_1499522838815_0.7633031457662582"
+			},
+			"directories": {}
+		},
+		"0.0.5": {
+			"name": "@verdaccio/file-locking",
+			"version": "0.0.5",
+			"description": "library that handle file locking",
+			"main": "lib/index.js",
+			"keywords": [
+				"lock",
+				"fs"
+			],
+			"devDependencies": {
+				"@verdaccio/types": "0.0.4",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-plugin-istanbul": "4.1.4",
+				"babel-preset-env": "1.6.0",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-preset-flow": "6.23.0",
+				"babel-require": "1.0.1",
+				"cross-env": "5.0.1",
+				"eslint": "4.1.1",
+				"eslint-plugin-flowtype": "2.35.0",
+				"eslint-config-google": "0.9.1",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"mocha": "3.4.2",
+				"nyc": "11.0.3"
+			},
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"dependencies": {
+				"lockfile": "1.0.3",
+				"lodash": "4.17.4"
+			},
+			"nyc": {
+				"include": [
+					"src/**/*.js"
+				],
+				"all": true,
+				"cache": true,
+				"sourceMap": false,
+				"instrument": false,
+				"report-dir": "./tests-report",
+				"reporter": [
+					"text",
+					"html"
+				]
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"scripts": {
+				"flow": "flow",
+				"test": "npm run lint && mocha --require babel-polyfill  --compilers js:babel-core/register ./test/**/*.spec.js",
+				"lint": "eslint .",
+				"build": "babel src/ --out-dir lib/ --copy-files",
+				"cover": "cross-env NODE_ENV=test nyc npm t"
+			},
+			"engines": {
+				"node": ">=4.6.1",
+				"npm": ">=2.15.9"
+			},
+			"gitHead": "aeb01f8b0e45a9d0e0ba735abdf8e581b2a0b8c0",
+			"_id": "@verdaccio/file-locking@0.0.5",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "8.3.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-kUxQAiNuMZ8oYtbbD7+Ljrz4sZfoRKyxNTO5Z2QvIzcF78zFsSzaq+jiCjQH3MMfwBsduPPndIrI1p608oV4cA==",
+				"shasum": "6172dfa2f7094a1da8e4c14906bfa33836b5713d",
+				"tarball": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/file-locking-0.0.5.tgz_1507270462386_0.7713554031215608"
+			},
+			"directories": {}
+		},
+		"0.0.6": {
+			"name": "@verdaccio/file-locking",
+			"version": "0.0.6",
+			"description": "library that handle file locking",
+			"main": "lib/index.js",
+			"keywords": [
+				"lock",
+				"fs"
+			],
+			"devDependencies": {
+				"@verdaccio/types": "0.0.5",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-plugin-istanbul": "4.1.4",
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"babel-require": "1.0.1",
+				"cross-env": "5.0.1",
+				"eslint": "4.4.1",
+				"eslint-config-google": "0.9.1",
+				"eslint-plugin-flowtype": "2.35.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"mocha": "3.4.2",
+				"nyc": "11.0.3"
+			},
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"dependencies": {
+				"lockfile": "1.0.3",
+				"lodash": "4.17.10"
+			},
+			"nyc": {
+				"include": [
+					"src/**/*.js"
+				],
+				"all": true,
+				"cache": true,
+				"sourceMap": false,
+				"instrument": false,
+				"report-dir": "./tests-report",
+				"reporter": [
+					"text",
+					"html"
+				]
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"scripts": {
+				"flow": "flow",
+				"test": "npm run flow && npm run lint && mocha --require babel-polyfill  --compilers js:babel-core/register ./test/**/*.spec.js",
+				"lint": "eslint .",
+				"build": "babel src/ --out-dir lib/ --copy-files",
+				"cover": "cross-env NODE_ENV=test nyc npm t"
+			},
+			"engines": {
+				"node": ">=4.6.1",
+				"npm": ">=2.15.9"
+			},
+			"gitHead": "1d7706fcacfeb68f93ecdb9347e2b8bef612c1c3",
+			"_id": "@verdaccio/file-locking@0.0.6",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "9.9.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-thv1dRoQWc0S64z+7U9Jr8du+L52sRYCz7SoNfq9ZoluqvD4+rZpxBgLSHOenvuJqs5Fan/SgaHz0pS9OBi+qQ==",
+				"shasum": "96aa8ccb411f856529bf5c9d5cb397cc34b051bc",
+				"tarball": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.6.tgz",
+				"fileCount": 12,
+				"unpackedSize": 69222,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa5td9CRA9TVsSAnZWagAA+D4P/3RYbtpVMUpr8tTvRqKr\n0sTcBzjH4zPD4RN2ehEGP3RXD6PPWp68+4euvYmUUyNJ1Lhv5+dSTo3MX35E\nqjatueQ6asSXTYVFz9RypoIuBnINKX4404q/bqNHc8rkywdwgYkUbiaus3HQ\noEVFwYTKgrhAC53SxMGtqCnuWS/jb0Y9yDL4V0hsMcc+S7u4mxXgGaGgI6pL\nHYHrfVnqX6SwUZusFXB8Lv2sa6CbHCcXID0IxO9F9WDOcVNsVGnl1ZusfBfO\n9rWwLvX2mC8+crfNCaDqHcgtGVvBPCYi+RutGOoZ4eQ8awXtHorX/ODJLv5r\nUYSCmb9qNt+CxnfZEwWXlD0GVh234grv1Q2szWtqEwDwWWkWC9K5Xh7SOk0N\nG9fFr2S930n0thqMxljHmIdi7EeoO5U+/0P607Si3fFw+H11R7yDZ387PAj+\nEeOCQp0LkH51FCVBIQpnjFwAGETSd/1xLFJuoPRd1P7HybsXCsL5MAAa8v8D\nwMDokdrS8KqhR3e/6m2wRzWpn+kqpdiH3ViQlzbok588ez9r0PeQcFLwTS3v\nxztxhtQ+OmBQInReRV03CXWFHX+Nk6DTe1GlPTS+aLWp6jIhp0+q9vQH0nwH\nmnG/x3SMCSE0W3TvjaCzZ4mt5l49e2yU64b+MZ69zM7CRq3YqXdMHJeJblnU\ngar2\r\n=jGKt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ayush.aceit@gmail.com",
+					"name": "ayusharma"
+				},
+				{
+					"email": "juanpicado19@gmail.com",
+					"name": "jotadeveloper"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/file-locking_0.0.6_1525077884965_0.3490722481627089"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.0.7": {
+			"name": "@verdaccio/file-locking",
+			"version": "0.0.7",
+			"description": "library that handle file locking",
+			"main": "lib/index.js",
+			"keywords": [
+				"lock",
+				"fs"
+			],
+			"devDependencies": {
+				"@verdaccio/types": "0.0.5",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-plugin-istanbul": "4.1.4",
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"babel-require": "1.0.1",
+				"cross-env": "5.0.1",
+				"eslint": "4.4.1",
+				"eslint-config-google": "0.9.1",
+				"eslint-plugin-flowtype": "2.35.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"mocha": "3.4.2",
+				"nyc": "11.0.3"
+			},
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"dependencies": {
+				"lockfile": "1.0.3",
+				"lodash": "4.17.10"
+			},
+			"nyc": {
+				"include": [
+					"src/**/*.js"
+				],
+				"all": true,
+				"cache": true,
+				"sourceMap": false,
+				"instrument": false,
+				"report-dir": "./tests-report",
+				"reporter": [
+					"text",
+					"html"
+				]
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"scripts": {
+				"flow": "flow",
+				"test": "npm run flow && npm run lint && mocha --require babel-polyfill  --compilers js:babel-core/register ./test/**/*.spec.js",
+				"lint": "eslint .",
+				"prepublish": "npm run build",
+				"build": "babel src/ --out-dir lib/ --copy-files",
+				"cover": "cross-env NODE_ENV=test nyc npm t"
+			},
+			"engines": {
+				"node": ">=4.6.1",
+				"npm": ">=2.15.9"
+			},
+			"gitHead": "96027ed1479a19ee08c1d8c66c01d52907b02042",
+			"_id": "@verdaccio/file-locking@0.0.7",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "9.9.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-yTecDiJrYJMNnsPA4Nminygc/bPRf2HB6Pj/o/IS8scljYvV++LRXuglefM1I7p18qs3mcgX/bofCZM4x2SOJA==",
+				"shasum": "5fd1b2bd391e54fa32d079002b5f7ba90844e344",
+				"tarball": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.7.tgz",
+				"fileCount": 12,
+				"unpackedSize": 69257,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa5tgpCRA9TVsSAnZWagAAkGEQAIiXCl9SDOPYAfa/Mvje\nyCiUtIHSIpmxSLdvRWEimbFs7t1iD25qX52EhUEgl1PAxqkdeUsgDOJNCNLD\nPRgaDxLrmeeSp+vPDhR1SbKYCwx5C8WiKNHX0TKjsheYzGQthF2aPfnwFZ2k\non3EyyCDRHLv4Jx4H8WPBBo3tNMAL+P7Kw4oC/rNcC/TF0cYJ7sDrtKAst82\nK9QGFr0NwcaqkHohrW3DMl6x/vDvv5O1YKsyQh3GLI7GLKf1jrV0+IEQg+8q\nv+kgWCXA6iC9UcVYQ3Kw8NH3x5gV/XmH2zokLeBl/AFhm+JLx9Ml1rLlLVpL\n7AvyYA5zGfgESCA7A2FfVxnmZAXkpalE3+NXa5A2QYMg+sL8QuuBW/bDbRPU\nqd4Scd/7ruT5aUMk63J8tMK0EB5OhFSAf5E/esd63vQl79Qdbdl9AYO8YZ2x\nuwIXfabmRjwEcp9UXnRq0GTtFd4jwW7Mt7kQcu7u2s/e17s6XVg8bwJ3bT7Q\nNOJ+pnkx9NBT+5BrEUnGoUTQs1qOz22e42E+WzRu3ej95Pc06Y1Ma88zvTZg\nzp1lXHfvpjlJVKYIdFLVQnIbTV+TyheT3DBmJ1HoRrB2XO+W3WdAHsi7aiyz\nZBB1+kwrsO5CcfM/6YR0rKpoTCu7n93UCaMF4mUUpfKU4EFpDzz9BYKM56Zd\nNDWt\r\n=dHQV\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ayush.aceit@gmail.com",
+					"name": "ayusharma"
+				},
+				{
+					"email": "juanpicado19@gmail.com",
+					"name": "jotadeveloper"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/file-locking_0.0.7_1525078056901_0.30957371571599057"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.0.8": {
+			"name": "@verdaccio/file-locking",
+			"version": "0.0.8",
+			"description": "library that handle file locking",
+			"main": "lib/index.js",
+			"keywords": [
+				"lock",
+				"fs"
+			],
+			"devDependencies": {
+				"@commitlint/cli": "7.0.0",
+				"@commitlint/config-conventional": "7.1.2",
+				"@verdaccio/types": "3.7.1",
+				"babel-cli": "6.26.0",
+				"babel-core": "6.26.3",
+				"babel-eslint": "8.2.6",
+				"babel-jest": "23.6.0",
+				"babel-plugin-flow-runtime": "0.17.0",
+				"babel-preset-env": "1.7.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "3.1.0",
+				"eslint": "5.6.1",
+				"eslint-config-google": "0.10.0",
+				"eslint-plugin-flowtype": "2.50.3",
+				"flow-bin": "0.82.0",
+				"husky": "0.14.3",
+				"in-publish": "2.0.0",
+				"jest": "23.6.0",
+				"lint-staged": "7.3.0"
+			},
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"dependencies": {
+				"lockfile": "1.0.4",
+				"lodash": "4.17.11"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"npm run lint",
+					"git add"
+				]
+			},
+			"homepage": "https://github.com/verdaccio/file-locking",
+			"scripts": {
+				"commitmsg": "commitlint -e $GIT_PARAMS",
+				"coverage": "codecov",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore __tests__",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"commitlint": {
+				"extends": [
+					"@commitlint/config-conventional"
+				]
+			},
+			"engines": {
+				"node": ">=4.6.1",
+				"npm": ">=2.15.9"
+			},
+			"gitHead": "f17e394a2780eb1e1f896ec0f9814a3f819423de",
+			"_id": "@verdaccio/file-locking@0.0.8",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-kK7siED1Yc/t8+G3Iyb0vdQ6mM+TKNW2wM8LO0D6bXg3rBWlf863JG7JIedSGUeMzwFOKjX75jreiE+xVeAb3w==",
+				"shasum": "6acb62e17db2fa093f86158e4a1c0b2802a69359",
+				"tarball": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.8.tgz",
+				"fileCount": 25,
+				"unpackedSize": 306522,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcWSfsCRA9TVsSAnZWagAAVuUQAIqvPIt4qF7UujBW+EnJ\nZyRxfQBtBecMcZBTK+pCwm6OjtZG/LSGB7ZHsXogXB/xAZNOzqN1AMKHumqh\n76LbjufIpleg4dZ9DW8xraBDOtNygE0ZVG0wGXIbZ6pZlDO9hY8vWuYg1Ct5\nye05NpiHZw1IUdZigcYL3TpzcfXF+eYNJYtD6RrVxjkCrj7Lmf+mlQMUP4sE\n8t8pLBrHh2AGd0fARaR0G/IvZnpDb2vaxEeSrfrOX5A0qlSbOgOZp+ByCUUl\nDn2I/YI72q+SG0oyzhml079S7xxMqQfZew46bGewncGxLFV3evq2QDb50+sr\no9x9JItZaGa2YClFSsG1wdJiRDHEY+//VrtuQgj07pzkPmQUp9gzQ4BOqIBE\n1KRI5AAD78/q6mT49oqD+/pFX+tdZvpy+ihZw0KupfOJcFkb4D6Eho/PmR84\nb6qsmvsZFz+8eDCp6QvfkDyz6RkQycer1JKVcKm5J47tTQWOoWS3aFQMZ4Y0\ndQgoM8eFa4OWMAynNDcRlcZJ3bOrh+oaQ7i1A/LgRgr+nj5p/uaUAQom5KOU\nOiLNuyczFZxu7n/tch7dW45ORQaCQgDswxmPG9smH34EXr1K+xZmZvqHe/C0\n1VobyXPwUAU+s0TYpVYkXhiPOdnI33bjsmKZSAHTkHQ3+K6GTuedsp8z+vU0\nB3pm\r\n=+SCk\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ayush.aceit@gmail.com",
+					"name": "ayusharma"
+				},
+				{
+					"email": "juanpicado19@gmail.com",
+					"name": "jotadeveloper"
+				},
+				{
+					"email": "priscila.oliveira@eversports.com",
+					"name": "priscila.oliveira"
+				},
+				{
+					"email": "sergio@sergiohgz.eu",
+					"name": "sergiohgz"
+				},
+				{
+					"email": "verdaccio.npm@gmail.com",
+					"name": "verdaccio.npm"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/file-locking_0.0.8_1549346795716_0.39433598990943697"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2019-02-05T06:06:38.357Z",
+		"created": "2017-07-06T05:34:06.019Z",
+		"0.0.1-beta": "2017-07-06T05:34:06.019Z",
+		"0.0.1": "2017-07-08T09:16:42.411Z",
+		"0.0.2": "2017-07-08T12:23:03.353Z",
+		"0.0.3": "2017-07-08T14:07:19.907Z",
+		"0.0.5": "2017-10-06T06:14:23.348Z",
+		"0.0.6": "2018-04-30T08:44:45.063Z",
+		"0.0.7": "2018-04-30T08:47:36.978Z",
+		"0.0.8": "2019-02-05T06:06:35.808Z"
+	},
+	"dist-tags": {
+		"latest": "0.0.8",
+		"beta": "0.0.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"bef3bbb31895ef1f21bf9ec9f0812735\"",
+			"fetched": 1550359655134
+		}
+	},
+	"_distfiles": {
+		"file-locking-0.0.1-beta.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.1-beta.tgz",
+			"sha": "b4af134d44eb8ef98d2b8ea53b7f84c825d1bf4e",
+			"registry": "npmjs"
+		},
+		"file-locking-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.1.tgz",
+			"sha": "e202e1f1c1cdb2a1f8e4641b348390a89b6363e8",
+			"registry": "npmjs"
+		},
+		"file-locking-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.2.tgz",
+			"sha": "1e3855ad7321b686e0bd2802adbf90056f9d3150",
+			"registry": "npmjs"
+		},
+		"file-locking-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.3.tgz",
+			"sha": "32d3702ff5184d1d3893f0f1d47629ad33d1c113",
+			"registry": "npmjs"
+		},
+		"file-locking-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.5.tgz",
+			"sha": "6172dfa2f7094a1da8e4c14906bfa33836b5713d",
+			"registry": "npmjs"
+		},
+		"file-locking-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.6.tgz",
+			"sha": "96aa8ccb411f856529bf5c9d5cb397cc34b051bc",
+			"registry": "npmjs"
+		},
+		"file-locking-0.0.7.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.7.tgz",
+			"sha": "5fd1b2bd391e54fa32d079002b5f7ba90844e344",
+			"registry": "npmjs"
+		},
+		"file-locking-0.0.8.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.8.tgz",
+			"sha": "6acb62e17db2fa093f86158e4a1c0b2802a69359",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"file-locking-0.0.7.tgz": {
+			"shasum": "5fd1b2bd391e54fa32d079002b5f7ba90844e344"
+		}
+	},
+	"_rev": "2-a4e35892d3db0aec",
+	"_id": "@verdaccio/file-locking",
+	"readme": "ERROR: No README data found!"
+}

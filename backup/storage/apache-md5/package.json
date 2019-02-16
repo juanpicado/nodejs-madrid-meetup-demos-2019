@@ -1,0 +1,663 @@
+{
+	"name": "apache-md5",
+	"versions": {
+		"1.0.0": {
+			"name": "apache-md5",
+			"description": "Node.js module for Apache style password encryption using md5.",
+			"version": "1.0.0",
+			"author": {
+				"name": "Gevorg Harutyunyan",
+				"url": "http://github.com/gevorg"
+			},
+			"maintainers": [
+				{
+					"name": "gevorg",
+					"email": "gevorg.ha@gmail.com"
+				}
+			],
+			"homepage": "http://github.com/gevorg/apache-md5",
+			"repository": {
+				"type": "git",
+				"url": "http://github.com/gevorg/apache-md5.git"
+			},
+			"main": "./lib/apache-md5.js",
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/gevorg/apache-md5/blob/master/LICENSE"
+				}
+			],
+			"bugs": {
+				"url": "http://github.com/gevorg/apache-md5/issues"
+			},
+			"devDependencies": {
+				"nodeunit": "0.8.1"
+			},
+			"engines": {
+				"node": ">=0.4.1"
+			},
+			"scripts": {
+				"test": "./node_modules/nodeunit/bin/nodeunit tests/*"
+			},
+			"keywords": [
+				"node",
+				"apache",
+				"md5",
+				"password",
+				"htpasswd"
+			],
+			"_id": "apache-md5@1.0.0",
+			"dist": {
+				"shasum": "344bb74553de765028de51737f1073ccfcf56c5d",
+				"tarball": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.18",
+			"_npmUser": {
+				"name": "gevorg",
+				"email": "gevorg.ha@gmail.com"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "apache-md5",
+			"description": "Node.js module for Apache style password encryption using md5.",
+			"version": "1.0.2",
+			"author": {
+				"name": "Gevorg Harutyunyan",
+				"url": "http://github.com/gevorg"
+			},
+			"maintainers": [
+				{
+					"name": "gevorg",
+					"email": "gevorg.ha@gmail.com"
+				}
+			],
+			"homepage": "http://github.com/gevorg/apache-md5",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/gevorg/apache-md5.git"
+			},
+			"main": "./lib/apache-md5.js",
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/gevorg/apache-md5/blob/master/LICENSE"
+				}
+			],
+			"bugs": {
+				"url": "http://github.com/gevorg/apache-md5/issues"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1"
+			},
+			"engines": {
+				"node": ">=0.4.1"
+			},
+			"scripts": {
+				"test": "node ./node_modules/nodeunit/bin/nodeunit tests"
+			},
+			"keywords": [
+				"node",
+				"apache",
+				"md5",
+				"password",
+				"htpasswd"
+			],
+			"gitHead": "385dd7716b7e761ca5b36a0b6f91271b1c7f584a",
+			"_id": "apache-md5@1.0.2",
+			"_shasum": "ab2a639b57d4cd440fc195009804af82f2f5bee2",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "gevorg",
+				"email": "gevorg.ha@gmail.com"
+			},
+			"dist": {
+				"shasum": "ab2a639b57d4cd440fc195009804af82f2f5bee2",
+				"tarball": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.2.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "apache-md5",
+			"description": "Node.js module for Apache style password encryption using md5.",
+			"version": "1.0.3",
+			"author": {
+				"name": "Gevorg Harutyunyan",
+				"url": "http://github.com/gevorg"
+			},
+			"maintainers": [
+				{
+					"name": "gevorg",
+					"email": "gevorg.ha@gmail.com"
+				}
+			],
+			"homepage": "http://github.com/gevorg/apache-md5",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/gevorg/apache-md5.git"
+			},
+			"main": "./lib/apache-md5.js",
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/gevorg/apache-md5/blob/master/LICENSE"
+				}
+			],
+			"bugs": {
+				"url": "http://github.com/gevorg/apache-md5/issues"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1"
+			},
+			"engines": {
+				"node": ">=0.4.1"
+			},
+			"scripts": {
+				"test": "node ./node_modules/nodeunit/bin/nodeunit tests"
+			},
+			"keywords": [
+				"node",
+				"apache",
+				"md5",
+				"password",
+				"htpasswd"
+			],
+			"gitHead": "cf0a1a9491318c1763276482e7fa7102cedc1679",
+			"_id": "apache-md5@1.0.3",
+			"_shasum": "0cd3a51c47647c9e3552c70e7a2a0d4334b98fd1",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.1",
+			"_npmUser": {
+				"name": "gevorg",
+				"email": "gevorg.ha@gmail.com"
+			},
+			"dist": {
+				"shasum": "0cd3a51c47647c9e3552c70e7a2a0d4334b98fd1",
+				"tarball": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.3.tgz"
+			},
+			"directories": {}
+		},
+		"1.0.4": {
+			"name": "apache-md5",
+			"description": "Node.js module for Apache style password encryption using md5.",
+			"version": "1.0.4",
+			"author": {
+				"name": "Gevorg Harutyunyan",
+				"url": "http://github.com/gevorg"
+			},
+			"maintainers": [
+				{
+					"name": "gevorg",
+					"email": "gevorg.ha@gmail.com"
+				}
+			],
+			"homepage": "http://github.com/http-auth/apache-md5",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/http-auth/apache-md5.git"
+			},
+			"main": "./lib/apache-md5.js",
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/http-auth/apache-md5/blob/master/LICENSE"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "http://github.com/http-auth/apache-md5/issues"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1"
+			},
+			"engines": {
+				"node": ">=0.4.1"
+			},
+			"scripts": {
+				"test": "node ./node_modules/nodeunit/bin/nodeunit tests"
+			},
+			"keywords": [
+				"node",
+				"apache",
+				"md5",
+				"password",
+				"htpasswd"
+			],
+			"gitHead": "bfc97c099efe7be29aebce51ba1b89da02123396",
+			"_id": "apache-md5@1.0.4",
+			"_shasum": "dd41b4b0e100cc2ec747d4241482ca1e2a833682",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.6.0",
+			"_npmUser": {
+				"name": "gevorg",
+				"email": "gevorg.ha@gmail.com"
+			},
+			"dist": {
+				"shasum": "dd41b4b0e100cc2ec747d4241482ca1e2a833682",
+				"tarball": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/apache-md5-1.0.4.tgz_1459506332108_0.28581722243689"
+			},
+			"directories": {}
+		},
+		"1.0.5": {
+			"name": "apache-md5",
+			"description": "Node.js module for Apache style password encryption using md5.",
+			"version": "1.0.5",
+			"author": {
+				"name": "Gevorg Harutyunyan",
+				"url": "http://github.com/gevorg"
+			},
+			"maintainers": [
+				{
+					"name": "gevorg",
+					"email": "gevorg.ha@gmail.com"
+				}
+			],
+			"homepage": "http://github.com/http-auth/apache-md5",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/http-auth/apache-md5.git"
+			},
+			"main": "./lib/apache-md5.js",
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/http-auth/apache-md5/blob/master/LICENSE"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "http://github.com/http-auth/apache-md5/issues"
+			},
+			"devDependencies": {
+				"nodeunit": "0.9.1"
+			},
+			"engines": {
+				"node": ">=0.4.1"
+			},
+			"scripts": {
+				"test": "node ./node_modules/nodeunit/bin/nodeunit tests"
+			},
+			"keywords": [
+				"node",
+				"apache",
+				"md5",
+				"password",
+				"htpasswd"
+			],
+			"gitHead": "7bb7e07b9db0a7eef25377886a57f4da924916da",
+			"_id": "apache-md5@1.0.5",
+			"_shasum": "6b461b18649fb18bd48bf3cadfac055ee3f7e12b",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "gevorg",
+				"email": "gevorg.ha@gmail.com"
+			},
+			"dist": {
+				"shasum": "6b461b18649fb18bd48bf3cadfac055ee3f7e12b",
+				"tarball": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.5.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/apache-md5-1.0.5.tgz_1463132348006_0.26729745347984135"
+			},
+			"directories": {}
+		},
+		"1.0.6": {
+			"name": "apache-md5",
+			"description": "Node.js module for Apache style password encryption using md5.",
+			"version": "1.0.6",
+			"author": {
+				"name": "Gevorg Harutyunyan",
+				"url": "http://github.com/gevorg"
+			},
+			"maintainers": [
+				{
+					"name": "gevorg",
+					"email": "gevorg.ha@gmail.com"
+				}
+			],
+			"homepage": "http://github.com/http-auth/apache-md5",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/http-auth/apache-md5.git"
+			},
+			"main": "./gensrc/index.js",
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/http-auth/apache-md5/blob/master/LICENSE"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "http://github.com/http-auth/apache-md5/issues"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.9.0",
+				"babel-preset-es2015": "^6.9.0",
+				"mocha": "^2.5.3",
+				"chai": "^3.5.0"
+			},
+			"engines": {
+				"node": ">=5"
+			},
+			"scripts": {
+				"test": "mocha --compilers js:babel-core/register",
+				"compile": "babel src -d gensrc",
+				"prepublish": "npm run compile",
+				"pretest": "npm run compile"
+			},
+			"keywords": [
+				"apache",
+				"md5",
+				"password",
+				"htpasswd"
+			],
+			"gitHead": "483b4dc2dfa20196c4d016bd04eaceaa81eb40d2",
+			"_id": "apache-md5@1.0.6",
+			"_shasum": "470239d40c54e7c32dd9d6eb11bc3578ecc903c2",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "gevorg",
+				"email": "gevorg.ha@gmail.com"
+			},
+			"dist": {
+				"shasum": "470239d40c54e7c32dd9d6eb11bc3578ecc903c2",
+				"tarball": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.6.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/apache-md5-1.0.6.tgz_1465601580812_0.14607108221389353"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "apache-md5",
+			"description": "Node.js module for Apache style password encryption using md5.",
+			"version": "1.1.0",
+			"author": {
+				"name": "Gevorg Harutyunyan",
+				"url": "http://github.com/gevorg"
+			},
+			"maintainers": [
+				{
+					"name": "gevorg",
+					"email": "gevorg.ha@gmail.com"
+				}
+			],
+			"homepage": "http://github.com/http-auth/apache-md5",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/http-auth/apache-md5.git"
+			},
+			"main": "./src/index.js",
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/http-auth/apache-md5/blob/master/LICENSE"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "http://github.com/http-auth/apache-md5/issues"
+			},
+			"devDependencies": {
+				"mocha": "^2.5.3",
+				"chai": "^3.5.0"
+			},
+			"engines": {
+				"node": ">=6.7.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"keywords": [
+				"apache",
+				"md5",
+				"password",
+				"htpasswd"
+			],
+			"gitHead": "2958991cac4f7f2e8f5a3aa91f96dbc6d083d5be",
+			"_id": "apache-md5@1.1.0",
+			"_shasum": "9dbe77a0aca9be783eef6fad9a1fefc9fa1a5ad6",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "gevorg",
+				"email": "gevorg.ha@gmail.com"
+			},
+			"dist": {
+				"shasum": "9dbe77a0aca9be783eef6fad9a1fefc9fa1a5ad6",
+				"tarball": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.1.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/apache-md5-1.1.0.tgz_1476804532852_0.7957806272897869"
+			},
+			"directories": {}
+		},
+		"1.1.1": {
+			"name": "apache-md5",
+			"description": "Node.js module for Apache style password encryption using md5.",
+			"version": "1.1.1",
+			"author": {
+				"name": "Gevorg Harutyunyan",
+				"url": "http://github.com/gevorg"
+			},
+			"maintainers": [
+				{
+					"name": "gevorg",
+					"email": "gevorg.ha@gmail.com"
+				}
+			],
+			"homepage": "http://github.com/http-auth/apache-md5",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/http-auth/apache-md5.git"
+			},
+			"main": "./src/index.js",
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/http-auth/apache-md5/blob/master/LICENSE"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "http://github.com/http-auth/apache-md5/issues"
+			},
+			"devDependencies": {
+				"mocha": "^2.5.3",
+				"chai": "^3.5.0"
+			},
+			"engines": {
+				"node": ">=6.7.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"keywords": [
+				"apache",
+				"md5",
+				"password",
+				"htpasswd"
+			],
+			"gitHead": "e37ce56b1b98fa120f50e10deaf8912df225a977",
+			"_id": "apache-md5@1.1.1",
+			"_shasum": "746a5f628c9e73ab359c40311e7dcd230e303070",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "gevorg",
+				"email": "gevorg.ha@gmail.com"
+			},
+			"dist": {
+				"shasum": "746a5f628c9e73ab359c40311e7dcd230e303070",
+				"tarball": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.1.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/apache-md5-1.1.1.tgz_1476804663462_0.8872580113820732"
+			},
+			"directories": {}
+		},
+		"1.1.2": {
+			"name": "apache-md5",
+			"description": "Node.js module for Apache style password encryption using md5.",
+			"version": "1.1.2",
+			"author": {
+				"name": "Gevorg Harutyunyan",
+				"url": "http://github.com/gevorg"
+			},
+			"maintainers": [
+				{
+					"name": "gevorg",
+					"email": "gevorg.ha@gmail.com"
+				}
+			],
+			"homepage": "http://github.com/http-auth/apache-md5",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/http-auth/apache-md5.git"
+			},
+			"main": "./src/index.js",
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "http://github.com/http-auth/apache-md5/blob/master/LICENSE"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "http://github.com/http-auth/apache-md5/issues"
+			},
+			"devDependencies": {
+				"mocha": "^2.5.3",
+				"chai": "^3.5.0"
+			},
+			"engines": {
+				"node": ">=4.6.1"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"keywords": [
+				"apache",
+				"md5",
+				"password",
+				"htpasswd"
+			],
+			"gitHead": "ab354e687ad484c838c7d307d25dbbc7985c4194",
+			"_id": "apache-md5@1.1.2",
+			"_shasum": "ee49736b639b4f108b6e9e626c6da99306b41692",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "gevorg",
+				"email": "gevorg.ha@gmail.com"
+			},
+			"dist": {
+				"shasum": "ee49736b639b4f108b6e9e626c6da99306b41692",
+				"tarball": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.1.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/apache-md5-1.1.2.tgz_1477341644653_0.6394885964691639"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2016-10-24T20:40:46.439Z",
+		"created": "2013-12-28T21:33:16.360Z",
+		"1.0.0": "2013-12-28T21:33:17.919Z",
+		"1.0.2": "2015-10-22T18:51:25.952Z",
+		"1.0.3": "2015-10-28T16:20:11.395Z",
+		"1.0.4": "2016-04-01T10:25:34.516Z",
+		"1.0.5": "2016-05-13T09:39:09.886Z",
+		"1.0.6": "2016-06-10T23:33:03.666Z",
+		"1.1.0": "2016-10-18T15:28:55.024Z",
+		"1.1.1": "2016-10-18T15:31:05.627Z",
+		"1.1.2": "2016-10-24T20:40:46.439Z"
+	},
+	"dist-tags": {
+		"latest": "1.1.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e7708e08340fd7c1a11639c322d81a31\"",
+			"fetched": 1550359670266
+		}
+	},
+	"_distfiles": {
+		"apache-md5-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.0.tgz",
+			"sha": "344bb74553de765028de51737f1073ccfcf56c5d",
+			"registry": "npmjs"
+		},
+		"apache-md5-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.2.tgz",
+			"sha": "ab2a639b57d4cd440fc195009804af82f2f5bee2",
+			"registry": "npmjs"
+		},
+		"apache-md5-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.3.tgz",
+			"sha": "0cd3a51c47647c9e3552c70e7a2a0d4334b98fd1",
+			"registry": "npmjs"
+		},
+		"apache-md5-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.4.tgz",
+			"sha": "dd41b4b0e100cc2ec747d4241482ca1e2a833682",
+			"registry": "npmjs"
+		},
+		"apache-md5-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.5.tgz",
+			"sha": "6b461b18649fb18bd48bf3cadfac055ee3f7e12b",
+			"registry": "npmjs"
+		},
+		"apache-md5-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.0.6.tgz",
+			"sha": "470239d40c54e7c32dd9d6eb11bc3578ecc903c2",
+			"registry": "npmjs"
+		},
+		"apache-md5-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.1.0.tgz",
+			"sha": "9dbe77a0aca9be783eef6fad9a1fefc9fa1a5ad6",
+			"registry": "npmjs"
+		},
+		"apache-md5-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.1.1.tgz",
+			"sha": "746a5f628c9e73ab359c40311e7dcd230e303070",
+			"registry": "npmjs"
+		},
+		"apache-md5-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/apache-md5/-/apache-md5-1.1.2.tgz",
+			"sha": "ee49736b639b4f108b6e9e626c6da99306b41692",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"apache-md5-1.1.2.tgz": {
+			"shasum": "ee49736b639b4f108b6e9e626c6da99306b41692"
+		}
+	},
+	"_rev": "2-3412f0d95a965c15",
+	"_id": "apache-md5",
+	"readme": "# apache-md5\r\n[Node.js](http://nodejs.org/) package for Apache style password encryption using md5..\r\n\r\n[![Build Status](https://api.travis-ci.org/http-auth/apache-md5.png)](https://travis-ci.org/http-auth/apache-md5)\r\n\r\n## Installation\r\n\r\nVia git (or downloaded tarball):\r\n\r\n```bash\r\n$ git clone git://github.com/http-auth/apache-md5.git\r\n```\r\nVia [npm](http://npmjs.org/):\r\n\r\n```bash\r\n$ npm install apache-md5\r\n```\r\n\r\n## Usage\r\n\r\n```javascript\r\nvar md5 = require(\"apache-md5\");\r\n\r\n// Encrypting password using apache's md5 algorithm.\r\nvar encryptedPassword = md5(\"mypass\");\r\n\r\n// Should print true.\r\nconsole.log(md5(\"mypass\", encryptedPassword) == encryptedPassword);\r\n// Should print false.\r\nconsole.log(md5(\"notmypass\", encryptedPassword) == encryptedPassword);\r\n```\r\n\r\n## Running tests\r\n\r\nIt uses [mocha](https://mochajs.org/), so just run following command in package directory:\r\n\r\n```bash\r\n$ npm test\r\n```\r\n\r\n## Issues\r\n\r\nYou can find list of issues using **[this link](http://github.com/http-auth/apache-md5/issues)**.\r\n\r\n## Requirements\r\n\r\n - **[Node.js](http://nodejs.org)** - Event-driven I/O server-side JavaScript       environment based on V8.\r\n - **[npm](http://npmjs.org)** - Package manager. Installs, publishes and manages   node programs.\r\n\r\n## Development dependencies\r\n\r\n - **[mocha](https://mochajs.org/)** - simple, flexible, fun javascript test framework for node.js & the browser.\r\n - **[chai](http://chaijs.com/)** - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.\r\n\r\n## License\r\n\r\nThe MIT License (MIT)\r\n\r\nCopyright (c) 2016 Gevorg Harutyunyan\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of\r\nthis software and associated documentation files (the \"Software\"), to deal in\r\nthe Software without restriction, including without limitation the rights to\r\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\r\nthe Software, and to permit persons to whom the Software is furnished to do so,\r\nsubject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\r\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\r\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\r\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\r\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+}

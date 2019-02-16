@@ -1,0 +1,1307 @@
+{
+	"name": "verdaccio-htpasswd",
+	"versions": {
+		"0.0.1": {
+			"name": "verdaccio-htpasswd",
+			"version": "0.0.1",
+			"description": "verdaccio htpasswd default plugin",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [
+				"verdaccio",
+				"plugin",
+				"httpasswd"
+			],
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"license": "MIT",
+			"_id": "verdaccio-htpasswd@0.0.1",
+			"_shasum": "5b8fe2db6ff529ef114a4bb7574c7bd95214ab6f",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.6.1",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"shasum": "5b8fe2db6ff529ef114a4bb7574c7bd95214ab6f",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/verdaccio-htpasswd-0.0.1.tgz_1494966179346_0.8737207851372659"
+			},
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "verdaccio-htpasswd",
+			"version": "0.1.1",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"coverage": "codecov",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "^0.0.5",
+				"apache-md5": "^1.1.2",
+				"crypto": "^1.0.1",
+				"unix-crypt-td-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@verdaccio/types": "^0.1.0",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-jest": "^21.2.0",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-plugin-istanbul": "4.1.4",
+				"babel-plugin-transform-async-to-generator": "^6.24.1",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "^3.0.0",
+				"cross-env": "5.0.5",
+				"eslint": "^4.4.1",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-prettier": "^2.5.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"husky": "^0.14.3",
+				"in-publish": "^2.0.0",
+				"jest": "^21.2.1",
+				"lint-staged": "^6.0.0",
+				"prettier": "^1.10.2",
+				"rmdir-sync": "^1.0.1"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "c864d3f5bc6fde6092203b89141b326bcf7606a3",
+			"_id": "verdaccio-htpasswd@0.1.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-KH7ezDPZBPl6aVmmscM6VLD1qUwQmSd8IH72xTRYdtZysPz/vtnEK3OO9xh6EsYLXTiLg1qQXDViiO05mkdbAQ==",
+				"shasum": "8810731bab41933f040a9d17e46848294e321fb2",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.1.1.tgz",
+				"fileCount": 9,
+				"unpackedSize": 14973
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_0.1.1_1518420122745_0.5288379685753914"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.1.2": {
+			"name": "verdaccio-htpasswd",
+			"version": "0.1.2",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"coverage": "codecov",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "^0.0.5",
+				"apache-md5": "^1.1.2",
+				"crypto": "^1.0.1",
+				"unix-crypt-td-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@verdaccio/types": "^0.1.0",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-jest": "^21.2.0",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-plugin-istanbul": "4.1.4",
+				"babel-plugin-transform-async-to-generator": "^6.24.1",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "^3.0.0",
+				"cross-env": "5.0.5",
+				"eslint": "^4.4.1",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-prettier": "^2.5.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"husky": "^0.14.3",
+				"in-publish": "^2.0.0",
+				"jest": "^21.2.1",
+				"lint-staged": "^6.0.0",
+				"prettier": "^1.10.2",
+				"rmdir-sync": "^1.0.1"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "ec6ebd8e82d035c4070828d026e9e2795b29aec7",
+			"_id": "verdaccio-htpasswd@0.1.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-8nlG+44jULhkQYSDym4PDL5xy9R/twlD8e7uHyB5N5aDrbhAIvSMBXJWgD1McEX6ZvHzpetiaqqXBIkQquSNEw==",
+				"shasum": "67aca5e9b0093be0fa2e018c524a7ba45f64f810",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.1.2.tgz",
+				"fileCount": 9,
+				"unpackedSize": 15006
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_0.1.2_1518870204243_0.2504131229026294"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.1.3": {
+			"name": "verdaccio-htpasswd",
+			"version": "0.1.3",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"coverage": "codecov",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "^0.0.5",
+				"apache-md5": "^1.1.2",
+				"crypto": "^1.0.1",
+				"unix-crypt-td-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@verdaccio/types": "^0.1.0",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-jest": "^21.2.0",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "^3.0.0",
+				"cross-env": "5.0.5",
+				"eslint": "^4.4.1",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-prettier": "^2.5.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"husky": "^0.14.3",
+				"in-publish": "^2.0.0",
+				"jest": "^21.2.1",
+				"lint-staged": "^6.0.0",
+				"prettier": "^1.10.2",
+				"rmdir-sync": "^1.0.1"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"engines": {
+				"node": ">=6.12.0"
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "f33d797fb4e629b3d3256d358db8d71d69ae5e9f",
+			"_id": "verdaccio-htpasswd@0.1.3",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "ayusharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-e8mBkCXN9BB9I5UOMoocajjrlT8PygT60slJRpKdkNlLiD7unWDXCDpkFU83Q7egzFenrqyemO6g1jAiPjxGgw==",
+				"shasum": "2c335d3bf37da7a87f54e60969575f0b106f2330",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.1.3.tgz",
+				"fileCount": 9,
+				"unpackedSize": 15105
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_0.1.3_1520171961449_0.8135017573940571"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.1.4": {
+			"name": "verdaccio-htpasswd",
+			"version": "0.1.4",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"coverage": "codecov",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "^0.0.5",
+				"apache-md5": "^1.1.2",
+				"crypto": "^1.0.1",
+				"unix-crypt-td-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@verdaccio/types": "^0.1.0",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-jest": "^21.2.0",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "^3.0.0",
+				"cross-env": "5.0.5",
+				"eslint": "^4.4.1",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-prettier": "^2.5.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"husky": "^0.14.3",
+				"in-publish": "^2.0.0",
+				"jest": "^21.2.1",
+				"lint-staged": "^6.0.0",
+				"prettier": "^1.10.2",
+				"rmdir-sync": "^1.0.1"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"engines": {
+				"node": ">=6.12.0"
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "a3d279ec190855eda5b4f6c46e3ac6fe80de35f0",
+			"_id": "verdaccio-htpasswd@0.1.4",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "ayusharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-vXCcSeHJpND4p1YUZvwZ+1s/5viCkjKIDAI5Mim7m04j2gdPYbbXeyYnKgX/aeW3Uw3w2gplfiSFHhxJwIcRUQ==",
+				"shasum": "a2f6e8487181a0f7b0cb7a792643e3b13adea031",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.1.4.tgz",
+				"fileCount": 10,
+				"unpackedSize": 16040
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_0.1.4_1520181641471_0.8875174597447295"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.2.0": {
+			"name": "verdaccio-htpasswd",
+			"version": "0.2.0",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"coverage": "codecov",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "^0.0.5",
+				"apache-md5": "^1.1.2",
+				"bcryptjs": "2.4.3",
+				"unix-crypt-td-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@verdaccio/types": "^0.1.0",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-jest": "^21.2.0",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "^3.0.0",
+				"cross-env": "5.0.5",
+				"eslint": "^4.4.1",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-prettier": "^2.5.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"husky": "^0.14.3",
+				"in-publish": "^2.0.0",
+				"jest": "^21.2.1",
+				"lint-staged": "^6.0.0",
+				"prettier": "^1.10.2",
+				"rmdir-sync": "^1.0.1"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"engines": {
+				"node": ">=6.12.0"
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "a24b494031f7990e6b855b90492ea1c02b0793bc",
+			"_id": "verdaccio-htpasswd@0.2.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.9.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-qjNrL0bG62+BaBU2fIxQVYXVHkvt0C1aXN5Yh1Acv+4GKlOdjXgH++pq7H0gyGW66wkPFM+p08d8AhAAryivyw==",
+				"shasum": "daf48f33de20ef6cdde5f15d13000772af66790f",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.2.0.tgz",
+				"fileCount": 10,
+				"unpackedSize": 16571
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_0.2.0_1522689966266_0.8276824811800187"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.2.1": {
+			"name": "verdaccio-htpasswd",
+			"version": "0.2.1",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"commitmsg": "commitlint -e $GIT_PARAMS",
+				"coverage": "codecov",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "^0.0.7",
+				"apache-md5": "^1.1.2",
+				"bcryptjs": "2.4.3",
+				"unix-crypt-td-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/cli": "6.1.3",
+				"@commitlint/config-conventional": "6.1.3",
+				"@verdaccio/types": "^0.1.0",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-jest": "^21.2.0",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "^3.0.0",
+				"cross-env": "5.0.5",
+				"eslint": "^4.4.1",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-prettier": "^2.5.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"husky": "^0.14.3",
+				"in-publish": "^2.0.0",
+				"jest": "^21.2.1",
+				"lint-staged": "^6.0.0",
+				"prettier": "^1.10.2",
+				"rmdir-sync": "^1.0.1"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"engines": {
+				"node": ">=6.12.0"
+			},
+			"commitlint": {
+				"extends": [
+					"@commitlint/config-conventional"
+				]
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "bdd6cd71ae89d5b25a2919c972274248b87a0ca6",
+			"_id": "verdaccio-htpasswd@0.2.1",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "9.9.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-FxiV5gNdIVuofOb3nyQsZ8U0QMnxhH3+3rMAuLCl7AuUuxWgahN2PARgDTMFfBsmUG57U/ZaGzP0d4V/HHvA7Q==",
+				"shasum": "9f598b8fd3e2e1d7cf5fb26352453fed0cd1df97",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.2.1.tgz",
+				"fileCount": 10,
+				"unpackedSize": 16811,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa5tpzCRA9TVsSAnZWagAAbyAP/Rv9/HZOCR6L1cuzoKK5\nassKslGCIbD1c6uX+zwsbxa18/pFI0/V9uH+JZa7FXzG0TEiwWYxuS/BrmcX\nJj39W493AiOQ714NQWx41NSh/0wwPGKm2T2iN83J/1eTngFxp3CzpefSFnxk\nJVBMNy/34oZ3gbrufhloIxo7N3eMepZ7cZan2FKC7CXASGxJiD95GwFyl0El\n1XFZ5cozFkrktZXIpdAYfczMwJOzmY2vCptk55M7gqt8hRWpHQ7Bx/Qn7OJ5\nJHPRz8Xb1bweffiNqJm2UWQWooN8lOhTuIebpOR6Wb52FeF6wKQpZ57u8L6e\nMxQHMzoKjf+GagSuCPMRpFiD3TigJDQfThQxmR4NZfGne0jguOJRkfVO5GV1\n0WTEmF+QfzRWWMTdjzG47IJIB2ZjhS84JKsU5HQ7gqVhPXxdHWe4geVXRDbQ\nFjMcpuZclhCjsX34ERx/699vHc03vwnS6xvvq+3Gr/TQ10Z1mWpQop/1NkM+\njkj8/mwqYmpi2sZuShVY1ul/IFLTiSkOjiFfAcc6AM2iUXjuHyQgU3aDhESh\n+iXtwUf60ecWevbJi5sdJIEQS8d3m3t4QMM4mY624zAUgf2tyzZL1BmTllRw\n9Jj9kH7xYXTVaqR+h/QIwYrFBbx53L5tlmCUCNi17MScaKJHtNo4ahZOUlOW\no5hB\r\n=+9l2\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_0.2.1_1525078642851_0.9680136925267329"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.2.2": {
+			"name": "verdaccio-htpasswd",
+			"version": "0.2.2",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"commitmsg": "commitlint -e $GIT_PARAMS",
+				"coverage": "codecov",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "^0.0.7",
+				"apache-md5": "^1.1.2",
+				"bcryptjs": "2.4.3",
+				"unix-crypt-td-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/cli": "6.1.3",
+				"@commitlint/config-conventional": "6.1.3",
+				"@verdaccio/types": "^0.1.0",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "^7.2.3",
+				"babel-jest": "^21.2.0",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "^3.0.0",
+				"cross-env": "5.0.5",
+				"eslint": "^4.4.1",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-prettier": "^2.5.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"husky": "^0.14.3",
+				"in-publish": "^2.0.0",
+				"jest": "^21.2.1",
+				"lint-staged": "^6.0.0",
+				"prettier": "^1.10.2",
+				"rmdir-sync": "^1.0.1"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"engines": {
+				"node": ">=6.12.0"
+			},
+			"commitlint": {
+				"extends": [
+					"@commitlint/config-conventional"
+				]
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "1fb85913df372060e335c41cc203159667230bca",
+			"_id": "verdaccio-htpasswd@0.2.2",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "9.9.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-60R1AEAjKmIGms7gSfotWmUhw0JOPdeyx6DOATtCuOJNfgameiDm2gPlAGJ/XKHoXn96EaVfuhg2ruDmq1AQug==",
+				"shasum": "6873fe42cd83ff03d260b21483941635f320c8ba",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.2.2.tgz",
+				"fileCount": 10,
+				"unpackedSize": 16813,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa5u0QCRA9TVsSAnZWagAAtFQP/jN9EmvYN00onFN9sJlF\n4xvsc5iFS36ymXSA5sKd4+/+p95w7f0RkTncwSplBJcZMVoHvNrPEFkFjMW8\nQJEXJfz6sJaWsgj5cGWm3pah4rtd4dFWmPGdGfMDNesuXNt9WYRyygrbLghf\ngLmrzlKf4fXu0iY5WLXpDoA99qilrpTyEyxJo9zOAHKr9jXjNP2Y+eNdKt0A\n3z8Z7rPLLSE+RA18caxeFwZbukLqZor+ouaN2hal9czu8PqKVRy8JeirFzbF\n32KFFNQontDBdkS5rXqvgDhjmPlwDpJzhiHrxnsHJP5vR3QaB4VGfK7JHtJz\nRjQn1DJwNMdSf328GsovcIIwI2RfHC2TIVBth9rWCV5hXOx9iMGDWZvcIa9E\n7r257teUBU+wAulL380YuJve+OBWLQMj4vEnrbxrneObB1WwNwHDsFAtyAHU\n47Hjt7MnqZkJdaUQEv4/MMskkYH5I+FRjPFNsRJfUnBG42T5MDGrE+dgw4VS\n4+QwfBLhl5D+GvJRzUF6U82XT13dJBpYYHabokQGxVwejx632AdWeJeqAo8V\n/+0KqVjU1+UgZCrz4AgTD/66r8g+mNE7XM9eysmDQCO9bUhbF8Br9TTxyrMp\n/A/bhuqgw9zBoC8hmxpHG7iijJuPk0K9+Ne8Cl1sk/X6FLlzceh6IE8jQiae\nbYZc\r\n=15ux\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_0.2.2_1525083408084_0.41509444836769704"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.0": {
+			"name": "verdaccio-htpasswd",
+			"version": "1.0.0",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"commitmsg": "commitlint -e $GIT_PARAMS",
+				"coverage": "codecov",
+				"release": "standard-version -a -s",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "^0.0.7",
+				"apache-md5": "^1.1.2",
+				"bcryptjs": "2.4.3",
+				"unix-crypt-td-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/cli": "6.1.3",
+				"@commitlint/config-conventional": "6.1.3",
+				"@verdaccio/types": "3.7.2",
+				"babel-cli": "6.26.0",
+				"babel-core": "6.26.3",
+				"babel-eslint": "8.2.6",
+				"babel-jest": "23.4.0",
+				"babel-plugin-flow-runtime": "0.17.0",
+				"babel-preset-env": "1.7.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "3.0.4",
+				"cross-env": "5.2.0",
+				"eslint": "5.6.1",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-prettier": "2.6.2",
+				"flow-bin": "0.81.0",
+				"flow-runtime": "0.17.0",
+				"husky": "^0.14.3",
+				"in-publish": "^2.0.0",
+				"jest": "23.6.0",
+				"lint-staged": "7.2.0",
+				"prettier": "1.13.7",
+				"standard-version": "4.4.0"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"engines": {
+				"node": ">=6.12.0"
+			},
+			"commitlint": {
+				"extends": [
+					"@commitlint/config-conventional"
+				]
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "6fed0302e12c5b6686ad84bffcec643ec3c35022",
+			"_id": "verdaccio-htpasswd@1.0.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.1.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-8Jrv6Cb6KrSoqtdObCOBzXV2JLlFuF9U1Nl81v9NOt3yF+MmicYnsOY+7GOxS7lCDyobcCtkvv6aa4pjIlHdMA==",
+				"shasum": "745b9c8913d603b7d2dd222d9361f40da3358488",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-1.0.0.tgz",
+				"fileCount": 12,
+				"unpackedSize": 21528,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbsODFCRA9TVsSAnZWagAARzkP/0T9KXkA+1iBf1qIi1k2\niU80LngqJbdcsQGj1yG/JFrq+qi1PXh2AewupWmXL+vzFCb7YQz7lC2/jiHm\nPgR8atvY1Wi/rJFzhm2laIxNncAzMhy+nnk4htfn87iOi7D433q0PJI61HbK\nurR+zeftvrp129Hq9T1jynpSXeVC3iZRw47OY+utJ7QFKa81nGm+WNXkSV3w\nvLx+irjZwSAXlEUqT28MVCOL7ux1wB9+YVKKLyRqNSpOeWgFgcId9VbrVlH+\nI5Mi1lKx3DMQeXM9H8jErcQZdDDFhMz8AKStBV28LkSVMMn2ISOLA4tBLmHa\n5D80uqW6CwyUHfeW+nMBsofZWVWU5BscKbZlAXqr814rye4qggRrPjRx4cdK\nnUCFCOjEu6pcgL6TKkk/SHKtThNY8u5tpJxxUqoxKh3cS6RmzCNO8rnr+g/5\n6lnn+61HEmBgTq03DJTNH6H4XgwRPl06rpk5nBgk4rMPBiHfmT49TV8PCkwe\n9MHcKxMU+wcUY7qyCBpYDKq+skQ+2X0o3vftEKdTB6HehlQE6uILVW/HVsra\n5Qjirz45frmXliDAxMpLc/DSM9E4bjSXIgOpkzS+ghaN5S7cJqYUCX6nRkBk\nlOAMfZsLj6eHPgWzCUuJ1hV7MJla++QVXvFA1sSb6lyYQqUU8KTKTyjzjRBi\nzeyw\r\n=OEzv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_1.0.0_1538318532769_0.30872079790133955"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.1": {
+			"name": "verdaccio-htpasswd",
+			"version": "1.0.1",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"commitmsg": "commitlint -e $GIT_PARAMS",
+				"coverage": "codecov",
+				"release": "standard-version -a -s",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "^0.0.7",
+				"apache-md5": "^1.1.2",
+				"bcryptjs": "2.4.3",
+				"unix-crypt-td-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/cli": "6.1.3",
+				"@commitlint/config-conventional": "6.1.3",
+				"@verdaccio/types": "3.7.2",
+				"babel-cli": "6.26.0",
+				"babel-core": "6.26.3",
+				"babel-eslint": "8.2.6",
+				"babel-jest": "23.4.0",
+				"babel-plugin-flow-runtime": "0.17.0",
+				"babel-preset-env": "1.7.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "3.0.4",
+				"cross-env": "5.2.0",
+				"eslint": "5.6.1",
+				"eslint-config-prettier": "^2.9.0",
+				"eslint-plugin-prettier": "2.6.2",
+				"flow-bin": "0.81.0",
+				"flow-runtime": "0.17.0",
+				"husky": "^0.14.3",
+				"in-publish": "^2.0.0",
+				"jest": "23.6.0",
+				"lint-staged": "7.2.0",
+				"prettier": "1.13.7",
+				"standard-version": "4.4.0"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"engines": {
+				"node": ">=6.12.0"
+			},
+			"commitlint": {
+				"extends": [
+					"@commitlint/config-conventional"
+				]
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "77579264839c02a815ee887bc534f6cdb3fab941",
+			"_id": "verdaccio-htpasswd@1.0.1",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.1.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-cW2LXu1KlfM09jM35zbW9wHN4QfL+cQXR7dMEiZpIEO9Bj5Z1up06XKRy7eD6eYqWfafeqxXQLnngCT27ltwUw==",
+				"shasum": "dafb90266a039a2c472dc2af70e28b941f6b49f0",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-1.0.1.tgz",
+				"fileCount": 12,
+				"unpackedSize": 21777,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbsP/dCRA9TVsSAnZWagAA6DwP/iwr7KOlhjVinCG5lL39\nf6wqM8BS6VhJ6Z1yFHoq6v38uHmPokilz8DgmOzXG4/sDKLYezHKh+znMIad\nUF01e7GG5W3kPNn9DZNlk76dweL3iIFJGRShZrw2SPUuMte94GU+Qs1ee37E\ni+0MWRopp/rAApeK4af5zvV6B1q9e4KdMEq/Uq2XBcby90tEX/62SMCTe4kZ\neNBK58Ey+iHJlDeP+oDtBgIrlfclFiXWVSKJm5PwdllWT7KOs1dz+OJlqxJ1\n81gTn2DUo/MB1RkL3tBcgaw5QN3UY2uP4juDzZvV80Pdn9i5b9NjIqvturbd\nWy86durZghuRMZ3T9VSWbBmROI92xe6jF4DBAh9pZDVU98tEbZZ2fuPNMwdl\nUTZXKCbIBpB688IUAi5CBLjYeP6+/zzwEheZzbNO4haz4S4D/AqSJSNKhR7a\nkW/B0sLZ/TVn2fKFCmcWbwANMKq5zXXc+O0AhDBU+X9deVLHZnVAI9L3hmP7\nm0J4kFdWBLxNH0PtTc7u1m417+cP8o7MAWUwW1MQ0QGUABD8fd1gob9XDMxj\nu1/YXsgt14UZ79zS7Qe9KnWumwEG3xyC+jMJ7uXzzEYSEWX30xfD1uC7AUJ2\nInVnf3T+gPp1Bi5hdRGjdlzNOe/h2h5qrCJ3OZ3xz1GG1llcQFmCf/sOLzmY\ndIIP\r\n=AjwN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_1.0.1_1538326492425_0.9031194361543118"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.0.0-beta.0": {
+			"name": "verdaccio-htpasswd",
+			"version": "2.0.0-beta.0",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"commitmsg": "commitlint -e $GIT_PARAMS",
+				"coverage": "codecov",
+				"release": "standard-version -a -s",
+				"test": "jest",
+				"lint": "npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"type-check": "tsc --noEmit",
+				"type-check:watch": "npm run type-check -- --watch",
+				"build": "npm run build:types && npm run build:js",
+				"build:types": "tsc --emitDeclarationOnly",
+				"build:js": "babel src/ --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "0.0.7",
+				"apache-md5": "1.1.2",
+				"bcryptjs": "2.4.3",
+				"http-errors": "1.7.1",
+				"unix-crypt-td-js": "1.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/cli": "7.5.0",
+				"@commitlint/config-conventional": "7.5.0",
+				"@types/bcryptjs": "2.4.2",
+				"@types/http-errors": "1.6.1",
+				"@types/jest": "23.3.13",
+				"@types/node": "10.12.21",
+				"@typescript-eslint/eslint-plugin": "1.2.0",
+				"@verdaccio/babel-preset": "0.0.4",
+				"@verdaccio/types": "5.0.0-beta.2",
+				"codecov": "3.1.0",
+				"cross-env": "5.2.0",
+				"eslint": "5.13.0",
+				"eslint-config-google": "0.12.0",
+				"eslint-config-prettier": "4.0.0",
+				"eslint-plugin-jest": "22.2.2",
+				"eslint-plugin-prettier": "3.0.1",
+				"husky": "0.14.3",
+				"in-publish": "2.0.0",
+				"jest": "24.0.0",
+				"lint-staged": "7.2.0",
+				"prettier": "1.16.4",
+				"standard-version": "4.4.0",
+				"typescript": "3.2.4"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"engines": {
+				"node": ">=6.12.0"
+			},
+			"commitlint": {
+				"extends": [
+					"@commitlint/config-conventional"
+				]
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "3780f8f3ed9c512e7e11c75dc1cc021f892f9cda",
+			"_id": "verdaccio-htpasswd@2.0.0-beta.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-5JGuQaWQxhVRuzOgVjGpedf9gtmXpNZkLGV9XZeauNR16bPzzbxu6xFGw7RMstXmnaAb4yL03K2Cb+kzAChvQg==",
+				"shasum": "c15ddbc0f21a7237b65fcb5be59ab64589d72440",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-2.0.0-beta.0.tgz",
+				"fileCount": 25,
+				"unpackedSize": 82462,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcVzkNCRA9TVsSAnZWagAAb2sQAJkCn1VYx8wGNFyktJXr\nqqM+d01OSKHYxobiON8lHbdSJgHFKkrvMNq1zQ5CXJB8eCs8R5XrBZmo89BK\nZlenpXUpaRN/TflXqiuO4/XmtDU8f5/p6PUu3HMlGGx6QMq7Cu4LEDRAgnRk\nVtWthlFshu1NTQl01/blIJdCOx/2h96CEq2MKZMHN5lNpjnmlqzRjoYKQUiG\nm4tgkm97AzXKMhmYxg1wCgaV+y7Eg9KtV7geGRn1HWrP+9OZnkdl3X/mNNJC\nLQzDUUHYTuO/y+Q8OHibMerGI08HwaY90NBjwfYz1Hh6nr93Vhjt24LZeA3k\nytvYmuKZys502BvLQZZOqN6UK460H4cRMgr2TyK6Xo2z4pN7WL/iXxC7SVKy\n9Jhxr13jUIpg0uTBnCS7HpKy9uuwT1Na8OfcH3bVrrbnv53OAbfLuBs2H2zt\nFtC5XylsnRvN7rEfPIfkf6CZCqct4vreJRkd8KcS0e3oCtD0cls7e1JD1MoP\nGx1rv5KMKYMHpqfG5c/J8DLd4+zd/jDwsRJYnt8wcdjaH4xlEbOqsRCriHl3\n91CkplAE0nIVt8cP1QxEwjBDmeJtqLpYe7/HzidQm6iuwTWTeaPWnifzy5YK\nz+lLKeQ29Tu/lXuQnPCWq4Zqu9XrHsrS59L+84JdjmSK8dfY7mtbmhKjo95C\nXsAu\r\n=MFrV\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_2.0.0-beta.0_1549220108712_0.06501079925247599"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.2.3": {
+			"name": "verdaccio-htpasswd",
+			"version": "0.2.3",
+			"description": "verdaccio htpasswd auth plugin",
+			"main": "lib/index.js",
+			"keywords": [
+				"verdaccio",
+				"local-storage",
+				"plugin"
+			],
+			"author": {
+				"name": "Ayush Sharma",
+				"email": "ayush.aceit@gmail.com"
+			},
+			"private": false,
+			"license": "MIT",
+			"scripts": {
+				"commitmsg": "commitlint -e $GIT_PARAMS",
+				"coverage": "codecov",
+				"test": "jest",
+				"lint": "npm run flow && npm run js-lint",
+				"js-lint": "eslint .",
+				"flow": "flow",
+				"build": "babel src/ --out-dir lib/ --copy-files --ignore ___tests___",
+				"precommit": "lint-staged",
+				"prepublish": "in-publish && npm run lint && npm run build || not-in-publish"
+			},
+			"dependencies": {
+				"@verdaccio/file-locking": "0.0.8",
+				"apache-md5": "1.1.2",
+				"bcryptjs": "2.4.3",
+				"unix-crypt-td-js": "1.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/cli": "6.1.3",
+				"@commitlint/config-conventional": "6.1.3",
+				"@verdaccio/types": "0.1.0",
+				"babel-cli": "6.24.1",
+				"babel-core": "6.25.0",
+				"babel-eslint": "7.2.3",
+				"babel-jest": "21.2.0",
+				"babel-plugin-flow-runtime": "0.11.1",
+				"babel-preset-env": "1.6.0",
+				"babel-preset-flow": "6.23.0",
+				"codecov": "3.0.0",
+				"cross-env": "5.0.5",
+				"eslint": "4.4.1",
+				"eslint-config-prettier": "2.9.0",
+				"eslint-plugin-prettier": "2.5.0",
+				"flow-bin": "0.52.0",
+				"flow-runtime": "0.13.0",
+				"husky": "0.14.3",
+				"in-publish": "2.0.0",
+				"jest": "21.2.1",
+				"lint-staged": "6.0.0",
+				"prettier": "1.10.2",
+				"rmdir-sync": "1.0.1"
+			},
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"engines": {
+				"node": ">=6.12.0"
+			},
+			"commitlint": {
+				"extends": [
+					"@commitlint/config-conventional"
+				]
+			},
+			"lint-staged": {
+				"*.{js, json}": [
+					"eslint .",
+					"prettier --write",
+					"git add"
+				]
+			},
+			"gitHead": "cc72127cad118248c7f5c6ca7ff45d73cf6a38af",
+			"_id": "verdaccio-htpasswd@0.2.3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-NgtqhsTukvdnAiyD0dlJjC7cH9gdUhKp3Ohtgr56AZW+i4qJ5X0IYr7MVV+JboHFRd7FGJ9iaSvLiW7nZ1TvIg==",
+				"shasum": "5e8a3ae7c74cca386a1d424b5bec4d01a4519d89",
+				"tarball": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.2.3.tgz",
+				"fileCount": 14,
+				"unpackedSize": 21262,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcWSlWCRA9TVsSAnZWagAA9LYQAJspnZ/1ggqhsZ9OGXBs\n4JOu6vUppTIpTnv/X0uH+fStbGhQ1puOkdDGslusYvtXiMS2PNXW/oUicdW2\nhSzhPJkT6MnkZkZYK1LtlBm3dkd6CkeSgbJnY1jw1iINoQeQipG91QNTP7bC\nvaWKxSdcuZd7FqcpsiinRVzzsynEBB2eVY0gmwQsM6uA4pEN1RqNUQNVEcva\na5+4l36gm/ejJhnvH6zMY+Z8UOY2NhdgQkFe+gYxzWOD3/CHQmX86By61Xn3\n5u4p2KxWu30oQV7xzNe0sRb0pzXcRRhXxjBXuYSbhjwf4vwpKsLJwP1BJHqy\nTA7j2ZWCotBQqA+3KW9O8wzAUUwmnQnOqkKRONv26CzcDTV83kjOXDBqpwa5\nMbH1qoFguDda5R22BogADLLkkqrL0ptyGwfTCPIG3rQEkFiP0rWsxGdaGw0j\n+vC5k7iHXYdOJdsFzAoNMEAp7bC4uA8yGJ4Bfir4Gx9e/Qw9XDLW9jSzxLP0\nj7w/k9ZCgRPpLYH30wDglOrjPf8HyKZ+yzOFaKHYg4FamSRdc4nobSY0eBSj\nj4KuUB2Trx9b3zbaYzSgZCfTL/R9pEm2jvl3cC1cNMiStyuVFD7VZKyDQoqf\nNAJOU2bhZgsVBGBf7E10+BmKd16O1LpKsinAncVj9vhx0Fa7Z4h7BU96DMpP\nSzBU\r\n=uEsP\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/verdaccio-htpasswd_0.2.3_1549347158123_0.35077057037833104"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2019-02-05T06:12:40.778Z",
+		"created": "2017-05-16T20:23:01.182Z",
+		"0.0.1": "2017-05-16T20:23:01.182Z",
+		"0.1.1": "2018-02-12T07:22:03.415Z",
+		"0.1.2": "2018-02-17T12:23:24.315Z",
+		"0.1.3": "2018-03-04T13:59:21.540Z",
+		"0.1.4": "2018-03-04T16:40:42.656Z",
+		"0.2.0": "2018-04-02T17:26:06.334Z",
+		"0.2.1": "2018-04-30T08:57:22.963Z",
+		"0.2.2": "2018-04-30T10:16:48.203Z",
+		"1.0.0": "2018-09-30T14:42:12.951Z",
+		"1.0.1": "2018-09-30T16:54:52.534Z",
+		"2.0.0-beta.0": "2019-02-03T18:55:08.803Z",
+		"0.2.3": "2019-02-05T06:12:38.245Z"
+	},
+	"dist-tags": {
+		"latest": "0.2.3",
+		"next": "0.2.2",
+		"beta": "2.0.0-beta.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"7aba1ed47ef50a398ef2ae424e4f5655\"",
+			"fetched": 1550359655828
+		}
+	},
+	"_distfiles": {
+		"verdaccio-htpasswd-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.0.1.tgz",
+			"sha": "5b8fe2db6ff529ef114a4bb7574c7bd95214ab6f",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.1.1.tgz",
+			"sha": "8810731bab41933f040a9d17e46848294e321fb2",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.1.2.tgz",
+			"sha": "67aca5e9b0093be0fa2e018c524a7ba45f64f810",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.1.3.tgz",
+			"sha": "2c335d3bf37da7a87f54e60969575f0b106f2330",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.1.4.tgz",
+			"sha": "a2f6e8487181a0f7b0cb7a792643e3b13adea031",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.2.0.tgz",
+			"sha": "daf48f33de20ef6cdde5f15d13000772af66790f",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.2.1.tgz",
+			"sha": "9f598b8fd3e2e1d7cf5fb26352453fed0cd1df97",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.2.2.tgz",
+			"sha": "6873fe42cd83ff03d260b21483941635f320c8ba",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-1.0.0.tgz",
+			"sha": "745b9c8913d603b7d2dd222d9361f40da3358488",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-1.0.1.tgz",
+			"sha": "dafb90266a039a2c472dc2af70e28b941f6b49f0",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-2.0.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-2.0.0-beta.0.tgz",
+			"sha": "c15ddbc0f21a7237b65fcb5be59ab64589d72440",
+			"registry": "npmjs"
+		},
+		"verdaccio-htpasswd-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/verdaccio-htpasswd/-/verdaccio-htpasswd-0.2.3.tgz",
+			"sha": "5e8a3ae7c74cca386a1d424b5bec4d01a4519d89",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"verdaccio-htpasswd-1.0.1.tgz": {
+			"shasum": "dafb90266a039a2c472dc2af70e28b941f6b49f0"
+		}
+	},
+	"_rev": "2-1ad565c4b3c6de1a",
+	"_id": "verdaccio-htpasswd",
+	"readme": "[![CircleCI](https://circleci.com/gh/verdaccio/verdaccio-htpasswd.svg?style=svg)](https://circleci.com/gh/ayusharma/verdaccio-htpasswd) [![codecov](https://codecov.io/gh/ayusharma/verdaccio-htpasswd/branch/master/graph/badge.svg)](https://codecov.io/gh/ayusharma/verdaccio-htpasswd)\n\n# Verdaccio Module For User Auth Via Htpasswd\n\n`verdaccio-htpasswd` is a default authentication plugin for the [Verdaccio](https://github.com/verdaccio/verdaccio).\n\n> This plugin is being used as dependency after `v3.0.0-beta.x`. The `v2.x` still contains this plugin built-in.\n\n## Install\n\nAs simple as running:\n\n    $ npm install -g verdaccio-htpasswd\n\n## Configure\n\n    auth:\n        htpasswd:\n            file: ./htpasswd\n            # Maximum amount of users allowed to register, defaults to \"+infinity\".\n            # You can set this to -1 to disable registration.\n            #max_users: 1000\n\n## Logging In\n\nTo log in using NPM, run:\n\n```\n    npm adduser --registry  https://your.registry.local\n```\n\n## Generate htpasswd username/password combination\n\nIf you wish to handle access control using htpasswd file, you can generate \nusername/password combination form \n[here](http://www.htaccesstools.com/htpasswd-generator/) and add it to htpasswd\nfile.\n\n## How does it work?\n\nThe htpasswd file contains rows corresponding to a pair of username and password\nseparated with a colon character. The password is encrypted using the UNIX system's\ncrypt method and may use MD5 or SHA1.\n\n## Plugin Development in Verdaccio\n\nThere are many ways to extend [Verdaccio](https://github.com/verdaccio/verdaccio),\ncurrently it support authentication plugins, middleware plugins (since v2.7.0) \nand storage plugins since (v3.x). \n#### Useful Links\n- [Plugin Development](http://www.verdaccio.org/docs/en/dev-plugins.html)\n- [List of Plugins](http://www.verdaccio.org/docs/en/plugins.html)"
+}

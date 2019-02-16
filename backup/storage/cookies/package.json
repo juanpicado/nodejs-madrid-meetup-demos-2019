@@ -1,0 +1,1835 @@
+{
+	"name": "cookies",
+	"versions": {
+		"0.1.0": {
+			"name": "cookies",
+			"version": "0.1.0",
+			"description": "Signed and unsigned cookies using Keygrip.",
+			"dependencies": {
+				"keygrip": "*"
+			},
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"_id": "cookies@0.1.0",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.3",
+			"_nodeVersion": "v0.5.0-pre",
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "18f820dd12d384bf21ab46f0fdad8ddd02dc9c3e",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.1.0.tgz"
+			}
+		},
+		"0.1.1": {
+			"name": "cookies",
+			"version": "0.1.1",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"_id": "cookies@0.1.1",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.3",
+			"_nodeVersion": "v0.5.0-pre",
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "5ff9be0d3f2e95d0fcca111ee654e6b19ef38c77",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.1.1.tgz"
+			}
+		},
+		"0.1.2": {
+			"name": "cookies",
+			"version": "0.1.2",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_id": "cookies@0.1.2",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "b7d5719597dec946a3ce225222fab008c7c35f70",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.1.2.tgz"
+			}
+		},
+		"0.1.3": {
+			"name": "cookies",
+			"version": "0.1.3",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_id": "cookies@0.1.3",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "e94961b95c9b2ea8e569333ac7e268f6f0b5ffe7",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.1.3.tgz"
+			}
+		},
+		"0.1.4": {
+			"name": "cookies",
+			"version": "0.1.4",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_id": "cookies@0.1.4",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "340283ee97f446acac5b3e9551817719fe55dcb0",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.1.4.tgz"
+			}
+		},
+		"0.1.5": {
+			"name": "cookies",
+			"version": "0.1.5",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_id": "cookies@0.1.5",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "3bce445130205d3f1b76dec7007a7128fa8bffd1",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.1.5.tgz"
+			}
+		},
+		"0.1.6": {
+			"name": "cookies",
+			"version": "0.1.6",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_id": "cookies@0.1.6",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "2129588b8b1e382ffba990d9f9cf9ddf2c142846",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.1.6.tgz"
+			}
+		},
+		"0.2.0": {
+			"name": "cookies",
+			"version": "0.2.0",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": "*"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js"
+			},
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"_id": "cookies@0.2.0",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-beta-10",
+			"_nodeVersion": "v0.6.7",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "c063f461faec078d9b469fe6aabec2a673d09d3c",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "cookies",
+			"version": "0.2.1",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": "*"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js"
+			},
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"_id": "cookies@0.2.1",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-beta-10",
+			"_nodeVersion": "v0.6.7",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "fee635ef023704893ac30387899f3dc448a52840",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.2": {
+			"name": "cookies",
+			"version": "0.2.2",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": "*"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js"
+			},
+			"optionalDependencies": {},
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"_id": "cookies@0.2.2",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.4",
+			"_nodeVersion": "v0.6.12",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "b0175f9e8f66cf4c8639391c3be24868c5c86aa5",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.3": {
+			"name": "cookies",
+			"version": "0.2.3",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": "*"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js"
+			},
+			"optionalDependencies": {},
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"_id": "cookies@0.2.3",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.16",
+			"_nodeVersion": "v0.6.15",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "5765b184a87a49f5fe39392f9f7ebfaec8505853",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.2.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "cookies",
+			"version": "0.3.0",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js"
+			},
+			"optionalDependencies": {},
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"_id": "cookies@0.3.0",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.16",
+			"_nodeVersion": "v0.6.15",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "b79695ff812d412329d6ac66671545e84e224807",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.1": {
+			"name": "cookies",
+			"version": "0.3.1",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js"
+			},
+			"optionalDependencies": {},
+			"_id": "cookies@0.3.1",
+			"dist": {
+				"shasum": "ff15bdd4a2bd1c2bbb14bd77f4548b0dd6c95e30",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.3.1.tgz"
+			},
+			"_npmVersion": "1.1.49",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.2": {
+			"name": "cookies",
+			"version": "0.3.2",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js"
+			},
+			"optionalDependencies": {},
+			"_id": "cookies@0.3.2",
+			"dist": {
+				"shasum": "218cd95ad83c003d02ccd076b6e45fc04b8be353",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.3.2.tgz"
+			},
+			"_npmVersion": "1.1.59",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.3": {
+			"name": "cookies",
+			"version": "0.3.3",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js"
+			},
+			"optionalDependencies": {},
+			"_id": "cookies@0.3.3",
+			"dist": {
+				"shasum": "4e7e2dad8e6dff35347363f5e44ecb1a00a6a4a9",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.3.3.tgz"
+			},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.4": {
+			"name": "cookies",
+			"version": "0.3.4",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js"
+			},
+			"optionalDependencies": {},
+			"_id": "cookies@0.3.4",
+			"dist": {
+				"shasum": "c5afac7b19c723c70e1f0fb24f25a88e4d373742",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.3.4.tgz"
+			},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.5": {
+			"name": "cookies",
+			"version": "0.3.5",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js"
+			},
+			"optionalDependencies": {},
+			"_id": "cookies@0.3.5",
+			"dist": {
+				"shasum": "c21159f13b7ca62163f57cdba5a7723925db0f97",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.3.5.tgz"
+			},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.6": {
+			"name": "cookies",
+			"version": "0.3.6",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"restify": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js && node ./test/restify.js"
+			},
+			"optionalDependencies": {},
+			"_id": "cookies@0.3.6",
+			"dist": {
+				"shasum": "1b5e4bd66fc732ea2e8b5087a8fb3718b4ec8597",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.3.6.tgz"
+			},
+			"_npmVersion": "1.1.65",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.7": {
+			"name": "cookies",
+			"version": "0.3.7",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"restify": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js && node ./test/restify.js"
+			},
+			"optionalDependencies": {},
+			"bugs": {
+				"url": "https://github.com/jed/cookies/issues"
+			},
+			"_id": "cookies@0.3.7",
+			"dist": {
+				"shasum": "89ff5ecd74a2d4e1224bdb775db83c407fb6774f",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.3.7.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.11",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.3.8": {
+			"name": "cookies",
+			"version": "0.3.8",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {},
+			"devDependencies": {
+				"express": "*",
+				"restify": "*",
+				"keygrip": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js && node ./test/restify.js"
+			},
+			"optionalDependencies": {},
+			"bugs": {
+				"url": "https://github.com/jed/cookies/issues"
+			},
+			"_id": "cookies@0.3.8",
+			"dist": {
+				"shasum": "92fe50918f3d55aec4ae9d978bcddda2ada28ce9",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.3.8.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.11",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.4.0": {
+			"name": "cookies",
+			"version": "0.4.0",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {
+				"keygrip": "~1.0.0"
+			},
+			"devDependencies": {
+				"express": "*",
+				"restify": "*"
+			},
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/jed/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js && node ./test/restify.js"
+			},
+			"optionalDependencies": {},
+			"bugs": {
+				"url": "https://github.com/jed/cookies/issues"
+			},
+			"_id": "cookies@0.4.0",
+			"dist": {
+				"shasum": "c5d1f8b76217ed653135afe32bdad747c2fa9190",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.4.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.24",
+			"_npmUser": {
+				"name": "jongleberry",
+				"email": "jonathanrichardong@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.4.1": {
+			"name": "cookies",
+			"version": "0.4.1",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {
+				"keygrip": "~1.0.0"
+			},
+			"devDependencies": {
+				"express": "*",
+				"restify": "*"
+			},
+			"licenses": [
+				{
+					"type": "MIT",
+					"url": "https://raw.github.com/expressjs/cookies/master/LICENSE.txt"
+				}
+			],
+			"engines": {
+				"node": ">= 0.6.0"
+			},
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"homepage": "https://github.com/expressjs/cookies",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/expressjs/cookies.git"
+			},
+			"scripts": {
+				"test": "node ./test/http.js && node ./test/express.js && node ./test/restify.js"
+			},
+			"optionalDependencies": {},
+			"bugs": {
+				"url": "https://github.com/expressjs/cookies/issues"
+			},
+			"_id": "cookies@0.4.1",
+			"dist": {
+				"shasum": "7d43bd00583c985acc032258b97988b7d03b629e",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.4.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "jed",
+				"email": "where@jed.is"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				},
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.5.0": {
+			"name": "cookies",
+			"version": "0.5.0",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {
+				"keygrip": "~1.0.0"
+			},
+			"devDependencies": {
+				"express": "*",
+				"restify": "*",
+				"supertest": "0",
+				"mocha": "1"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/expressjs/cookies"
+			},
+			"scripts": {
+				"test": "mocha --reporter spec"
+			},
+			"bugs": {
+				"url": "https://github.com/expressjs/cookies/issues"
+			},
+			"homepage": "https://github.com/expressjs/cookies",
+			"_id": "cookies@0.5.0",
+			"dist": {
+				"shasum": "164cac46a1d3ca3b3b87427414c24931d8381025",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				},
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "shtylman",
+					"email": "shtylman@gmail.com"
+				}
+			],
+			"directories": {}
+		},
+		"0.5.1": {
+			"name": "cookies",
+			"version": "0.5.1",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {
+				"keygrip": "~1.0.0"
+			},
+			"devDependencies": {
+				"express": "4.7.4",
+				"mocha": "1.21.5",
+				"restify": "2.8.1",
+				"supertest": "1.1.0"
+			},
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/pillarjs/cookies"
+			},
+			"scripts": {
+				"test": "mocha --reporter spec"
+			},
+			"gitHead": "c68bb9ba26e3cf000384e98afe01af0e9405b8e1",
+			"bugs": {
+				"url": "https://github.com/pillarjs/cookies/issues"
+			},
+			"homepage": "https://github.com/pillarjs/cookies",
+			"_id": "cookies@0.5.1",
+			"_shasum": "2560c304fe8f8cbd002e08b9599d2e7479d37298",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "where@jed.is"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				},
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "defunctzombie",
+					"email": "shtylman@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "2560c304fe8f8cbd002e08b9599d2e7479d37298",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.5.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.6.0": {
+			"name": "cookies",
+			"version": "0.6.0",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {
+				"depd": "~1.1.0",
+				"keygrip": "~1.0.0"
+			},
+			"devDependencies": {
+				"express": "4.7.4",
+				"mocha": "1.21.5",
+				"restify": "2.8.1",
+				"supertest": "1.1.0"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/pillarjs/cookies"
+			},
+			"files": [
+				"lib/",
+				"History.md",
+				"LICENSE.txt",
+				"README.md"
+			],
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"test": "mocha --require test/support/env --reporter spec"
+			},
+			"gitHead": "89131b2ec61a32a1251ff6d0168466d6079883e8",
+			"bugs": {
+				"url": "https://github.com/pillarjs/cookies/issues"
+			},
+			"homepage": "https://github.com/pillarjs/cookies",
+			"_id": "cookies@0.6.0",
+			"_shasum": "98adc21d51b9e4273424193e1b26585a27914cff",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				},
+				{
+					"name": "jed",
+					"email": "where@jed.is"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "98adc21d51b9e4273424193e1b26585a27914cff",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.6.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-6-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.6.0.tgz_1456799449917_0.7060794997960329"
+			},
+			"directories": {}
+		},
+		"0.6.1": {
+			"name": "cookies",
+			"version": "0.6.1",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"main": "./lib/cookies",
+			"dependencies": {
+				"depd": "~1.1.0",
+				"keygrip": "~1.0.0"
+			},
+			"devDependencies": {
+				"express": "4.7.4",
+				"mocha": "1.21.5",
+				"restify": "2.8.1",
+				"supertest": "1.1.0"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/pillarjs/cookies"
+			},
+			"files": [
+				"lib/",
+				"History.md",
+				"LICENSE.txt",
+				"README.md"
+			],
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"test": "mocha --require test/support/env --reporter spec"
+			},
+			"gitHead": "8d7dd7739b81f5d434a66e6a0b47053fd792c5da",
+			"bugs": {
+				"url": "https://github.com/pillarjs/cookies/issues"
+			},
+			"homepage": "https://github.com/pillarjs/cookies",
+			"_id": "cookies@0.6.1",
+			"_shasum": "ef693b1bc6f01f567d46e2f504e9c15fb70cba90",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				},
+				{
+					"name": "jed",
+					"email": "where@jed.is"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ef693b1bc6f01f567d46e2f504e9c15fb70cba90",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.6.1.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.6.1.tgz_1456800972603_0.84983626822941"
+			},
+			"directories": {}
+		},
+		"0.6.2": {
+			"name": "cookies",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"version": "0.6.2",
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"contributors": [
+				{
+					"name": "Douglas Christopher Wilson",
+					"email": "doug@somethingdoug.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/pillarjs/cookies"
+			},
+			"main": "./lib/cookies",
+			"dependencies": {
+				"depd": "~1.1.0",
+				"keygrip": "~1.0.1"
+			},
+			"devDependencies": {
+				"express": "4.9.8",
+				"istanbul": "0.4.4",
+				"mocha": "2.5.3",
+				"restify": "2.8.1",
+				"supertest": "1.1.0"
+			},
+			"files": [
+				"lib/",
+				"History.md",
+				"LICENSE",
+				"README.md"
+			],
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/",
+				"test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/"
+			},
+			"gitHead": "8a842a5cf1e2be413f0c42843c17d73880bfe1a6",
+			"bugs": {
+				"url": "https://github.com/pillarjs/cookies/issues"
+			},
+			"homepage": "https://github.com/pillarjs/cookies",
+			"_id": "cookies@0.6.2",
+			"_shasum": "6ac1b052895208e8fc4c4f5f86a9ed31b9cb5ccf",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				},
+				{
+					"name": "jed",
+					"email": "where@jed.is"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "6ac1b052895208e8fc4c4f5f86a9ed31b9cb5ccf",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.6.2.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.6.2.tgz_1479023953348_0.40405283332802355"
+			},
+			"directories": {}
+		},
+		"0.7.0": {
+			"name": "cookies",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"version": "0.7.0",
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"contributors": [
+				{
+					"name": "Douglas Christopher Wilson",
+					"email": "doug@somethingdoug.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/pillarjs/cookies.git"
+			},
+			"dependencies": {
+				"depd": "~1.1.0",
+				"keygrip": "~1.0.1"
+			},
+			"devDependencies": {
+				"express": "4.9.8",
+				"istanbul": "0.4.5",
+				"mocha": "2.5.3",
+				"restify": "2.8.1",
+				"supertest": "1.1.0"
+			},
+			"files": [
+				"HISTORY.md",
+				"LICENSE",
+				"README.md",
+				"index.js"
+			],
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/",
+				"test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/"
+			},
+			"gitHead": "c582e55ef687d869ddfb50fa6cde4598164ed00e",
+			"bugs": {
+				"url": "https://github.com/pillarjs/cookies/issues"
+			},
+			"homepage": "https://github.com/pillarjs/cookies#readme",
+			"_id": "cookies@0.7.0",
+			"_shasum": "0bc961d910c35254980fc7c9eff5da12011bbf00",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.7.3",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"dist": {
+				"shasum": "0bc961d910c35254980fc7c9eff5da12011bbf00",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.7.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "dougwilson",
+					"email": "doug@somethingdoug.com"
+				},
+				{
+					"name": "fishrock123",
+					"email": "fishrock123@rocketmail.com"
+				},
+				{
+					"name": "jed",
+					"email": "where@jed.is"
+				},
+				{
+					"name": "jongleberry",
+					"email": "jonathanrichardong@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/cookies-0.7.0.tgz_1487525617443_0.19797508674673736"
+			},
+			"directories": {}
+		},
+		"0.7.1": {
+			"name": "cookies",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"version": "0.7.1",
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"contributors": [
+				{
+					"name": "Douglas Christopher Wilson",
+					"email": "doug@somethingdoug.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/pillarjs/cookies.git"
+			},
+			"dependencies": {
+				"depd": "~1.1.1",
+				"keygrip": "~1.0.2"
+			},
+			"devDependencies": {
+				"express": "4.9.8",
+				"istanbul": "0.4.5",
+				"mocha": "2.5.3",
+				"restify": "2.8.1",
+				"supertest": "1.1.0"
+			},
+			"files": [
+				"HISTORY.md",
+				"LICENSE",
+				"README.md",
+				"index.js"
+			],
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/",
+				"test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/"
+			},
+			"gitHead": "28d44ced7a6ed7565623f84f5886dc8153459707",
+			"bugs": {
+				"url": "https://github.com/pillarjs/cookies/issues"
+			},
+			"homepage": "https://github.com/pillarjs/cookies#readme",
+			"_id": "cookies@0.7.1",
+			"_shasum": "7c8a615f5481c61ab9f16c833731bcb8f663b99b",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.11.1",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"dist": {
+				"shasum": "7c8a615f5481c61ab9f16c833731bcb8f663b99b",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.7.1.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "jonathanrichardong@gmail.com",
+					"name": "jongleberry"
+				},
+				{
+					"email": "doug@somethingdoug.com",
+					"name": "dougwilson"
+				},
+				{
+					"email": "where@jed.is",
+					"name": "jed"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cookies-0.7.1.tgz_1503804583252_0.40139200049452484"
+			},
+			"directories": {}
+		},
+		"0.7.2": {
+			"name": "cookies",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"version": "0.7.2",
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"contributors": [
+				{
+					"name": "Douglas Christopher Wilson",
+					"email": "doug@somethingdoug.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/pillarjs/cookies.git"
+			},
+			"dependencies": {
+				"depd": "~1.1.2",
+				"keygrip": "~1.0.2"
+			},
+			"devDependencies": {
+				"eslint": "3.19.0",
+				"express": "4.9.8",
+				"istanbul": "0.4.5",
+				"mocha": "2.5.3",
+				"restify": "2.8.1",
+				"supertest": "1.1.0"
+			},
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/",
+				"test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/"
+			},
+			"gitHead": "0c2f7d4a53abaa7b4dda5e05120fcf4116191978",
+			"bugs": {
+				"url": "https://github.com/pillarjs/cookies/issues"
+			},
+			"homepage": "https://github.com/pillarjs/cookies#readme",
+			"_id": "cookies@0.7.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.4",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"dist": {
+				"integrity": "sha512-J2JjH9T3PUNKPHknprxgCrCaZshIfxW2j49gq1E1CP5Micj1LppWAR2y9EHSQAzEiX84zOsScWNwUZ0b/ChlMw==",
+				"shasum": "52736976126658af7713d7f858f7d21f99dab486",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.7.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 19220,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbleC0CRA9TVsSAnZWagAAqc8P/jihZYZRwJGJu3cPp6S4\nzDy5+n6nT3Re3IXWnMcazIaVLemv76aBh4Rz69Rks37kkkmF8cNSSK3G/BP+\n4S6k6Ot3YGudkztpUVZJJ8CBUsTkS+wUKVJEUrEEgkap+UTNvvtVQPN20TG6\ng97ERa8ehAUAEdVzCkmdgagCFFitF4DJBvxneqkryMNxG6P/m2+MbAvYd7+T\nf77XKfTvvsviIOHTonmm72ZCXd3nZqzg999jTFUjAzOxK2bZIowdnYT6SF+Q\ntReeihG61YztLIXiAmUw+wOygCEtHihkAm7u5orvLY7UpMZZkbqVSWbiV/Rb\n2Gx1gn7moZ10aVDzR/Psknj/MY6UaB0Ld1LdSbTHpZHpbD1zYQGEl+sZh3Nu\nhpMNDGdUseulhN6O4RWwnd+IvRuEqujnovLUmFTr+5gCvtSrcw706GjgDc1L\n4RqLo/z5E0p59rZ4e0DaeM5tLO7w5Z1UmPYaKDG3n66jkxz5LzNGbm+NKZkD\ndPMDWGTgoior+3tvaS3qYj3eccw82bc1acbSpIz7F492/5HKYtTbnAGNNtiw\nd7Tpw3ziWUBXSwnsOv90a6v0j72vpEnqN7bz5E59WFmypV5BVSNzlxQd1ct7\n0yyxgjnWuiO9fvYrZqk8Elik/MI6/YGf+hwoGaoTYWSRbHpVi1OZPkIPz3GC\nr1fK\r\n=pePh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "doug@somethingdoug.com",
+					"name": "dougwilson"
+				},
+				{
+					"email": "where@jed.is",
+					"name": "jed"
+				},
+				{
+					"email": "jonathanrichardong@gmail.com",
+					"name": "jongleberry"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cookies_0.7.2_1536549043500_0.8025924562322184"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.7.3": {
+			"name": "cookies",
+			"description": "Cookies, optionally signed using Keygrip.",
+			"version": "0.7.3",
+			"author": {
+				"name": "Jed Schmidt",
+				"email": "tr@nslator.jp",
+				"url": "http://jed.is"
+			},
+			"contributors": [
+				{
+					"name": "Douglas Christopher Wilson",
+					"email": "doug@somethingdoug.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/pillarjs/cookies.git"
+			},
+			"dependencies": {
+				"depd": "~1.1.2",
+				"keygrip": "~1.0.3"
+			},
+			"devDependencies": {
+				"eslint": "3.19.0",
+				"express": "4.16.4",
+				"istanbul": "0.4.5",
+				"mocha": "5.2.0",
+				"restify": "6.4.0",
+				"supertest": "3.3.0"
+			},
+			"engines": {
+				"node": ">= 0.8"
+			},
+			"scripts": {
+				"lint": "eslint .",
+				"test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/",
+				"test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/"
+			},
+			"gitHead": "88121dc0472a259deb81068c4f36e4ccd67d9c65",
+			"bugs": {
+				"url": "https://github.com/pillarjs/cookies/issues"
+			},
+			"homepage": "https://github.com/pillarjs/cookies#readme",
+			"_id": "cookies@0.7.3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.12.0",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"dist": {
+				"integrity": "sha512-+gixgxYSgQLTaTIilDHAdlNPZDENDQernEMiIcZpYYP14zgHsCt4Ce1FEjFtcp6GefhozebB6orvhAAWx/IS0A==",
+				"shasum": "7912ce21fbf2e8c2da70cf1c3f351aecf59dadfa",
+				"tarball": "https://registry.npmjs.org/cookies/-/cookies-0.7.3.tgz",
+				"fileCount": 5,
+				"unpackedSize": 19317,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb353MCRA9TVsSAnZWagAAoGsP/09X+vgkeMns2vumTE6T\nMV4O00OHHq2E0SJGtKLufuq8GCwZknJTSLYPIM/hDflvD25bCBPIEtI3l6gK\nqC3gOX8JyyeJ1QEXaMv3zTnQN6rEBABYfKY4JO7MFKzjthf/jrjzvLNnNAJc\nMcn2rByR8IGhNJ3LeSxq/xgU1KTHnrglwN8xIDzCMVfEj8X+2MO+J4ga47Mg\nFLyGaskk/cRslWDSSI5gyzzUf+eF578o+O1Zs5Fl2RWOfxVpCdPwIQMtiVzD\nxn0FXGDFCK/p0Q9teN/gdMrp9NJU9hHH/+5aOIpHCkEZlr/LfX1IArsemzgt\nrRDz9sQv9JZ5Gv8PVy0IexmvW9NH0n2oG1dF9GSwN3UbVe9QoGrhWJ3xRbTX\ncHaDFaFl+wrvNOAnPLvzdq4OaeHDwWQmGMofAYBP2+Ubv13gOsDfHgjrHeIp\n+xN3TxCo9XirMG3aqzWoR8pwaI13MQqxO2Y/03GvOo6C5VdhdRuA8OUGGtU4\nf5j1ZhFVS+jcJ9U/9AqVIEa2jNtEUkq5yybdn8CGdihna2i3/92OcqZWsJUv\nUTyXFDQFJ/dgdlTyDW1zkvdzb+QqPGvRnHAJkoR8w9qkiRpUSZn8/pacjB+P\nR0bMWW1L3ZZHzrSSxi4YZCg2FYm1W5TQ0nZmp51I/NPAt22Mz92r+Q474fUx\nFdEf\r\n=oUeh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "doug@somethingdoug.com",
+					"name": "dougwilson"
+				},
+				{
+					"email": "where@jed.is",
+					"name": "jed"
+				},
+				{
+					"email": "jonathanrichardong@gmail.com",
+					"name": "jongleberry"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/cookies_0.7.3_1541381579517_0.751073136527592"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2019-01-01T15:59:07.788Z",
+		"created": "2011-02-25T15:30:03.526Z",
+		"0.1.0": "2011-02-25T15:30:04.200Z",
+		"0.1.1": "2011-02-25T16:57:20.561Z",
+		"0.1.2": "2011-02-26T05:34:00.873Z",
+		"0.1.3": "2011-02-26T05:40:55.056Z",
+		"0.1.4": "2011-02-26T06:50:50.197Z",
+		"0.1.5": "2011-02-26T07:45:48.757Z",
+		"0.1.6": "2011-03-01T03:07:10.560Z",
+		"0.2.0": "2012-01-12T15:43:33.813Z",
+		"0.2.1": "2012-01-12T15:50:43.517Z",
+		"0.2.2": "2012-03-18T11:52:47.942Z",
+		"0.2.3": "2012-04-25T07:46:23.171Z",
+		"0.3.0": "2012-04-26T08:06:36.112Z",
+		"0.3.1": "2012-08-16T23:09:28.223Z",
+		"0.3.2": "2012-09-14T01:56:02.281Z",
+		"0.3.3": "2012-11-12T14:42:43.808Z",
+		"0.3.4": "2012-11-13T01:36:32.110Z",
+		"0.3.5": "2012-11-26T11:04:38.641Z",
+		"0.3.6": "2012-11-27T09:37:43.152Z",
+		"0.3.7": "2013-11-15T22:29:28.762Z",
+		"0.3.8": "2013-11-26T22:40:24.142Z",
+		"0.4.0": "2014-01-31T21:46:02.702Z",
+		"0.4.1": "2014-05-07T21:39:25.644Z",
+		"0.5.0": "2014-07-28T04:21:13.118Z",
+		"0.5.1": "2015-09-17T20:59:55.005Z",
+		"0.6.0": "2016-03-01T02:30:53.458Z",
+		"0.6.1": "2016-03-01T02:56:14.518Z",
+		"0.6.2": "2016-11-13T07:59:15.585Z",
+		"0.7.0": "2017-02-19T17:33:38.096Z",
+		"0.7.1": "2017-08-27T03:29:44.512Z",
+		"0.7.2": "2018-09-10T03:10:43.649Z",
+		"0.7.3": "2018-11-05T01:32:59.665Z"
+	},
+	"dist-tags": {
+		"latest": "0.7.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"b8bb875429d484b30d83f7a83acf219a\"",
+			"fetched": 1550359654452
+		}
+	},
+	"_distfiles": {
+		"cookies-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.1.0.tgz",
+			"sha": "18f820dd12d384bf21ab46f0fdad8ddd02dc9c3e",
+			"registry": "npmjs"
+		},
+		"cookies-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.1.1.tgz",
+			"sha": "5ff9be0d3f2e95d0fcca111ee654e6b19ef38c77",
+			"registry": "npmjs"
+		},
+		"cookies-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.1.2.tgz",
+			"sha": "b7d5719597dec946a3ce225222fab008c7c35f70",
+			"registry": "npmjs"
+		},
+		"cookies-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.1.3.tgz",
+			"sha": "e94961b95c9b2ea8e569333ac7e268f6f0b5ffe7",
+			"registry": "npmjs"
+		},
+		"cookies-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.1.4.tgz",
+			"sha": "340283ee97f446acac5b3e9551817719fe55dcb0",
+			"registry": "npmjs"
+		},
+		"cookies-0.1.5.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.1.5.tgz",
+			"sha": "3bce445130205d3f1b76dec7007a7128fa8bffd1",
+			"registry": "npmjs"
+		},
+		"cookies-0.1.6.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.1.6.tgz",
+			"sha": "2129588b8b1e382ffba990d9f9cf9ddf2c142846",
+			"registry": "npmjs"
+		},
+		"cookies-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.2.0.tgz",
+			"sha": "c063f461faec078d9b469fe6aabec2a673d09d3c",
+			"registry": "npmjs"
+		},
+		"cookies-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.2.1.tgz",
+			"sha": "fee635ef023704893ac30387899f3dc448a52840",
+			"registry": "npmjs"
+		},
+		"cookies-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.2.2.tgz",
+			"sha": "b0175f9e8f66cf4c8639391c3be24868c5c86aa5",
+			"registry": "npmjs"
+		},
+		"cookies-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.2.3.tgz",
+			"sha": "5765b184a87a49f5fe39392f9f7ebfaec8505853",
+			"registry": "npmjs"
+		},
+		"cookies-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.3.0.tgz",
+			"sha": "b79695ff812d412329d6ac66671545e84e224807",
+			"registry": "npmjs"
+		},
+		"cookies-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.3.1.tgz",
+			"sha": "ff15bdd4a2bd1c2bbb14bd77f4548b0dd6c95e30",
+			"registry": "npmjs"
+		},
+		"cookies-0.3.2.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.3.2.tgz",
+			"sha": "218cd95ad83c003d02ccd076b6e45fc04b8be353",
+			"registry": "npmjs"
+		},
+		"cookies-0.3.3.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.3.3.tgz",
+			"sha": "4e7e2dad8e6dff35347363f5e44ecb1a00a6a4a9",
+			"registry": "npmjs"
+		},
+		"cookies-0.3.4.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.3.4.tgz",
+			"sha": "c5afac7b19c723c70e1f0fb24f25a88e4d373742",
+			"registry": "npmjs"
+		},
+		"cookies-0.3.5.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.3.5.tgz",
+			"sha": "c21159f13b7ca62163f57cdba5a7723925db0f97",
+			"registry": "npmjs"
+		},
+		"cookies-0.3.6.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.3.6.tgz",
+			"sha": "1b5e4bd66fc732ea2e8b5087a8fb3718b4ec8597",
+			"registry": "npmjs"
+		},
+		"cookies-0.3.7.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.3.7.tgz",
+			"sha": "89ff5ecd74a2d4e1224bdb775db83c407fb6774f",
+			"registry": "npmjs"
+		},
+		"cookies-0.3.8.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.3.8.tgz",
+			"sha": "92fe50918f3d55aec4ae9d978bcddda2ada28ce9",
+			"registry": "npmjs"
+		},
+		"cookies-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.4.0.tgz",
+			"sha": "c5d1f8b76217ed653135afe32bdad747c2fa9190",
+			"registry": "npmjs"
+		},
+		"cookies-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.4.1.tgz",
+			"sha": "7d43bd00583c985acc032258b97988b7d03b629e",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.5.0.tgz",
+			"sha": "164cac46a1d3ca3b3b87427414c24931d8381025",
+			"registry": "npmjs"
+		},
+		"cookies-0.5.1.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.5.1.tgz",
+			"sha": "2560c304fe8f8cbd002e08b9599d2e7479d37298",
+			"registry": "npmjs"
+		},
+		"cookies-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.6.0.tgz",
+			"sha": "98adc21d51b9e4273424193e1b26585a27914cff",
+			"registry": "npmjs"
+		},
+		"cookies-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.6.1.tgz",
+			"sha": "ef693b1bc6f01f567d46e2f504e9c15fb70cba90",
+			"registry": "npmjs"
+		},
+		"cookies-0.6.2.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.6.2.tgz",
+			"sha": "6ac1b052895208e8fc4c4f5f86a9ed31b9cb5ccf",
+			"registry": "npmjs"
+		},
+		"cookies-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.7.0.tgz",
+			"sha": "0bc961d910c35254980fc7c9eff5da12011bbf00",
+			"registry": "npmjs"
+		},
+		"cookies-0.7.1.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.7.1.tgz",
+			"sha": "7c8a615f5481c61ab9f16c833731bcb8f663b99b",
+			"registry": "npmjs"
+		},
+		"cookies-0.7.2.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.7.2.tgz",
+			"sha": "52736976126658af7713d7f858f7d21f99dab486",
+			"registry": "npmjs"
+		},
+		"cookies-0.7.3.tgz": {
+			"url": "https://registry.npmjs.org/cookies/-/cookies-0.7.3.tgz",
+			"sha": "7912ce21fbf2e8c2da70cf1c3f351aecf59dadfa",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"cookies-0.7.2.tgz": {
+			"shasum": "52736976126658af7713d7f858f7d21f99dab486"
+		}
+	},
+	"_rev": "2-1995c4fc751ab974",
+	"_id": "cookies",
+	"readme": "Cookies\n=======\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Node.js Version][node-version-image]][node-version-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nCookies is a [node.js](http://nodejs.org/) module for getting and setting HTTP(S) cookies. Cookies can be signed to prevent tampering, using [Keygrip](https://www.npmjs.com/package/keygrip). It can be used with the built-in node.js HTTP library, or as Connect/Express middleware.\n\n## Install\n\nThis is a [Node.js](https://nodejs.org/en/) module available through the\n[npm registry](https://www.npmjs.com/). Installation is done using the\n[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):\n\n```\n$ npm install cookies\n```\n\n## Features\n\n* **Lazy**: Since cookie verification against multiple keys could be expensive, cookies are only verified lazily when accessed, not eagerly on each request.\n\n* **Secure**: All cookies are `httponly` by default, and cookies sent over SSL are `secure` by default. An error will be thrown if you try to send secure cookies over an insecure socket.\n\n* **Unobtrusive**: Signed cookies are stored the same way as unsigned cookies, instead of in an obfuscated signing format. An additional signature cookie is stored for each signed cookie, using a standard naming convention (_cookie-name_`.sig`). This allows other libraries to access the original cookies without having to know the signing mechanism.\n\n* **Agnostic**: This library is optimized for use with [Keygrip](https://www.npmjs.com/package/keygrip), but does not require it; you can implement your own signing scheme instead if you like and use this library only to read/write cookies. Factoring the signing into a separate library encourages code reuse and allows you to use the same signing library for other areas where signing is needed, such as in URLs.\n\n## API\n\n### cookies = new Cookies( request, response, [ options ] )\n\nThis creates a cookie jar corresponding to the current _request_ and _response_, additionally passing an object _options_.\n\nA [Keygrip](https://www.npmjs.com/package/keygrip) object or an array of keys can optionally be passed as _options.keys_ to enable cryptographic signing based on SHA1 HMAC, using rotated credentials.\n\nA Boolean can optionally be passed as _options.secure_ to explicitally specify if the connection is secure, rather than this module examining _request_.\n\nNote that since this only saves parameters without any other processing, it is very lightweight. Cookies are only parsed on demand when they are accessed.\n\n### express.createServer( Cookies.express( keys ) )\n\nThis adds cookie support as a Connect middleware layer for use in Express apps, allowing inbound cookies to be read using `req.cookies.get` and outbound cookies to be set using `res.cookies.set`.\n\n### cookies.get( name, [ options ] )\n\nThis extracts the cookie with the given name from the `Cookie` header in the request. If such a cookie exists, its value is returned. Otherwise, nothing is returned.\n\n`{ signed: true }` can optionally be passed as the second parameter _options_. In this case, a signature cookie (a cookie of same name ending with the `.sig` suffix appended) is fetched. If no such cookie exists, nothing is returned.\n\nIf the signature cookie _does_ exist, the provided [Keygrip](https://www.npmjs.com/package/keygrip) object is used to check whether the hash of _cookie-name_=_cookie-value_ matches that of any registered key:\n\n* If the signature cookie hash matches the first key, the original cookie value is returned.\n* If the signature cookie hash matches any other key, the original cookie value is returned AND an outbound header is set to update the signature cookie's value to the hash of the first key. This enables automatic freshening of signature cookies that have become stale due to key rotation.\n* If the signature cookie hash does not match any key, nothing is returned, and an outbound header with an expired date is used to delete the cookie.\n\n### cookies.set( name, [ value ], [ options ] )\n\nThis sets the given cookie in the response and returns the current context to allow chaining.\n\nIf the _value_ is omitted, an outbound header with an expired date is used to delete the cookie.\n\nIf the _options_ object is provided, it will be used to generate the outbound cookie header as follows:\n\n* `maxAge`: a number representing the milliseconds from `Date.now()` for expiry\n* `expires`: a `Date` object indicating the cookie's expiration date (expires at the end of session by default).\n* `path`: a string indicating the path of the cookie (`/` by default).\n* `domain`: a string indicating the domain of the cookie (no default).\n* `secure`: a boolean indicating whether the cookie is only to be sent over HTTPS (`false` by default for HTTP, `true` by default for HTTPS). [Read more about this option below](#secure-cookies).\n* `httpOnly`: a boolean indicating whether the cookie is only to be sent over HTTP(S), and not made available to client JavaScript (`true` by default).\n* `sameSite`: a boolean or string indicating whether the cookie is a \"same site\" cookie (`false` by default). This can be set to `'strict'`, `'lax'`, or `true` (which maps to `'strict'`).\n* `signed`: a boolean indicating whether the cookie is to be signed (`false` by default). If this is true, another cookie of the same name with the `.sig` suffix appended will also be sent, with a 27-byte url-safe base64 SHA1 value representing the hash of _cookie-name_=_cookie-value_ against the first [Keygrip](https://www.npmjs.com/package/keygrip) key. This signature key is used to detect tampering the next time a cookie is received.\n* `overwrite`: a boolean indicating whether to overwrite previously set cookies of the same name (`false` by default). If this is true, all cookies set during the same request with the same name (regardless of path or domain) are filtered out of the Set-Cookie header when setting this cookie.\n\n### Secure cookies\n\nTo send a secure cookie, you set a cookie with the `secure: true` option.\n\nHTTPS is necessary for secure cookies. When `cookies.set` is called with `secure: true` and a secure connection is not detected, the cookie will not be set and an error will be thrown.\n\nThis module will test each request to see if it's secure by checking:\n\n* if the `protocol` property of the request is set to `https`, or\n* if the `connection.encrypted` property of the request is set to `true`.\n\nIf your server is running behind a proxy and you are using `secure: true`, you need to configure your server to read the request headers added by your proxy to determine whether the request is using a secure connection.\n\nFor more information about working behind proxies, consult the framework you are using:\n\n* For Koa - [`app.proxy = true`](http://koajs.com/#settings)\n* For Express - [trust proxy setting](http://expressjs.com/en/4x/api.html#trust.proxy.options.table)\n\nIf your Koa or Express server is properly configured, the `protocol` property of the request will be set to match the protocol reported by the proxy in the `X-Forwarded-Proto` header.\n\n## Example\n\n```js\nvar http = require('http')\nvar Cookies = require('cookies')\n\n// Optionally define keys to sign cookie values\n// to prevent client tampering\nvar keys = ['keyboard cat']\n\nvar server = http.createServer(function (req, res) {\n  // Create a cookies object\n  var cookies = new Cookies(req, res, { keys: keys })\n\n  // Get a cookie\n  var lastVisit = cookies.get('LastVisit', { signed: true })\n\n  // Set the cookie to a value\n  cookies.set('LastVisit', new Date().toISOString(), { signed: true })\n\n  if (!lastVisit) {\n    res.setHeader('Content-Type', 'text/plain')\n    res.end('Welcome, first time visitor!')\n  } else {\n    res.setHeader('Content-Type', 'text/plain')\n    res.end('Welcome back! Nothing much changed since your last visit at ' + lastVisit + '.')\n  }\n})\n\nserver.listen(3000, function () {\n  console.log('Visit us at http://127.0.0.1:3000/ !')\n})\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/cookies.svg\n[npm-url]: https://npmjs.org/package/cookies\n[coveralls-image]: https://img.shields.io/coveralls/pillarjs/cookies/master.svg\n[coveralls-url]: https://coveralls.io/r/pillarjs/cookies?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/cookies.svg\n[downloads-url]: https://npmjs.org/package/cookies\n[node-version-image]: https://img.shields.io/node/v/cookies.svg\n[node-version-url]: https://nodejs.org/en/download/\n[travis-image]: https://img.shields.io/travis/pillarjs/cookies/master.svg\n[travis-url]: https://travis-ci.org/pillarjs/cookies"
+}

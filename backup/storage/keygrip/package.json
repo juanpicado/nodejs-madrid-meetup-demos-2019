@@ -1,0 +1,674 @@
+{
+	"name": "keygrip",
+	"versions": {
+		"0.1.0": {
+			"name": "keygrip",
+			"version": "0.1.0",
+			"description": "Key signing and verification for rotated credentials",
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"_id": "keygrip@0.1.0",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.3",
+			"_nodeVersion": "v0.5.0-pre",
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "8c7a2ebeb0a5c21afb503e1353202bbc8e310d5a",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.0.tgz"
+			}
+		},
+		"0.1.1": {
+			"name": "keygrip",
+			"version": "0.1.1",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "node scripts/install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"_id": "keygrip@0.1.1",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.3",
+			"_nodeVersion": "v0.5.0-pre",
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "1ef1b716a00271255877c1aa9db9900d6ec46072",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.1.tgz"
+			}
+		},
+		"0.1.2": {
+			"name": "keygrip",
+			"version": "0.1.2",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "node scripts/install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"_id": "keygrip@0.1.2",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.3",
+			"_nodeVersion": "v0.5.0-pre",
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "ca95cfbb013cf6da70a3d61b6a6e30a2cc0d2df8",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.2.tgz"
+			}
+		},
+		"0.1.3": {
+			"name": "keygrip",
+			"version": "0.1.3",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "node scripts/install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"_id": "keygrip@0.1.3",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.3",
+			"_nodeVersion": "v0.5.0-pre",
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "7758cad837162a15267cc5e1a981cbe471091f85",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.3.tgz"
+			}
+		},
+		"0.1.6": {
+			"name": "keygrip",
+			"version": "0.1.6",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "node scripts/install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_id": "keygrip@0.1.6",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "cb43ff9354e16768f17e915bea4b743597d63b12",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.6.tgz"
+			}
+		},
+		"0.1.7": {
+			"name": "keygrip",
+			"version": "0.1.7",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "node scripts/install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"main": "./index",
+			"engines": [
+				"node"
+			],
+			"directories": {
+				"lib": "./lib"
+			},
+			"files": [
+				""
+			],
+			"_id": "keygrip@0.1.7",
+			"_engineSupported": true,
+			"_npmVersion": "0.3.9",
+			"_nodeVersion": "v0.5.0-pre",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "9b86ff1323fac9c5da30d2a83eb266027640bf4d",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.7.tgz",
+				"bin": {
+					"0.4-sunos-5.11": {
+						"shasum": "5389d3dee597b6c498d3bf64d51390f5a0db82fc",
+						"tarball": "http://registry.npmjs.org/keygrip/-/keygrip-0.1.7-0.4-sunos-5.11.tgz"
+					}
+				}
+			}
+		},
+		"0.2.0": {
+			"name": "keygrip",
+			"version": "0.2.0",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "node ./install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"_id": "keygrip@0.2.0",
+			"_engineSupported": true,
+			"_npmVersion": "1.1.0-beta-10",
+			"_nodeVersion": "v0.6.7",
+			"_defaultsLoaded": true,
+			"dist": {
+				"shasum": "6a2a2df2c796eecce2133841c2ade6233df92832",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "keygrip",
+			"version": "0.2.1",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "node ./install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_id": "keygrip@0.2.1",
+			"dist": {
+				"shasum": "6cd9fc8b695517509475926d0ac8f6c034cfced6",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.2": {
+			"name": "keygrip",
+			"version": "0.2.2",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "node ./install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"_id": "keygrip@0.2.2",
+			"dist": {
+				"shasum": "845757e737489f12842ba816c2ffa2c6a802d91d",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.3": {
+			"name": "keygrip",
+			"version": "0.2.3",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "node ./install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"bugs": {
+				"url": "https://github.com/jed/keygrip/issues"
+			},
+			"_id": "keygrip@0.2.3",
+			"dist": {
+				"shasum": "27d1191e3f327ad4a1670c9a2e9340a82e785835",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.3.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"0.2.4": {
+			"name": "keygrip",
+			"version": "0.2.4",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"install": "[ -x /usr/bin/nodejs ] && /usr/bin/nodejs ./install.js || node ./install.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"bugs": {
+				"url": "https://github.com/jed/keygrip/issues"
+			},
+			"_id": "keygrip@0.2.4",
+			"dist": {
+				"shasum": "9dd1b2e485a1162c9d4e6f787de87fc50f87bc58",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.4.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.2.32",
+			"_npmUser": {
+				"name": "jed",
+				"email": "tr@nslator.jp"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "keygrip",
+			"version": "1.0.0",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"test": "node test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/jed/keygrip.git"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"bugs": {
+				"url": "https://github.com/jed/keygrip/issues"
+			},
+			"homepage": "https://github.com/jed/keygrip",
+			"_id": "keygrip@1.0.0",
+			"dist": {
+				"shasum": "b771120e8e697b8692b76866a84cdff3912fc379",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-1.0.0.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.15",
+			"_npmUser": {
+				"name": "jed",
+				"email": "where@jed.is"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "keygrip",
+			"version": "1.0.1",
+			"description": "Key signing and verification for rotated credentials",
+			"scripts": {
+				"test": "node test.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/expressjs/keygrip.git"
+			},
+			"dependencies": {},
+			"devDependencies": {},
+			"engines": {
+				"node": "*"
+			},
+			"bugs": {
+				"url": "https://github.com/expressjs/keygrip/issues"
+			},
+			"homepage": "https://github.com/expressjs/keygrip",
+			"_id": "keygrip@1.0.1",
+			"dist": {
+				"shasum": "b02fa4816eef21a8c4b35ca9e52921ffc89a30e9",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz"
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "jed",
+				"email": "where@jed.is"
+			},
+			"maintainers": [
+				{
+					"name": "jed",
+					"email": "tr@nslator.jp"
+				}
+			],
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "keygrip",
+			"version": "1.0.2",
+			"description": "Key signing and verification for rotated credentials",
+			"license": "MIT",
+			"scripts": {
+				"test": "mocha --reporter spec"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/crypto-utils/keygrip.git"
+			},
+			"devDependencies": {
+				"mocha": "1.21.5"
+			},
+			"engines": {
+				"node": ">= 0.6"
+			},
+			"gitHead": "7fd306a872441215b8e0573462cda4b10256f2ea",
+			"bugs": {
+				"url": "https://github.com/crypto-utils/keygrip/issues"
+			},
+			"homepage": "https://github.com/crypto-utils/keygrip#readme",
+			"_id": "keygrip@1.0.2",
+			"_shasum": "ad3297c557069dea8bcfe7a4fa491b75c5ddeb91",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.11.1",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"dist": {
+				"shasum": "ad3297c557069dea8bcfe7a4fa491b75c5ddeb91",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-1.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "where@jed.is",
+					"name": "jed"
+				},
+				{
+					"email": "jonathanrichardong@gmail.com",
+					"name": "jongleberry"
+				},
+				{
+					"email": "fishrock123@rocketmail.com",
+					"name": "fishrock123"
+				},
+				{
+					"email": "doug@somethingdoug.com",
+					"name": "dougwilson"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/keygrip-1.0.2.tgz_1503802341912_0.8997838881332427"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "keygrip",
+			"version": "1.0.3",
+			"description": "Key signing and verification for rotated credentials",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/crypto-utils/keygrip.git"
+			},
+			"devDependencies": {
+				"istanbul": "0.4.5",
+				"mocha": "1.21.5"
+			},
+			"engines": {
+				"node": ">= 0.6"
+			},
+			"scripts": {
+				"test": "mocha --reporter spec test/",
+				"test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+				"test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot test/"
+			},
+			"gitHead": "4c705db60b6ae14ed8bb606315f0fa054d4a7613",
+			"bugs": {
+				"url": "https://github.com/crypto-utils/keygrip/issues"
+			},
+			"homepage": "https://github.com/crypto-utils/keygrip#readme",
+			"_id": "keygrip@1.0.3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.12.0",
+			"_npmUser": {
+				"name": "dougwilson",
+				"email": "doug@somethingdoug.com"
+			},
+			"dist": {
+				"integrity": "sha512-/PpesirAIfaklxUzp4Yb7xBper9MwP6hNRA6BGGUFCgbJ+BM5CKBtsoxinNXkLHAr+GXS1/lSlF2rP7cv5Fl+g==",
+				"shasum": "399d709f0aed2bab0a059e0cdd3a5023a053e1dc",
+				"tarball": "https://registry.npmjs.org/keygrip/-/keygrip-1.0.3.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7928,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbmdyBCRA9TVsSAnZWagAAUukP/jaVWy7O5aIKkHRsPvdY\nrTjueg/rNc+7Pv2FzIdaw3egWANGKiSWU0LuN/9WHmj6w5862j8qA8JiGyrS\nsdzoxs0C74v3VGwGirwUcoGBgr8yd60tnhhIOWm5IRKg2lXmFTsdPkBvxM89\nJ1cBvfq2dYLxku51EvDdcShuQq/Ape3JPALbfyZXyWhrxIGIzEMju0yk77iP\nTMbV9R4T51x2rnDVAfZz9JnaFjM2AED1VxAEHl19WZhb3fzBQQyipN9KgknJ\nt8iINtZZPAS6W+k3YR81wLX6Gr4Ch6TdXAPvfgT6upAcwS4E/V5w6dq6wUVQ\nOjwRrGkcmbzrbQgkYVFd+mgIobIQAGxynWKV0v8fXSxk+PU1y0VgeS2cPYxG\nBs6EIz/4SPA7VqDr/NA3ogROfRaHNx7DxRa8VPBdHN9XYH9/2NAL0Q7Szxdb\nOWhYLh+eBoJcM7NH2PHiJK9scMvgGzLWNyIVqy1+fDSKnNJn/z9ZCct2tZfd\n3BVTu1y0WxpUs+V7pNCgPqoi+16K6H3l8LFmxtGjdEfnmFeWcWtwnbeVNg15\n7rJpy5SffpAGfu115ID50rh1jFOPQn/Nv7CQTWEB1tkKvSIdW6f3ChpL/wMB\nrRgvsI5h/y4FvjP04sIkXiSBeuLSwV/P9NMBfJfJniVJA6cPo9Ncsj/9X3yX\nUJ+i\r\n=1EDm\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "doug@somethingdoug.com",
+					"name": "dougwilson"
+				},
+				{
+					"email": "fishrock123@rocketmail.com",
+					"name": "fishrock123"
+				},
+				{
+					"email": "where@jed.is",
+					"name": "jed"
+				},
+				{
+					"email": "jonathanrichardong@gmail.com",
+					"name": "jongleberry"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/keygrip_1.0.3_1536810112838_0.412863196544073"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2019-01-04T09:07:13.834Z",
+		"created": "2011-02-25T06:37:17.025Z",
+		"0.1.0": "2011-02-25T06:37:17.968Z",
+		"0.1.1": "2011-02-25T07:32:04.793Z",
+		"0.1.2": "2011-02-25T08:21:54.468Z",
+		"0.1.3": "2011-02-25T14:26:56.580Z",
+		"0.1.6": "2011-02-26T12:51:21.301Z",
+		"0.1.7": "2011-03-01T02:14:58.924Z",
+		"0.2.0": "2012-01-15T01:18:50.154Z",
+		"0.2.1": "2012-07-03T23:52:26.500Z",
+		"0.2.2": "2012-07-09T14:37:11.060Z",
+		"0.2.3": "2013-07-14T23:09:26.061Z",
+		"0.2.4": "2013-09-06T18:07:16.524Z",
+		"1.0.0": "2013-12-21T14:35:07.064Z",
+		"1.0.1": "2014-05-07T21:38:10.834Z",
+		"1.0.2": "2017-08-27T02:52:22.818Z",
+		"1.0.3": "2018-09-13T03:41:52.966Z"
+	},
+	"dist-tags": {
+		"latest": "1.0.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"2739b9276e3b9c02b9c0359560e807ed\"",
+			"fetched": 1550359661353
+		}
+	},
+	"_distfiles": {
+		"keygrip-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.0.tgz",
+			"sha": "8c7a2ebeb0a5c21afb503e1353202bbc8e310d5a",
+			"registry": "npmjs"
+		},
+		"keygrip-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.1.tgz",
+			"sha": "1ef1b716a00271255877c1aa9db9900d6ec46072",
+			"registry": "npmjs"
+		},
+		"keygrip-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.2.tgz",
+			"sha": "ca95cfbb013cf6da70a3d61b6a6e30a2cc0d2df8",
+			"registry": "npmjs"
+		},
+		"keygrip-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.3.tgz",
+			"sha": "7758cad837162a15267cc5e1a981cbe471091f85",
+			"registry": "npmjs"
+		},
+		"keygrip-0.1.6.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.6.tgz",
+			"sha": "cb43ff9354e16768f17e915bea4b743597d63b12",
+			"registry": "npmjs"
+		},
+		"keygrip-0.1.7.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.1.7.tgz",
+			"sha": "9b86ff1323fac9c5da30d2a83eb266027640bf4d",
+			"registry": "npmjs"
+		},
+		"keygrip-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.0.tgz",
+			"sha": "6a2a2df2c796eecce2133841c2ade6233df92832",
+			"registry": "npmjs"
+		},
+		"keygrip-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.1.tgz",
+			"sha": "6cd9fc8b695517509475926d0ac8f6c034cfced6",
+			"registry": "npmjs"
+		},
+		"keygrip-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.2.tgz",
+			"sha": "845757e737489f12842ba816c2ffa2c6a802d91d",
+			"registry": "npmjs"
+		},
+		"keygrip-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.3.tgz",
+			"sha": "27d1191e3f327ad4a1670c9a2e9340a82e785835",
+			"registry": "npmjs"
+		},
+		"keygrip-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-0.2.4.tgz",
+			"sha": "9dd1b2e485a1162c9d4e6f787de87fc50f87bc58",
+			"registry": "npmjs"
+		},
+		"keygrip-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-1.0.0.tgz",
+			"sha": "b771120e8e697b8692b76866a84cdff3912fc379",
+			"registry": "npmjs"
+		},
+		"keygrip-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-1.0.1.tgz",
+			"sha": "b02fa4816eef21a8c4b35ca9e52921ffc89a30e9",
+			"registry": "npmjs"
+		},
+		"keygrip-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-1.0.2.tgz",
+			"sha": "ad3297c557069dea8bcfe7a4fa491b75c5ddeb91",
+			"registry": "npmjs"
+		},
+		"keygrip-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/keygrip/-/keygrip-1.0.3.tgz",
+			"sha": "399d709f0aed2bab0a059e0cdd3a5023a053e1dc",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "1-b3fb64019975eecf",
+	"_id": "keygrip",
+	"readme": "# keygrip\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Node.js Version][node-version-image]][node-version-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nKeygrip is a [node.js](http://nodejs.org/) module for signing and verifying data (such as cookies or URLs) through a rotating credential system, in which new server keys can be added and old ones removed regularly, without invalidating client credentials.\n\n## Install\n\n    $ npm install keygrip\n\n## API\n\n### keys = new Keygrip([keylist], [hmacAlgorithm], [encoding])\n\nThis creates a new Keygrip based on the provided keylist, an array of secret keys used for SHA1 HMAC digests. `keylist` is obligatory. `hmacAlgorithm` defaults to `'sha1'` and `encoding` defaults to `'base64'`.\n\nNote that the `new` operator is also optional, so all of the following will work when `Keygrip = require(\"keygrip\")`:\n\n```javascript\nkeys = new Keygrip([\"SEKRIT2\", \"SEKRIT1\"])\nkeys = Keygrip([\"SEKRIT2\", \"SEKRIT1\"])\nkeys = require(\"keygrip\")()\nkeys = Keygrip([\"SEKRIT2\", \"SEKRIT1\"], 'sha256', 'hex')\nkeys = Keygrip([\"SEKRIT2\", \"SEKRIT1\"], 'sha256')\nkeys = Keygrip([\"SEKRIT2\", \"SEKRIT1\"], undefined, 'hex')\n```\n\nThe keylist is an array of all valid keys for signing, in descending order of freshness; new keys should be `unshift`ed into the array and old keys should be `pop`ped.\n\nThe tradeoff here is that adding more keys to the keylist allows for more granular freshness for key validation, at the cost of a more expensive worst-case scenario for old or invalid hashes.\n\nKeygrip keeps a reference to this array to automatically reflect any changes. This reference is stored using a closure to prevent external access.\n\n### keys.sign(data)\n\nThis creates a SHA1 HMAC based on the _first_ key in the keylist, and outputs it as a 27-byte url-safe base64 digest (base64 without padding, replacing `+` with `-` and `/` with `_`).\n\n### keys.index(data, digest)\n\nThis loops through all of the keys currently in the keylist until the digest of the current key matches the given digest, at which point the current index is returned. If no key is matched, `-1` is returned.\n\nThe idea is that if the index returned is greater than `0`, the data should be re-signed to prevent premature credential invalidation, and enable better performance for subsequent challenges.\n\n### keys.verify(data, digest)\n\nThis uses `index` to return `true` if the digest matches any existing keys, and `false` otherwise.\n\n## Example\n\n```javascript\n// ./test.js\nvar assert = require(\"assert\")\n  , Keygrip = require(\"keygrip\")\n  , keylist, keys, hash, index\n\n// but we're going to use our list.\n// (note that the 'new' operator is optional)\nkeylist = [\"SEKRIT3\", \"SEKRIT2\", \"SEKRIT1\"]\nkeys = Keygrip(keylist)\n// .sign returns the hash for the first key\n// all hashes are SHA1 HMACs in url-safe base64\nhash = keys.sign(\"bieberschnitzel\")\nassert.ok(/^[\\w\\-]{27}$/.test(hash))\n\n// .index returns the index of the first matching key\nindex = keys.index(\"bieberschnitzel\", hash)\nassert.equal(index, 0)\n\n// .verify returns the a boolean indicating a matched key\nmatched = keys.verify(\"bieberschnitzel\", hash)\nassert.ok(matched)\n\nindex = keys.index(\"bieberschnitzel\", \"o_O\")\nassert.equal(index, -1)\n\n// rotate a new key in, and an old key out\nkeylist.unshift(\"SEKRIT4\")\nkeylist.pop()\n\n// if index > 0, it's time to re-sign\nindex = keys.index(\"bieberschnitzel\", hash)\nassert.equal(index, 1)\nhash = keys.sign(\"bieberschnitzel\")\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/keygrip.svg\n[npm-url]: https://npmjs.org/package/keygrip\n[travis-image]: https://img.shields.io/travis/crypto-utils/keygrip/master.svg\n[travis-url]: https://travis-ci.org/crypto-utils/keygrip\n[coveralls-image]: https://img.shields.io/coveralls/crypto-utils/keygrip/master.svg\n[coveralls-url]: https://coveralls.io/r/crypto-utils/keygrip\n[downloads-image]: https://img.shields.io/npm/dm/keygrip.svg\n[downloads-url]: https://npmjs.org/package/keygrip\n[node-version-image]: https://img.shields.io/node/v/keygrip.svg\n[node-version-url]: https://nodejs.org/en/download/"
+}
