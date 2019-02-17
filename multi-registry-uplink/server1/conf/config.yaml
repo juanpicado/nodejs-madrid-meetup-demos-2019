@@ -35,16 +35,16 @@ uplinks:
 
 packages:
   '@jota/*':
-     access: $all
-     publish: $all
+     access: $authenticated
+     publish: $authenticated
      proxy: server3
   '@*/*':
-    access: $all
-    publish: $all
+    access: $authenticated
+    publish: $authenticated
     proxy: server3
   '**':
-    access: $all
-    publish: $all
+    access: $authenticated
+    publish: $authenticated
     proxy: server3
 
 middlewares:

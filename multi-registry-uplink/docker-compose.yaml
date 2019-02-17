@@ -3,6 +3,8 @@ services:
   verdaccio:
     image: verdaccio/verdaccio:4.x-next
     container_name: verdaccio-multi-1
+    environment:
+     - NODE_DEBUG=request
     ports:
       - "4873:4873"
     volumes:
@@ -15,6 +17,8 @@ services:
   verdaccio2:
     image: verdaccio/verdaccio:2
     container_name: verdaccio-multi-2
+    #environment:
+    # - NODE_DEBUG=request
     ports:
       - "4874:4873"
     volumes:
@@ -23,6 +27,8 @@ services:
   verdaccio3:
     image: verdaccio/verdaccio:3
     container_name: verdaccio-multi-3
+    #environment:
+    # - NODE_DEBUG=request
     ports:
       - "4875:4873"
     links:
