@@ -15,7 +15,10 @@ packages:
     access: $authenticated
     publish: $authenticated
     proxy: npmjs
-
+  'vue':
+    access: $all
+    publish: $all
+    proxy: npmjs
   '**':
     access: $authenticated
     publish: $authenticated
