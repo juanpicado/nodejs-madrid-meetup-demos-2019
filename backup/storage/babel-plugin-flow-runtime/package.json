@@ -1,0 +1,2251 @@
+{
+	"name": "babel-plugin-flow-runtime",
+	"versions": {
+		"0.0.0": {
+			"name": "babel-plugin-flow-runtime",
+			"version": "0.0.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.17.0",
+				"babel-traverse": "^6.16.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.13.0",
+				"flow-config-parser": "^0.0.0",
+				"camelcase": "^3.0.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "babel-plugin-flow-runtime@0.0.0",
+			"_shasum": "ce95277d16eff645b4feff84b9837f86f9b81a75",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "ce95277d16eff645b4feff84b9837f86f9b81a75",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.0.0.tgz_1479576113578_0.4425163837149739"
+			},
+			"directories": {}
+		},
+		"0.0.1": {
+			"name": "babel-plugin-flow-runtime",
+			"version": "0.0.1",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"bluebird": "^3.4.7",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.1"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "babel-plugin-flow-runtime@0.0.1",
+			"_shasum": "30304450a680726447000d459dbcff6e71f48719",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "30304450a680726447000d459dbcff6e71f48719",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.0.1.tgz_1483551140295_0.40177093842066824"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "babel-plugin-flow-runtime",
+			"version": "0.0.2",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"bluebird": "^3.4.7",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.2"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "babel-plugin-flow-runtime@0.0.2",
+			"_shasum": "d7a112a08cef7ece002d530b130db8ecc9054255",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "d7a112a08cef7ece002d530b130db8ecc9054255",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.0.2.tgz_1483552531409_0.4526638020761311"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "babel-plugin-flow-runtime",
+			"version": "0.0.3",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"bluebird": "^3.4.7",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.3"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "babel-plugin-flow-runtime@0.0.3",
+			"_shasum": "e359fe401183fd0f27c6d9a770305e5f4321d391",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "e359fe401183fd0f27c6d9a770305e5f4321d391",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.0.3.tgz_1483554124234_0.6427193228155375"
+			},
+			"directories": {}
+		},
+		"0.0.4": {
+			"name": "babel-plugin-flow-runtime",
+			"version": "0.0.4",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"bluebird": "^3.4.7",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.4"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "babel-plugin-flow-runtime@0.0.4",
+			"_shasum": "43ae1557f5aef799f5541e698f6be2e40b992692",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "43ae1557f5aef799f5541e698f6be2e40b992692",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.0.4.tgz_1483992256345_0.03502351022325456"
+			},
+			"directories": {}
+		},
+		"0.0.5": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.0.5",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"bluebird": "^3.4.7",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.5"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.0.5",
+			"_shasum": "fabfbd8fd5629f84e3edaddaecb7023833a420b1",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "fabfbd8fd5629f84e3edaddaecb7023833a420b1",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.0.5.tgz_1484005598849_0.17532167281024158"
+			},
+			"directories": {}
+		},
+		"0.0.6": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.0.6",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.6"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.0.6",
+			"_shasum": "7fd8176c2aecd0b5b9288ca78e02b1e9532825c9",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "7fd8176c2aecd0b5b9288ca78e02b1e9532825c9",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.0.6.tgz_1484101582264_0.9853924913331866"
+			},
+			"directories": {}
+		},
+		"0.0.7": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.0.7",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.6"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.0.7",
+			"_shasum": "09f80566cf4ce7200d9e12844c96c72049f96d44",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "09f80566cf4ce7200d9e12844c96c72049f96d44",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.7.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.0.7.tgz_1484193510656_0.9063635766506195"
+			},
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.1.1",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.6"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.1.1",
+			"_shasum": "0716dfc58d349e93ad45820745e69cb84b03abe3",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "0716dfc58d349e93ad45820745e69cb84b03abe3",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.1.1.tgz_1484579296956_0.4376815645955503"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.2.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.6"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.2.0",
+			"_shasum": "291aaacc9f77c9c6f5b080647ad4e616086cc275",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "291aaacc9f77c9c6f5b080647ad4e616086cc275",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.2.0.tgz_1484782930883_0.7294004028663039"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.2.1",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.0.6"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.2.1",
+			"_shasum": "f729014ac24051ffbba0583f87fb4dbff9bbe5e9",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "f729014ac24051ffbba0583f87fb4dbff9bbe5e9",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.2.1.tgz_1484787565392_0.8748691496439278"
+			},
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.3.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.3.0",
+			"_shasum": "27cb1b3b5dbf957e23f24efc2a82db00afe6e6b4",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "27cb1b3b5dbf957e23f24efc2a82db00afe6e6b4",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.3.0.tgz_1486559455889_0.9169732721056789"
+			},
+			"directories": {}
+		},
+		"0.4.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.4.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.4.0",
+			"_shasum": "27cc3e01e89ac40078aab808140ce145fe2da86a",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "27cc3e01e89ac40078aab808140ce145fe2da86a",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.4.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.4.0.tgz_1487213664649_0.16082417871803045"
+			},
+			"directories": {}
+		},
+		"0.5.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.5.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.5.0",
+			"_shasum": "854ef8d902847daab20ac1d80de63c7bea8ba8bd",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "854ef8d902847daab20ac1d80de63c7bea8ba8bd",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.5.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.5.0.tgz_1487217883759_0.6402934093493968"
+			},
+			"directories": {}
+		},
+		"0.6.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.6.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.14.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.6.0",
+			"_shasum": "d99a2a36c30966bb454c63d9efd89e51ea3316fa",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "d99a2a36c30966bb454c63d9efd89e51ea3316fa",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.6.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.6.0.tgz_1487976195196_0.9531448851339519"
+			},
+			"directories": {}
+		},
+		"0.6.1": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.6.1",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.6.1",
+			"_shasum": "1a4c98e350086a53e785a691a7f9a00f552c181a",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "1a4c98e350086a53e785a691a7f9a00f552c181a",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.6.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.6.1.tgz_1488230145230_0.2580621128436178"
+			},
+			"directories": {}
+		},
+		"0.7.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.7.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.7.0",
+			"_shasum": "3b55c9af1e42504f20a2786ef4e4b639968f93e8",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "3b55c9af1e42504f20a2786ef4e4b639968f93e8",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.7.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.7.0.tgz_1488589402976_0.8350896339397877"
+			},
+			"directories": {}
+		},
+		"0.8.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.8.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.8.0",
+			"_shasum": "38c9fc2dc1eb008fe73a3d97f6ca7b76d80686a2",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "38c9fc2dc1eb008fe73a3d97f6ca7b76d80686a2",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.8.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.8.0.tgz_1488849906727_0.12611370044760406"
+			},
+			"directories": {}
+		},
+		"0.9.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.9.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.9.0",
+			"_shasum": "ab54ba0cbc618972b971104ac41da030e3e8b08a",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "ab54ba0cbc618972b971104ac41da030e3e8b08a",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.9.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.9.0.tgz_1489271384997_0.6352188121527433"
+			},
+			"directories": {}
+		},
+		"0.9.1": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.9.1",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.9.1",
+			"_shasum": "3673a8722aa22552a604b4a647db05a3f2063fda",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "3673a8722aa22552a604b4a647db05a3f2063fda",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.9.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.9.1.tgz_1489272582273_0.5528412612620741"
+			},
+			"directories": {}
+		},
+		"0.10.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.10.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.10.0",
+			"_shasum": "de60b8c64ce0eec6b13663a129d79ec46b97cb2d",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "de60b8c64ce0eec6b13663a129d79ec46b97cb2d",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.10.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.10.0.tgz_1489705488702_0.9206026790197939"
+			},
+			"directories": {}
+		},
+		"0.11.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.11.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.11.0",
+			"_shasum": "5359126bba20778dc9e085afb2e466df9ed79c23",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "5359126bba20778dc9e085afb2e466df9ed79c23",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.11.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.11.0.tgz_1493511657651_0.9550841539166868"
+			},
+			"directories": {}
+		},
+		"0.11.1": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.11.1",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.11.1",
+			"_shasum": "5bccef681c75a126d6c81db3560dabf075e19d22",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "5bccef681c75a126d6c81db3560dabf075e19d22",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.11.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.11.1.tgz_1493511801084_0.06663468643091619"
+			},
+			"directories": {}
+		},
+		"0.15.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.15.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "0.52.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.15.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"integrity": "sha512-/7Nl5Ld+pDzRsY62pbob1J6+bHebLgYWXLxapJxrHEx3c6NIUn8fOtsoTcAV4omGpHRykyi31rIxgCyBCIhAng==",
+				"shasum": "fb2b427a75c1ba1cef7f0ee52111fdb8c265b992",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.15.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-flow-runtime-0.15.0.tgz_1510785022038_0.7288825553841889"
+			},
+			"directories": {}
+		},
+		"0.17.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.17.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"dedent": "^0.6.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "0.52.0",
+				"flow-typed": "^2.0.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.21.0",
+				"babel-traverse": "^6.20.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.16.1",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.17.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"integrity": "sha512-6u9abuyr26AFzJJ7tENieAHvK37RvO5atKbZ/oIdXHABE2dHkurgdgYTDQRznmNUx+ppx2ORkwy5GBKXTake3g==",
+				"shasum": "51d7b2e6a526edc48fad8d8eed45bf7cc32ffc08",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.17.0.tgz",
+				"fileCount": 438,
+				"unpackedSize": 804132
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-flow-runtime_0.17.0_1518048358374_0.5797619494295057"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.18.0": {
+			"name": "babel-plugin-flow-runtime",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.18.0",
+			"description": "Transforms flow type annotations into flow-runtime types, optionally adds runtime type validation to annotated code.",
+			"main": "babel-plugin-flow-runtime.js",
+			"scripts": {
+				"lint": "eslint ./src",
+				"lint-fix": "eslint --fix ./src",
+				"flow": "flow",
+				"prepublishOnly": "npm run lint && flow && npm run test && npm run build",
+				"build": "rimraf ./lib && babel -d ./lib ./src && npm run makeFixturesJSON",
+				"makeFixturesJSON": "node tools/makeFixturesJSON.js > ./fixtures.json",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"@babel/cli": "^7.2.0",
+				"@babel/core": "^7.2.0",
+				"@babel/helper-plugin-utils": "^7.0.0",
+				"@babel/plugin-proposal-class-properties": "^7.2.1",
+				"@babel/plugin-proposal-decorators": "^7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+				"@babel/plugin-transform-regenerator": "^7.0.0",
+				"@babel/polyfill": "^7.0.0",
+				"@babel/preset-env": "^7.2.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"babel-eslint": "^10.0.0",
+				"dedent": "^0.6.0",
+				"eslint": "^5.0.0",
+				"eslint-plugin-babel": "^5.0.0",
+				"eslint-plugin-flowtype": "^3.0.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^6.0.0",
+				"eslint-plugin-react": "^7.0.0",
+				"flow-bin": "^0.88.0",
+				"json-loader": "^0.5.4",
+				"mocha": "^5.0.0",
+				"rimraf": "^2.6.3"
+			},
+			"dependencies": {
+				"@babel/generator": "^7.0.0",
+				"@babel/parser": "^7.0.0",
+				"@babel/traverse": "^7.0.0",
+				"@babel/types": "^7.0.0",
+				"camelcase": "^3.0.0",
+				"flow-config-parser": "^0.3.0"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "babel-plugin-flow-runtime@0.18.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.11.4",
+			"_npmUser": {
+				"name": "jedwards1211",
+				"email": "jedwards@fastmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-KSYqXNez/fxkO6laN535u731pRVbPEZOpZkiJafURoTP8fEEqIgM82vRyT05OZtR7kYY6FaetwtFcoY2QBN3PQ==",
+				"shasum": "09756cff0360f7c1149c4492f1f849dd98d2d552",
+				"tarball": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.18.0.tgz",
+				"fileCount": 444,
+				"unpackedSize": 1274626,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcO6xqCRA9TVsSAnZWagAAweYQAJWhXpNt6703CCQ82HYN\n7QJHXWp67snXacG740zYwVcuFgqH00MfTG18Vascb44efu/mQW3+ToidZM5z\nsk5qsgMtedsimK4GKcWUcKlvCHqDQsSTDuoKHpKU34sftVS9nhodc5GIHQbY\ntsF0PgJA102M9DjfxWJeIg2WQTLuud+jSuZ/xWMDA9PRKk1zj44J/ypVf8B/\nSPF67MASXGhXRlDyZD2hiqjBTHW4f9xXMQKBOHNC9r2UQb0TOAfnuw4VQCoT\nXCDd26KbHt2r/o1YhzPRBOklpx2cW7wYxKdcr3mKdUu+vjzCbgJ7mrUSmMz7\nODwCZpyOOFIj73pYhLh21FLEUMLTmk1rhulq3SqzVyYEtgw43X9zWnqE2RYA\nzSaiIkmida4MFX2yF74u4Tl4yh1a7CH5bhl/h4La/0OJ21VgjR4kzN3Uy8eJ\nVaJGEd5k8bhPaywyROX3kAzp0JDb5t3dXTnhQ+mzHFqnQTm4frS6A5kYB5dJ\nq+mjjeOOXzBnSCDZST7irxf5vLMECyNe/pXrBSmhR+uqK6oq90yZZ6BHSKTc\nTHl4eAPZr4gmj8aeVAmeXuTxMKZdg+/wNKS/YHhEeB/m69wlwL0QzCblzB2S\nn+0twmZrEa8CjJ6BS78w64IXh6QCKF2aC3Sk1qApyohYoKfVcTJIfY9my122\nNH97\r\n=Fgsg\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "charles@codemix.com",
+					"name": "charlespick"
+				},
+				{
+					"email": "jedwards@fastmail.com",
+					"name": "jedwards1211"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-flow-runtime_0.18.0_1547414634057_0.5986051944010347"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2019-01-13T21:23:56.870Z",
+		"created": "2016-11-19T17:21:54.152Z",
+		"0.0.0": "2016-11-19T17:21:54.152Z",
+		"0.0.1": "2017-01-04T17:32:22.535Z",
+		"0.0.2": "2017-01-04T17:55:33.599Z",
+		"0.0.3": "2017-01-04T18:22:06.392Z",
+		"0.0.4": "2017-01-09T20:04:17.089Z",
+		"0.0.5": "2017-01-09T23:46:41.196Z",
+		"0.0.6": "2017-01-11T02:26:22.834Z",
+		"0.0.7": "2017-01-12T03:58:32.723Z",
+		"0.1.1": "2017-01-16T15:08:17.591Z",
+		"0.2.0": "2017-01-18T23:42:13.101Z",
+		"0.2.1": "2017-01-19T00:59:26.018Z",
+		"0.3.0": "2017-02-08T13:10:56.555Z",
+		"0.4.0": "2017-02-16T02:54:26.999Z",
+		"0.5.0": "2017-02-16T04:04:45.733Z",
+		"0.6.0": "2017-02-24T22:43:17.293Z",
+		"0.6.1": "2017-02-27T21:15:46.010Z",
+		"0.7.0": "2017-03-04T01:03:23.856Z",
+		"0.8.0": "2017-03-07T01:25:08.825Z",
+		"0.9.0": "2017-03-11T22:29:46.969Z",
+		"0.9.1": "2017-03-11T22:49:44.460Z",
+		"0.10.0": "2017-03-16T23:04:50.948Z",
+		"0.11.0": "2017-04-30T00:20:59.779Z",
+		"0.11.1": "2017-04-30T00:23:21.699Z",
+		"0.15.0": "2017-11-15T22:30:23.230Z",
+		"0.17.0": "2018-02-08T00:05:59.306Z",
+		"0.18.0": "2019-01-13T21:23:54.242Z"
+	},
+	"dist-tags": {
+		"latest": "0.18.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"982b473adb191bf1cb17c06521db934e\"",
+			"fetched": 1551301856211
+		}
+	},
+	"_distfiles": {
+		"babel-plugin-flow-runtime-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.0.tgz",
+			"sha": "ce95277d16eff645b4feff84b9837f86f9b81a75",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.1.tgz",
+			"sha": "30304450a680726447000d459dbcff6e71f48719",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.2.tgz",
+			"sha": "d7a112a08cef7ece002d530b130db8ecc9054255",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.3.tgz",
+			"sha": "e359fe401183fd0f27c6d9a770305e5f4321d391",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.4.tgz",
+			"sha": "43ae1557f5aef799f5541e698f6be2e40b992692",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.5.tgz",
+			"sha": "fabfbd8fd5629f84e3edaddaecb7023833a420b1",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.6.tgz",
+			"sha": "7fd8176c2aecd0b5b9288ca78e02b1e9532825c9",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.0.7.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.0.7.tgz",
+			"sha": "09f80566cf4ce7200d9e12844c96c72049f96d44",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.1.1.tgz",
+			"sha": "0716dfc58d349e93ad45820745e69cb84b03abe3",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.2.0.tgz",
+			"sha": "291aaacc9f77c9c6f5b080647ad4e616086cc275",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.2.1.tgz",
+			"sha": "f729014ac24051ffbba0583f87fb4dbff9bbe5e9",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.3.0.tgz",
+			"sha": "27cb1b3b5dbf957e23f24efc2a82db00afe6e6b4",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.4.0.tgz",
+			"sha": "27cc3e01e89ac40078aab808140ce145fe2da86a",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.5.0.tgz",
+			"sha": "854ef8d902847daab20ac1d80de63c7bea8ba8bd",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.6.0.tgz",
+			"sha": "d99a2a36c30966bb454c63d9efd89e51ea3316fa",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.6.1.tgz",
+			"sha": "1a4c98e350086a53e785a691a7f9a00f552c181a",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.7.0.tgz",
+			"sha": "3b55c9af1e42504f20a2786ef4e4b639968f93e8",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.8.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.8.0.tgz",
+			"sha": "38c9fc2dc1eb008fe73a3d97f6ca7b76d80686a2",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.9.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.9.0.tgz",
+			"sha": "ab54ba0cbc618972b971104ac41da030e3e8b08a",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.9.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.9.1.tgz",
+			"sha": "3673a8722aa22552a604b4a647db05a3f2063fda",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.10.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.10.0.tgz",
+			"sha": "de60b8c64ce0eec6b13663a129d79ec46b97cb2d",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.11.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.11.0.tgz",
+			"sha": "5359126bba20778dc9e085afb2e466df9ed79c23",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.11.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.11.1.tgz",
+			"sha": "5bccef681c75a126d6c81db3560dabf075e19d22",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.15.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.15.0.tgz",
+			"sha": "fb2b427a75c1ba1cef7f0ee52111fdb8c265b992",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.17.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.17.0.tgz",
+			"sha": "51d7b2e6a526edc48fad8d8eed45bf7cc32ffc08",
+			"registry": "npmjs"
+		},
+		"babel-plugin-flow-runtime-0.18.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-flow-runtime/-/babel-plugin-flow-runtime-0.18.0.tgz",
+			"sha": "09756cff0360f7c1149c4492f1f849dd98d2d552",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"babel-plugin-flow-runtime-0.18.0.tgz": {
+			"shasum": "09756cff0360f7c1149c4492f1f849dd98d2d552"
+		}
+	},
+	"_rev": "4-9cf1111b328b5378",
+	"readme": "# Babel Plugin Flow Runtime\n\nA babel plugin which transforms [Flow](https://flowtype.org/) annotations into `Type` instances available at runtime, and optionally checks values against those types.\n\nSupports all of flow's syntax, aims for full compatibilty with flow, found a bug? Please [report it](https://github.com/codemix/flow-runtime/issues).\n\n\n## What?\n\nTurns code like this:\n\n```js\ntype User = {\n  id: number;\n  name: string;\n};\n```\n\nInto code like this:\n\n```js\nimport t from 'flow-runtime';\nconst User = t.type('User', t.object(\n  t.property('id', t.number()),\n  t.property('name', t.string())\n));\n```\n\nWhich you can then use like this:\n\n```js\nUser.assert({id: 123, name: 'Sally'}); // ok\nUser.assert({id: false, name: 'Bob'}); // throws\n```\n\n\n## Installation\n\nThis plugin has a runtime dependency on [flow-runtime](https://github.com/codemix/flow-runtime/tree/master/packages/flow-runtime), so make sure you install that along with this package:\n\n```sh\nnpm install --save-dev babel-plugin-flow-runtime\nnpm install --save flow-runtime\n```\n\nNext, add the following to your babel configuration or `.babelrc`:\n\n```json\n{\n  \"plugins\": [[\"flow-runtime\", {\n    \"assert\": true,\n    \"annotate\": true\n  }]]\n}\n```\n\n## Options\n\nThe plugin supports the following options:\n\n- `assert` - Boolean, indicates whether types should be asserted at runtime. Defaults to `true` if `process.env.NODE_ENV === 'development'`, otherwise `false`.\n- `annotate` - Boolean, indicates whether object or function values that have type annotations should be decorated with those types at runtime. Defaults to `true`.\n- `libraryName` - String, indicates which runtime to use. Defaults to `flow-runtime`\n\n\nIf `assert` is `true`, the following code:\n```js\nconst add = (a: number, b: number): number => a + b;\n```\nwill be transformed into:\n```js\nimport t from 'flow-runtime';\nconst add = (a, b) => {\n  let _aType = t.number();\n  let _bType = t.number();\n  const _returnType = t.return(t.number());\n  t.param('a', _aType).assert(a);\n  t.param('b', _bType).assert(b);\n  return _returnType.assert(a + b);\n};\n```\n\nWhich is very safe, and can be very useful during development, but has a non-trivial performance overhead. It's usually a good idea to disable this feature in production.\n\n\nIf `annotate` is `true`, the following:\n```js\nconst add = (a: number, b: number): number => a + b;\n```\nwill be transformed into:\n```js\nimport t from 'flow-runtime';\nconst add = t.annotate(\n  (a, b) => a + b,\n  t.function(\n    t.param('a', t.number()),\n    t.param('b', t.number()),\n    t.return(t.number())\n  )\n);\n```\n\nNow invoking `add(x, y)` does not incur any overhead, as the parameters are not checked, but the type information is preserved and available for inspection:\n```js\nconsole.log(String(t.typeOf(add))); // (a: number, b: number) => number\n```\n\nIf both `assert` and `annotate` are `false` then value annotations are ignored, but type aliases are still transformed:\n```js\ntype User = {\n  id: number;\n  name: string;\n};\n```\nturns into:\n```js\nimport t from 'flow-runtime';\nconst User = t.type('User', t.object(\n  t.property('id', t.number()),\n  t.property('name', t.string())\n));\n```\n\n## React Prop Types\n\nWhen the plugin encounters a React component with a `props` type annotation, the annotation is converted to react prop types:\n\n```js\nimport React from 'react';\n\ntype Props = {\n  name: string;\n};\n\nexport class App extends React.Component<void, Props, void> {\n  render () {\n    return <h1>{this.props.name}</h1>;\n  }\n}\n```\n\nBecomes\n\n```js\nimport t from 'flow-runtime';\nimport React from 'react';\n\nconst Props = t.type('Props', t.object(\n  t.property('name', t.string())\n));\n\nexport class App extends React.Component {\n  static propTypes = t.propTypes(Props);\n  render () {\n    return <h1>{this.props.name}</h1>;\n  }\n}\n```"
+}

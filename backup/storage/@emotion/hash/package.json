@@ -1,0 +1,604 @@
+{
+	"name": "@emotion/hash",
+	"versions": {
+		"0.6.2": {
+			"name": "@emotion/hash",
+			"version": "0.6.2",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"_id": "@emotion/hash@0.6.2",
+			"dist": {
+				"shasum": "4cfe6b57e251aa7f254750ddac7c449ff99c476f",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.2.tgz",
+				"fileCount": 12,
+				"unpackedSize": 10048,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa0dBJCRA9TVsSAnZWagAAhDEP/iq351AUVJQxvnKINDdG\nfsfPgWVND6eRwIBgmmQsjAiUDV996kRxRj8MqWXNkYJmz/+CGC0TE+yDjNm7\nj+H/1sYdNn5e+NWj6ywvh6VS7GMBH3W3mW+glNT9gI2b8KfA/qxfcidzEvyv\niw3uxsLcJKZMiSaP7HHtMlEeyVi6oZ355naFwtlPo1y3rRMFKZl8QxktT+X3\nQ48PS1bLmV71ACeKgw4JCSZ5tKZASnGTuZ1rh2HrNXrlBwt1OAwJBAB1/sD/\nonCf0s1LXrFhLZc4MxbZETJvE6hGn+fAXZg+xJujJM7BtVilen/CqQROHX/w\nUHDqaq6Q3VqloObKQss/Qq14+UaZ5dQnVjEmFJE8CIJNltHxSDLbWd6MOibh\nrGOGLk8XNQhZZqf5oFLSbJ19dJwppItsUyDdmpHtGuRH//NV9hYq62xsfRjA\nE6XAH4ZRwPfPxwaXgsbpgo2zK0B5mNsitdCle4kssiKyvTjdIYiENGAPIb5d\nVRh7QgWIYdfSthxmsx5WAJgZDxps4iiRUPTVikaiwrcpnnYoOBf7yOXZujeh\n1L0J9KHR6gMdzuMn5S8D4eit/7VqteBvDSmgJavoEQUq4feMMqLXQfGSW4lQ\nnDJgO9BPHPSdltG2pa9TN+uSTRc8lKccmGGgF2Yg3IDvwkY9YcDQEIvfBolY\nt1gQ\r\n=DUzr\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_0.6.2_1523699785521_0.23576355162942253"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.6.3": {
+			"name": "@emotion/hash",
+			"version": "0.6.3",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"_id": "@emotion/hash@0.6.3",
+			"dist": {
+				"shasum": "0e7a5604626fc6c6d4ac4061a2f5ac80d50262a4",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.3.tgz",
+				"fileCount": 14,
+				"unpackedSize": 12281,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa5DipCRA9TVsSAnZWagAAJJAQAKPUbh/KABlE3nj4OF6t\nsfYNABIpnoUddHUDplLtYuH5xexGOYNLhaAIQF7sv6D5Zh5XgvSBslcAs19f\nBDaQcOkRbzoXumbqoAFJSdNB/ktLuHxiHwy6vTiIoSSIKTUNdsTzJVRIjZkE\nprqLtekEeHac6FwwkF6Flini/5ZrW7xCZNBhL2g2tMl5rUrpd9O/7dgBW5bQ\ncrePIXkdSCsC18aIFWthkL7LyuBse7Vd2r3qpS1wD42Kf/AVhRLD2IK6Fshd\nLdcszGyfJNBNZD6E7xgFMzjQnOwkfHvoxDwq2lhKcjnfPfN2ESt61MA5YVTl\nZ2HzwIVuePiGUUL5yWS95cj6u1baffueFKeFXpfZdY2HHWbalZBOGGywKTvl\n/7zJdWa+fcJ9ozAaCsBYtg9NW6JcigK60mrDqNCqE+iHWtxXoAJ2qmAn9JWL\nYRtkvhj/Kn/I0JDunTkoLa5hDeJg7mjBDFfRd3Etj1iKRviztCN80JSYT8hN\np0YAXoptmZq79PEozZJzLI0RJGi72uwJ00wa6RiCnQEXKW5qMUCbwxqL5Y8R\n9ePWsNUMQwEK+YPKnFGnEQL+mdZ3ALLMvHmfBduJNeZhTcmkCwySAESaHQGq\nVv9nVohOFH6XzdBbzKyY0btjvwBAoFxubhiWztjB02jo8LSuJfEuD4IFuUew\ngyNK\r\n=9PbW\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_0.6.3_1524906152869_0.9143364951028949"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.6.4": {
+			"name": "@emotion/hash",
+			"version": "0.6.4",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"_id": "@emotion/hash@0.6.4",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.6.1",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-99L59dC9A6Gwva4SHbUZKhXN8kDvF33qsjr8RD7IwQwgTE/kd1nGdzZmHVQGgqDnHdksTGPSYHqMYwt0pX397w==",
+				"shasum": "323e395e350fdf878ce05dd63f7c9c7bf0e979d4",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.4.tgz",
+				"fileCount": 9,
+				"unpackedSize": 12126,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbSXdlCRA9TVsSAnZWagAAgusP/02jE70O+KFQvGNg7ESA\nAkJr8ETG4PWQFr8Q7IDj6KoLy4wpLkAXNXh53oWbdqBcVuiXB0IF5GdPEj9T\ngwx0/ucRCdd460ull/+W5US0zS3U8yBYU4FfZc9bjnbK2J9TDTKESMrwcIYG\n9lrX58qkW/+aYQG9Ug8EPqzeid0n8jzBje8tPJJSDGDp9qceCsSBmzFE3Sta\nvg44FZIZac9l756KYUvskNBKs+bbO3nWS73lFcuEekDKK3AguikMiWyayH1s\nzuHFbHY5kOnMBhdL0blK8+wQxgK32NTGvfWgYxRQAXPks7ychKEECRuSMLYy\nDHKkzCLUnTvycg4EuW53nHVZdOw/pDz70oEEh3EkbRMg/QtBI5IoxaIbA4tA\nuwEMTrqqRSa3mSV8/nfiTKsPqoBp2lbbqG6PSapv3vWipo136jiwi4ojEJdC\nnbf0XCGdqDXEne4VowVEKriGGtV7oEKSu2EpAfyRLJDd82GRzR0ojV4AVr1+\nVkLoL5QGdpjdCSLvvB41nttUo+3P5IjaRwxXB2qd+PuUM87bwE9yUCZAJ0gz\nHIktZ4jameaew8GJ93lfmROXdVxBzDXAtbYmVh0vRSlqI0i8g4CvlELiqGP9\nx38pMcgbAj8N8jt/fho3ihEG1ltehBXDtQVlzm9ykgUB4gcQgTOaT0qX3bs3\nWfdK\r\n=6NgU\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_0.6.4_1531541349539_0.5094769700706772"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.6.5": {
+			"name": "@emotion/hash",
+			"version": "0.6.5",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/hash.cjs.js",
+			"module": "dist/hash.esm.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"_id": "@emotion/hash@0.6.5",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.6.1",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-JlZbn5+adseTdDPTUkx/O1/UZbhaGR5fCLLWQDCIJ4eP9fJcVdP/qjlTveEX6mkNoJHWFbZ47wArWQQ0Qk6nMA==",
+				"shasum": "097729b84a5164f71f9acd2570ecfd1354d7b360",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.5.tgz",
+				"fileCount": 11,
+				"unpackedSize": 12286,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbSsf1CRA9TVsSAnZWagAA5VYP/j9YSM9gVcPH3ShyWnus\n+nJ6ITmNOspsloYmEHPHpoQc2UbPbylfF7k6yd7XOsjwpicgU5H09bEyjwpV\nakZ6N6hxXGHCOwHQ9ofbzhaWOXRpxYPlr9SZoAmymkDdaWhOsGDQjim7udhO\npoTqPW63nI5QHsWHMrvlGhKLUnuW+sWVLczq+tzhopuwt80/2ANi1qIjc819\nytqIrNH7k0OVURle2zY8RnjXthzaCswI4Ka+BSW3Ck4vrh9ZmaqG7Oa7twpZ\nDAsCWMeBgMb1cc2ohdginSZSZs3cTzjkWosiVeQtwQ8PJrGTTyLuh1K0/ryH\nsgBzLzzpbj0Fw6hdz3scEdgnTrPsQPiz9hLlvHfgzqBvEmjT1noMSE6sa6If\nTTx/3NTVCBHtyloAoAma5UwiFdAKI46EgtyhI5zeO6wgQpZNNy6o2c7ZSEf/\n2CmxvSTKM1VbzNu9iTGJ2/5E+7T/xNxF+Q4xRvj9PSpcGkaEaF60Quxkz4Wb\nMuUZzmeOLGnIqf5KIOhdqtL6UKjcOb4Qg1ACoL5zOH6Io1NCNjqx0NW3T17J\n+So+g3Ohz1mXSRhrAEirqF9MhvWLoPzoXRXf5j09uoDb5REekiOjOSl2Tc1H\nml3aUI8YsQ3b9Qjq/Am4ZFz8/MbTCEHgUnKFjrqTey1f8WKU0vR17MnrgD2z\nvujm\r\n=nsFm\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_0.6.5_1531627508781_0.6875877073328416"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.6.6": {
+			"name": "@emotion/hash",
+			"version": "0.6.6",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/hash.cjs.js",
+			"module": "dist/hash.esm.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"gitHead": "94fed7652759a0f1962da66b922299398e39fe4d",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:emotion-hash-0.6.6.tgz",
+			"_id": "@emotion/hash@0.6.6",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.10.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-ojhgxzUHZ7am3D2jHkMzPpsBAiB005GF5YU4ea+8DNPybMk01JJUM9V9YRlF/GE95tcOm8DxQvWA2jq19bGalQ==",
+				"shasum": "62266c5f0eac6941fece302abad69f2ee7e25e44",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.6.tgz",
+				"fileCount": 10,
+				"unpackedSize": 8231,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbpAm+CRA9TVsSAnZWagAAm1cQAIJlin5S6LGgGQm/iqwQ\nXq7Ecl2sYpaQuPM3sKw/f6ZctgRah4zVhzYDrKMN40184BjdX5BxFI0cSx02\n3YrQ1TRiUWzfoW6Gk8itzmUMdg3U0Q9//aDjbWsEvDqwgjOFkyAcVxblbrsS\nU58vnrHUMvxx8fv5gS0b5p37EPB1pty+ePEaDOTs5KK4BeCurQiwbhglNBpZ\n+qadkx/NFdgrs1ZVYJUF/PeCK9EEXNz2Ac+jpaWkOeEp0jmK0wnkzQxIBPsl\nPeF2+ERIdD528lJq/j0dC490FN7ygm5IX/QEK2p/JFNNEJRK0HPeIyHqRIOh\nqAyV/LaFDNOx6F8+0xdp2nYkSFXYgjqACVwTBW2w4qwHIFSocTUGDqMYtYrN\nxqEMx+2ZB8ADCj6nXhxxZF6DSrhStPKxnXEGRg0lWvTKGb/N7Lo5IVEl0xj6\nztVqTTMBQbGu9ax+WjXgdwth2Rnr1NR2N1HRy6Jmdv6bNKP2oImdj/JLyuJy\nLKC5i3fYBCz7evRFgr6607BNCHgwaEaZ9PbWycQwKy51uZNj65q3obxSc3kQ\np3rUY4pkWPwUml9GE3XikGzoUp5FefQcT6fZdyiaPxQthrE0v/jiTvi2K86y\nR+Gs5w2/pLBfHDAD82c6Ajwnjqs853Bgnrsa2UnnRxIHPBXreHbM4Rhh3KaV\n51U2\r\n=5O5H\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_0.6.6_1537477053825_0.7322914090646564"
+			},
+			"_hasShrinkwrap": false
+		},
+		"10.0.0-really-unsafe-please-do-not-use.0": {
+			"name": "@emotion/hash",
+			"version": "10.0.0-really-unsafe-please-do-not-use.0",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/hash.cjs.js",
+			"module": "dist/hash.esm.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"browser": {
+				"./dist/hash.cjs.js": "./dist/hash.browser.cjs.js",
+				"./dist/hash.esm.js": "./dist/hash.browser.esm.js"
+			},
+			"gitHead": "a5f3825603dffd69fddb44bf5f29afd7c49eabd5",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:emotion-hash-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+			"readmeFilename": "README.md",
+			"_id": "@emotion/hash@10.0.0-really-unsafe-please-do-not-use.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-VrrltzRkb9waeZJvxK/MMNvjrA4yMOBcjJWgCKlKa6qFDo9sv/4UqHXUq1/I4kv31xb3z1lGdm5S6kT3qK221w==",
+				"shasum": "71f137bfe305d8c817454a405003ed9ee6a137a0",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 12072,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrWjoCRA9TVsSAnZWagAAFH8P/0yUlUKAh1ZoAJ7iZzBT\nmbMafVLVibMLJgp2loYMdmiv0srF3lUOU1K/rOz4uCvu0U+IJ9f91j9r4R6U\nZIch+3jTJAfhuUCL1dK+4AI6Q5sQr6tzLH7TPe43Pfd9yQv4BRvJMbmGeEgB\n7K2Sozj61FQ3U4l07/BdPqPT3ncXB1L2TFdEyKpnNmUR0bE01DChkUaNCPMr\nVZaDkKp8pR9oicPYOckzS2b3vBvuOnztPAPFShJqPPmclhI8WVhSO88JurgI\ncNT31FGFNDgD1oeI5iJ2Cs1oxch/tCd83osvpjVeTvmO9QTZmnl/sOyHq+Ty\n2aqdUj0xgrwrNcJvn+4Dzig0GV+BUs4DYUs4CzZuMO3tARnArFzb8mFWdlss\nVGAYmfqiZ4IEpr8Wpwn8X5YluWtXmIYxa3aT4Qobh9k9xEXYyGA7sZIVzoUP\nB5s2G/EoaN9SAbTlszvvYR4Oy6fUwgqb62FdRK7A+ofYtx2oYwqt3DtJcA3C\niucwR1I57T+AoOALiJbTVeKTvTnACv0v8TjnxQtuyXfZEAgfQPV0YGUiEyVW\nYi6g4runEc9ykNzN8AbS9I/xoC1ly7b7Iq8bZAEvGwHa2NmYgkJX+y7pJBhs\nh8k+EREx6qs24WW3ii4E54eIpRUWykUe8wP9FeD0+YtptCU7dLUMrcx/Wbpi\n5Oex\r\n=F25m\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_10.0.0-really-unsafe-please-do-not-use.0_1538091240274_0.976394266518837"
+			},
+			"_hasShrinkwrap": false
+		},
+		"10.0.0-really-unsafe-please-do-not-use.1": {
+			"name": "@emotion/hash",
+			"version": "10.0.0-really-unsafe-please-do-not-use.1",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/hash.cjs.js",
+			"module": "dist/hash.esm.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"browser": {
+				"./dist/hash.cjs.js": "./dist/hash.browser.cjs.js",
+				"./dist/hash.esm.js": "./dist/hash.browser.esm.js"
+			},
+			"gitHead": "2b1bf6ef43eaa9133ba7a9d7c8d96ebc1d3877e2",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:emotion-hash-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+			"_id": "@emotion/hash@10.0.0-really-unsafe-please-do-not-use.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-6QfKWZFx+dxkjZQ/42y7gmFuWNegmXre4M/j+wRSaYA9i8Isboa6BMNG6uXXVotPMKrCE+BYkhDU02gkT/V/tw==",
+				"shasum": "d8d8018e053ec0164f0b75bbdb645fbf26d75b70",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+				"fileCount": 13,
+				"unpackedSize": 12072,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrauFCRA9TVsSAnZWagAAOjgP/RNeMcruBdPNseNbdNZ+\nUMj4BDvQGfVm0r3nZ4/0864xEiAk9vfVt5KVZzRzm5vCf9x6G3iatYh6jYKb\ntqrcvI+K+chVpqREGeZ5HWbbmibv5MOMUSK3EERln9MJIYOs9PTWOtobVDt5\nbI7VCrZUvNedL8+0+XqqtStezr/3xeVYhoazmGRJ01dsUiv8xPIQHGNP4Iny\ndbgDGgPBd9yMpmc/W7YJ2pfWCKpVuF5HPX82BD63T5mehHmCKSoqB+9ZnbyX\ntWgpWoWVt9juTyMt9kUU9FHlWiVTva6tNtJFQkWCgPjm8HePWw9c/yAW6S3A\np+OsKRrEHDkcjTjAdS9pjsqyWx2e+pRdw2Q1doJd0K3BJN9wlkWg/zUORsMa\ntR9TalMoJFWfxsItq4HTIYNVxRZe58Ca4meXA74JPJO8XJXjWJgo8N/PkL9R\nHtHe7G/aoxVFqqnwtsT0L2ApltrjKlAbvxb5dV5gJDKW7/3AsZ1iFAZc8AcE\n/foYs9CX6Wi/BpQnItziSJhlV77oVqfnxa1/+wbArN4CmD48yNYCIjEfQYwD\nPhLIcdfGWo4w3yAHPV9HlVHBedye8w4UYflWZEV/H8A9j4P4vODCXyct1AIR\neixsdRZRFG1cjXRnPopo28e5IeJL7ziGhsF42dlPysM96OHdz+y2QdY/yHfh\nAUNN\r\n=fU3D\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_10.0.0-really-unsafe-please-do-not-use.1_1538108292043_0.9809327926385336"
+			},
+			"_hasShrinkwrap": false
+		},
+		"10.0.0-really-unsafe-please-do-not-use.2": {
+			"name": "@emotion/hash",
+			"version": "10.0.0-really-unsafe-please-do-not-use.2",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/hash.cjs.js",
+			"module": "dist/hash.esm.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"browser": {
+				"./dist/hash.cjs.js": "./dist/hash.browser.cjs.js",
+				"./dist/hash.esm.js": "./dist/hash.browser.esm.js"
+			},
+			"gitHead": "0da0de50f6f2c19e46bca7662d1a954d48db1264",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:emotion-hash-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+			"readmeFilename": "README.md",
+			"_id": "@emotion/hash@10.0.0-really-unsafe-please-do-not-use.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-VaPXypgD2gjFUzrQ3xZTCeWINL/zme6s8sAMy917IeR2OpfQzwEmXFhRErFSY/5jHBGNU/a3UZ2g8gvcl/0fWA==",
+				"shasum": "f6229d19de147d08d226e21f2d8ef180ef4af1f5",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+				"fileCount": 13,
+				"unpackedSize": 12072,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbra/uCRA9TVsSAnZWagAAg/UP/jl0MEMiIhMyl6n/WLI9\nUhVjPD/S0rsDD3+RcIbTUSsqlXFY0WmcO5P3OGyxSwiWObbe0Jv8tX4VOsbO\n0bQtO/6zkzCyoGcSGPNDKNiXoCKHr8aIfIYFG67d65B52KPHm9cpNBlpJqnw\nE4qGRhRD8dmga7nbvuCetROoE0ijSyFvzE57QajE+rMdmfrc/eC7qhY75lC+\nGaIK/sRitNnuvvmDOERbdyI07cCKZ/+04HC/j5xcfZkWviFB+D2JAreCZydt\nAg/AAV20SE8BfwZf3yjSVrheIMQui9Vw5+owECmnX1bD5v5mYbB/jk4LX8ao\nD88g0sms4BK0ODPQ2+nUQBR+1vMWcUZF5C90aucjticYwg5afVwnYfqK57z6\nFKm+nNyVK7e3ExaYapkezfdZK9+ULrHm7tZkUyPIabFXmwm8tq3oNQtrGwRb\ndne72REL0k2Cq4mX7UPn+E/h7oGxMyCKyM4dhAkc/sEsHTYNFIMd+gtZa33c\ntwozUuDMq2BG9HbFNDt9QhF1DX04VqxgH0xHqxrb8zuEKLFqhTo+qsDTwpYT\nxE0jsGfuZGiBzpnT2uSCPNJgPvywGHg1TF+bAocLABxPA2lF78LPbCzDFox2\nbcI0JmzPVr5e9VVT7tzYkUSjJIdlZrzPV7ws1E3oDk1WVqlSdtFgJzK/EweH\nl1SB\r\n=f/0z\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_10.0.0-really-unsafe-please-do-not-use.2_1538109421264_0.6562323405144324"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.7.0": {
+			"name": "@emotion/hash",
+			"version": "0.7.0",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/hash.cjs.js",
+			"module": "dist/hash.esm.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"browser": {
+				"./dist/hash.cjs.js": "./dist/hash.browser.cjs.js",
+				"./dist/hash.esm.js": "./dist/hash.browser.esm.js"
+			},
+			"_id": "@emotion/hash@0.7.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-QgeU1fPmGTrb07IkuIl0+PcrnIz8UbkosC8tG3OEiTsqH1GPorqKZQzY2wA2dF8xX/I4XV0FQ1UaOwd18sIHIw==",
+				"shasum": "68d9cb2e75fabffbe5cae6c17a91dc287439a0a6",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-0.7.0.tgz",
+				"fileCount": 12,
+				"unpackedSize": 10893,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbwaAZCRA9TVsSAnZWagAABRIP/jbJ4kPozrRE2l5z60ps\nOgcFzsC15Q3EcwWRiNm1IxxFU8gSeIWjcfAG0oJY8Qui/ux+8pSiTUJLQn81\nP40XRLKRpsroKK2CjbyJ4Hvh/RImiVd7HG4NKPccgbAne0cikxU9K1RCTrbV\n4f4eti0pyD/jgEkXgH8SurXuk0SJjC/Ld0AcTsr6GA0wBQ2R4cEsff7cOFl2\nopTIkGic1YoqFub/DMdWNTf9omgjVJ/oE9SDCNo7YtQrVeLryEgKMDRnVy5U\nLDwnJJOPDLXjL5NBVOHOctRzgyyyuiNW7ybM4dJ03bW6NaF4Lj+XCJvPWUMe\nff/0vwVNns3TLSIIMnbfOztiI32L/k5O2hmc4BBiKaXXLo+9gIdWow1+72Md\nvQLBMWepdsR0ZS9G8Vr/5z2ztjFa0PjO8lEnSkoOgFnD/IGhczfJzOO9Bjrn\nZRt+NT6995GYjDvHLIq+/QZt0HEkCRZYXdAdijqK1m4AWNYw4HMI3WyqUPA8\no3Ge6m+BIaymeQVkj/V1pg/QOQwrWDdTJaNbX7kAJOZXYosDCghfKcrWTkMP\nfiiJNDei+FamI7mExV/ApuhHZ+yj2kWTP40CE3x0eeHcgrO1FL4YkeRv29bJ\nQSJI1Wq5jaYeUnS9RSbnYSyCzpWWWyC7oLjRLL1HArnyg06g+gwkgyYH3xjH\nI+mD\r\n=+ic+\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_0.7.0_1539416089058_0.8128501586987382"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.7.1": {
+			"name": "@emotion/hash",
+			"version": "0.7.1",
+			"description": "A MurmurHash2 implementation",
+			"main": "dist/hash.cjs.js",
+			"module": "dist/hash.esm.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/packages/hash"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"browser": {
+				"./dist/hash.cjs.js": "./dist/hash.browser.cjs.js",
+				"./dist/hash.esm.js": "./dist/hash.browser.esm.js"
+			},
+			"_id": "@emotion/hash@0.7.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.1.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-OYpa/Sg+2GDX+jibUfpZVn1YqSVRpYmTLF2eyAfrFTIJSbwyIrc+YscayoykvaOME/wV4BV0Sa0yqdMrgse6mA==",
+				"shasum": "9833722341379fb7d67f06a4b00ab3c37913da53",
+				"tarball": "https://registry.npmjs.org/@emotion/hash/-/hash-0.7.1.tgz",
+				"fileCount": 10,
+				"unpackedSize": 7973,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb8/+ECRA9TVsSAnZWagAAIQ0P/1e0wW9UIEVhteSuwQto\nRRbqJVeSFla35V99IyGV9G2Xh/+UXippo1KaN9yOKmh6rf8RHZihrHArJ28z\nTuDQYk7g6JIR8GdmIM2VjqiPIV0ybu0S/GexqH7qjJ0gYNf/a9YK67B7vYHM\nvEY8wkSh1BF0UpAQ4Y5+hYHwfLzujpbLN4UJvI3AQjxPDvpv6MfhnlX+njhR\n4YaKW9MQl9l+t+yXJDKUyPQwC4+FwlipIPfJzB4j1wrSKwUrRMQG4v6YYkq4\nQOvTQdnyrZFNQ6K9zhkKmEvFsyZC3VxMdXoU1YDCP4sCD6h69AxhiJJXkfIi\n6Au2Z8oK1ypIncTQ7TpcJOE3LE93yAhDCCy99HsrgLvemomIFbcH4Qy0Kouu\npJb2Yh5F50TI448ldLCs0GBz+zKE+USF/K4N2iFelGenR8+/RZe24KxpWNro\nivdZKltsb3pzXwLPTEiPuGgn8c96RBMokpJcXJVBT/EDlh+vyqFnrXv6AnLW\nwT8/r1kIg6lT3uPa8ERV3YKyRvgfPFGFVCTDEEVPfu/hBO/hMBJtWQKycb/E\n6vR/EOLg7DEjZgX8ZJMnCitdU6ytHTeht1zDFRBvL2G9RTH3LVoTc/7Vx4hd\ne+FukLrIBUHGt3YTv/9VkJ7fzkty/MZk5bUHyREXKTzjmR5H671bRt7KLOwf\nY85K\r\n=hOo5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/hash_0.7.1_1542717316147_0.5753025477369909"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2018-04-14T09:56:25.456Z",
+		"0.6.2": "2018-04-14T09:56:25.611Z",
+		"modified": "2018-11-20T12:35:18.860Z",
+		"0.6.3": "2018-04-28T09:02:32.954Z",
+		"0.6.4": "2018-07-14T04:09:09.635Z",
+		"0.6.5": "2018-07-15T04:05:09.014Z",
+		"0.6.6": "2018-09-20T20:57:34.223Z",
+		"10.0.0-really-unsafe-please-do-not-use.0": "2018-09-27T23:34:00.438Z",
+		"10.0.0-really-unsafe-please-do-not-use.1": "2018-09-28T04:18:12.247Z",
+		"10.0.0-really-unsafe-please-do-not-use.2": "2018-09-28T04:37:02.181Z",
+		"0.7.0": "2018-10-13T07:34:49.204Z",
+		"0.7.1": "2018-11-20T12:35:16.275Z"
+	},
+	"dist-tags": {
+		"latest": "0.7.1",
+		"really-unsafe-please-do-not-use": "10.0.0-really-unsafe-please-do-not-use.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"ae8c11cbaacdcf9c9588b117a8c9131e\"",
+			"fetched": 1551301859178
+		}
+	},
+	"_distfiles": {
+		"hash-0.6.2.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.2.tgz",
+			"sha": "4cfe6b57e251aa7f254750ddac7c449ff99c476f",
+			"registry": "npmjs"
+		},
+		"hash-0.6.3.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.3.tgz",
+			"sha": "0e7a5604626fc6c6d4ac4061a2f5ac80d50262a4",
+			"registry": "npmjs"
+		},
+		"hash-0.6.4.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.4.tgz",
+			"sha": "323e395e350fdf878ce05dd63f7c9c7bf0e979d4",
+			"registry": "npmjs"
+		},
+		"hash-0.6.5.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.5.tgz",
+			"sha": "097729b84a5164f71f9acd2570ecfd1354d7b360",
+			"registry": "npmjs"
+		},
+		"hash-0.6.6.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-0.6.6.tgz",
+			"sha": "62266c5f0eac6941fece302abad69f2ee7e25e44",
+			"registry": "npmjs"
+		},
+		"hash-10.0.0-really-unsafe-please-do-not-use.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+			"sha": "71f137bfe305d8c817454a405003ed9ee6a137a0",
+			"registry": "npmjs"
+		},
+		"hash-10.0.0-really-unsafe-please-do-not-use.1.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+			"sha": "d8d8018e053ec0164f0b75bbdb645fbf26d75b70",
+			"registry": "npmjs"
+		},
+		"hash-10.0.0-really-unsafe-please-do-not-use.2.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+			"sha": "f6229d19de147d08d226e21f2d8ef180ef4af1f5",
+			"registry": "npmjs"
+		},
+		"hash-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-0.7.0.tgz",
+			"sha": "68d9cb2e75fabffbe5cae6c17a91dc287439a0a6",
+			"registry": "npmjs"
+		},
+		"hash-0.7.1.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/hash/-/hash-0.7.1.tgz",
+			"sha": "9833722341379fb7d67f06a4b00ab3c37913da53",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"hash-0.6.6.tgz": {
+			"shasum": "62266c5f0eac6941fece302abad69f2ee7e25e44"
+		}
+	},
+	"_rev": "4-b098f5099d96c729",
+	"readme": "# @emotion/hash\n\n> A MurmurHash2 implementation\n\n```jsx\nimport hash from '@emotion/hash'\n\nhash('some-string') // 12fj1d\n```\n\nThe source of this is from https://github.com/garycourt/murmurhash-js/blob/master/murmurhash2_gc.js."
+}

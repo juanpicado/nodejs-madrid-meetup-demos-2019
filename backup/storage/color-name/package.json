@@ -470,7 +470,7 @@
 	"_uplinks": {
 		"npmjs": {
 			"etag": "W/\"68499672f8aca14e62dccba8bf3b8402\"",
-			"fetched": 1550359659825
+			"fetched": 1551301920549
 		}
 	},
 	"_distfiles": {
@@ -520,8 +520,12 @@
 			"registry": "npmjs"
 		}
 	},
-	"_attachments": {},
-	"_rev": "1-de6a227262b1239d",
+	"_attachments": {
+		"color-name-1.1.3.tgz": {
+			"shasum": "a7d0558bd89c42f795dd42328f740831ca53bc25"
+		}
+	},
+	"_rev": "3-e1e67d466dcd6efb",
 	"_id": "color-name",
 	"readme": "A JSON with color names and its values. Based on http://dev.w3.org/csswg/css-color/#named-colors.\r\n\r\n[![NPM](https://nodei.co/npm/color-name.png?mini=true)](https://nodei.co/npm/color-name/)\r\n\r\n\r\n```js\r\nvar colors = require('color-name');\r\ncolors.red //[255,0,0]\r\n```\r\n\r\n<a href=\"LICENSE\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg\" width=\"120\"/></a>"
 }

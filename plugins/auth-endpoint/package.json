@@ -1,0 +1,15 @@
+{
+  "name": "auth-endpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "BABEL_ENV=registry babel src/ --out-dir build/ --copy-files"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@verdaccio/babel-preset": "0.0.4"
+  }
+}

@@ -1,0 +1,111 @@
+{
+	"name": "@babel/plugin-transform-named-capturing-groups-regex",
+	"versions": {
+		"7.3.0": {
+			"name": "@babel/plugin-transform-named-capturing-groups-regex",
+			"version": "7.3.0",
+			"description": "Compile regular expressions using named groups to ES5.",
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin",
+				"regex",
+				"regexp",
+				"regular expressions"
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-named-capturing-groups-regex"
+			},
+			"bugs": {
+				"url": "https://github.com/babel/babel/issues"
+			},
+			"dependencies": {
+				"regexp-tree": "^0.1.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0",
+				"@babel/helper-plugin-test-runner": "^7.0.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "f6ee26c3da4c903818fd61fd9e5e8e1970185f77",
+			"_id": "@babel/plugin-transform-named-capturing-groups-regex@7.3.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.14.2",
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-NxIoNVhk9ZxS+9lSoAQ/LM0V2UEvARLttEHUrRDGKFaAxOYQcrkN/nLRE+BbbicCAvZPl7wMP0X60HsHE5DtQw==",
+				"shasum": "140b52985b2d6ef0cb092ef3b29502b990f9cd50",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.3.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5933,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcRjpoCRA9TVsSAnZWagAA/a4P/2L7FMZJVRQC1vfLFxb0\nmJrDxuH2hsK1TEwvWGoNznj1PXx8j/PB895eOJSinu1jHOqaaf3CXHlgZLDy\nP0Aohoh3zWWqYc+wtRZNmPOtBtFgKCTJrvCC36EeEfudxKJIS1KgPWkMrInJ\nre06nIJ0OUuqHGl7y3ZBNgqb98pC7ryFbLoIbJKsVtCz7BFYitbew163UsWU\nyCO2vnDD26Xu4q7UjoQ6QLv9I5viiH/5KnXNdOaHwdO+3LTH4lqFf5851sUV\nAB8ydP23KmCnroxY6qCNw9k2qz4w+wleoDwoKXxpF6YHV+7uvmPVUf7Cay6Y\nrBX+vleNw782nLofDS6IFPCIAgfio6nvJxEIWBcfCD+imTpcPlqlNGOd7EI+\nCpN015YnMrVNojV8EbE89iP57Xgox78cGqdUBT9lpz4qWNBQt43WQoBmhj9f\ndWCAxgLFmttihJKdgfFgGLq2XBmzXZurCYN1vv5Zaek2FFkLCgabhj5lpKYK\n/dIet5FzRCwwCiyGayKwQRTLJNcZhjRHzvNijEU0CkYDsyvhcL3HdQjabaKZ\nbnoBEAMFFfw4OWHbfFYaJnMjItvKD/H4aZOvJlkQ+6rVOlp6EC63gzATWYI+\ncYnvq90DJL9g0YghIrgEU/PnVD6DDc8HHzVSzBhuC7CYa1eR5MA6i9QyMLw3\nRAMT\r\n=NQ/m\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "nicolo-ribaudo",
+					"email": "nicolo.ribaudo@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "danez",
+					"email": "daniel@tschinder.de"
+				},
+				{
+					"name": "existentialism",
+					"email": "bng412@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-transform-named-capturing-groups-regex_7.3.0_1548106343582_0.18280374658578524"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2019-01-21T21:32:23.418Z",
+		"7.3.0": "2019-01-21T21:32:23.697Z",
+		"modified": "2019-01-21T21:32:26.357Z"
+	},
+	"dist-tags": {
+		"latest": "7.3.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e907d1d427c6a480ce9c66e51adf4428\"",
+			"fetched": 1551301857306
+		}
+	},
+	"_distfiles": {
+		"plugin-transform-named-capturing-groups-regex-7.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-transform-named-capturing-groups-regex/-/plugin-transform-named-capturing-groups-regex-7.3.0.tgz",
+			"sha": "140b52985b2d6ef0cb092ef3b29502b990f9cd50",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"plugin-transform-named-capturing-groups-regex-7.3.0.tgz": {
+			"shasum": "140b52985b2d6ef0cb092ef3b29502b990f9cd50"
+		}
+	},
+	"_rev": "4-8c6f7393559b0050",
+	"readme": "# @babel/plugin-transform-named-capturing-groups-regex\n\n> Compile regular expressions using named groups to ES5.\n\nSee our website [@babel/plugin-transform-named-capturing-groups-regex](https://babeljs.io/docs/en/next/babel-plugin-transform-named-capturing-groups-regex.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-transform-named-capturing-groups-regex\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-transform-named-capturing-groups-regex --dev\n```"
+}

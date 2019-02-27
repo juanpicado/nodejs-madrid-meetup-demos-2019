@@ -1,0 +1,2251 @@
+{
+	"name": "test-exclude",
+	"versions": {
+		"1.0.0": {
+			"name": "test-exclude",
+			"version": "1.0.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"coverage": "nyc report --reporter=text-lcov | coveralls",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bcoe/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/bcoe/test-exclude/issues"
+			},
+			"homepage": "https://github.com/bcoe/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.9",
+				"mocha": "^2.5.3",
+				"nyc": "^6.4.4",
+				"standard": "^7.1.2",
+				"standard-version": "^2.3.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"lodash.assign": "^4.0.9",
+				"micromatch": "^2.3.8",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"gitHead": "2a559630140a1ceb93487c29f6808d8cf4a1da3a",
+			"_id": "test-exclude@1.0.0",
+			"_shasum": "ced63b8463bf5a8df501d6f5ab9baaf9a7a2dd50",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "ced63b8463bf5a8df501d6f5ab9baaf9a7a2dd50",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-1.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-1.0.0.tgz_1465192578006_0.9678394263610244"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "test-exclude",
+			"version": "1.1.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"coverage": "nyc report --reporter=text-lcov | coveralls",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bcoe/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/bcoe/test-exclude/issues"
+			},
+			"homepage": "https://github.com/bcoe/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.9",
+				"mocha": "^2.5.3",
+				"nyc": "^6.4.4",
+				"standard": "^7.1.2",
+				"standard-version": "^2.3.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"lodash.assign": "^4.0.9",
+				"micromatch": "^2.3.8",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"gitHead": "d7406b0d00c7a651065e0be51ca83971e8282dfa",
+			"_id": "test-exclude@1.1.0",
+			"_shasum": "f5ddd718927b12fd02f270a0aa939ceb6eea4151",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "f5ddd718927b12fd02f270a0aa939ceb6eea4151",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-1.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-1.1.0.tgz_1465366832939_0.557329352479428"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "test-exclude",
+			"version": "2.0.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^2.5.3",
+				"nyc": "^7.1.0",
+				"standard": "^7.1.2",
+				"standard-version": "^2.4.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"lodash.assign": "^4.1.0",
+				"micromatch": "^2.3.11",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "99d58797d332b81cfbab9d58df5d97db5eadb84a",
+			"_id": "test-exclude@2.0.0",
+			"_shasum": "bacd36d3d37663ece201eb1fac115e45c79c782a",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "bacd36d3d37663ece201eb1fac115e45c79c782a",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-2.0.0.tgz_1470975551394_0.7755239922553301"
+			},
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "test-exclude",
+			"version": "2.1.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^2.5.3",
+				"nyc": "^7.1.0",
+				"standard": "^7.1.2",
+				"standard-version": "^2.4.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"lodash.assign": "^4.1.0",
+				"micromatch": "^2.3.11",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "cce8826fe7e443ae441804f1c8e6760138a8f14e",
+			"_id": "test-exclude@2.1.0",
+			"_shasum": "0c7c1b8de529ceaee717e545e03f1bf248521d82",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "0c7c1b8de529ceaee717e545e03f1bf248521d82",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-2.1.0.tgz_1470976679249_0.14984446042217314"
+			},
+			"directories": {}
+		},
+		"2.1.1": {
+			"name": "test-exclude",
+			"version": "2.1.1",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^2.5.3",
+				"nyc": "^7.1.0",
+				"standard": "^7.1.2",
+				"standard-version": "^2.4.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"lodash.assign": "^4.1.0",
+				"micromatch": "^2.3.11",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "1b559af79cc1ac1504f9aca52cad911f95290451",
+			"_id": "test-exclude@2.1.1",
+			"_shasum": "4f5b7199a0e7da28212a3204f1e7b588278268b7",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "4f5b7199a0e7da28212a3204f1e7b588278268b7",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-2.1.1.tgz_1470978128695_0.8322175100911409"
+			},
+			"directories": {}
+		},
+		"2.1.2": {
+			"name": "test-exclude",
+			"version": "2.1.2",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^2.5.3",
+				"nyc": "^7.1.0",
+				"standard": "^7.1.2",
+				"standard-version": "^2.4.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"lodash.assign": "^4.1.0",
+				"micromatch": "^2.3.11",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "dae5ceb1d33e7f4555286013f197b865ae746a28",
+			"_id": "test-exclude@2.1.2",
+			"_shasum": "186d69b8d8f01e99868ef04f7332a5a1b7c1ae73",
+			"_from": ".",
+			"_npmVersion": "3.10.6",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "186d69b8d8f01e99868ef04f7332a5a1b7c1ae73",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.1.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-2.1.2.tgz_1472660287897_0.10232024267315865"
+			},
+			"directories": {}
+		},
+		"2.1.3": {
+			"name": "test-exclude",
+			"version": "2.1.3",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^2.5.3",
+				"nyc": "^7.1.0",
+				"standard": "^7.1.2",
+				"standard-version": "^2.4.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "74533000658fe836a104c1d24e7bbd46129355f2",
+			"_id": "test-exclude@2.1.3",
+			"_shasum": "a8d8968e1da83266f9864f2852c55e220f06434a",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "a8d8968e1da83266f9864f2852c55e220f06434a",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.1.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-2.1.3.tgz_1475270861719_0.9202085055876523"
+			},
+			"directories": {}
+		},
+		"3.0.0": {
+			"name": "test-exclude",
+			"version": "3.0.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^3.1.2",
+				"nyc": "^8.4.0",
+				"standard": "^8.5.0",
+				"standard-version": "^3.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "6fd9dc1637ef2798b8123755238297ab122c743a",
+			"_id": "test-exclude@3.0.0",
+			"_shasum": "5168720da79677ea1f592dbe283d73d9d753671b",
+			"_from": ".",
+			"_npmVersion": "4.0.0",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "5168720da79677ea1f592dbe283d73d9d753671b",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-3.0.0.tgz_1478996277129_0.8085760453250259"
+			},
+			"directories": {}
+		},
+		"3.1.0": {
+			"name": "test-exclude",
+			"version": "3.1.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^3.1.2",
+				"nyc": "^8.4.0",
+				"standard": "^8.5.0",
+				"standard-version": "^3.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "346fb19f4876692b41156c9d10cc445779b16168",
+			"_id": "test-exclude@3.1.0",
+			"_shasum": "cc518622d89df646add69b062a494339da580d27",
+			"_from": ".",
+			"_npmVersion": "4.0.0",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "cc518622d89df646add69b062a494339da580d27",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-3.1.0.tgz_1479155656722_0.1710410218220204"
+			},
+			"directories": {}
+		},
+		"3.2.0": {
+			"name": "test-exclude",
+			"version": "3.2.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^3.1.2",
+				"nyc": "^8.4.0",
+				"standard": "^8.5.0",
+				"standard-version": "^3.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "3d0bf786bdeb241b60b47b5cda9f743a93320698",
+			"_id": "test-exclude@3.2.0",
+			"_shasum": "40c4cf81e604a1869f8c2b161dd82e78e54aca58",
+			"_from": ".",
+			"_npmVersion": "4.0.0",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "40c4cf81e604a1869f8c2b161dd82e78e54aca58",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.2.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-3.2.0.tgz_1479158287285_0.6737476517446339"
+			},
+			"directories": {}
+		},
+		"3.2.1": {
+			"name": "test-exclude",
+			"version": "3.2.1",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^3.1.2",
+				"nyc": "^8.4.0",
+				"standard": "^8.5.0",
+				"standard-version": "^3.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "e5f853a0e59c41ff9f8b1392c445b4dbec07572f",
+			"_id": "test-exclude@3.2.1",
+			"_shasum": "498020bb62274e36cc995182757bef42ac7137ba",
+			"_from": ".",
+			"_npmVersion": "4.0.0",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "498020bb62274e36cc995182757bef42ac7137ba",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.2.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-3.2.1.tgz_1479163027542_0.6193591663613915"
+			},
+			"directories": {}
+		},
+		"3.2.2": {
+			"name": "test-exclude",
+			"version": "3.2.2",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^3.1.2",
+				"nyc": "^8.4.0",
+				"standard": "^8.5.0",
+				"standard-version": "^3.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "5205235b8ff08a08c5dd9d826e9c1fd46c6aad99",
+			"_id": "test-exclude@3.2.2",
+			"_shasum": "bce1e739b668c00d71f6cd2c0ef292b8d23c22ae",
+			"_from": ".",
+			"_npmVersion": "4.0.0",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "bce1e739b668c00d71f6cd2c0ef292b8d23c22ae",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.2.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-3.2.2.tgz_1479163955732_0.539127781521529"
+			},
+			"directories": {}
+		},
+		"3.3.0": {
+			"name": "test-exclude",
+			"version": "3.3.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha ./test/*.js",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^3.1.2",
+				"nyc": "^8.4.0",
+				"standard": "^8.5.0",
+				"standard-version": "^3.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 96,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"gitHead": "cf979c7c259fa547755fdb0fbc6b4d8c8ad7d371",
+			"_id": "test-exclude@3.3.0",
+			"_shasum": "7a17ca1239988c98367b0621456dbb7d4bc38977",
+			"_from": ".",
+			"_npmVersion": "4.0.0",
+			"_nodeVersion": "6.5.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "7a17ca1239988c98367b0621456dbb7d4bc38977",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-3.3.0.tgz_1479797602694_0.012697829864919186"
+			},
+			"directories": {}
+		},
+		"4.0.0": {
+			"name": "test-exclude",
+			"version": "4.0.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "nyc mocha",
+				"release": "standard-version"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^3.1.2",
+				"nyc": "^10.1.2",
+				"standard": "^8.5.0",
+				"standard-version": "^4.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"statements": 100,
+				"branches": 97,
+				"lines": 100,
+				"functions": 100,
+				"reporter": [
+					"lcov",
+					"text"
+				]
+			},
+			"greenkeeper": {
+				"ignore": [
+					"read-pkg-up"
+				]
+			},
+			"gitHead": "d07955b265f079726d75590848e430399c8a3a9c",
+			"_id": "test-exclude@4.0.0",
+			"_shasum": "0ddc0100b8ae7e88b34eb4fd98a907e961991900",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.4.0",
+			"_npmUser": {
+				"name": "jakxz",
+				"email": "jgkurian@me.com"
+			},
+			"dist": {
+				"shasum": "0ddc0100b8ae7e88b34eb4fd98a907e961991900",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "jakxz",
+					"email": "jgkurian@me.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-4.0.0.tgz_1485078868609_0.3595972142647952"
+			},
+			"directories": {}
+		},
+		"4.0.1": {
+			"name": "test-exclude",
+			"version": "4.0.1",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.12",
+				"mocha": "^3.1.2",
+				"standard": "^9.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"greenkeeper": {
+				"ignore": [
+					"read-pkg-up"
+				]
+			},
+			"_id": "test-exclude@4.0.1",
+			"_shasum": "a8ea2f51ed15c7c458c279bd61391ca0a09b0a24",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.5",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "a8ea2f51ed15c7c458c279bd61391ca0a09b0a24",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "jakxz",
+					"email": "jgkurian@me.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-4.0.1.tgz_1489982003359_0.8693729802034795"
+			},
+			"directories": {}
+		},
+		"4.0.2": {
+			"name": "test-exclude",
+			"version": "4.0.2",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"mocha": "^3.1.2",
+				"standard": "^9.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"greenkeeper": {
+				"ignore": [
+					"read-pkg-up"
+				]
+			},
+			"_id": "test-exclude@4.0.2",
+			"_shasum": "a01b846705fbcbef1700618d2f3e37df36f85779",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "a01b846705fbcbef1700618d2f3e37df36f85779",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "jakxz",
+					"email": "jgkurian@me.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-4.0.2.tgz_1490076915686_0.7433674158528447"
+			},
+			"directories": {}
+		},
+		"4.0.3": {
+			"name": "test-exclude",
+			"version": "4.0.3",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"mocha": "^3.1.2",
+				"standard": "^9.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"greenkeeper": {
+				"ignore": [
+					"read-pkg-up"
+				]
+			},
+			"_id": "test-exclude@4.0.3",
+			"_shasum": "86a13ce3effcc60e6c90403cf31a27a60ac6c4e7",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "86a13ce3effcc60e6c90403cf31a27a60ac6c4e7",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "jakxz",
+					"email": "jgkurian@me.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-4.0.3.tgz_1490077602616_0.8311135193798691"
+			},
+			"directories": {}
+		},
+		"4.1.0": {
+			"name": "test-exclude",
+			"version": "4.1.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/test-exclude.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/test-exclude/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/test-exclude#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"mocha": "^3.1.2",
+				"standard": "^9.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"greenkeeper": {
+				"ignore": [
+					"read-pkg-up"
+				]
+			},
+			"_id": "test-exclude@4.1.0",
+			"_shasum": "04ca70b7390dd38c98d4a003a173806ca7991c91",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"shasum": "04ca70b7390dd38c98d4a003a173806ca7991c91",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.1.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "bcoe",
+					"email": "ben@npmjs.com"
+				},
+				{
+					"name": "jakxz",
+					"email": "jgkurian@me.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/test-exclude-4.1.0.tgz_1493442004804_0.6866360483691096"
+			},
+			"directories": {}
+		},
+		"4.1.1": {
+			"name": "test-exclude",
+			"version": "4.1.1",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/istanbuljs.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"mocha": "^3.1.2",
+				"standard": "^9.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"greenkeeper": {
+				"ignore": [
+					"read-pkg-up"
+				]
+			},
+			"_id": "test-exclude@4.1.1",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "7.1.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-35+Asrsk3XHJDBgf/VRFexPgh3UyETv8IAn/LRTiZjVy6rjPVqdEk8dJcJYBzl1w0XCJM48lvTy8SfEsCWS4nA==",
+				"shasum": "4d84964b0966b0087ecc334a2ce002d3d9341e26",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.1.1.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "jgkurian@me.com",
+					"name": "jakxz"
+				},
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/test-exclude-4.1.1.tgz_1495919579354_0.9240932059474289"
+			},
+			"directories": {}
+		},
+		"4.2.0": {
+			"name": "test-exclude",
+			"version": "4.2.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/istanbuljs.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"mocha": "^3.1.2",
+				"standard": "^9.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"greenkeeper": {
+				"ignore": [
+					"read-pkg-up"
+				]
+			},
+			"_id": "test-exclude@4.2.0",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "8.8.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-8hMFzjxbPv6xSlwGhXSvOMJ/vTy3bkng+2pxmf6E1z6VF7I9nIyNfvHtaw+NBPgvz647gADBbMSbwLfZYppT/w==",
+				"shasum": "07e3613609a362c74516a717515e13322ab45b3c",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.2.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 13463
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "jgkurian@me.com",
+					"name": "jakxz"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/test-exclude_4.2.0_1518500918831_0.8735647603050614"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.2.1": {
+			"name": "test-exclude",
+			"version": "4.2.1",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/istanbuljs.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"mocha": "^3.1.2",
+				"standard": "^9.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^3.1.8",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"greenkeeper": {
+				"ignore": [
+					"read-pkg-up"
+				]
+			},
+			"_id": "test-exclude@4.2.1",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "8.8.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-qpqlP/8Zl+sosLxBcVKl9vYy26T9NPalxSzzCP/OY6K7j938ui2oKgo+kRZYfxAeIpLqpbVnsHq1tyV70E4lWQ==",
+				"shasum": "dfa222f03480bca69207ca728b37d74b45f724fa",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.2.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 13755
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "jgkurian@me.com",
+					"name": "jakxz"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/test-exclude_4.2.1_1520188976002_0.9348203840842662"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.2.2": {
+			"name": "test-exclude",
+			"version": "4.2.2",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/istanbuljs.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"mocha": "^5.2.0",
+				"standard": "^11.0.1"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"minimatch": "^3.0.4",
+				"read-pkg-up": "^3.0.0",
+				"require-main-filename": "^1.0.1"
+			},
+			"readmeFilename": "README.md",
+			"_id": "test-exclude@4.2.2",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "10.2.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-2kTGf+3tykCfrWVREgyTR0bmVO0afE6i7zVXi/m+bZZ8ujV89Aulxdcdv32yH+unVFg3Y5o6GA8IzsHnGQuFgQ==",
+				"shasum": "8b67aa8408f84afc225b06669e25c510f8582820",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.2.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 13883,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbFy/ACRA9TVsSAnZWagAAfJAP/1/RgxGVYUWnaBKcN8VA\nGKdTyv6Zh3uGsVpoJa+wqTeYoKh2EB8v37m5dXKt6UBH+dPTMO5l8DbySmlM\nlxfweSOjqz9ToqY9voYBRC3wDDE2K1dgZnkyDhsDlfdnQWUaU05u99mYXgI/\nwokHAGa+axrFml3wf74WrAkRw8Vz7kw7DdDxnCCF6fFDnpGebRsApnoWnd2h\n+uch8hgQlkGA646WySBLjUK4kb5jqK6L4ESA83hK8nBt8IODBbbnB0fuGlGy\nRG8NjZkQDzyGgMUpA3iCu557ZyDPVkLWKY71BkvCVDh7eFVw9x+w15uFox/c\nk+PcifBYRx3+hIFwSsS17Zu7vPGdZdc0inJsphc3PY7Qar14ROghLMg3oSmK\nwPs6mhtM/YFH6eBbHCgaVrdcQ3zPKTSBhTh/r/HSsdbjdtSoVq9ERG7iniVc\nrDsVxC//EGG6umC4amAwElSg36DcXMYpzKpq3Pl3lutDHw8bDuewVe7c2YnS\naJHGg3E5Tgy3/yMNgytfST34Uv/VnocyeAuVarJw6Ieayp+b2Wo85Oa+Sm1U\nQ3IKgCv3bK/fKFvIAvdSjWK+jFtFmx9O03323QbQwjlWezEU7n2ZuoBYE/Jl\nOCNHXU2i3MVmZQ6Knp924w3tSRVCHUbATkfVuUmIojDdEuum/YDfiZ8l0OYh\nmv46\r\n=cznF\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "jgkurian@me.com",
+					"name": "jakxz"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/test-exclude_4.2.2_1528246207469_0.08114960718704212"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.0.0": {
+			"name": "test-exclude",
+			"version": "5.0.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/istanbuljs.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"mocha": "^5.2.0",
+				"standard": "^11.0.1"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"minimatch": "^3.0.4",
+				"read-pkg-up": "^4.0.0",
+				"require-main-filename": "^1.0.1"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"_id": "test-exclude@5.0.0",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "10.2.1",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-bO3Lj5+qFa9YLfYW2ZcXMOV1pmQvw+KS/DpjqhyX6Y6UZ8zstpZJ+mA2ERkXfpOqhxsJlQiLeVXD3Smsrs6oLw==",
+				"shasum": "cdce7cece785e0e829cd5c2b27baf18bc583cfb7",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-5.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 14311,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbMdCiCRA9TVsSAnZWagAAZ0sP/RL8PXbfZQ2G88RwKE/i\n/2n2c58Q42dXJ547e50bB12mDIXDtOt4SbYmhlkf+bbBLhJx50NXYc2hNPj4\nFDoTGBxEyXZT2fUPG7HF/gdNU69XB8W2PsvAQGpz/QMDFHuqrXovgEvaKT7b\nKOBZ7qGTo2IqHNXbEX9qT2suPY/CtfNOyW36kr+V99nz4EL8wd0ogNTUqGrG\nMblJGNoXbyHBF+YOpKC4CVgZhVYkzr5ovxF0NSYMk+46SW77J2HudbiP8n49\n6SK/YCml4U8Z3nv2CjB3hgWHIpMYKSmA3qiEBKVSm6PoDnXnYGdVSJoniKN8\nzeuTH0RsiCCE15f2ymYcQTOvvbrgjGCDUpypQRVfKtbJcuAVgHZMj+9FjEMQ\nsw4ylCCdQCOCx/vv5EW7KN4IHNUZNoulehZ0GDvumIzepX0UgcBWW74AvqgG\nIipDH2vUo1gLcGFwIhQxcBgKdqaPzyYXV0qzWXogMYhQrJuiXlBFzhWhFGl1\n2o+ctaf39Yk+CoTDe9TiJN7M8y3W5FtTkxIM3XM2p7YJNTkT/5CeEedfRqzL\n5YDJtel6+lmrAZkZhgYBnJxoy2xnBzlaqEXcgFLx7Dl8/fcyDeqZNcqfSYaZ\nSAydq1uheHvjFqVTTx+46YicTkqHc2u1Jblg1OLXV7JKHgG6Uxyja2YGz+FZ\nHuI0\r\n=LYtc\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "jgkurian@me.com",
+					"name": "jakxz"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/test-exclude_5.0.0_1529991330007_0.34832577511004525"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.2.3": {
+			"name": "test-exclude",
+			"version": "4.2.3",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"pretest": "standard",
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/istanbuljs.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"devDependencies": {
+				"chai": "^3.5.0",
+				"mocha": "^3.1.2",
+				"standard": "^9.0.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"micromatch": "^2.3.11",
+				"object-assign": "^4.1.0",
+				"read-pkg-up": "^1.0.1",
+				"require-main-filename": "^1.0.1"
+			},
+			"greenkeeper": {
+				"ignore": [
+					"read-pkg-up"
+				]
+			},
+			"_id": "test-exclude@4.2.3",
+			"_npmVersion": "6.2.0",
+			"_nodeVersion": "10.9.0",
+			"_npmUser": {
+				"name": "coreyfarrell",
+				"email": "git@cfware.com"
+			},
+			"dist": {
+				"integrity": "sha512-SYbXgY64PT+4GAL2ocI3HwPa4Q4TBKm0cwAVeKOt/Aoc0gSpNRjJX8w0pA1LMKZ3LBmd8pYBqApFNQLII9kavA==",
+				"shasum": "a9a5e64474e4398339245a0a769ad7c2f4a97c20",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.2.3.tgz",
+				"fileCount": 5,
+				"unpackedSize": 14307,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbkFiJCRA9TVsSAnZWagAAhVQQAJ3eJIc5ZW78Geg9L46Y\nmKpU3RyhuFh48gwA34/4/5QsQTLLOi5mx0HgJ2FVEzN4f7c/0/sZVkSRv8sN\nwlFgWwKA0BL6qNT+X/tGsBvrsSoE/j1U7IBOyI5vhsCGd656nrkLR0nRnmwp\nQ4xK2VQryzeymNigWQBSOkD+BiSI+rK1v4X7UKTEfDtBZ4t8XKiqd2Tcegz8\neiRanhN4tBvk81uYRXRUTPOraczJ778mTr4B5tvgKKwi+OQdw8n9iG1NbMlp\nHUh8se4OcPkt0uxw9osNjplxSRQLS4NA0vj1yGcq4fQ9aE9PV2qzyQPXeO49\nJPvwlTnoa5uhvP42iyBwnWLEKJc3NQJELnyxbc9RIN8KRIAKarnljyKF6ACC\nLcE2LPDSMlyI5BAUkQdO4AKnhxpU1CyqWVazwwOawz9u9RlCXvl4x3lGyWqS\nTbhrCd0NdRbx67ZcdYFxBlWKkAX5yiCUfTVr6nofE8VCpPkKbxHasHCwW4MZ\nUEQtZsAlnRWjmpiQoGmFdYyCxoLULo9MNW4w9RbDA0N9Fc7PXlRhe7u0FmiA\nIm0A3iRcQTzGU2HnKc435HKgHajPB8R2wXj8DNVTJurb+hPv+lLWtrUaZJ5t\njm2eYmY/lpHYs6Qpa6po/mdy3wZIWt3r6GVsobuNTIg8JrzRhc8MiC2+eNs6\nZ8JV\r\n=UJ7b\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "jgkurian@me.com",
+					"name": "jakxz"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/test-exclude_4.2.3_1536186504402_0.01974045492065346"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.0.1": {
+			"name": "test-exclude",
+			"version": "5.0.1",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/istanbuljs.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"devDependencies": {
+				"chai": "^4.1.2",
+				"mocha": "^5.2.0"
+			},
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"minimatch": "^3.0.4",
+				"read-pkg-up": "^4.0.0",
+				"require-main-filename": "^1.0.1"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"readmeFilename": "README.md",
+			"_id": "test-exclude@5.0.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.5.0",
+			"_npmUser": {
+				"name": "bcoe",
+				"email": "ben@npmjs.com"
+			},
+			"dist": {
+				"integrity": "sha512-/MLYvfg/KfmR8VKyDI0frzJUdAxBn1QXJHi0ik4IEVY84WcmskRKpx+peZPtnDf+If7HflGhLz0uH1Uh/phFJw==",
+				"shasum": "714cd156984c04c5f368fb871c0aa225fc395241",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-5.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 14979,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcIXvcCRA9TVsSAnZWagAA9YEP/iAQIaalHL9Wrw8ZDZRX\nDUgC0DyhNTRbJSJXdNe3U3OIV9Og08oC0f2HkUPvCXIDA9cH6kJHhJro/wj8\nCZeOisRSP5aaX4rFbBdWyKnPUsPqQyRsIBI2dnlBe3pX0QzE6aSYWCOvwsTb\nKgRNnQmTvsS6ZIVlLB+gjSqqnrwUXHeaBhnACePI20dokV0ljCmFJkrksJjI\nzDlLFuFfHnh9Y0uiay4sJfZ2G9sscIz38OjD3Wk/YapE9hVnIWQqSoHtvCa7\nFzGmsagbo61ZZEmdYlvaECk8zU3IVD4/q/yYQiYY9GDZ8t7T0MDEYsNO3jaN\nERmaGD46XLo4G3hLx199XwDsaR4EKszpWG2mh9+JAy4kVK6FL8pgv4+TyS8B\nLJdxCuvewDet2Rz2Lb8u9T8/aYDs2vte79bYTp+V8zhngDxpYK2UnRPq/UoY\n8uvver5Fgc86Ad+oZrC2VSGYeD22nzQgLDej/BiM5+DcQDZsrOrDSDz40mTP\nUj2TRjQ3f7yt2P6ewJD6fJnSM0BasdR6tpflptiRvEMzavCmgDepqL5CCwGP\neAzzdsbAOR1nYbilhVhz52Vh9gDpfKdIO8gXBsvXs4BBVYVlbrjgIWAPcp+m\nRtA3nKBjSKVpWkK0u+I2gWlG17KuRsPelPI5fiOZBZ3iSFkFPdLdc5MT4Oyc\n92bA\r\n=Vi7S\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "jgkurian@me.com",
+					"name": "jakxz"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/test-exclude_5.0.1_1545698267259_0.5143346260025117"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.1.0": {
+			"name": "test-exclude",
+			"version": "5.1.0",
+			"description": "test for inclusion or exclusion of paths using pkg-conf and globs",
+			"main": "index.js",
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/istanbuljs/istanbuljs.git"
+			},
+			"keywords": [
+				"exclude",
+				"include",
+				"glob",
+				"package",
+				"config"
+			],
+			"author": {
+				"name": "Ben Coe",
+				"email": "ben@npmjs.com"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/istanbuljs/istanbuljs/issues"
+			},
+			"homepage": "https://github.com/istanbuljs/istanbuljs#readme",
+			"dependencies": {
+				"arrify": "^1.0.1",
+				"minimatch": "^3.0.4",
+				"read-pkg-up": "^4.0.0",
+				"require-main-filename": "^1.0.1"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"gitHead": "7875defdc3c3640787ac5d83700246de119e8b83",
+			"readmeFilename": "README.md",
+			"_id": "test-exclude@5.1.0",
+			"_nodeVersion": "10.14.2",
+			"_npmVersion": "lerna/3.10.5/node@v10.14.2+x64 (linux)",
+			"dist": {
+				"integrity": "sha512-gwf0S2fFsANC55fSeSqpb8BYk6w3FDvwZxfNjeF6FRgvFa43r+7wRiA/Q0IxoRU37wB/LE8IQ4221BsNucTaCA==",
+				"shasum": "6ba6b25179d2d38724824661323b73e03c0c1de1",
+				"tarball": "https://registry.npmjs.org/test-exclude/-/test-exclude-5.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 15281,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcS8VXCRA9TVsSAnZWagAALjwQAJFJf7wCLACAVmhCj6tq\nUwJt3p0MxGbEU+M2vneYxcanzwyYbV6wKUoIeH5lJD58f3c6SXw+6AsvixPl\nKGnjvG8LQRg9oqvvDuGFisCTX/P71a1VMnc4ObdGDVZZ+Rtfercf/n4tNA9s\nJAHo255uy5gkAVkrf6WfvBLy8cmlK2UQeEf78H1YNTqG68BrJN/5TmqJikyP\nfDMKyMGgmkdlXPO7zkrJAyz6zqRTBkMstwFpGLioYOWOVvelcbU84pCnQHFO\nV1gRymn7Fp16LbWvbcX/DbgX7X2tMKyaqwhrg0r5P3UcovsQMavgfHBDUTKl\nU1XApEt6GEzQ3OVP2NsMCxkeW7e0iu7/SrBYfeFHZk4eizM9MWK/WIqurOr0\n9h8yurPViwZovkjB6bDmUuiejD5w3XnvwcDjQz/HVd9TQGHfAUucxqTjs2Ox\nlJa94EjlM/zPd0cGy3geRqW0qjZCP3ZXN8ttJuX7T362A7pnq9kUACi6dsyJ\no6q4BhaYhiKzjVSzpA+9fd1cBtCXQ5aID+bOlKryx03AWIo9Flnd9RuGQFko\nw1BSb+lXhkezUq+hLjrjz9oD9spqZcHWVhGiNUj/8SURnoX59EJIRT/1i4ic\n6GoeM1CEZpELOLAwksDGMhpGJ+VsUlbKrPZmYqVQrMI4LkLHsKR6NXEzOtZx\ntrDI\r\n=JZtf\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ben@npmjs.com",
+					"name": "bcoe"
+				},
+				{
+					"email": "git@cfware.com",
+					"name": "coreyfarrell"
+				},
+				{
+					"email": "jgkurian@me.com",
+					"name": "jakxz"
+				}
+			],
+			"_npmUser": {
+				"name": "coreyfarrell",
+				"email": "git@cfware.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/test-exclude_5.1.0_1548469590851_0.9829596765660666"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2019-02-05T00:55:13.969Z",
+		"created": "2016-06-06T05:56:20.333Z",
+		"1.0.0": "2016-06-06T05:56:20.333Z",
+		"1.1.0": "2016-06-08T06:20:33.455Z",
+		"2.0.0": "2016-08-12T04:19:13.720Z",
+		"2.1.0": "2016-08-12T04:37:59.503Z",
+		"2.1.1": "2016-08-12T05:02:10.625Z",
+		"2.1.2": "2016-08-31T16:18:09.793Z",
+		"2.1.3": "2016-09-30T21:27:43.998Z",
+		"3.0.0": "2016-11-13T00:17:57.690Z",
+		"3.1.0": "2016-11-14T20:34:16.949Z",
+		"3.2.0": "2016-11-14T21:18:09.014Z",
+		"3.2.1": "2016-11-14T22:37:08.099Z",
+		"3.2.2": "2016-11-14T22:52:37.504Z",
+		"3.3.0": "2016-11-22T06:53:23.257Z",
+		"4.0.0": "2017-01-22T09:54:28.842Z",
+		"4.0.1": "2017-03-20T03:53:23.625Z",
+		"4.0.2": "2017-03-21T06:15:17.619Z",
+		"4.0.3": "2017-03-21T06:26:44.668Z",
+		"4.1.0": "2017-04-29T05:00:06.995Z",
+		"4.1.1": "2017-05-27T21:12:59.415Z",
+		"4.2.0": "2018-02-13T05:48:38.879Z",
+		"4.2.1": "2018-03-04T18:42:56.056Z",
+		"4.2.2": "2018-06-06T00:50:07.588Z",
+		"5.0.0": "2018-06-26T05:35:30.064Z",
+		"4.2.3": "2018-09-05T22:28:24.487Z",
+		"5.0.1": "2018-12-25T00:37:47.493Z",
+		"5.1.0": "2019-01-26T02:26:30.976Z"
+	},
+	"dist-tags": {
+		"latest": "5.1.0",
+		"next": "5.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5f7e155509034c6deba02c54aa7d8a14\"",
+			"fetched": 1551301859437
+		}
+	},
+	"_distfiles": {
+		"test-exclude-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-1.0.0.tgz",
+			"sha": "ced63b8463bf5a8df501d6f5ab9baaf9a7a2dd50",
+			"registry": "npmjs"
+		},
+		"test-exclude-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-1.1.0.tgz",
+			"sha": "f5ddd718927b12fd02f270a0aa939ceb6eea4151",
+			"registry": "npmjs"
+		},
+		"test-exclude-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.0.0.tgz",
+			"sha": "bacd36d3d37663ece201eb1fac115e45c79c782a",
+			"registry": "npmjs"
+		},
+		"test-exclude-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.1.0.tgz",
+			"sha": "0c7c1b8de529ceaee717e545e03f1bf248521d82",
+			"registry": "npmjs"
+		},
+		"test-exclude-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.1.1.tgz",
+			"sha": "4f5b7199a0e7da28212a3204f1e7b588278268b7",
+			"registry": "npmjs"
+		},
+		"test-exclude-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.1.2.tgz",
+			"sha": "186d69b8d8f01e99868ef04f7332a5a1b7c1ae73",
+			"registry": "npmjs"
+		},
+		"test-exclude-2.1.3.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-2.1.3.tgz",
+			"sha": "a8d8968e1da83266f9864f2852c55e220f06434a",
+			"registry": "npmjs"
+		},
+		"test-exclude-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.0.0.tgz",
+			"sha": "5168720da79677ea1f592dbe283d73d9d753671b",
+			"registry": "npmjs"
+		},
+		"test-exclude-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.1.0.tgz",
+			"sha": "cc518622d89df646add69b062a494339da580d27",
+			"registry": "npmjs"
+		},
+		"test-exclude-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.2.0.tgz",
+			"sha": "40c4cf81e604a1869f8c2b161dd82e78e54aca58",
+			"registry": "npmjs"
+		},
+		"test-exclude-3.2.1.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.2.1.tgz",
+			"sha": "498020bb62274e36cc995182757bef42ac7137ba",
+			"registry": "npmjs"
+		},
+		"test-exclude-3.2.2.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.2.2.tgz",
+			"sha": "bce1e739b668c00d71f6cd2c0ef292b8d23c22ae",
+			"registry": "npmjs"
+		},
+		"test-exclude-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-3.3.0.tgz",
+			"sha": "7a17ca1239988c98367b0621456dbb7d4bc38977",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.0.0.tgz",
+			"sha": "0ddc0100b8ae7e88b34eb4fd98a907e961991900",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.0.1.tgz",
+			"sha": "a8ea2f51ed15c7c458c279bd61391ca0a09b0a24",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.0.2.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.0.2.tgz",
+			"sha": "a01b846705fbcbef1700618d2f3e37df36f85779",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.0.3.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.0.3.tgz",
+			"sha": "86a13ce3effcc60e6c90403cf31a27a60ac6c4e7",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.1.0.tgz",
+			"sha": "04ca70b7390dd38c98d4a003a173806ca7991c91",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.1.1.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.1.1.tgz",
+			"sha": "4d84964b0966b0087ecc334a2ce002d3d9341e26",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.2.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.2.0.tgz",
+			"sha": "07e3613609a362c74516a717515e13322ab45b3c",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.2.1.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.2.1.tgz",
+			"sha": "dfa222f03480bca69207ca728b37d74b45f724fa",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.2.2.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.2.2.tgz",
+			"sha": "8b67aa8408f84afc225b06669e25c510f8582820",
+			"registry": "npmjs"
+		},
+		"test-exclude-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-5.0.0.tgz",
+			"sha": "cdce7cece785e0e829cd5c2b27baf18bc583cfb7",
+			"registry": "npmjs"
+		},
+		"test-exclude-4.2.3.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-4.2.3.tgz",
+			"sha": "a9a5e64474e4398339245a0a769ad7c2f4a97c20",
+			"registry": "npmjs"
+		},
+		"test-exclude-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-5.0.1.tgz",
+			"sha": "714cd156984c04c5f368fb871c0aa225fc395241",
+			"registry": "npmjs"
+		},
+		"test-exclude-5.1.0.tgz": {
+			"url": "https://registry.npmjs.org/test-exclude/-/test-exclude-5.1.0.tgz",
+			"sha": "6ba6b25179d2d38724824661323b73e03c0c1de1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"test-exclude-4.2.3.tgz": {
+			"shasum": "a9a5e64474e4398339245a0a769ad7c2f4a97c20"
+		}
+	},
+	"_rev": "4-58aa4f53b5dd2f1e",
+	"readme": "# test-exclude\n\nThe file include/exclude logic used by [nyc](https://github.com/istanbuljs/nyc).\n\n[![Build Status](https://travis-ci.org/istanbuljs/test-exclude.svg)](https://travis-ci.org/istanbuljs/test-exclude)\n[![Coverage Status](https://coveralls.io/repos/github/istanbuljs/test-exclude/badge.svg?branch=master)](https://coveralls.io/github/istanbuljs/test-exclude?branch=master)\n[![Standard Version](https://img.shields.io/badge/release-standard%20version-brightgreen.svg)](https://github.com/conventional-changelog/standard-version)\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/test-exclude.svg)](https://greenkeeper.io/)\n\n## Usage\n\n```js\nconst exclude = require('test-exclude')\nif (exclude().shouldInstrument('./foo.js')) {\n  // let's instrument this file for test coverage!\n}\n```\n\n_you can load configuration from a key in package.json:_\n\n_package.json_\n\n```json\n{\n  \"name\": \"awesome-module\",\n  \"test\": {\n    \"include\": [\"**/index.js\"]\n  }\n}\n```\n\n_app.js_\n\n```js\nconst exclude = require('test-exclude')\nif (exclude({configKey: 'test'}).shouldInstrument('./index.js')) {\n  // let's instrument this file for test coverage!\n}\n```\n\n## Including node_modules folder\n\nby default the `node_modules` folder is added to all groups of\nexclude rules. In the rare case that you wish to instrument files\nstored in `node_modules`, a negative glob can be used:\n\n```js\nconst exclude = require('test-exclude')\nconst e = exclude({\n  exclude: ['!**/node_modules/**']\n})\n```\n\n## License\n\nISC"
+}

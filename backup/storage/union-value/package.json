@@ -1,0 +1,899 @@
+{
+	"name": "union-value",
+	"versions": {
+		"0.1.0": {
+			"name": "union-value",
+			"description": "Set an array of unique values as a property of an object, using dot notation.",
+			"version": "0.1.0",
+			"homepage": "https://github.com/jonschlinkert/union-value",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/union-value.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/union-value/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"arr-union": "^3.0.0",
+				"get-value": "^1.1.5",
+				"is-extendable": "^0.1.1",
+				"set-value": "^0.2.0"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"array",
+				"dot",
+				"get",
+				"has",
+				"nested",
+				"notation",
+				"object",
+				"path",
+				"prop",
+				"property",
+				"set",
+				"union",
+				"value"
+			],
+			"verbiage": {
+				"related": {
+					"list": [
+						"set-value",
+						"get-value",
+						"has-value"
+					]
+				}
+			},
+			"_id": "union-value@0.1.0",
+			"_shasum": "a2d77900b76b2c2321a173ee3d9763cd45faea35",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "a2d77900b76b2c2321a173ee3d9763cd45faea35",
+				"tarball": "https://registry.npmjs.org/union-value/-/union-value-0.1.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.1.1": {
+			"name": "union-value",
+			"description": "Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.",
+			"version": "0.1.1",
+			"homepage": "https://github.com/jonschlinkert/union-value",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/union-value.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/union-value/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"arr-union": "^3.0.0",
+				"get-value": "^1.1.5",
+				"is-extendable": "^0.1.1",
+				"set-value": "^0.2.0"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"array",
+				"dot",
+				"get",
+				"has",
+				"nested",
+				"notation",
+				"object",
+				"path",
+				"prop",
+				"property",
+				"set",
+				"union",
+				"value"
+			],
+			"verbiage": {
+				"related": {
+					"list": [
+						"set-value",
+						"get-value",
+						"has-value"
+					]
+				}
+			},
+			"gitHead": "673c873e2485fd12af0b57c3919388cefe156a9a",
+			"_id": "union-value@0.1.1",
+			"_shasum": "6920e5907eee2bff11b7c7fb098b888bfa7cc54f",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "0.12.4",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "6920e5907eee2bff11b7c7fb098b888bfa7cc54f",
+				"tarball": "https://registry.npmjs.org/union-value/-/union-value-0.1.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.0": {
+			"name": "union-value",
+			"description": "Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.",
+			"version": "0.2.0",
+			"homepage": "https://github.com/jonschlinkert/union-value",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/union-value.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/union-value/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"utils.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"arr-union": "^3.0.0",
+				"cast-to-array": "^0.1.0",
+				"get-value": "^2.0.0",
+				"is-extendable": "^0.1.1",
+				"lazy-cache": "^0.2.4",
+				"set-value": "^0.3.0"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"array",
+				"dot",
+				"get",
+				"has",
+				"nested",
+				"notation",
+				"object",
+				"path",
+				"prop",
+				"property",
+				"set",
+				"union",
+				"value"
+			],
+			"verb": {
+				"related": {
+					"list": [
+						"assign-value",
+						"get-value",
+						"has-value",
+						"set-value",
+						"unset-value"
+					]
+				}
+			},
+			"gitHead": "e260ff593b1339d3d6ad68ac169b7bdc591f44e7",
+			"_id": "union-value@0.2.0",
+			"_shasum": "5055d0afbc18d5383fffcb819abef819e0cdcb2b",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "5055d0afbc18d5383fffcb819abef819e0cdcb2b",
+				"tarball": "https://registry.npmjs.org/union-value/-/union-value-0.2.0.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.1": {
+			"name": "union-value",
+			"description": "Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.",
+			"version": "0.2.1",
+			"homepage": "https://github.com/jonschlinkert/union-value",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/union-value.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/union-value/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"utils.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"arr-union": "^3.0.0",
+				"get-value": "^2.0.0",
+				"is-extendable": "^0.1.1",
+				"lazy-cache": "^0.2.4",
+				"set-value": "^0.3.0"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"array",
+				"dot",
+				"get",
+				"has",
+				"nested",
+				"notation",
+				"object",
+				"path",
+				"prop",
+				"property",
+				"set",
+				"union",
+				"value"
+			],
+			"verb": {
+				"related": {
+					"list": [
+						"assign-value",
+						"get-value",
+						"has-value",
+						"set-value",
+						"unset-value"
+					]
+				}
+			},
+			"gitHead": "3a90b5a0b183dcb4cd0bd0128626a5e242cb05b1",
+			"_id": "union-value@0.2.1",
+			"_shasum": "95f90e813627f90d35bc0127773d7ecf5190fe3e",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "95f90e813627f90d35bc0127773d7ecf5190fe3e",
+				"tarball": "https://registry.npmjs.org/union-value/-/union-value-0.2.1.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.2": {
+			"name": "union-value",
+			"description": "Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.",
+			"version": "0.2.2",
+			"homepage": "https://github.com/jonschlinkert/union-value",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/union-value.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/union-value/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js",
+				"utils.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"arr-union": "^3.0.0",
+				"get-value": "^2.0.2",
+				"is-extendable": "^0.1.1",
+				"set-value": "^0.3.2"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"array",
+				"dot",
+				"get",
+				"has",
+				"nested",
+				"notation",
+				"object",
+				"path",
+				"prop",
+				"property",
+				"set",
+				"union",
+				"value"
+			],
+			"verb": {
+				"related": {
+					"list": [
+						"assign-value",
+						"get-value",
+						"has-value",
+						"set-value",
+						"unset-value"
+					]
+				}
+			},
+			"gitHead": "8a502e8ce0da383f7372c8a33ecdbca7ba9f22e2",
+			"_id": "union-value@0.2.2",
+			"_shasum": "6766d51220b22c3e1e70d9ee6a2ede338c960742",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "6766d51220b22c3e1e70d9ee6a2ede338c960742",
+				"tarball": "https://registry.npmjs.org/union-value/-/union-value-0.2.2.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.3": {
+			"name": "union-value",
+			"description": "Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.",
+			"version": "0.2.3",
+			"homepage": "https://github.com/jonschlinkert/union-value",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/union-value.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/union-value/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"arr-union": "^3.0.0",
+				"get-value": "^2.0.2",
+				"is-extendable": "^0.1.1",
+				"set-value": "^0.3.3"
+			},
+			"devDependencies": {
+				"mocha": "*",
+				"should": "*"
+			},
+			"keywords": [
+				"array",
+				"dot",
+				"get",
+				"has",
+				"nested",
+				"notation",
+				"object",
+				"path",
+				"prop",
+				"property",
+				"set",
+				"union",
+				"value"
+			],
+			"verb": {
+				"related": {
+					"list": [
+						"assign-value",
+						"get-value",
+						"has-value",
+						"set-value",
+						"unset-value"
+					]
+				}
+			},
+			"gitHead": "ad3a58ce94115cf6a3ed62f22bb00326a96cbb08",
+			"_id": "union-value@0.2.3",
+			"_shasum": "ec91d75a83f312c292515c33b954865b1df32026",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.3.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "ec91d75a83f312c292515c33b954865b1df32026",
+				"tarball": "https://registry.npmjs.org/union-value/-/union-value-0.2.3.tgz"
+			},
+			"directories": {}
+		},
+		"0.2.4": {
+			"name": "union-value",
+			"description": "Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.",
+			"version": "0.2.4",
+			"homepage": "https://github.com/jonschlinkert/union-value",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/union-value.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/union-value/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"arr-union": "^3.1.0",
+				"get-value": "^2.0.6",
+				"is-extendable": "^0.1.1",
+				"set-value": "^0.4.3"
+			},
+			"devDependencies": {
+				"gulp-format-md": "^0.1.11",
+				"mocha": "^3.2.0",
+				"should": "^11.2.0"
+			},
+			"keywords": [
+				"array",
+				"dot",
+				"get",
+				"has",
+				"nested",
+				"notation",
+				"object",
+				"path",
+				"prop",
+				"property",
+				"set",
+				"union",
+				"value"
+			],
+			"verb": {
+				"toc": false,
+				"layout": "default",
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"list": [
+						"assign-value",
+						"get-value",
+						"has-value",
+						"set-value",
+						"unset-value"
+					]
+				},
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"gitHead": "80cbb8a9ba672a765ea321da5f486d451c6d8546",
+			"_id": "union-value@0.2.4",
+			"_shasum": "7375152786679057e7b37aa676e83468fc0274f0",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "7375152786679057e7b37aa676e83468fc0274f0",
+				"tarball": "https://registry.npmjs.org/union-value/-/union-value-0.2.4.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/union-value-0.2.4.tgz_1488062552065_0.7204225328750908"
+			},
+			"directories": {}
+		},
+		"1.0.0": {
+			"name": "union-value",
+			"description": "Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.",
+			"version": "1.0.0",
+			"homepage": "https://github.com/jonschlinkert/union-value",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/union-value.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/union-value/issues"
+			},
+			"license": "MIT",
+			"files": [
+				"index.js"
+			],
+			"main": "index.js",
+			"engines": {
+				"node": ">=0.10.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"arr-union": "^3.1.0",
+				"get-value": "^2.0.6",
+				"is-extendable": "^0.1.1",
+				"set-value": "^0.4.3"
+			},
+			"devDependencies": {
+				"gulp-format-md": "^0.1.11",
+				"mocha": "^3.2.0",
+				"should": "^11.2.0"
+			},
+			"keywords": [
+				"array",
+				"dot",
+				"get",
+				"has",
+				"nested",
+				"notation",
+				"object",
+				"path",
+				"prop",
+				"property",
+				"set",
+				"union",
+				"value"
+			],
+			"verb": {
+				"toc": false,
+				"layout": "default",
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"list": [
+						"assign-value",
+						"get-value",
+						"has-value",
+						"set-value",
+						"unset-value"
+					]
+				},
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"gitHead": "3ef3dfbb89ae1f72aae88744dfafe70a47b313f8",
+			"_id": "union-value@1.0.0",
+			"_shasum": "5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.5.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"maintainers": [
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"dist": {
+				"shasum": "5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4",
+				"tarball": "https://registry.npmjs.org/union-value/-/union-value-1.0.0.tgz"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/union-value-1.0.0.tgz_1488062568793_0.8357821961399168"
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "union-value",
+			"description": "Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.",
+			"version": "2.0.0",
+			"homepage": "https://github.com/jonschlinkert/union-value",
+			"author": {
+				"name": "Jon Schlinkert",
+				"url": "https://github.com/jonschlinkert"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/jonschlinkert/union-value.git"
+			},
+			"bugs": {
+				"url": "https://github.com/jonschlinkert/union-value/issues"
+			},
+			"license": "MIT",
+			"main": "index.js",
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"dependencies": {
+				"arr-union": "^3.1.0",
+				"get-value": "^2.0.6",
+				"is-extendable": "^0.1.1",
+				"set-value": "^0.4.3"
+			},
+			"devDependencies": {
+				"gulp-format-md": "^0.1.11",
+				"mocha": "^3.2.0",
+				"should": "^11.2.0"
+			},
+			"keywords": [
+				"array",
+				"dot",
+				"get",
+				"has",
+				"nested",
+				"notation",
+				"object",
+				"path",
+				"prop",
+				"property",
+				"set",
+				"union",
+				"value"
+			],
+			"verb": {
+				"toc": false,
+				"layout": "default",
+				"tasks": [
+					"readme"
+				],
+				"plugins": [
+					"gulp-format-md"
+				],
+				"related": {
+					"list": [
+						"assign-value",
+						"get-value",
+						"has-value",
+						"set-value",
+						"unset-value"
+					]
+				},
+				"lint": {
+					"reflinks": true
+				}
+			},
+			"gitHead": "731f997793b84e726d4a9df542f7e963f48f6e6d",
+			"_id": "union-value@2.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.4.0",
+			"_npmUser": {
+				"name": "jonschlinkert",
+				"email": "github@sellside.com"
+			},
+			"dist": {
+				"integrity": "sha512-f5fSsL70tIBFe24ltCxKGDoVmVlfAKYmD4t+IiJTRpz6/TiGLncGxwRaufDZz+5RT5qm6jXDdNcW4OVyscrOBw==",
+				"shasum": "642524162f8357c2eec384b0af50d8e0f1f62b47",
+				"tarball": "https://registry.npmjs.org/union-value/-/union-value-2.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7842,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcEy1mCRA9TVsSAnZWagAAtLsP/jziRLZr/aYi841R1ZW+\nQEGSs6t4lXpZ+N4Fs8mveFlVGafIyx6QNhc5gwmtCTmKHp9H5GEP4L5hnGG5\ntM05sYvK8dZ0VDmGH9+FqHml+A3Ev0unZeLKe7y26aFwpltWPJ3x1nc+XuRu\n1AaOlElN1NRFE1uBdFo1G+VNthXRCBsRMUhZcSCi2bjjhdJeoNv0TwtegdTL\nyj+yjXUOTqkHlHD1xHpxkv6XNswGnbhugKubY0WZOO6TPAkAMWOd1MuDqDcX\nGPRgfL4t6AllUNPaxQJy2yPRkNMLzHZ3iqzNpVwlI26UNXPs6csSJNQNugv+\nhBtqceVxBW5hlyYrklNMq6aJSj4xbEFEGh1oVlqbPn/BPoJnVo9oo/Wd0q/G\nDfop6lyA5w2SSZW4rApOnwu3GNXQR4vchfDaWBWbA6ZgXSK76ZOUsoUWtpql\n6hqUFcQxJ3GdACZO1XdgdaFPZQwcTHodVcQWkGGakcSz5o30EvCW3oekjhL+\nQ5x39nsFrzFyjnQhYk5urgBKULcvKVRQfv5ZsqOuUnXlQZw3r8BjBBcE+RRT\nPVt8Fg1EAndVVwBzSL/1J53sACJK66XwHyyxfFH3uk+WJbf0B9wong//CF4R\nfUCJbCiDSW4NhQE1GIlxCKbTkp6ckPjiNbKWUAnnfTunI3YgANr8HInqSldd\nnJvM\r\n=O4cd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "doowb",
+					"email": "brian.woodward@gmail.com"
+				},
+				{
+					"name": "jonschlinkert",
+					"email": "github@sellside.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/union-value_2.0.0_1544760678016_0.21599529292362685"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2019-01-05T17:17:14.437Z",
+		"created": "2015-07-04T23:02:38.864Z",
+		"0.1.0": "2015-07-04T23:02:38.864Z",
+		"0.1.1": "2015-07-04T23:11:53.083Z",
+		"0.2.0": "2015-11-06T07:13:49.104Z",
+		"0.2.1": "2015-11-09T22:07:01.212Z",
+		"0.2.2": "2016-01-19T10:37:59.910Z",
+		"0.2.3": "2016-01-19T10:44:14.444Z",
+		"0.2.4": "2017-02-25T22:42:33.929Z",
+		"1.0.0": "2017-02-25T22:42:50.759Z",
+		"2.0.0": "2018-12-14T04:11:18.131Z"
+	},
+	"dist-tags": {
+		"latest": "2.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5b80c0f43e3cdd049f398c8b2c5dfd68\"",
+			"fetched": 1551301920358
+		}
+	},
+	"_distfiles": {
+		"union-value-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/union-value/-/union-value-0.1.0.tgz",
+			"sha": "a2d77900b76b2c2321a173ee3d9763cd45faea35",
+			"registry": "npmjs"
+		},
+		"union-value-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/union-value/-/union-value-0.1.1.tgz",
+			"sha": "6920e5907eee2bff11b7c7fb098b888bfa7cc54f",
+			"registry": "npmjs"
+		},
+		"union-value-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/union-value/-/union-value-0.2.0.tgz",
+			"sha": "5055d0afbc18d5383fffcb819abef819e0cdcb2b",
+			"registry": "npmjs"
+		},
+		"union-value-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/union-value/-/union-value-0.2.1.tgz",
+			"sha": "95f90e813627f90d35bc0127773d7ecf5190fe3e",
+			"registry": "npmjs"
+		},
+		"union-value-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/union-value/-/union-value-0.2.2.tgz",
+			"sha": "6766d51220b22c3e1e70d9ee6a2ede338c960742",
+			"registry": "npmjs"
+		},
+		"union-value-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/union-value/-/union-value-0.2.3.tgz",
+			"sha": "ec91d75a83f312c292515c33b954865b1df32026",
+			"registry": "npmjs"
+		},
+		"union-value-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/union-value/-/union-value-0.2.4.tgz",
+			"sha": "7375152786679057e7b37aa676e83468fc0274f0",
+			"registry": "npmjs"
+		},
+		"union-value-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/union-value/-/union-value-1.0.0.tgz",
+			"sha": "5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4",
+			"registry": "npmjs"
+		},
+		"union-value-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/union-value/-/union-value-2.0.0.tgz",
+			"sha": "642524162f8357c2eec384b0af50d8e0f1f62b47",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"union-value-1.0.0.tgz": {
+			"shasum": "5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4"
+		}
+	},
+	"_rev": "2-fe2689cb9ee1ceef",
+	"readme": "# union-value [![NPM version](https://img.shields.io/npm/v/union-value.svg?style=flat)](https://www.npmjs.com/package/union-value) [![NPM monthly downloads](https://img.shields.io/npm/dm/union-value.svg?style=flat)](https://npmjs.org/package/union-value) [![NPM total downloads](https://img.shields.io/npm/dt/union-value.svg?style=flat)](https://npmjs.org/package/union-value) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/union-value.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/union-value)\n\n> Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.\n\nPlease consider following this project's author, [Jon Schlinkert](https://github.com/jonschlinkert), and consider starring the project to show your :heart: and support.\n\n## Install\n\nInstall with [npm](https://www.npmjs.com/):\n\n```sh\n$ npm install --save union-value\n```\n\n## Usage\n\n```js\nvar union = require('union-value');\n\nvar obj = {};\n\nunion(obj, 'a.b.c', ['one', 'two']);\nunion(obj, 'a.b.c', ['three']);\n\nconsole.log(obj);\n//=> {a: {b: {c: [ 'one', 'two', 'three' ] }}}\n```\n\n## About\n\n<details>\n<summary><strong>Contributing</strong></summary>\n\nPull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).\n\n</details>\n\n<details>\n<summary><strong>Running Tests</strong></summary>\n\nRunning and reviewing unit tests is a great way to get familiarized with a library and its API. You can install dependencies and run tests with the following command:\n\n```sh\n$ npm install && npm test\n```\n\n</details>\n\n<details>\n<summary><strong>Building docs</strong></summary>\n\n_(This project's readme.md is generated by [verb](https://github.com/verbose/verb-generate-readme), please don't edit the readme directly. Any changes to the readme must be made in the [.verb.md](.verb.md) readme template.)_\n\nTo generate the readme, run the following command:\n\n```sh\n$ npm install -g verbose/verb#dev verb-generate-readme && verb\n```\n\n</details>\n\n### Related projects\n\nYou might also be interested in these projects:\n\n* [assign-value](https://www.npmjs.com/package/assign-value): Assign a value or extend a deeply nested property of an object using object path… [more](https://github.com/jonschlinkert/assign-value) | [homepage](https://github.com/jonschlinkert/assign-value \"Assign a value or extend a deeply nested property of an object using object path notation.\")\n* [get-value](https://www.npmjs.com/package/get-value): Use property paths like 'a.b.c' to get a nested value from an object. Even works… [more](https://github.com/jonschlinkert/get-value) | [homepage](https://github.com/jonschlinkert/get-value \"Use property paths like 'a.b.c' to get a nested value from an object. Even works when keys have dots in them (no other dot-prop library can do this!).\")\n* [has-value](https://www.npmjs.com/package/has-value): Returns true if a value exists, false if empty. Works with deeply nested values using… [more](https://github.com/jonschlinkert/has-value) | [homepage](https://github.com/jonschlinkert/has-value \"Returns true if a value exists, false if empty. Works with deeply nested values using object paths.\")\n* [set-value](https://www.npmjs.com/package/set-value): Create nested values and any intermediaries using dot notation (`'a.b.c'`) paths. | [homepage](https://github.com/jonschlinkert/set-value \"Create nested values and any intermediaries using dot notation (`'a.b.c'`) paths.\")\n* [unset-value](https://www.npmjs.com/package/unset-value): Delete nested properties from an object using dot notation. | [homepage](https://github.com/jonschlinkert/unset-value \"Delete nested properties from an object using dot notation.\")\n\n### Contributors\n\n| **Commits** | **Contributor** |  \n| --- | --- |  \n| 21 | [jonschlinkert](https://github.com/jonschlinkert) |  \n| 1  | [wtgtybhertgeghgtwtg](https://github.com/wtgtybhertgeghgtwtg) |  \n\n### Author\n\n**Jon Schlinkert**\n\n* [GitHub Profile](https://github.com/jonschlinkert)\n* [Twitter Profile](https://twitter.com/jonschlinkert)\n* [LinkedIn Profile](https://linkedin.com/in/jonschlinkert)\n\n### License\n\nCopyright © 2018, [Jon Schlinkert](https://github.com/jonschlinkert).\nReleased under the [MIT License](LICENSE).\n\n***\n\n_This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.8.0, on December 13, 2018._"
+}

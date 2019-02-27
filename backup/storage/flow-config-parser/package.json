@@ -1,0 +1,660 @@
+{
+	"name": "flow-config-parser",
+	"versions": {
+		"0.0.0": {
+			"name": "flow-config-parser",
+			"version": "0.0.0",
+			"description": "A parser for flow's configuration files.",
+			"main": "index.js",
+			"scripts": {
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"mocha": "^3.1.2",
+				"webpack": "^1.13.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.17.0",
+				"babel-traverse": "^6.16.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.13.0",
+				"camelcase": "^3.0.0",
+				"flow-typed": "^2.0.0",
+				"mobx": "^2.6.0",
+				"mobx-react": "^3.5.8",
+				"react": "^15.3.2",
+				"react-dom": "^15.3.2"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "flow-config-parser@0.0.0",
+			"_shasum": "81762fed34b8cb11d9aae1e899fa670fc57a36c3",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "81762fed34b8cb11d9aae1e899fa670fc57a36c3",
+				"tarball": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/flow-config-parser-0.0.0.tgz_1479576142367_0.8169198660179973"
+			},
+			"directories": {}
+		},
+		"0.0.1": {
+			"name": "flow-config-parser",
+			"version": "0.0.1",
+			"description": "A parser for flow's configuration files.",
+			"main": "flow-config-parser.js",
+			"scripts": {
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"mocha": "^3.1.2",
+				"webpack": "^1.13.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.17.0",
+				"babel-traverse": "^6.16.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.13.0",
+				"camelcase": "^3.0.0",
+				"flow-typed": "^2.0.0",
+				"mobx": "^2.6.0",
+				"mobx-react": "^3.5.8",
+				"react": "^15.3.2",
+				"react-dom": "^15.3.2"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "flow-config-parser@0.0.1",
+			"_shasum": "f39618afa575954bfab05c176b93b1473e65988a",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "f39618afa575954bfab05c176b93b1473e65988a",
+				"tarball": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.1.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/flow-config-parser-0.0.1.tgz_1483551138800_0.1370392965618521"
+			},
+			"directories": {}
+		},
+		"0.0.2": {
+			"name": "flow-config-parser",
+			"version": "0.0.2",
+			"description": "A parser for flow's configuration files.",
+			"main": "flow-config-parser.js",
+			"scripts": {
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"mocha": "^3.1.2",
+				"webpack": "^1.13.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.17.0",
+				"babel-traverse": "^6.16.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.13.0",
+				"camelcase": "^3.0.0",
+				"flow-typed": "^2.0.0",
+				"mobx": "^2.6.0",
+				"mobx-react": "^3.5.8",
+				"react": "^15.3.2",
+				"react-dom": "^15.3.2"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "flow-config-parser@0.0.2",
+			"_shasum": "029dcb20ef0dbc024342382a61638f34ef222a51",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "029dcb20ef0dbc024342382a61638f34ef222a51",
+				"tarball": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.2.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/flow-config-parser-0.0.2.tgz_1483552527217_0.764541884418577"
+			},
+			"directories": {}
+		},
+		"0.0.3": {
+			"name": "flow-config-parser",
+			"version": "0.0.3",
+			"description": "A parser for flow's configuration files.",
+			"main": "flow-config-parser.js",
+			"scripts": {
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"mocha": "^3.1.2",
+				"webpack": "^1.13.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.17.0",
+				"babel-traverse": "^6.16.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.13.0",
+				"camelcase": "^3.0.0",
+				"flow-typed": "^2.0.0",
+				"mobx": "^2.6.0",
+				"mobx-react": "^3.5.8",
+				"react": "^15.3.2",
+				"react-dom": "^15.3.2"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "flow-config-parser@0.0.3",
+			"_shasum": "d8d2228172db4c789df0113295bfdf2d14e36c7b",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "d8d2228172db4c789df0113295bfdf2d14e36c7b",
+				"tarball": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.3.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/flow-config-parser-0.0.3.tgz_1483554085979_0.9258187301456928"
+			},
+			"directories": {}
+		},
+		"0.0.4": {
+			"name": "flow-config-parser",
+			"version": "0.0.4",
+			"description": "A parser for flow's configuration files.",
+			"main": "flow-config-parser.js",
+			"scripts": {
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"mocha": "^3.1.2",
+				"webpack": "^1.13.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.17.0",
+				"babel-traverse": "^6.16.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.13.0",
+				"camelcase": "^3.0.0",
+				"flow-typed": "^2.0.0",
+				"mobx": "^2.6.0",
+				"mobx-react": "^3.5.8",
+				"react": "^15.3.2",
+				"react-dom": "^15.3.2"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"_id": "flow-config-parser@0.0.4",
+			"_shasum": "4da4dc0048f4262eb15702c98a5b7d05ecbc846c",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "4da4dc0048f4262eb15702c98a5b7d05ecbc846c",
+				"tarball": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/flow-config-parser-0.0.4.tgz_1483992247291_0.7448067141231149"
+			},
+			"directories": {}
+		},
+		"0.0.5": {
+			"name": "flow-config-parser",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.0.5",
+			"description": "A parser for flow's configuration files.",
+			"main": "flow-config-parser.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"mocha": "^3.1.2",
+				"webpack": "^1.13.2"
+			},
+			"dependencies": {
+				"babel-generator": "^6.17.0",
+				"babel-traverse": "^6.16.0",
+				"babel-types": "^6.16.0",
+				"babylon": "^6.13.0",
+				"camelcase": "^3.0.0",
+				"flow-typed": "^2.0.0",
+				"mobx": "^2.6.0",
+				"mobx-react": "^3.5.8",
+				"react": "^15.3.2",
+				"react-dom": "^15.3.2"
+			},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "flow-config-parser@0.0.5",
+			"_shasum": "a01c1391080c2152a49c0a19fae90cf0de909ffe",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "a01c1391080c2152a49c0a19fae90cf0de909ffe",
+				"tarball": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.5.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/flow-config-parser-0.0.5.tgz_1484005589245_0.9704226264730096"
+			},
+			"directories": {}
+		},
+		"0.0.6": {
+			"name": "flow-config-parser",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.0.6",
+			"description": "A parser for flow's configuration files.",
+			"main": "flow-config-parser.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"mocha": "^3.1.2"
+			},
+			"dependencies": {},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "flow-config-parser@0.0.6",
+			"_shasum": "9a4de4019552dbb170858947121cf5fb3dbcf8c1",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "9a4de4019552dbb170858947121cf5fb3dbcf8c1",
+				"tarball": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.6.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/flow-config-parser-0.0.6.tgz_1484101571960_0.6598558430559933"
+			},
+			"directories": {}
+		},
+		"0.3.0": {
+			"name": "flow-config-parser",
+			"homepage": "https://codemix.github.io/flow-runtime",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/codemix/flow-runtime.git"
+			},
+			"version": "0.3.0",
+			"description": "A parser for flow's configuration files.",
+			"main": "flow-config-parser.js",
+			"scripts": {
+				"lint": "eslint ./src && flow check",
+				"prepublish": "npm run build",
+				"build": "babel -d ./lib ./src",
+				"test": "mocha",
+				"watch": "mocha --watch"
+			},
+			"author": "",
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.16.0",
+				"babel-core": "^6.17.0",
+				"babel-eslint": "^7.0.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-env": "^1.1.4",
+				"babel-preset-es2015": "^6.16.0",
+				"babel-preset-es2015-node": "^6.1.1",
+				"babel-preset-react": "^6.16.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"eslint": "^3.8.1",
+				"eslint-plugin-babel": "^3.3.0",
+				"eslint-plugin-flowtype": "^2.20.0",
+				"eslint-plugin-import": "^2.0.1",
+				"eslint-plugin-jsx-a11y": "^2.2.3",
+				"eslint-plugin-react": "^6.4.1",
+				"flow-bin": "^0.33.0",
+				"mocha": "^3.1.2",
+				"source-map-loader": "^0.1.6"
+			},
+			"dependencies": {},
+			"eslintConfig": {
+				"extends": "./config/eslint.js"
+			},
+			"bugs": {
+				"url": "https://github.com/codemix/flow-runtime/issues"
+			},
+			"_id": "flow-config-parser@0.3.0",
+			"_shasum": "704916efba88cd2518ab4d8f933079571276138f",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "codemix",
+				"email": "charles@codemix.com"
+			},
+			"dist": {
+				"shasum": "704916efba88cd2518ab4d8f933079571276138f",
+				"tarball": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.3.0.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "codemix",
+					"email": "charles@codemix.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/flow-config-parser-0.3.0.tgz_1486559445411_0.22726996499113739"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2019-01-13T20:15:36.936Z",
+		"created": "2016-11-19T17:22:22.908Z",
+		"0.0.0": "2016-11-19T17:22:22.908Z",
+		"0.0.1": "2017-01-04T17:32:19.452Z",
+		"0.0.2": "2017-01-04T17:55:27.910Z",
+		"0.0.3": "2017-01-04T18:21:28.026Z",
+		"0.0.4": "2017-01-09T20:04:07.949Z",
+		"0.0.5": "2017-01-09T23:46:31.447Z",
+		"0.0.6": "2017-01-11T02:26:12.545Z",
+		"0.3.0": "2017-02-08T13:10:47.275Z"
+	},
+	"dist-tags": {
+		"latest": "0.3.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"39f89570cc29870982b01c956ef81f11\"",
+			"fetched": 1551301859253
+		}
+	},
+	"_distfiles": {
+		"flow-config-parser-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.0.tgz",
+			"sha": "81762fed34b8cb11d9aae1e899fa670fc57a36c3",
+			"registry": "npmjs"
+		},
+		"flow-config-parser-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.1.tgz",
+			"sha": "f39618afa575954bfab05c176b93b1473e65988a",
+			"registry": "npmjs"
+		},
+		"flow-config-parser-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.2.tgz",
+			"sha": "029dcb20ef0dbc024342382a61638f34ef222a51",
+			"registry": "npmjs"
+		},
+		"flow-config-parser-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.3.tgz",
+			"sha": "d8d2228172db4c789df0113295bfdf2d14e36c7b",
+			"registry": "npmjs"
+		},
+		"flow-config-parser-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.4.tgz",
+			"sha": "4da4dc0048f4262eb15702c98a5b7d05ecbc846c",
+			"registry": "npmjs"
+		},
+		"flow-config-parser-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.5.tgz",
+			"sha": "a01c1391080c2152a49c0a19fae90cf0de909ffe",
+			"registry": "npmjs"
+		},
+		"flow-config-parser-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.0.6.tgz",
+			"sha": "9a4de4019552dbb170858947121cf5fb3dbcf8c1",
+			"registry": "npmjs"
+		},
+		"flow-config-parser-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/flow-config-parser/-/flow-config-parser-0.3.0.tgz",
+			"sha": "704916efba88cd2518ab4d8f933079571276138f",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"flow-config-parser-0.3.0.tgz": {
+			"shasum": "704916efba88cd2518ab4d8f933079571276138f"
+		}
+	},
+	"_rev": "4-5c7f5d9cedeb2042",
+	"readme": "# Flow Config Parser\n\nParses `.flowconfig` files and provides an API for inspecting the configuration.\n\n```js\nimport parse from 'flow-config-parser';\nconst config = parser.parse(fs.readFileSync('.flowconfig', 'utf8'));\n\nconsole.log(config.get('munge_underscores')); // true\nconsole.log(config.suppressesType('$flowIgnore')); // true\nconsole.log(config.suppressesType('Boolean')); // false\nconsole.log(config.ignoresFile('node_modules/react/react.js')); // true | false\nconsole.log(config.remapModule('foo.scss')); // 'object-shim.js'\n```"
+}

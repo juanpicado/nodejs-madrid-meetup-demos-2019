@@ -1,0 +1,1488 @@
+{
+	"name": "@emotion/utils",
+	"versions": {
+		"0.0.4": {
+			"name": "@emotion/utils",
+			"version": "0.0.4",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@emotion/utils@0.0.4",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-9uQ2tI2MUvjiCCGnjsiadsn8w6ay3HFrfGMJDWL82wRSMzoxnRCaiSVaW4ycuesvS9mPBmhXOtw0fy33DEN8Vg==",
+				"shasum": "3dc636c4060ff4ad0c2342f38ad58eb7e62b0370",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.0.4.tgz",
+				"fileCount": 8,
+				"unpackedSize": 8821
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.0.4_1518185368294_0.1503809492249666"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.0.5": {
+			"name": "@emotion/utils",
+			"version": "0.0.5",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"_id": "@emotion/utils@0.0.5",
+			"dist": {
+				"shasum": "b3b2f7f31d68f2c288599a8fc195d6fb6c4f8a56",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.0.5.tgz",
+				"fileCount": 11,
+				"unpackedSize": 8861
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.0.5_1518239564783_0.8209769727381606"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.1.0": {
+			"name": "@emotion/utils",
+			"version": "0.1.0",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"_id": "@emotion/utils@0.1.0",
+			"dist": {
+				"shasum": "41a16c31deb77753953141bc18b6e3df330de1f1",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.1.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 8871
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.1.0_1518255136079_0.9953709071678731"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.2.0": {
+			"name": "@emotion/utils",
+			"version": "0.2.0",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"_id": "@emotion/utils@0.2.0",
+			"dist": {
+				"shasum": "1d97e1d5ea472e42b10b7fa17038c9f2443a538d",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.2.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 8871
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.2.0_1518264822812_0.9307355384485498"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.4.0": {
+			"name": "@emotion/utils",
+			"version": "0.4.0",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"_id": "@emotion/utils@0.4.0",
+			"dist": {
+				"shasum": "f4f12c0495485f9d51b6ab9192cbb54f5a979909",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.4.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 9019
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.4.0_1519345615791_0.8194219167253423"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.4.1": {
+			"name": "@emotion/utils",
+			"version": "0.4.1",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"_id": "@emotion/utils@0.4.1",
+			"dist": {
+				"shasum": "16be45b13e34ee8924005fa567a3131fefa9941e",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.4.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 9210
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.4.1_1520163169232_0.8081137240433978"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.5.0": {
+			"name": "@emotion/utils",
+			"version": "0.5.0",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"_id": "@emotion/utils@0.5.0",
+			"dist": {
+				"shasum": "c97bc0d94f31c0277168667c8f50c912ae64ecaa",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.5.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 10147
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.5.0_1522373685976_0.8204424662874745"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.6.0": {
+			"name": "@emotion/utils",
+			"version": "0.6.0",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"_id": "@emotion/utils@0.6.0",
+			"dist": {
+				"shasum": "15cc48d18bc47ef41b307ed1fc97bd29d6ed0fc8",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.6.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 13714,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa5Di0CRA9TVsSAnZWagAATS0P/0v1WVqMZTRt+eSC5fxg\nZOWr2sfsFh4JGCj1nwT3jkt0ZKFD4PntxpyeaFseOQbwf4u+EclowXaziDQv\nNIbQ1yfYOMylwBTm6yonWJ62jSJceeLPAxWpJA9BSUHHT1nvZyC7ixYxdhDf\nrw/7SSIAJ2nMhZ7qKrYF2Een5YJw9USjsNL46Cx8ALSsM4kG94bxULUtyVIS\n5vduMFeoVniSwGA4wJga55SQVN2Iav5o955jwARBXI+mhx4m9bzv+oJv13W7\nkNb2QW332zUsMK9ocixTMeRw3TNyApMFBP1mre5tkHXUkijMFEEZAhPK0YG5\nmFDJ8wQjhrsKxo4XljzC9ltTJicHRU5Yoo09NOjQYGehVnqvkqQQoV/a2L76\n+GFG2b7Z5CMyn3U1eLleGsmqAl8kPGlh3QVYIPe9ltfaYeCMig+zvOwqEzdI\nCHXFNTyzuRfDcvqRuaFniW28IWTv/0ADkCrUuaRBbkmqB2eFoLvwH7WG1ps6\nodmc4vbQ47rt2G4H1rmxLNB1evk+TLsAIbtn1dofjS40fdVwz3pQ6yAqlrRp\nJ98cz/IxbLWx8e7NDlMdzgKs6zeAA/p+KiT9QMWHg60He+194gR9dX2dE/z+\np7maXfCLSqoJifBV8X8DH+gQqgzFn21fHaxrveJThOVeFo3eIyPpKCkB4nfd\nq7hi\r\n=2FVl\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.6.0_1524906164479_0.952999333920155"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.6.1": {
+			"name": "@emotion/utils",
+			"version": "0.6.1",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"browser": {
+				"./dist/index.cjs.js": "./dist/index.browser.cjs.js",
+				"./dist/index.es.js": "./dist/index.browser.es.js"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"_id": "@emotion/utils@0.6.1",
+			"dist": {
+				"shasum": "f657657b9db639e9f91fcb81284601f2e8e09df2",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.6.1.tgz",
+				"fileCount": 17,
+				"unpackedSize": 21526,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+BfACRA9TVsSAnZWagAAT3cP/3TRumt2NsbCKDgBhJu0\nZZtUeY8rsRr6agZketmg9j7Y1ZphGhrBuQJ3MWqMJrKq/4EA/swVgkFexT6z\nhcrt2GzPwCMxWOOqHzIrJULdk4Aqn6J8KYc/fPVYhMtBRwPYDv6QbneuZKZ9\ncYrA8nR77778OGBIPTzl9P9mtXjTAsQuiEZBd8O49acd6jBHX3eNuEHXYr2g\ntISi/A02sX9Aoli5W8exsqw3a+ZZRwBUNpdC5jNC0LPNet9GDmwRJDMogXIA\nyTJ72zbdoqTCjyEduK48tF1Rdnxee1lJey8BtvYJqGq3z8IdelFQGc6x8Nel\nNS+0uGyq/6rbGvMhD8PIvJu0Dg17NqjD0/+lxLvHV1UaqfnhiJra94d/4nMB\nfYgOFG/UnZc9lhd6fLBfWQtb+Ip2E3e+gt3fG08PjQ1EpbUrk3ztx+McqpjH\n8F0SmHRA0KYTFIhT+VzCcO+2n7EwDt5HqaPW4wZTCUDxI5bJcouWE4uXQ3wH\ntFxmPpcQI1ByVs+o8KLRlfYu+TGopHR8P8JY9aEaWiFf2VMW8EgdD1HwQ4Ut\nHf6LJ6BSdNpX+ZgwlkUknRj+nK8C2zWHPVve5CAoNeuBcih0L43+5MBPqYwr\ndbzomT/2bJBRuVeQadYqIUqqLiBcQEjjTDhiLvIILawqhdLn1hFMeWhGNS1u\nvLH+\r\n=+uub\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.6.1_1526208447889_0.03529118730511005"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.7.0": {
+			"name": "@emotion/utils",
+			"version": "0.7.0",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"browser": {
+				"./dist/index.cjs.js": "./dist/index.browser.cjs.js",
+				"./dist/index.es.js": "./dist/index.browser.es.js"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"_id": "@emotion/utils@0.7.0",
+			"dist": {
+				"shasum": "932393ab7bc1ec4558f27577d7f26c49500acd4d",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.7.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 21291,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa/8zICRA9TVsSAnZWagAAiNIQAJKGs5aKdiuyQvu87ZSA\nH2UIy0RpBPjBwdJjmn+KMnA4mSyOvTfmtKals4I+xNOpbcmPjvU7Ty0lxYLQ\nJrw79b/GvkFVuwl4OPvdrg6IATAjtG/TBtGhxYi2FfCNmMC8FhksBlL/QR10\nT39DqmZBKQJnx3HWz3g8G/bZIcH017thDzZkxtkaqPyMiY8r/AFUl5CfPYDw\nJLxSV5zpCigN+8agwV9Rlb6SBV6vhdL0G14J/aBMxHlgTgNrSWK49brquQ1b\n2UytzSnzUu4e2tx8sYgHCBU98Vle4iBKTGjf2gGiBzWxruo92kN4XYPOzN5y\nwkQXQbSPUUYM7zAmlG0AVw+lCm6XIxNgfGgiCXaTqobqBXL7UdLpgDSJd2yb\n1SwpIG86GQT2ED+7Lssp7DvMYL9073/ICFQaj5RcUO2f7ruQUfw9vJZyYmsO\n0BTWrhacEsNpaBvx+EE7OWZdXg7NbRa+iFUxD5+XDZbo5iQkFqo43lan/IIZ\nKMR0PchJH9eJxq+G5S21HVtaKLZIF+50F7hzMZ2SU2FvLla33CFHl9/E/AdN\nbMK/SgQowtIP9lh2oHTytDm4j/lagnnK6ilNFWn4NG9UGoAX8WoIsr7ryZYQ\ndjEKd9fPibG/P8d5YrBC2g73t0DXbri2Hw+pchMBS/InfMu4d+enBG4emH7m\nD3WY\r\n=EBH0\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.7.0_1526713543319_0.7376971370360728"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.7.1": {
+			"name": "@emotion/utils",
+			"version": "0.7.1",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.es.js",
+			"browser": {
+				"./dist/index.cjs.js": "./dist/index.browser.cjs.js",
+				"./dist/index.es.js": "./dist/index.browser.es.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/next/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.7.1",
+			"dist": {
+				"shasum": "e44e596d03c9f16ba3b127ad333a8a072bcb5a0a",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.7.1.tgz",
+				"fileCount": 18,
+				"unpackedSize": 22124
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.7.1_1529612793795_0.9945994224602215"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.7.2": {
+			"name": "@emotion/utils",
+			"version": "0.7.2",
+			"description": "internal utils for emotion",
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"browser": {
+				"./dist/index.cjs.js": "./dist/index.browser.cjs.js",
+				"./dist/index.esm.js": "./dist/index.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.7.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.6.1",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-lXz29VYWU5asFPeSUnl5NEnZ3O+KAgLBp8rNQ9s0kfDpVJIEBoGYD0LMiuSwGQ/BlayjKFQw8+JBQctuJDY3Ng==",
+				"shasum": "22f508c3524a35b1b7a68d45aa8cc85e159a2e20",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.7.2.tgz",
+				"fileCount": 13,
+				"unpackedSize": 21638,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbSXdyCRA9TVsSAnZWagAA5vwQAJV6MKu7bIIh5d+0dm8H\n41tW3GBKYKdlf2tp2OxtmHOhWyPFU6JbMhvNQ9z/yHarX/Nc6Qq6NmqnS9Ln\nqmOBxR8YWFUJ2qGfOtUP9ZhxjatHtL3P/RD+qtvBgEO85eur1tndnw2hzT/2\nvQKX5076jTcXwJRxWD/UQLZdHXjBnJUSxo8WAHgfm2dR+41RbxiQRCdR4YtH\nBKbutiqwFgY4xDSEycBAXRCZWTE0BIw5iLspdfTdKWg+cfkUVwigm73B1jkm\nyU64cQ8ug/R2AVRnocdEy4lIYnukocLMN3DxGOwOC3H/JWsw99kNodDnALBp\ni2l0SC6+S9und5XtL5Pxb+lJjg6YrqRDdAXLfsXZYBVN7npJOEear4aepuAt\nR1idkxufr+NXANaykxXoZL1j8mgmRn/ZI5rKN3hvzR8kVqktZHO6taheeMy4\ngKz86aDMdRybrkrxgOma8afXegCKhsqYJOiZcNcuZSy40j4dpk+nyhFElYS4\nTojc9dDtQ5r/tQ8MzyqD+drJix+R9VrmWiWuYTSAPj9kAvNbMrjnplHi070T\nnvmpKMwGd8j6MOqDN+2DzQaircuG702MiQiILF+31HW/8uKKp3cdWtiQKtIC\nvTvdCvw4H/ebS7DfiW+bAJS4U5iGb0+xUwF4LNJygVIEcmDK5aSxurOA0aiK\n8aM1\r\n=/KiV\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.7.2_1531541362224_0.6984925711208516"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.7.3": {
+			"name": "@emotion/utils",
+			"version": "0.7.3",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.7.3",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.6.1",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-1bGqG9IYJETOOqQEjWinGx1deLlAW/Fcew4GyrzZx0dJIgAjivZTmwzjrhB+Vhj7TgjMr0aTyj5byHmZezisZQ==",
+				"shasum": "4240c5eee8af86843452af7497ac2808be04a77d",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.7.3.tgz",
+				"fileCount": 15,
+				"unpackedSize": 21720,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbSsgCCRA9TVsSAnZWagAANuQQAJ2/4HnKR4vqx0CRLAvu\nJKJZfXlnNpv95D0LlOb5SsH7zm9vVSpVEjgylApCTGv4Habz109evCjXS3JS\n1Op7jMgJGP3v3AkSWCARIRzrO2Gt/4+UkWmg+NxAv25Magb3GDPjarg66HqK\nkFQXH8NHnz9kuxSpU3PolkkPKLoYLLAj2jBiX52RsZqaTFmuo8K6bYugqgp0\nor6uy4RTICSZjcBCbAErxXX9fntUpaNhpOvCHK+Qm0XWWEjhA24byDCsL+kF\nc5WdMF/VPviGWghdsB17evyUChUbhj5FKQVCko6bSGDVG8MvdsY88BveoUe3\naSdBwdPS4T6xLQ3aOUMH0CoiOsHC7qkaldq73Z2SkwP3VKUhaDxaen7N3IPV\nv5BBFVjeNjwS2xMAPbWoiaKSaQx/1P1FJ9lP4jGSd++3ttdx8JZiZk6tvqmY\nyxGLIB5Z61vl0LOlGLs8M+I+zBuUW6A4ciJMhCZaYOCuXZqRj3D7QJQRAlOi\nSz9ns/S+BKVFIvfqK8jY3WRToCYLk6o56wUgpgADq4lXViXQImuAVNWCXw2h\nb906gUMvoUJdoN6vKMCXIVJTA6ib9R5qwbV2JCMi1Mb8S3PEL7KBi1EE+3mT\nBPLSEJB0f2jBMUOKR5I65iIeoPckAvEtwR3Gzhyp4Op7EU2FLIkLgQBzj4D/\ni6bZ\r\n=b47u\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.7.3_1531627522541_0.8353413411393744"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.8.0": {
+			"name": "@emotion/utils",
+			"version": "0.8.0",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.8.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.6.1",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-VzuAGGkfxE5lt/fWqQAQWlbYf8Rl2AzVRN0aYnCLSfXaavz0DHPOOG8xq7KfJdWIQMI42+bWOoospybg54ADmA==",
+				"shasum": "08ef599fe8c41e6184fa0b5a6ca460d318d3abb1",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.8.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 15292,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbXRkDCRA9TVsSAnZWagAAcjkP/i/QyNjxfl15h2444kA6\n8oetJ5NfZAKQk0AMEPrv7tqyv2FZCRRwEHmJT6Y9E2hpX2kAg+AlrYHC/Odz\nTcUKF1qFMAbOy2SVbrsG/16SBb1yy3P12vVyqpfY1+wogRMflqzSMal+5bV4\nBQokDzvBYpjr6BXqRmujghGERVhXg+JR2i+1brW8x539AoIYJ8CBANo/ZzPI\n7tmy/ZJdwAH1i/lv1lXmToE3X39i8ALWLHwdyNiYj8fuwjm32pvUE11LPSTA\nQRjsoyQf2mwpfOrielwRS2QX00YmYeiHxn96RE2c7kpQt9Rrb0t7i4J7G3fa\nkTDtuRpaxYOFLd5qTCoBf1cq8SoIf4JIIyNr0IyUGISPh/GdwyCKOjCGbX4W\nPXI/UuY3qkKFZRJPXeKTdMoMqaaQsT4RgEH4oVkQkUhXzz0L9VezjV3GM1Hd\nSksmWUywouIme7fSumSxxUdoC8k3anvPNEm33l1iMtWmZxlpLi2gXGv8QwdD\nXz0yoftu689nrZAtwPkWPU2R5DtkUQhtKU8IlKS2zqLYZYHyyzP9iZP0L/y/\nWC5ep4QAvs02/K9JnTAd1fMOiSGpTKnVQP0LfcWFmHU+KkHKDwMGUzQMowyb\nDS8CXFmztRghSOlnI8akEKal3oSLbR52Hj4z6OzF8BpnvpXxr0x0FySUriq2\nmqjC\r\n=ykjq\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.8.0_1532827907613_0.1346186544982937"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.8.1": {
+			"name": "@emotion/utils",
+			"version": "0.8.1",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"files": [
+				"src",
+				"dist"
+			],
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.8.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.6.1",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-dEv1n+IFtlvLQ8/FsTOtBCC1aNT4B5abE8ODF5wk2tpWnjvgGNRMvHCeJGbVHjFfer4h8MH2w9c2/6eoJHclMg==",
+				"shasum": "f3a81587ad8d0ef33cdad6f3b4310774fcc1053e",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.8.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 15357,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbZQOtCRA9TVsSAnZWagAAY/wP/jlXaU1Q17z6++MfId2R\nQZvPHkFpWtng5g64VMOiVJI76Rw3yd69O8F+GNHts8Znh2GR7Z+unI390KTW\n9hjkvkzeEtOB539GQ5u+F/s5xIU1YfL2isBnNCpx3rxQ1j9kHOrN7cCiQIyG\ni6jdbUjQai3ufotZ34f0MxRkzsqJFyWZkwEnuKnR1eLS0DzrjOM/V4L7Pdvu\nQpSpg4uBCDrB+6Dl/q8bYatwNgoF17P1i/Sot3bKhBxpAo9/dfqVuhBrNchn\nseZI5ZgDKZPDfiEGxCptgD30A7WpFEKwHC/URyxx1vu7zB4IR+LWKegzNLaY\nha0pJ/3btwbfVYkSOI30ASlkuE5GQD7Dw+oy9V2MiiDkgMRvqvZuajK63dI2\nYA3025bUNjzcUfpdzB5viDxWgvXiyYfMKv6nCh7xB7V+p9U3D8B0JCoy/qlL\nvzPi8xE34nkPuhGc8UPsU4ZjzGSOBOJRd1xRRJIJnUn8PAqqA5m75l9nUSHQ\neMC7UlHDn0FKCIDXygEusanO00jPmCp2vM+aiQw0ZKZYio+c7Q72f1UOuEJy\njn/ZQIPvYTPnf/XuaTQ8GWEUth3DYYfquHecCeLdRB30QbTlegb44mY6QTWP\nrteIClk0NbfJJN2HKbj8e48hbj7FBXSOsu2TNY143mM3qmfU85zjVR4+PKtJ\nvjie\r\n=Vbvx\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.8.1_1533346732932_0.14232891062041086"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.8.2": {
+			"name": "@emotion/utils",
+			"version": "0.8.2",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"gitHead": "94fed7652759a0f1962da66b922299398e39fe4d",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:emotion-utils-0.8.2.tgz",
+			"_id": "@emotion/utils@0.8.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.10.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-rLu3wcBWH4P5q1CGoSSH/i9hrXs7SlbRLkoq9IGuoPYNGQvDJ3pt/wmOM+XgYjIDRMVIdkUWt0RsfzF50JfnCw==",
+				"shasum": "576ff7fb1230185b619a75d258cbc98f0867a8dc",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.8.2.tgz",
+				"fileCount": 12,
+				"unpackedSize": 16541,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbpAnHCRA9TVsSAnZWagAAtdcP/jxluh7muTOjBJSAdghP\nXDSZ//HWaCnTgGZCYNdDPvZ1En4XTh6f0Z5YM1IbhB/PHeRjJ19C13GoBG7B\nzwQ3ZFwRdfJGd+0Lfl94guOtHf+6S96G8uf5acMEIstFA955hi/GF1GFX/zt\nnIkzsBWs/ZG1SKR+8M8M9eFzhFcTa5f8wa0az1buVQavc6cFTwsfhQVFXQzo\n6B2bAU5sDxDGY5ExscXpG3Wmb+wQfkksbavFw7hXgpI01s4m1fPfnQx3J2I+\nFtx+pPgSwQhvvr+Mld1ZjyShDsHSN7aVHy2oGxF4KJtFy4uvXngYgQJG26q3\nGLtKi0GpNU8DWVqXs4cIf8I2FRL1PCBa/Khkm9eZ5PoeBAPZVl+mCW4Y9a8e\n8n68SMaF7P/24T8ruMBG/EyQS/BMp7OnW7J5cmZeMjjN/2HLM8qAtT3AW/RS\nIr6inui63p9hfBVxRKcNXQC1Olm9/qnIan2lcSE2tsj5yzQYz9gp3co+blYO\njAL0+kTUHCkN5T4O9kzF/oWXjxCJLzoR+cQQnmsw2pHaC15LdbbMy7Wip2T9\ndcD1PwwwoHcRtBJk9VFWztQRMpW3kHI3wK8zYEPWPBycjOI4BADD6aT+50mP\naVSmSDGaNo1nza3dkilUi4MpwSnZpPLQiLkORw4Wol54QZ2562rTe16QIBX2\n3UaT\r\n=REMD\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.8.2_1537477063458_0.011850233508806651"
+			},
+			"_hasShrinkwrap": false
+		},
+		"10.0.0-really-unsafe-please-do-not-use.0": {
+			"name": "@emotion/utils",
+			"version": "10.0.0-really-unsafe-please-do-not-use.0",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"gitHead": "a5f3825603dffd69fddb44bf5f29afd7c49eabd5",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:emotion-utils-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+			"_id": "@emotion/utils@10.0.0-really-unsafe-please-do-not-use.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-vaWgpVsrAN3n5pcsR/XXsa4myidJsV4fYOtCmU/FWQtsrkBkDj4aWQiDHC/mIw4WnTqBdb9MQXLp8ZNWSIN8PQ==",
+				"shasum": "a96cb59ec0ce3034dbcdb4ba290b0799d572c1cc",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 20309,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrWj2CRA9TVsSAnZWagAAiCQP/jM3QWDmL7XVsKvSNSUm\n25JWBX3OTMyVKfPfUdkXXJvotDbOozc2fZu2s04cPHtgHSOpxG935UrWQrb3\nP5iBvLQb7zBeAPu0W+XF5WFVVk4q9W49x5lj/bxcNo1WLdmzBBiJHHejoNzA\naWMtbIzczm63DkNohTL3+8hob0AFSw6qhObhF4tq5Loswxh4S6i1q7GUjEb3\n5VkeDcDnGs0v8nJwm1CFZVnfcYzth/v3G4wWrkbkx2qZZlA+Z2PH3waaRYk9\nlRslGNJdwbueYUUqG2RM04p8rpJY9NB+YXT+yWIQ6OBs+kRUgOFAfdMY4GE+\nV1+zTIS8gahh/N0LwBg+waG5V5eroY7hlt54l378tBF7jCkrwZr2ibhlk5Xf\nAaQD9twuzprt9CK6FEkJ6f/NZz8GTvksZKvjrBp76Cbxvpsr7G/zYlwNALgl\neuWOXi3htGZjkU2baHC4S6SBLCKpns17Jldz9ulT48SURGVeKqPhulZkv6Gh\nvwTqdHk+m1u2V+Y2kCnoGGGVr7/YpbmSMuzmajC+SQkMSq6lr44XT1Jhx1Mf\nDLo7bgy37XERDa58SWWUyERoj6g+0wbnI+LPqSU8hQ39Xxc3YOYN/QhBAk4O\ngm+boak3ewIs4hfulN60fjNNvirMQjK9UmnVoqG75L8ZUnAyAhGsgL1Omw+q\nACfD\r\n=jhMd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_10.0.0-really-unsafe-please-do-not-use.0_1538091253410_0.295389245161888"
+			},
+			"_hasShrinkwrap": false
+		},
+		"10.0.0-really-unsafe-please-do-not-use.1": {
+			"name": "@emotion/utils",
+			"version": "10.0.0-really-unsafe-please-do-not-use.1",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"gitHead": "2b1bf6ef43eaa9133ba7a9d7c8d96ebc1d3877e2",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:emotion-utils-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+			"_id": "@emotion/utils@10.0.0-really-unsafe-please-do-not-use.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-NECZLF6Gtbj+GiaICMys4kUrA7p6C7RToTAJzlk6Wilf8L01IMK7CalNU3izXBXlxSgXlexoev8yRPY3LMra/Q==",
+				"shasum": "c591acda5806632f3d5e5de520163a7fdde0264c",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+				"fileCount": 13,
+				"unpackedSize": 20309,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrauQCRA9TVsSAnZWagAAmQEP/iw8Qz7YNzPxAd41D/Xb\nhyk7+DhBPgcuRwS22c4NFsjnGxpuI7pBIDiTOyWgQdzKyJHlBhdWKhitE62l\n0h6WoUFsTKfvguNB/blcIjBsGlAd+p8NxtkWoKgiCftwS/3KXBUBXZt0ggEm\n+SPXTGCCRoQBX2YlI2R/dPaDuOzQDsDYT9+n22IMLKVQrZFhJDClE20wkvbk\nMY6VkXSsAEEj4uKB4cVF/0Dn2X8xUKTTJBoCrm3DSTyphdZ7q7i60S7v4EBM\nDWS0FYt9XE0vXnsoLfXdDy5WZ9ZUNeptMT4ttFzq7AP+JeY4lNM88xCdFWiT\nTVFS2bFF8NLalt3mhjNupWTakTvZKWfj4ZIowFC5PJgBaAPGyz8MKRXrNA4t\n+/o/b4VbX5gDJFue8DWIyjjFHkj6XaVNRjPA3CrDhxLQPxjrlnb6IuID2stH\nPS3uSSevBN2GlReNL1V/dZlPYVSt2xxq5m+wjvqeu1AREo8SDRgsQGHxW2+v\nTGY6Z8K2sQTVD6434OtpcJpdOYu363XZmkvB9VAdZA463QgTFYSJ4A1pGUjY\nnQ1d+NWyY+S7nGTTC8cZBlv1xIKMhZhy+pww1jPLXNQRFGc/9HKtCJsOA1hO\nGxUSefR8K/JWmaDpufZfMp2lJS4ZP+FAb9kmxR+jRYxZNa6zWXXFZiVA13tZ\nduvh\r\n=BCnT\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_10.0.0-really-unsafe-please-do-not-use.1_1538108303849_0.8224423865416581"
+			},
+			"_hasShrinkwrap": false
+		},
+		"10.0.0-really-unsafe-please-do-not-use.2": {
+			"name": "@emotion/utils",
+			"version": "10.0.0-really-unsafe-please-do-not-use.2",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/next-packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"gitHead": "0da0de50f6f2c19e46bca7662d1a954d48db1264",
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:emotion-utils-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+			"_id": "@emotion/utils@10.0.0-really-unsafe-please-do-not-use.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-0xqeh1Q1QsT67wMxWrxhpFmJjtTM8MC6d1q+4EC81wJL/8UHoD+798XvsPcn769X/dLh3Z7wv+NsfZvwJP1WZA==",
+				"shasum": "ddf5b65bb7c1215d39ebbebfc5f484a8e41e6d9b",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+				"fileCount": 13,
+				"unpackedSize": 20309,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbra/5CRA9TVsSAnZWagAAws0P/1rqmZHXOv2eAj0zSea9\nk818Z+ZbIndZAMsLPUpT/S8w0WHDFpyXvgyTfqZmph6sQbw541PWAVbkeINL\ns6CU6H4fek6TYW2exsBqVjlL9CA2TLOPUcqcMUhkpyaQEWnUKeXbwelns2xO\nDiAcdiOG9lr5INCbaBWYc/cuclWSvLxHE9mvfUg/MM4zxk0jRfCb9oH02vW5\nwc5wqE2gRhNChI+f6JKd5ZqcFoFX++nDCxyuVMPjPh4sM1N3I804XXKjlczj\nauwt3nRrWicRcslT/4b9LwJDDzaNJj1mkPCwGSBcADbit9iC4mLDiKhnXxM2\nl5zLtXPPnyB2n/9hR9r/5qK2FfUA5w/C2hGX7PUXGeqCWA0gq5xMRaxcbw+G\n6QHSIHJFdZwzWrMdVJBY9F9IEiqwV9s3Zc0F01NGJZYfuNjeYU9NGE28Gn6Y\nMTufryWUGjbwQ554M4h5evz7ltEFw4QF1N/QdYOCO7ubwU86gh6BhMw5/zul\n7FQk+ub3U6PRM2hA71v0AqHGSrkJS218lL2nD/OxcDlfUuDWiUhRf0eVkwp3\n6DR5947p71/3bk2SIVWVD3oZe3fEN/Dc8arVmkDrbhvEjGaZyK0Nu8AITm+t\nmSqhzCJ9eTviekwJj2WJKv092jfEvZrxbq8N4JYJi+8DiPhmbcWQjDhICIZ/\nhLRC\r\n=C/ch\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_10.0.0-really-unsafe-please-do-not-use.2_1538109433238_0.3172397744372599"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.9.0": {
+			"name": "@emotion/utils",
+			"version": "0.9.0",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.9.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-giwuCjLmHMPBSlxtE3ym40+4Zk0tZpsKGZM7+e8oA7brCLDDGWsemVT3tzfdRRDHGuPChMChYISrmZJfgJ9kdg==",
+				"shasum": "828a15c384790f15b294bcf6ddcae0153ed32e84",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.9.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 21713,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbwaAiCRA9TVsSAnZWagAA6qoP/i/SI/NrSfNCF1GXzMui\n25G7nIAESZMYBw5rZ1iIYtWn33IlBMbH/Xe2iKSUdvBPX5n8iTWaVcjivRld\n36QD2zGwDyr5UKEfKPq4pEz7Ti4D7/83CoAgCa2l9Y7KNO4rTNt+gwIDQtl6\nsvJ4B4iIfIupfjLNPzxhdQLw/O9mw33kNBnm6/cv7+BM2RHn58TWmip6lRH3\ncf/SAp00Lb0uWMuZAhSuSEDkrByFouPs6Bd9r8LdnxiSSael9E07c8YRPvZC\nAtw0h7dM4R15Oxxv1XgwqQS3AB5ihnK78cHYBKsf9HKhn/VhoZ1Feo3LDkQS\n5mD8t1rPVqEGRRh76fdXZPSxw4dcb25b3HihduVgMoBDIzngEURVMv6QG2Mq\nD+Puq9ICt+y+wsoNuOlJeHEM1/aCeJKX4Z5czVQx3HiozlcFqIUaCmlt8gbx\nRhAvqGkH0f7h/U/fLGeyTp+uODIFoeQWoJ2V7ziFYZfyBMO89OrBFg9O8sAo\nne9occ+Nj89ScFHbJOkqBMHrXEM3BoXDfHv660lt29FKZCV4UQ6lAuhqvf/o\nNhL7nLVYA0gQ19LqjGzQd2I05J85BLw1TtIi5VlNi3r1WklCkks7n9qplXhV\noNAG4SPdP7rsdX50EvCSx+z6gUsWw7myCc+9dxPHJhNy6V9HW55HgHmbHos4\nxowK\r\n=aLvd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.9.0_1539416097634_0.19243423354816125"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.10.0": {
+			"name": "@emotion/utils",
+			"version": "0.10.0",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.10.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.11.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-UEW+ksnRcGt9TefMigfAXf1+2MXYeSTLTUwNbdhq0r4RdWcTND6v8i9sE5Md/lG7rJzjLZHaXZonzbS+a4BxkA==",
+				"shasum": "9a471e4bdd3254e5d9d5fe96069e3887ab3f12fb",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.10.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 17787,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb0/WyCRA9TVsSAnZWagAAnSYP/iJcCWQDV+Gr/E0ROY8J\nj1WUuI6weTz9V9LlrS8Z39vz6xiRDyV6N8KVSPz1GS6PVuwskxNS2eG/YXLu\nZkHNCtIfNMOdH/5/KbpnHrEHg75eGcBRZjyC7kMsLOdyV3MT7q+Q+pPhejDW\nysNQHCxDmkRWq3Nvr3llf/XhfAHx3VpIMKTaEWIkAlvGFK6N6JsgqL7HVYVY\n3V+ecxT/a6AgBI2papjzerxjcpn2kOoyMAYeaMQJM8Ceki6UXqPB1xsk3pfn\nQs0FezaxvGeFKnnhuVYGUzZwSRCPundxbhM/+M1pHCb/1wWdQcOP37Zoyzdw\nbYZq3iI08f3D2sdfUE0GWbt+y+uZRAwq28E9Ts4UJ4Z2qZdZlFUkGVBhshRC\n09ETlDwK4MbgynLaUzTcjCWBy0GMuoxfGKLCcwO1iay9TwwwqJh0nbEto663\nk+epFpTGtg10yTZ10D21c+DGAVrnXSd75s0akld7sjYYDLufieb2V+CfnWJQ\nG7YsSS3671GMBS2lplZsEdgbdA7eVHwcrZ7J5bCN7yPRSf7uA4IcjQ+oP+6/\n+nW4WpnvixelwUrXALoTsHXHxZj6/F7A4CzVbV7Ko7XMnHwPec+mqeHHboTR\nL416kVVTENjoEpxiSbJj4CeQNJqhD55+8mlAOfWg2UdWIBPWVXC+lCE0bDoX\nl7RS\r\n=kJ1b\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.10.0_1540617649937_0.9706839480681286"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.10.1": {
+			"name": "@emotion/utils",
+			"version": "0.10.1",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.10.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.0.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-s9oNfCryjalGqBG2rr2DpV4bI9342ojWzIYYlBk5qVbXUUpZMNQXmCTUuA4u1Bcxx1TaqMiDSDzfNo7TGoxHvw==",
+				"shasum": "152e80d6c5775b1990e6d1464484d52c7595f266",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.10.1.tgz",
+				"fileCount": 16,
+				"unpackedSize": 17787,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb2/0OCRA9TVsSAnZWagAAJ8sP/108gtUoEhYvw3R/euNq\n+flj9Rl377zAzOliyA1bcSAjGB8PY3Fw5x8IJ6cJwmuAnWiBjI90CdP6QdUS\nGwWZdfvK851vFPSGhK8fZZKrzMACt7ZMngivDXQZhv8kMgZz4hbak6ZNX363\n+ejARUqC8yCiwElmQF1B99f3BQNZzfKiWAjukyYbJFmGRn0xPp6B7+nkx+Uk\nN5zmhaXpaKXPSK9fhdfHhEO25AtUc5ah/h5VvM6qsYLDiLKi2CjA3OQ4E3/x\nXCOjZrox0DPSjzuO/NhKkAe3zj6eAEW0wY5xMEqAbScYuVMi6XfIiJ1jRM14\n6w0G3BVxC4Cf8DL0cWcpqYTQnnMTgq2DSFqM8Pp9FYGI2ztjad+QdEVGQjlG\nJNFTCGb+KXJkjRIAGVB+tL/Yp5z4r9uh/WwyOLVBfo/AYn2fdV5oj92ajrIy\nVJvz0Srsa8GDXnnlikEOUvUn3TFmfBFivtmBwUKTVOMI92DhGPl0AK/a3osw\nSpptrnF/WunhVGECeGFSzAA8Yxj2tXAVIy9+mb9dJYOq1PimR5ClKCldOrbT\nvY9ErcOtrHf1ISkOqWJvw4Sv6GmafYejAHg+eDG/RhnS0fID1y/U04pq1rp0\n6uq2Qr4OXnb53Q/VlCTBXYF6MvUQrWcjBZhB5M/n4NE4xtasM+H2Dzi/8LF0\n0w1t\r\n=9tHz\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.10.1_1541143821182_0.9932875317253493"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.11.0": {
+			"name": "@emotion/utils",
+			"version": "0.11.0",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"umd:main": "./dist/index.min.js",
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.11.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.0.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-jza6jgDw0vxv3VT8GMp3caWiir9Ee1gkV+UCMMHfXc+FDt9dbOoNc6wdhykW/tYmBFtYsB3yfsyHeK//3R6rKQ==",
+				"shasum": "612f05b2bc88472408499799665b784b354ca23d",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.11.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 17685,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb38sdCRA9TVsSAnZWagAAWp0P/iOAHBslrUFZSzBwJJT2\nlbZtwTGgAAe2H1HUjdQ4CC22brKKQw9p7zry5Qpz7iPGIAfoyFfUiDw5QXeF\n+hsJQo+/e+gzPN2Dm1dCch6AgQTLtzEO1OxJ+t0OgRtudQ7gl53HhEFhgEAZ\nYoN2Wt8YAYqGicm5DzKc2KNtm1eZbE+EMmCnW455+K3tEUTieHzPXfUtFnpf\n6tK5QZcfCXWVRcRZhcmp0eUn9NbSWql8OOblIdMMDfwMdBXs7Fof1RzcKMXD\nTt+o+5ky+XwgJJ/KuY+C+0FEaVX2aDLK2gaXTxNYcS3R4ZJQFaGu6xmxsOB7\ndjMSS7oIoq+uqhQ0i8LaxQxRIAR+glcTk1dy3iRvA3OA1Cy+mo6/GpI57bJm\nF8GOXAbPw+/jn97k2Nk2aLvIyvwWbV/QAWwyP5ep1b0Iiqz44fDt9Ee5eiI3\nw5QKNB3IKOuj/0jURk8TIqJybeo9fptVE8vOx3KmVlmX0pCTkHVBbdsQT3Cu\nP95689UkYxFUhM2QzPLqN1b4ZPukXrwQP9BmqpAUleTRepH1t+UJsjm+Ezsy\nxvFsp7Tztbsg/Wj9HFinWKZxWoFmoEDGFpjyejbbJYGLRLjq30xb8vnTfxNi\n0KO6cURl3d/MUiKYxpkVLHdFHCYXe3PuapsrmZto6Ceu36lUJA6+9kygALMR\nEZY3\r\n=vw1V\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.11.0_1541393181060_0.9222407986066963"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.11.1": {
+			"name": "@emotion/utils",
+			"version": "0.11.1",
+			"description": "internal utils for emotion",
+			"main": "dist/utils.cjs.js",
+			"module": "dist/utils.esm.js",
+			"browser": {
+				"./dist/utils.cjs.js": "./dist/utils.browser.cjs.js",
+				"./dist/utils.esm.js": "./dist/utils.browser.esm.js"
+			},
+			"types": "types/index.d.ts",
+			"license": "MIT",
+			"scripts": {
+				"test:typescript": "dtslint types"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/emotion-js/emotion/tree/master/packages/serialize"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"devDependencies": {
+				"dtslint": "^0.3.0"
+			},
+			"_id": "@emotion/utils@0.11.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.1.0",
+			"_npmUser": {
+				"name": "mitchellhamilton",
+				"email": "mitchell@mitchellhamilton.me"
+			},
+			"dist": {
+				"integrity": "sha512-8M3VN0hetwhsJ8dH8VkVy7xo5/1VoBsDOk/T4SJOeXwTO1c4uIqVNx2qyecLFnnUWD5vvUqHQ1gASSeUN6zcTg==",
+				"shasum": "8529b7412a6eb4b48bdf6e720cc1b8e6e1e17628",
+				"tarball": "https://registry.npmjs.org/@emotion/utils/-/utils-0.11.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 14263,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb8/93CRA9TVsSAnZWagAA+WkP/0Rur+7QMU/ekKDUBCTZ\na0c5VAj/sZHPp4KW6g2GEu4eR7BTfys9l0QorzZFn35DGPruMt1nNSHlnRP9\nT++nqAkzYtTO+2Fsn1EJVhqd4q4+ZBu3+QKzO+HTKAp1tuClEtxYVKsHMmnQ\nAIov3YM9ZX+NJbbKNawOiJyLzTCmyGBNlb1qniPKfShuIN/XuzFQhRCk3h88\nzU8LPO5VKrx96XiC7Cv+SvUyWmXDUwfol8uZ4ZJ/A5w1On6prwiw3JdcrFj/\ng6o6UoxwEjkkjrQ6BYOekFzMCndJhzYAsQLF6usM9dqXTcm8Gcwlp6E5RMjA\nIYhG1BLcIQWwci7gBWBaM1/ZZqjSo8W1LA9Db1A5YNP92zfs+CqOCjaV2F70\nW2TXF5zJBOxouHo+2jIaTd9Q612PmO42ybfiCf5Bq178dHCUc6Iseubwjn12\n7KW04ZqRHNoUMHVQXPDU7Q3Y7pfTsS/DyDUp0sC3Ga17XjX0gNKXZklT5aSX\ncFb81gojndTPXEeQxkesCOrFTgD1ChIx3xydWdtvdWAJCUofVM21NC2jMG7k\nWOyQ666nVW640ABx3ppEM4aMAkZxL59ysOLX7HMzxf5u2SxKd7Cpso+/d3Bf\nDM7BAtJkvkYGJxKLKIvihOamxGmCYq75V4zT93oljoJGgt+PIVchHXTodz7f\nxSLj\r\n=3AN4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "mitchellhamilton",
+					"email": "mitchell@mitchellhamilton.me"
+				},
+				{
+					"name": "tkh44",
+					"email": "kye.hohenberger@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_0.11.1_1542717302631_0.5163635631403511"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2018-02-09T14:09:28.223Z",
+		"0.0.4": "2018-02-09T14:09:28.359Z",
+		"modified": "2018-12-28T22:09:44.531Z",
+		"0.0.5": "2018-02-10T05:12:44.828Z",
+		"0.1.0": "2018-02-10T09:32:16.144Z",
+		"0.2.0": "2018-02-10T12:13:43.502Z",
+		"0.4.0": "2018-02-23T00:26:55.861Z",
+		"0.4.1": "2018-03-04T11:32:49.303Z",
+		"0.5.0": "2018-03-30T01:34:46.043Z",
+		"0.6.0": "2018-04-28T09:02:44.544Z",
+		"0.6.1": "2018-05-13T10:47:28.142Z",
+		"0.7.0": "2018-05-19T07:05:43.439Z",
+		"0.7.1": "2018-06-21T20:26:34.201Z",
+		"0.7.2": "2018-07-14T04:09:22.467Z",
+		"0.7.3": "2018-07-15T04:05:22.681Z",
+		"0.8.0": "2018-07-29T01:31:47.703Z",
+		"0.8.1": "2018-08-04T01:38:53.030Z",
+		"0.8.2": "2018-09-20T20:57:43.563Z",
+		"10.0.0-really-unsafe-please-do-not-use.0": "2018-09-27T23:34:13.561Z",
+		"10.0.0-really-unsafe-please-do-not-use.1": "2018-09-28T04:18:24.043Z",
+		"10.0.0-really-unsafe-please-do-not-use.2": "2018-09-28T04:37:13.350Z",
+		"0.9.0": "2018-10-13T07:34:57.771Z",
+		"0.10.0": "2018-10-27T05:20:50.088Z",
+		"0.10.1": "2018-11-02T07:30:21.358Z",
+		"0.11.0": "2018-11-05T04:46:21.184Z",
+		"0.11.1": "2018-11-20T12:35:02.817Z"
+	},
+	"dist-tags": {
+		"latest": "0.11.1",
+		"really-unsafe-please-do-not-use": "10.0.0-really-unsafe-please-do-not-use.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"49819d48c5015f48981ad6622c1f0cd7\"",
+			"fetched": 1551301917226
+		}
+	},
+	"_distfiles": {
+		"utils-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.0.4.tgz",
+			"sha": "3dc636c4060ff4ad0c2342f38ad58eb7e62b0370",
+			"registry": "npmjs"
+		},
+		"utils-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.0.5.tgz",
+			"sha": "b3b2f7f31d68f2c288599a8fc195d6fb6c4f8a56",
+			"registry": "npmjs"
+		},
+		"utils-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.1.0.tgz",
+			"sha": "41a16c31deb77753953141bc18b6e3df330de1f1",
+			"registry": "npmjs"
+		},
+		"utils-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.2.0.tgz",
+			"sha": "1d97e1d5ea472e42b10b7fa17038c9f2443a538d",
+			"registry": "npmjs"
+		},
+		"utils-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.4.0.tgz",
+			"sha": "f4f12c0495485f9d51b6ab9192cbb54f5a979909",
+			"registry": "npmjs"
+		},
+		"utils-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.4.1.tgz",
+			"sha": "16be45b13e34ee8924005fa567a3131fefa9941e",
+			"registry": "npmjs"
+		},
+		"utils-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.5.0.tgz",
+			"sha": "c97bc0d94f31c0277168667c8f50c912ae64ecaa",
+			"registry": "npmjs"
+		},
+		"utils-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.6.0.tgz",
+			"sha": "15cc48d18bc47ef41b307ed1fc97bd29d6ed0fc8",
+			"registry": "npmjs"
+		},
+		"utils-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.6.1.tgz",
+			"sha": "f657657b9db639e9f91fcb81284601f2e8e09df2",
+			"registry": "npmjs"
+		},
+		"utils-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.7.0.tgz",
+			"sha": "932393ab7bc1ec4558f27577d7f26c49500acd4d",
+			"registry": "npmjs"
+		},
+		"utils-0.7.1.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.7.1.tgz",
+			"sha": "e44e596d03c9f16ba3b127ad333a8a072bcb5a0a",
+			"registry": "npmjs"
+		},
+		"utils-0.7.2.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.7.2.tgz",
+			"sha": "22f508c3524a35b1b7a68d45aa8cc85e159a2e20",
+			"registry": "npmjs"
+		},
+		"utils-0.7.3.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.7.3.tgz",
+			"sha": "4240c5eee8af86843452af7497ac2808be04a77d",
+			"registry": "npmjs"
+		},
+		"utils-0.8.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.8.0.tgz",
+			"sha": "08ef599fe8c41e6184fa0b5a6ca460d318d3abb1",
+			"registry": "npmjs"
+		},
+		"utils-0.8.1.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.8.1.tgz",
+			"sha": "f3a81587ad8d0ef33cdad6f3b4310774fcc1053e",
+			"registry": "npmjs"
+		},
+		"utils-0.8.2.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.8.2.tgz",
+			"sha": "576ff7fb1230185b619a75d258cbc98f0867a8dc",
+			"registry": "npmjs"
+		},
+		"utils-10.0.0-really-unsafe-please-do-not-use.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+			"sha": "a96cb59ec0ce3034dbcdb4ba290b0799d572c1cc",
+			"registry": "npmjs"
+		},
+		"utils-10.0.0-really-unsafe-please-do-not-use.1.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+			"sha": "c591acda5806632f3d5e5de520163a7fdde0264c",
+			"registry": "npmjs"
+		},
+		"utils-10.0.0-really-unsafe-please-do-not-use.2.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+			"sha": "ddf5b65bb7c1215d39ebbebfc5f484a8e41e6d9b",
+			"registry": "npmjs"
+		},
+		"utils-0.9.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.9.0.tgz",
+			"sha": "828a15c384790f15b294bcf6ddcae0153ed32e84",
+			"registry": "npmjs"
+		},
+		"utils-0.10.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.10.0.tgz",
+			"sha": "9a471e4bdd3254e5d9d5fe96069e3887ab3f12fb",
+			"registry": "npmjs"
+		},
+		"utils-0.10.1.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.10.1.tgz",
+			"sha": "152e80d6c5775b1990e6d1464484d52c7595f266",
+			"registry": "npmjs"
+		},
+		"utils-0.11.0.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.11.0.tgz",
+			"sha": "612f05b2bc88472408499799665b784b354ca23d",
+			"registry": "npmjs"
+		},
+		"utils-0.11.1.tgz": {
+			"url": "https://registry.npmjs.org/@emotion/utils/-/utils-0.11.1.tgz",
+			"sha": "8529b7412a6eb4b48bdf6e720cc1b8e6e1e17628",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"utils-0.8.2.tgz": {
+			"shasum": "576ff7fb1230185b619a75d258cbc98f0867a8dc"
+		}
+	},
+	"_rev": "2-55052bbe5b4be26b",
+	"readme": "ERROR: No README data found!"
+}

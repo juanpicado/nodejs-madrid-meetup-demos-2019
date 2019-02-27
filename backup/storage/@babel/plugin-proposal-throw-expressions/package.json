@@ -1,0 +1,2524 @@
+{
+	"name": "@babel/plugin-proposal-throw-expressions",
+	"versions": {
+		"7.0.0-beta.4": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.4",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.4"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.3"
+			},
+			"devDependencies": {
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.4"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.4",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-4ukYR0g1iAWxaftYtySgG06APTfCfkNaUJ+S9fSAOKTHXtjOaW5RkdXQWRyW6BEV7CQRgu0mUX0pbdJlWNsVFw==",
+				"shasum": "9e6fb022c1e5217d4c6448565f3e888a52d17ff5",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.4.tgz_1509388521358_0.5414752813521773"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.5": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.5",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.5"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.4 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.5"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.5",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-bMaHwa7kYQppBL8s+uYcIU8ioh9PG1fDGUjlQdv/68UCC+meHO4jUaquzrK411ZA6r8irG168i6lIUFIdqdSCQ==",
+				"shasum": "8699f23fed8ba7cee72d99971530c5ac119f44df",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.5.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.5.tgz_1509397017441_0.40935675194486976"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.31": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.31",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.31"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.31"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.31",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.31"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.31",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-43+xCUri6iH/1IuV6ovdfNjavYC1Px3R3Gjm7H5UW1g+FnfhEWyp0fLuWSiwu9xLy4F6SeQ07BJU8HS/sM6pBg==",
+				"shasum": "c2c0e058d78f9c14d489d34f82031506bf57709d",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.31.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.31.tgz_1509739431320_0.035563075449317694"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.32": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.32",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.32"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.32"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.32",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.32"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.32",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-GiGS69++tiUXjf3ohUSE3zMh2l4C1TLwEaE5rsvWlfykWVh9zWGSfhJTd44yaGRCoZchfrkzg1G6GdTT+SZ3iQ==",
+				"shasum": "1c3603908346683de2d29bb3b5600dec52474cb3",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.32.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.32.tgz_1510493620830_0.34939204971306026"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.33": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.33",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.33"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.33"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.33",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.33"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.33",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-z1iCqw9uH9qLZ9tsBaOyz/TYAPkQIlf4JPgOndJN7SncF9j2qcTtPRXM59IgFHXRFGIVc8v4JokAJTwkaM00cw==",
+				"shasum": "948805bb9965fcf5abb4d3cb76baa681438f4222",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.33.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.33.tgz_1512138530632_0.734869648469612"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.34": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.34",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.34"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.34"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.34",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.34"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.34",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-njdZ7O1Js6sxhRuqfD3aYC9DPaqdVmRF9dnGLJ7YxxFmbFlfrGXzuPMW5Zabt6tBIuLSbNRUTOJSfks5rXZfgQ==",
+				"shasum": "3e0a176458a5612f4b8033d7a7fa4748a8b60e8c",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.34.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.34.tgz_1512225589101_0.9331157330889255"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.35": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.35",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.35"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.35"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.35",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.35"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.35",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-uk+zxX41hvc1JCZbkkfyK8rnXLyjF3THmjzcslNmWv0syi7xVFJ3ZiyviF2B8+CxDPGVcTfQu69WCx988Gf/PQ==",
+				"shasum": "5c24a5e25b95787b4058a56ab4b29e41e1605673",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.35.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.35.tgz_1513288088062_0.7197859953157604"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.36": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.36",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.36"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.36"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.36",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.36"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.36",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-UO6RyUYyRqqbchDA+6vW3dEv5Em9IMH0S6R/ZITLa7ACNJJGrCXmHtECQ3IRkDLHEGzd5yYjXZ/uu/0cM+UDZQ==",
+				"shasum": "2cee96b8164ee0065ac47d32cba0f4e4843b69ca",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.36.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "james@henry.sc",
+					"name": "jameshenry"
+				},
+				{
+					"email": "kent@doddsfamily.us",
+					"name": "kentcdodds"
+				},
+				{
+					"email": "kaicataldo@gmail.com",
+					"name": "kaicataldo"
+				},
+				{
+					"email": "teddy.katz@gmail.com",
+					"name": "not-an-aardvark"
+				},
+				{
+					"email": "star.ctor@gmail.com",
+					"name": "mysticatea"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.36.tgz_1514228709696_0.37968323612585664"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.37": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.37",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.37"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.37"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.37",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.37"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.37",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-ZqC94GXu7fG+R9auhhDqHeSGgg7a4eSqifFN4RBkC3fd7QUZHlu3ixU3IaFKiWYkPM2BUXTTtAq9tfE9yKa/vQ==",
+				"shasum": "2c946f55484086df27070b263bdc9ebe1085e106",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.37.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.37.tgz_1515427369760_0.33860997040756047"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.38": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.38",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.38"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.38"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.38",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.38"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.38",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-yG1TaIuSWi1kGQEfluTOtlZl/OVUIJEQ0tDBaHrYbBaOoXzNe7+Fz5UzqmAuqlRJUEirPrgGLwR6Adcyw8WufA==",
+				"shasum": "ccd43e7268e45a071acb2ba82e5af3feb35f8cf8",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.38.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.38.tgz_1516206738538_0.16801529610529542"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.39": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.39",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.39"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.39"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.39",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.39"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.39",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-xQjU5uh8UMkj1MtzYfc7IE5sVy8kpLTEO72WztE6PYATAEE0Rw0Df3J47fCN6E7c/J/ixbybEjUCquMbEkxAKA==",
+				"shasum": "f94092fe1b71453cd5040ea2e0b3a75600f4bc10",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.39.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions-7.0.0-beta.39.tgz_1517344070396_0.41095874924212694"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.40": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.40",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.40"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.40"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.40",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.40"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.40",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-bece0oqaKq66NU9AIV4kASc229QtgnHvHPrnUcOLQ12R9nI0qXEhJa9AgwsNKp0ACEtFZ6+ytFaQsFZF27wzbQ==",
+				"shasum": "4f34c51a9455baf81fdc2eec176a2c68c59eab20",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.40.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2317
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.40_1518453727882_0.4776070098842433"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.41": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.41",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.41",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.41"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.41"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.41",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.41"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.41",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-dS6Ff/3rmj+nqtgwQ5MwkIbhNyBhfF8gRlyze7mth6WBS0yJwTForVG99LeamF/oAHDA3M6fcBXVIFTerL0djA==",
+				"shasum": "9a59c319de2afc5116d4ffffdbb6246d3b218609",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.41.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2538
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.41_1521044789217_0.002953472636479937"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.42": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.42",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.42",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.42"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.42"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.42",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.42"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.42",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-CNiqSzoCHZwkhV4j/F4rMJmiyMu9PtINDwdWZZtjg37FzB15T1mj0My9SZ+eeTi1Xm4TzXe9qlkuc16bbmVt8w==",
+				"shasum": "c6ef0f0760202671dc1cd2e4b6825e9938909a29",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.42.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2538
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.42_1521147102655_0.2914171597370181"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.43": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.43",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.43",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.43"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.43"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.43",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.43"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.43",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-xmhUAxmAD0SdlD7CNGClz6vIXCBEfnhdJO/A57Nc2DJcOmzAWFeC89JwqUHAaNNm4RZ1diA9xeQeD6AeiNzg2A==",
+				"shasum": "b323eca1ff5b38ff0d6f578f81d0916a47b1e558",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.43.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2813
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.43_1522687718809_0.14095399658279772"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.44": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.44",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.44",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.44"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.44"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.44",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.44"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.44",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-ABh+EYjNY5tlO1mysAyd+6bVSQW9EPZG5kzTXnT/USk0DOV7C/inh+cbE9JunTZ/DWCW9tFEJYmRXApiBLqEVQ==",
+				"shasum": "1e54689dddc733e4986371b6818adcea161531a3",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.44.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2936
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.44_1522707619967_0.41668273963127644"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.45": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.45",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.45",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.45"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.45"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.45",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.45"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.45",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-fjOgQaMPEji964ti+u7hJs2mQutCXXU0t1CTUR0gBwORjTw4I7SMnFWYNAN3XvcUAA7+yMLt/hoemR+06i/q0g==",
+				"shasum": "cada317496bd8901d937491c77a2f6c9d76d3910",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.45.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2936,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3T2OCRA9TVsSAnZWagAAtmEQAIpz0/Quice1TYH+URF/\nsJ3jx3qywGEyOmukIPu5uDYzVpEnron+pSqXfyZq4ykYBSzWpTPPYNYIdKEg\ny5wsqEOBLIK7jTp1VQ8OYoSr/p/gB1GbzmsSahn6JAV8LNlNj1iupIcDEfht\nbsO21tj4ChmYvCx4KjZGuprAGLhIn/BaKtQ0yBkKDx9X8rvT1K57Qp24ay6h\nzYRhmmecDETQSziaOW7AtIuzNoi3C66FPgLjUS3/TUF10EAID1+7zIB5zWVR\npN33QEMiidSPevlmttCdGL3x+jCVTYJfia9khRvr5+bbUkQ2J2NyknLuFZjL\n2vjE2Sn1WCGklg1lzI3NOOT/XAyKnDa9eJsysbrOWB2HQRbGQccl1vUMsEMZ\nOnDFKadqIxws3nRJXbdrOSjB+ZlCXjzaYBm1jmuN2/FqD+B3/u3o2H9gLQW2\nJoQfZBtyqzTSgKEiUPMkylfSDX21y7+p+zDQNfCbeiRtylnZTN2C+wsramP0\n6I8fgY5k8x0+51qxr3+y3uzNzQA9scBh3seBrfnBBEKapXT5WtZ04haDuVJc\np3l1a98zURbxrMjN0nlsGo+inc2Ta19p9c4aTfgfNgKbpaJk/bOIrHlieVGk\n6GntxhQpYZ5yfAu28em6yZbSJN3afVBRBsh/CNxvdDF9zgZUIrEGOsAJgUJ+\nulAP\r\n=0/Di\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.45_1524448653921_0.07446292327564841"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.46": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.46",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.46",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.46"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.46"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.46",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.46"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.46",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-l+YsUx/q/Cigmpy78KD7hLdymt0/jDtHpES2tDX0Af7wMq4Gdi6Ar59Hou/QyP1iG4vV4LvzNa5ieOKTQwm/7w==",
+				"shasum": "eb259c73043050a51e40b53e74342763aa9b77b4",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.46.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2936,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3WG9CRA9TVsSAnZWagAA1ksQAIZ3eJgs1HuV0c0sy210\nTj5A2YBTi+rBvF+mNvY9HC6vEQwchyM1hAJYNcjhHTD9xaPgzluQdUCO7iX2\nQ82L0qlHurtrEyEXBV8bHQ1EYxf8a70cWKCRsoCFYzhZPy97KWETcFiqmYK9\nURlodIPR+Bk2+kgohoSHSu95b4es6Is5QdDOLBKqtwIV9k/aESOtXVnY20yx\nistUsyKObqlhWFMsbxOy8dBXYIQDfX4bsBqeYWJCSXIG6IVfUKlGQMPMnZOz\n6b9DFLHqyEsZu7NlvQg5wxvz+cUCbu63l7ofg6pQqGiO3iMQJVrreB3SLWBG\noWHDMn8UAnR+1BLChP/H+7U0puaM+GgHB6qo7OW3/Rl+4rBJ1xwQrZOlEddV\nj2Uvwn0yVZUKynUkjRHIAXXxIE9h2yPIypbwKYmyo36dLUwdjDVo/KAG8fSx\n4X07C5Qr+Q34x1nz8b5qgsGuUoFZR9pL4s2b3tNiEJ1MczCvs8GYCo1oRVd5\nFMpZzEJAdjkRjtj6mEesqinGZXL9wME31iTdKnHri5E6r38JwphRAypO1w/w\n7xFotW/VHC1UKWIavRP0yJ58J6gQ6RRT11+xAeTcZafkAZwcoagp+k0rIUM0\nN8soPOgQ7AX1V2jeYyCA9ussI3S/4oQq/pKqu2kZ9qiG8PseJ1JGs05Kwi0A\nQTpA\r\n=ecCy\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.46_1524457916923_0.6343633199678191"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.47": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.47",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.47",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.47"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.47"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.47",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.47"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.47",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-BGJ96kIVi9NlojyZkpJNkdkxABt+VQT6hLQfILpNfFBJUzdOnZbVecXJUmoTAzg56Wse29XbY9bpNmocdNmtFQ==",
+				"shasum": "9a67f8b0852b4b0b255eff5d6d25fa436928424f",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.47.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2917,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+iVOCRA9TVsSAnZWagAAjNAP/0NT9wkG8l9wMxga9B8T\nI+QHRwZzky1CpdGgtdeFZVRhhib4+WRmJWJSgCBS/hwvPvUKrfQm88CVWXq3\n9uT2WGKeBvoD7JPbK2TDqGYc7Ap/ocP0XjqwN4WAvBbVKdWdnqXtdYkL8aoK\nanMgL0LiVctkTcslcz04haltF0nexBp53k3mliZYyPr/mwuZ3VcZRjJwHb52\nj9pyb9ct5BOAwvX+8OL8aDZt2Cus8A+ZctWBZAJ6MuKyfBhT5QBKJdxOtHIl\nqPysI4qlD2EYXEwtTFPZ+Qd7RfGGO07ziOz/FT15ocIIR0HvnOLrlJjS4q3e\nNRONTOgE4iE8VRxxVsQPgWNNpn4KN5xfi4/Hi8TrnOZ8kFZ649exccN257uv\n3WELXLuZWh6TJWupSAvpGjHUTOtwWNv6Js6qy2X+sWyRcpXxAvV3m/TXZHdy\nGRh/fHm17u+iKNFc82/0o/KvKXzaIP1MHAijl/gN84KcfV1EcSwPGBYOmcTV\ntiPk/nhufC06Gpq8WRO/SXyKE8IEF0q5pyQFIK+j68c2t2DQyBQgmn0iEb4i\nIpKAlexSewrGrIMkQLgTsFmnVdkx1JBgJxbkLNDydz3ydX09I/MNXmBE2m+L\nQJfx6UGq+RDBTheAFP2yzHyBu60tKsSzLAvcGt/8+SgDLWGzLba+UsoK+VFY\n9bkO\r\n=la9P\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.47_1526342990365_0.5715074785529777"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.48": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.48",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.48",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.48"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.48"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.48",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.48"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.48",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-vvWAGGCT5B8IvyE1lo8VDfyGhkJbBMb2be5jPdl9FrGDIvUlc5tB6HjJ9O8+RiU92YUMosCV11cB+dpEUNOYKA==",
+				"shasum": "1af2f6b99d402e57a803aa385d8358cacfc33e7e",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.48.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2813,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBxFGCRA9TVsSAnZWagAAMwoP/023gcQ8rEdHgX2YVgqX\nVgzQL9pvoBiGFIqTM9foQUc2JbelfMVSpSYfDvFBOm/UbBPefkIlzvdvTqK9\na2PldSvvdbB5gjrrTRsVSkTwKfCE71euMO3qet04tqn7d9ZZTM+zgPsADBuo\nRpnk7V0S9J2I1YUMWYW6XvCXs/g1W9Zz7k8W6eeJXGE0HN4MT8CxTLZxwqN/\nWKRpJiNXCfra14IIfQdBIAZ+iIYxiylyMh4ykILzEfHE4+oG+bLZM8xU6C4g\ngQfs666TfpZbPcHyGYNRjbakc5Jxd7C3LBRYoeRubwqwYFu3hEN73mJKAKLs\nyRzJoLBsoW1GwjpX1cBSPfp9yK0PsY8dKhafNQDSdYVhqEQxSXS0MPIsUSac\n65KVthwmD1vJH27mCM9s/oORgQUelILzDc/1HZHWJdqVLY4B6VXhjWdcRC+x\n/fFzjawYMo1msunO39TZpxpxJaZRvGXdxLOhdFuXjIx+ZY7JPve92L+eRREH\n/V0IlPe0q0LgzZ7lms9i8nWkx0EBIlfqF29SgdsVqtBd09KsW3tyOLNjiJrq\nBySuiWIn2G/LFaX/FA6vpgIle/+DZcko4yM8mg9WVvEh6Oeg8mllPOlbBUmw\nUDQPbRetzse5VeDKuUotdFMeKINGErW1NaitMfakKx+G16N2oDpyA55ZkGxo\nHy42\r\n=vBJB\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.48_1527189828372_0.4419711774798454"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.49": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.49",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.49",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.49"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.49",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.49"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.49",
+			"scripts": {},
+			"_shasum": "769e6e6f6418c702568cf39be9bdf183ab624199",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.12.3",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"shasum": "769e6e6f6418c702568cf39be9bdf183ab624199",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.49.tgz",
+				"fileCount": 4,
+				"unpackedSize": 2828,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbCDPACRA9TVsSAnZWagAA/ZoP/R3e5D05Nq17qnzkZhaz\nzZNjIDgvf67FzqvilrBtr1E5+vdB5i/dT1RghB1lUchgE4LYtoUzrcErTUM0\nLIY5EGs25we8JOWiC05L6VIfkMOkQcL6CSMhY8ZCEfdk8Nc5wMqYkvzOjLWL\niD+N6XsV/gKLOaKAA5DGiapYR/bg5485gOK64Mj7wQQl39cRIbdKfkHRiseF\nCtJJBmJuUc5f517Aq7v4Bt65O4oTZmWxq4BhittvDWkDvSV3HSLhjyVfrOY3\nqiwUuFjep8x6FsJXX+DGkTyMl/NcPqTd3gIVCjgbqn9E1F3Sa8LQNVWqnZuI\n5ERqsqz6N1RCko8K78GV38LcU9kplc3adECqjRBbrdOwxUhKrnjgDczNqcYa\nolnXIaUXjZ7uVC6rHuPxhp2P+kaWyyfzL1tjAjMkhuKFQhQKQ7b7VqKmESWI\nJyN/q3YtkMeQ4cOZhwgLR8Rz9XPU+5uJ/Sm+zxZzonhJosaPuiiEE4oFg1GD\nOC6nHVBqPEOIo7IIdnHDUKMwuw+ey71KmQJd8t8/w0fE6/TOyzqQz7uwvWKp\nZKqKmBcT+HpnEO5olZQEqCXmwkdp9+xJ++X4fN9Jk5lnjmn4nfPUUWUfPlRy\ncOMLYRCE1Po8lUYgwfQP280izGZhn3pdMuPYkF1Z/lI6p80//pEuGMt6csNn\njNcB\r\n=yVOW\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.49_1527264191650_0.12249741907690725"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.50": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.50",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.50",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.50"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.50",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.50"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.50",
+			"dist": {
+				"shasum": "08863f86cbd2cbf4acedab6643ebb2b13768b4db",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.50.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2431
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.50_1528832856016_0.41471172686996405"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.51": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.51",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.51",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.51"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.51",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.51"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.51",
+			"dist": {
+				"shasum": "38c11db4b1e0948df912965d0e228f70815dcb38",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.51.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2445
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.51_1528838415037_0.25488887695896945"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.52": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.52",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.52",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.52"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.52",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.52"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.52",
+			"dist": {
+				"shasum": "fd6b5e99b8957a1515cb67cb67ea3cfa65208746",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.52.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2444
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.52_1530838775099_0.8068077980058364"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.53": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.53",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.53",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.53"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.53",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.53"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.53",
+			"dist": {
+				"shasum": "46ee15d2d1b6dac13e2780f603c8e01050600d45",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.53.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2444
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.53_1531316433931_0.06180012390908152"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.54": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.54",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.54",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.54"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.54",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.54"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.54",
+			"dist": {
+				"shasum": "0a015d86026f55251b790b515f91f566b50e15c0",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.54.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2444
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.54_1531764016550_0.15619190066280075"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.55": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.55",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.55",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.55"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.55",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.55"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.55",
+			"dist": {
+				"shasum": "a2563ddcf4db74e73260787be569fe988a816b99",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.55.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2444
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.55_1532815659915_0.5804699459473535"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.56": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-beta.56",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.56",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-beta.56"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.56",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.56"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-beta.56",
+			"dist": {
+				"shasum": "48f5e9621fdc354a6e53af69df3de8a19f3d6f81",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.56.tgz",
+				"integrity": "sha512-yB5gJOkbs3+uj1Yo468E+3bfWlHitj1Z7LwUsxi4p/AkEs7eJy6oTN3uilmjFpaimdfL6Sit5MzlXIT2/TvE7Q==",
+				"fileCount": 5,
+				"unpackedSize": 2444,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbZPw9CRA9TVsSAnZWagAAUIoP/1x9Sqv40I01ejOBWF7s\nAiP3hgCLMkUGG/h+NaU3GmwKJK3iXPax3LKnPOEZey9Etg0OfOZ11oGCM6+f\nCnkIFMKY+o1k5gC081d40L+UiLh3ngAiORyXlvR+AXBUJdBeHBmOIeS9FUYr\nZwWqnIk5+TST13ruQ2IdIbbqiR0/+Bj+5YEtAWmUMWLQZZeH2VGB9QLRnU14\neeoVutGMvgIJ8S66N2zaF7E7Rl9ABbZ54ct5R35CUmj6Dn4kFeCMqLP2MI0+\n/TLXRBJxrK3aJM0wRHhldIGAIQIsdRhRZy9s1phj8uSiS4MvYG0/LgvHcKk+\nsqIK8P3HLxluUHObQ9T+t9LXXLfD026STesTQo/uO7MeONDg1joo+Jcy+4Yg\n34WFqw1/0o9oELHNtJU35f3EV5seKF4bGF/aL6B6BXmIpTLHsnhoeAQmCAef\n8i15sOrNBbJt0AJlAOL9vNHEkhMU8TN7WLGmg9qUUfx3EDugJBv5qf0DQmmt\nvFgvbpVctLxt+WHcVF1TrXzceAIFFXLWGK1GXL+LJGK4Ey3SUrPVIyz9hPrw\nokbHHRPeBsDZrNKXA8Xkkq5Mb8AYhQwTFHEj4sW9j/2iYz5bAUwNXb/wUk1I\nsEiQ86JSp/WMxWm24tN3xDj6PbkLkzDYIvp5LcMm7BX9KBdKbYy8h0oTk0nd\nJPuQ\r\n=zIFv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-beta.56_1533344829286_0.2985475272596725"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.0": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-rc.0",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.0",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-rc.0"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.0",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.0"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-rc.0",
+			"dist": {
+				"shasum": "841890dd47bc5a5b41beba6418c7f14b053ff122",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.0.tgz",
+				"integrity": "sha512-AGWFi/i4Z2/6w3mHGvUvROCVMCP1Tl+mQmtqBZMoClJ/LSv/o51zmj3ornSNFqAcu3tQQ/Mzoa2Omf4dRnrKaw==",
+				"fileCount": 5,
+				"unpackedSize": 2429,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbGTKCRA9TVsSAnZWagAAz8cP/RSqr42vEcVLbN4SFNec\nMV7oaDoiiD9VtCM8G2hlrPVuLgltGkZUu6xULcjyctIS/yUWVCxSlx2ymx8r\npRfJ9MrCTYUHyTcgRZzXLggXYBwjV+5+RLsO3byYZcwJQfv+JmDmV21hJvBO\nDyW9VAhdS4l21U7s5bb3AmeK45uOVSQ5LdgRG0A3VXac5PF2ELmSREAyIb2t\nsNazReyaIVtdsS5nv7NgnE9I/Ijek6pPEYpi407K6VvH8CWTqswX6DLQlFER\nTIigoAV09kyZIPsZ/AjLWCJ7jHDPlOZPn6FeAAAThVpxUmc1JULmMw25iPvE\njvbZVdSTNsu+oDKF9/wJRTFJoJwuXbp7zLKXPOCh8EHrqxRQKWq4FFVQmEpX\n2YOQViunAVwRQbr13qmUymq0HzU8q/ty7tQkevgplll1mlUe/sNPuurYYnNR\nwhR9kNx7Gmoj595p+HsL7b5RNwCQkgvTfGYduR28zwoq/RH/TS9IVTOcqRyx\npxLV8Ir8T79Buo58RoaiVqhf4sOq/joso5OhQAqYTSoELh52oJuTvcFM6dLR\nMuU7igjKF92EjAD52HCUu6FnM/O92PBp/WSBjWB6CDphn4ept1h5oryn2bWg\nlPsDPN8FJJ1Lf7jgoN4a3yECz4M3l1nLlXPXMRLhO5XWOttkJwW1kVoTlq/j\nq2d5\r\n=uQ4y\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-rc.0_1533830345657_0.9371867683744679"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.1": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-rc.1",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.1",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-rc.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.1",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.1"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-rc.1",
+			"dist": {
+				"shasum": "83695d642adb8885f5cbcf59a9971e444a8daeff",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.1.tgz",
+				"integrity": "sha512-4K9upfs6ZyFZd/+tLf892gGKvq/quvnysNSmhnmMh0f/VlGkKBrKh7RAkjiDGQgyn25ePYmRm9fU2+dHp3o2WQ==",
+				"fileCount": 5,
+				"unpackedSize": 2410,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbJ9PCRA9TVsSAnZWagAAzo8P/jaPdDNwI6ely+fpBEjq\nCNv2f4h9b8RHseJhHLlF0cs6zYmBUCxxzAnnSIOeeGDiWF1EVFFWCX5hP+Lh\nB9mQXJ/xmWxEUzjOtIBWT/920qJLxlswAghaNY4E+GOzkYGoCpVa53EqIuCW\nhfuQfMpnfY5DfrIjFSe1fiv1ht+E1iCnJfNRl7tM1xpXIuX4JVAzSxX7JY3D\n9lm5bfn7ed1eNF5N6PkbBSMyGjyKVqhsUztFboY6j0eFgPlCS2Y/JO4UryuI\n6w8DPeM5c3ZcBk9MLaHHemcvNLVFHL8jLIMWTAiv5BcQkcu13C+mxuwmtuE+\naysbJ1E2SfLMWKbKvPOQUggR6nuvLNOZy5RDuxbQkdDMZhcOQVwPU/RQ9oxl\ngfskU/A1LldVRN1g3+fvNWGXIIUX44f2xt+W06kqAB4CHd95Ym0MiiVVad8l\npyqTHad1IZXGTdUHNYji4+joGvtS5BZ30bSdpykBhzQpyCw1L8Kzpx2FUtru\n6Gv6tvfofqwVUjgoaKwSvM4nc0J/cU18wWssyupMUCklwpSFeTjC7QT3hI+B\nrEyPKNG1TCM5XBFFOvGUrQ7lntws14gHR1BCuV6A7EXpy+GlRGpfXe68o1Fd\nMVnxY1BiIYKyTXu1yoYDCzyLs0B8x6NMqIACA/zGrR9YjUzGK0/Ot+ZJ2Z3P\naR7r\r\n=IlH1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-rc.1_1533845327557_0.413552634055681"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.2": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-rc.2",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.2",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-rc.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.2",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.2"
+			},
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-rc.2",
+			"dist": {
+				"shasum": "9a71d2925fc0469163fdb2f0387b4742293bf785",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.2.tgz",
+				"integrity": "sha512-khMjN9Vv3S+SFDonAizwB2P7ebLM+SA6WOI2OLUILPz3tUM6xzLpXHGgH9t7fOOJtwf70+8MiGAkT0pCaQ4gqg==",
+				"fileCount": 5,
+				"unpackedSize": 2410,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfGcGCRA9TVsSAnZWagAAgT8P/2ueZYZkEpucSDL45p1d\nqvzfKae5ouRMNSsqjNacF9B9M/Iv26OHfFCCtS+pqYM4VnapHPnszYIRr1UV\npMGwn76tsrgz9Jhqt1wzWD8nLwMw8qbOjsj4wBmEFVGCbbLzRWVJ0OVAoQjB\nIlVmEL0RQoY6dNqTjlKNT3oDvXluyWl6cBNEL/XMDzcfwI4wCoc5U5OC78Un\nUStb+fz1sYCXkzEMRqAlSR9H8RzsEK0anHcOnSgBQbhYNtNU50GuSKVqmNJy\nfsxr6rchvdXrcztyBbaq4J2TNbINuudjS03KRjg79YQrWRrqn97XwbLID1uA\nw1T35wtyJcDKKafxnBMwlc9ShSd+0PZBuEQqO7I1iRJvmEDHLI2yPxDAsnWP\nptjCM0gWxQFqiVsiZh53vOu1hW7iPgwcfVTuIGw/5jyYf2j8FrACkNxnUvC9\n6zyzNV0VujQFAs0rQ/bG03JQVfgQ3VbxPXiRUWkry87qFtBRp/oI7Dd5Rb9d\nF8b4uAIe+HXaSlsZEqG+ZX0nZrZOIr8YQffeGzpPB3q2vWTtIwLNXFniFzv8\neDGi1vjO0kJD3MEadaDZcyFxzB100Fm3zykrQZPKnYe5p/biVABlHQvjoj4E\nN6jWpX2hZ4yQzpe5SdeObF12J/C7WfGsccYHDQlRx0HgIVohAb+Si3NoYydz\n4iLf\r\n=lfDZ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-rc.2_1534879494012_0.507500125548308"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.3": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-rc.3",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.3",
+				"@babel/plugin-syntax-throw-expressions": "7.0.0-rc.3"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.3",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.3"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-rc.3",
+			"dist": {
+				"shasum": "3357f18f80cb4b46629d3adee36830b488b8abf3",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.3.tgz",
+				"integrity": "sha512-zF/YRwQn6ddHXbks3XWMpjo/c6wJbjm132ksDZ32CnGgrSuM9SxQBCMDFkn9dLa5PIjmX59p51gE8p4uU2bkvQ==",
+				"fileCount": 6,
+				"unpackedSize": 3509,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbgEmsCRA9TVsSAnZWagAAGp8P/3f020FL/uESn9XB8Hae\nyrcu0YVcIs8QIGFKkDa234FX0aDQ1SGfGsyBvsPo+uFYmMh9+LLCxRMqJQnE\ndA1jD2ogOL/TATdKesDofzPrBinJAoL1U+CWwXF4ODuuOULr64DbPKLW2v1z\nQvS2Ml11mGj8dGQOxJBlpk7LFUY40odsdonIUKYNdxr91J6OJer0KE3gQhV7\n70LvT+4BECQFKU7aKgl2GMlFNcktZ2v69vlHESHsSoDZSAbcGBOXGraub6fi\nLzKPefGOClPzbcV5j0RU7JuisrcnTpU831VGLbYuul5UwESRHiK4MVwxL+LB\nCSkD8SjnHaBdgixVwk458lquBhuJoaUJBMSw5QViy84Ps9KkNufqi2Dh3YNs\nxf+mqrQG3bxI046KjEr+PPiIbaDI0WOiFoW+irccfAyNfa28jOejk+uysrWI\nHIPzHMhx1+ctKw9x7wQs8TVQZnsEIj0S7QZBGg36fIVOgKM1R4J7IVjPWCHd\nWn9r8KZHH9pCkZTDrzhlJl8Z/tjjZepF/Py+IRN/0Wdjzubn+HRKojFmOrQq\nRgTzKdpgHsBpki0fpzWuDrHic6ZWXFjfuSEEdFnxnP4KPEnJafsToRWDatsR\nzDZhoapdvevi3PJsibQG6UUzkO9qX/ed3VOSI88Z66Gp4UMNe3E4hwmsr6l3\n4LD6\r\n=nBAM\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-rc.3_1535134123285_0.671523162106169"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.4": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0-rc.4",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.0.0-rc.4",
+				"@babel/plugin-syntax-throw-expressions": "^7.0.0-rc.4"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0-rc.4",
+				"@babel/helper-plugin-test-runner": "^7.0.0-rc.4"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0-rc.4",
+			"dist": {
+				"shasum": "133fd10c08500acb263c96542411db8c54bd52ce",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.4.tgz",
+				"integrity": "sha512-gzdsQp4LdptnCFvbkfcGNrzVKb7U+XoDcfLwtsmLmB5/VlrqSgqC7vwA+7jz0useIVdjS6xIqlZ6Xno0Y1p2Qg==",
+				"fileCount": 6,
+				"unpackedSize": 3513,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhCqOCRA9TVsSAnZWagAAqa4QAJWWK2BtCxKt6wqqYNx2\noyQoUY/9yxZnz3lJWV+iVcoN+vw8imlWSQHYwQPm/NVxVti+U/Ica7yntmKj\nVPzbOImAFIOjnJYkv0iev8vKJ0Fg9MzS3py6taCchLFUmZKRJSqsR7MtTVew\n3rXdANv8suHJPdIUr/B8ur8NXTI0HbJSRXYG3/D+aR/A3wUlHjs3GAlZoya7\naBYVLhUgTmBBdszEerC7dgMH4qHiddoEXoZ61Efwbm2XnJ7RZelQckwQNaZt\nPqdC5TxyVQqQ8pH2AdSc3QLEBeBwswIDIaJ7prnJiD7+Ewo7xMpyQpnoc0Uk\nw5DJDyJlYUMl3gRs34qdUASd0yx5I/eTezANW4HMEONeBXaLXO8g25tIc+/q\nM5bekEEX6kheqIYJ1F4ELzdZqf3VkCoKLSQ5ZG9XxzeLjOdeMgch2+O7AmMp\nYJ308BManfoTJNay9Ii29dvg71Zx54GFTBA5DVzFtrAVH9kDH3r59umKRBVD\nwjKDwa+9ALRBo3OfyNKasai9TXJkhk4SiFCDtCNLUdktVNP6u+vmYD9exIAv\nUXlVOuQpydgWlJkVy24eumYIwjwjNI/ZPg6ihy9qyRFaAmSToJfFSusb/QCS\ngJcfnKubBC/FXX72h6eW8JglJVdKCVkNTjFa6Tt28U3V53c6AnSjtPbi3p4g\nmEGg\r\n=OQTp\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0-rc.4_1535388302240_0.37653152872851425"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.0.0",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.0.0",
+				"@babel/plugin-syntax-throw-expressions": "^7.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0",
+				"@babel/helper-plugin-test-runner": "^7.0.0"
+			},
+			"readmeFilename": "README.md",
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/plugin-proposal-throw-expressions@7.0.0",
+			"dist": {
+				"shasum": "fd44563c742c5e0df764b1a41ab86b22dde5a5b7",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0.tgz",
+				"integrity": "sha512-CA2EUiwnbXrsdV4hy3jYghm91WaL7zL7xYfu628dyItRr6gylbRxshghGEK/Hhm//rR58N3PBmEeuYqSW57IUQ==",
+				"fileCount": 6,
+				"unpackedSize": 3488,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhHCfCRA9TVsSAnZWagAAuIoP/R9nR3GWJe3NzZG36EB/\nqFxAiDyZrglr2j2zEDGPkasxq1ddcxKPOHVaaJksKwgtQBfNkkCLXATbtUJ+\n6EDJVrXpb1UMTI4lri5uC4kTFYFBSi9tvOYfx+5FeTvDxAuPNAzX1r3xOaXP\nTJeDheqsLPwce/67Fhb9cNb6nKyJPThbnYQbBZsOOTaBnICMBhgkY/R8JGwD\nkBX+rSNH5W1aHtoWA1zmOI5c6ketsNr0dVLQxvOsPKzb49/zzMBRBOQ/R00n\nNda8sm9QnFt/CmG0raQlyrI+kd1A8GzDFsfZuyidu/vFTsswMnn7LWiyTV8m\nh6d9oEtuc9LzggSJ9Q3hoViaZOb7iO+Vi6rkiAH32rt+AyfsAwK16bvca10a\nsRWdgVfFppbWOzstLf4jbf2RZFmtBHGl3uZPBg06vEsBAIsem51y/U+6cW/k\nKLhAoCBTxYeuLXgw2XFQ80YbGYLC9514ykCC/9mnkpLAxQvnA7fY3dwt5t5Y\n67eRJzWVG7yTVKrmdXLNaRYamQLJHhj7oQi7lXg4d7IWFssxuYsk5eCy0V8A\n4wDsk2wrmpN/ooWwksaBp4Sjp8RdD59HG1lLOI47z2kFjQxFq22DAhI5odxH\nLdZZ0KbS8Rc/ZXdYe5A7qCOcPYQwF6dXqP1pdVnZHiiEYK1bOoY0cceRc3vQ\nyiSG\r\n=DZi1\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.0.0_1535406238713_0.502406263342366"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.2.0": {
+			"name": "@babel/plugin-proposal-throw-expressions",
+			"version": "7.2.0",
+			"description": "Wraps Throw Expressions in an IIFE",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-throw-expressions"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.0.0",
+				"@babel/plugin-syntax-throw-expressions": "^7.2.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.2.0",
+				"@babel/helper-plugin-test-runner": "^7.0.0"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/plugin-proposal-throw-expressions@7.2.0",
+			"dist": {
+				"shasum": "2d9e452d370f139000e51db65d0a85dc60c64739",
+				"integrity": "sha512-adsydM8DQF4i5DLNO4ySAU5VtHTPewOtNBV3u7F4lNMPADFF9bWQ+iDtUUe8+033cYCUz+bFlQdXQJmJOwoLpw==",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.2.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 3581,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcBX3SCRA9TVsSAnZWagAAujwQAJW46ewwZDxUxmhfwuxI\nqn0Zxxy7tBIUB9sM/DGtAQJCMDdROh4onTkpqTJD8ABVrfULw27W9Q+6aX26\njI33oY5/UyOxOgpjqGvqiG9cJHpES0E720GpX3ESy8rVnujM0P+FC1oppjF4\ngeKip+Tio+Xge1oJyEq3vG8wY/x+rJCuKgSMP8rblgSzzfWt6Xjo2U3mXkr1\nHSWvLDJrHv3MRHZBR+lSxneYxkblK0FyH9fMSiGLe85d/OXSSoGuM6lapsF8\nbNAl+uC5W3lIgWK258anJlDcyHYVpDLcQiCAwbfQzSTcNQ4S9MoeKZalxx7C\nFX3HXztNUlqPILQNBIk4qtPbtX2PgEKB5JxDwViBlFpasPLeY09hEfvOpy4l\nyajjVONWob0FQB7N7Qm/C+vgrZTMN9rzwa9/3nUVd+4aBpUbLtn8OLWrS/SD\n7ek/wkXs3x/1DECc05AJqzzukZpwkJuOjHZGcrmzDISiJz1zxEsO5+0iO2tG\ny2g9OXBbssrwZzqBrTLHm7PRNyH6Eum9+oCvPUv0rTXV091qxMXnwBcVr2Tv\nyPD1bn6gffk1JYc5Rv6tdqMUZ8FPbOKTPpsyVpIJwlla0PBypVkIlUvORXy6\nQZc2YdEk+63vh8FYVY7ftRCmPC4mRXtDLzQm+TjrxRda14hCa8UlxFysaPQM\nfwgQ\r\n=bym4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "nicolo.ribaudo@gmail.com",
+					"name": "nicolo-ribaudo"
+				}
+			],
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-throw-expressions_7.2.0_1543863762188_0.419605473977789"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2018-12-28T20:15:38.749Z",
+		"created": "2017-10-30T18:35:21.408Z",
+		"7.0.0-beta.4": "2017-10-30T18:35:21.408Z",
+		"7.0.0-beta.5": "2017-10-30T20:56:57.508Z",
+		"7.0.0-beta.31": "2017-11-03T20:03:51.427Z",
+		"7.0.0-beta.32": "2017-11-12T13:33:41.737Z",
+		"7.0.0-beta.33": "2017-12-01T14:28:51.489Z",
+		"7.0.0-beta.34": "2017-12-02T14:39:50.015Z",
+		"7.0.0-beta.35": "2017-12-14T21:48:08.161Z",
+		"7.0.0-beta.36": "2017-12-25T19:05:10.695Z",
+		"7.0.0-beta.37": "2018-01-08T16:02:50.844Z",
+		"7.0.0-beta.38": "2018-01-17T16:32:18.701Z",
+		"7.0.0-beta.39": "2018-01-30T20:27:50.461Z",
+		"7.0.0-beta.40": "2018-02-12T16:42:07.923Z",
+		"7.0.0-beta.41": "2018-03-14T16:26:29.448Z",
+		"7.0.0-beta.42": "2018-03-15T20:51:42.731Z",
+		"7.0.0-beta.43": "2018-04-02T16:48:38.945Z",
+		"7.0.0-beta.44": "2018-04-02T22:20:20.903Z",
+		"7.0.0-beta.45": "2018-04-23T01:57:34.047Z",
+		"7.0.0-beta.46": "2018-04-23T04:31:57.023Z",
+		"7.0.0-beta.47": "2018-05-15T00:09:50.449Z",
+		"7.0.0-beta.48": "2018-05-24T19:23:49.923Z",
+		"7.0.0-beta.49": "2018-05-25T16:03:11.726Z",
+		"7.0.0-beta.50": "2018-06-12T19:47:36.078Z",
+		"7.0.0-beta.51": "2018-06-12T21:20:15.101Z",
+		"7.0.0-beta.52": "2018-07-06T00:59:35.188Z",
+		"7.0.0-beta.53": "2018-07-11T13:40:33.984Z",
+		"7.0.0-beta.54": "2018-07-16T18:00:16.607Z",
+		"7.0.0-beta.55": "2018-07-28T22:07:40.026Z",
+		"7.0.0-beta.56": "2018-08-04T01:07:09.378Z",
+		"7.0.0-rc.0": "2018-08-09T15:59:05.698Z",
+		"7.0.0-rc.1": "2018-08-09T20:08:47.626Z",
+		"7.0.0-rc.2": "2018-08-21T19:24:54.102Z",
+		"7.0.0-rc.3": "2018-08-24T18:08:43.376Z",
+		"7.0.0-rc.4": "2018-08-27T16:45:02.370Z",
+		"7.0.0": "2018-08-27T21:43:58.755Z",
+		"7.2.0": "2018-12-03T19:02:42.271Z"
+	},
+	"dist-tags": {
+		"latest": "7.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"082461923854d33a51b4adfd2a441157\"",
+			"fetched": 1551301854947
+		}
+	},
+	"_distfiles": {
+		"plugin-proposal-throw-expressions-7.0.0-beta.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.4.tgz",
+			"sha": "9e6fb022c1e5217d4c6448565f3e888a52d17ff5",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.5.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.5.tgz",
+			"sha": "8699f23fed8ba7cee72d99971530c5ac119f44df",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.31.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.31.tgz",
+			"sha": "c2c0e058d78f9c14d489d34f82031506bf57709d",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.32.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.32.tgz",
+			"sha": "1c3603908346683de2d29bb3b5600dec52474cb3",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.33.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.33.tgz",
+			"sha": "948805bb9965fcf5abb4d3cb76baa681438f4222",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.34.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.34.tgz",
+			"sha": "3e0a176458a5612f4b8033d7a7fa4748a8b60e8c",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.35.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.35.tgz",
+			"sha": "5c24a5e25b95787b4058a56ab4b29e41e1605673",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.36.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.36.tgz",
+			"sha": "2cee96b8164ee0065ac47d32cba0f4e4843b69ca",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.37.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.37.tgz",
+			"sha": "2c946f55484086df27070b263bdc9ebe1085e106",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.38.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.38.tgz",
+			"sha": "ccd43e7268e45a071acb2ba82e5af3feb35f8cf8",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.39.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.39.tgz",
+			"sha": "f94092fe1b71453cd5040ea2e0b3a75600f4bc10",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.40.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.40.tgz",
+			"sha": "4f34c51a9455baf81fdc2eec176a2c68c59eab20",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.41.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.41.tgz",
+			"sha": "9a59c319de2afc5116d4ffffdbb6246d3b218609",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.42.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.42.tgz",
+			"sha": "c6ef0f0760202671dc1cd2e4b6825e9938909a29",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.43.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.43.tgz",
+			"sha": "b323eca1ff5b38ff0d6f578f81d0916a47b1e558",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.44.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.44.tgz",
+			"sha": "1e54689dddc733e4986371b6818adcea161531a3",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.45.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.45.tgz",
+			"sha": "cada317496bd8901d937491c77a2f6c9d76d3910",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.46.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.46.tgz",
+			"sha": "eb259c73043050a51e40b53e74342763aa9b77b4",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.47.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.47.tgz",
+			"sha": "9a67f8b0852b4b0b255eff5d6d25fa436928424f",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.48.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.48.tgz",
+			"sha": "1af2f6b99d402e57a803aa385d8358cacfc33e7e",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.49.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.49.tgz",
+			"sha": "769e6e6f6418c702568cf39be9bdf183ab624199",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.50.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.50.tgz",
+			"sha": "08863f86cbd2cbf4acedab6643ebb2b13768b4db",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.51.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.51.tgz",
+			"sha": "38c11db4b1e0948df912965d0e228f70815dcb38",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.52.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.52.tgz",
+			"sha": "fd6b5e99b8957a1515cb67cb67ea3cfa65208746",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.53.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.53.tgz",
+			"sha": "46ee15d2d1b6dac13e2780f603c8e01050600d45",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.54.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.54.tgz",
+			"sha": "0a015d86026f55251b790b515f91f566b50e15c0",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.55.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.55.tgz",
+			"sha": "a2563ddcf4db74e73260787be569fe988a816b99",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-beta.56.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-beta.56.tgz",
+			"sha": "48f5e9621fdc354a6e53af69df3de8a19f3d6f81",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.0.tgz",
+			"sha": "841890dd47bc5a5b41beba6418c7f14b053ff122",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.1.tgz",
+			"sha": "83695d642adb8885f5cbcf59a9971e444a8daeff",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-rc.2.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.2.tgz",
+			"sha": "9a71d2925fc0469163fdb2f0387b4742293bf785",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-rc.3.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.3.tgz",
+			"sha": "3357f18f80cb4b46629d3adee36830b488b8abf3",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0-rc.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0-rc.4.tgz",
+			"sha": "133fd10c08500acb263c96542411db8c54bd52ce",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.0.0.tgz",
+			"sha": "fd44563c742c5e0df764b1a41ab86b22dde5a5b7",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-throw-expressions-7.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.2.0.tgz",
+			"sha": "2d9e452d370f139000e51db65d0a85dc60c64739",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"plugin-proposal-throw-expressions-7.2.0.tgz": {
+			"shasum": "2d9e452d370f139000e51db65d0a85dc60c64739"
+		}
+	},
+	"_rev": "4-f483da1777ecd946",
+	"readme": "# @babel/plugin-proposal-throw-expressions\n\n> Wraps Throw Expressions in an IIFE\n\nSee our website [@babel/plugin-proposal-throw-expressions](https://babeljs.io/docs/en/next/babel-plugin-proposal-throw-expressions.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-proposal-throw-expressions\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-proposal-throw-expressions --dev\n```"
+}

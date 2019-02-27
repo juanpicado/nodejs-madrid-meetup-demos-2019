@@ -1,0 +1,3256 @@
+{
+	"name": "@babel/node",
+	"versions": {
+		"7.0.0-beta.4": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.4",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/core": "7.0.0-beta.4",
+				"@babel/polyfill": "7.0.0-beta.4",
+				"@babel/register": "7.0.0-beta.4",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.4"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.4",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-xr9KujqYoOF1BHuNbNwRvotzy7yGzMuCn9unTAUa6G7nFDIJBAeg/7cqwtg6yPLPhsFVDU/EQCgTnVFgzMG1IA==",
+				"shasum": "c1c10c6003e7a3e838cb9c2fe49badca2360fc2c",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.4.tgz_1509388597954_0.5722541846334934"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.5": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.5",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/core": "7.0.0-beta.5",
+				"@babel/polyfill": "7.0.0-beta.5",
+				"@babel/register": "7.0.0-beta.5",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"devDependencies": {
+				"@babel/helper-fixtures": "7.0.0-beta.5"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.5",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-n41KLZ0pUmUb3KIHfbCvHhtv2UxWogl1oGfMaL6HKFpU1dKaN49/5G0FHdYbzcZEYdzg97uQCFs+hcYd/qPVRQ==",
+				"shasum": "a3d625aaf5621b98aadd5308c38202dae691f27a",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.5.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.5.tgz_1509397097582_0.18783400254324079"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.31": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.31",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.31",
+				"@babel/register": "7.0.0-beta.31",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.31"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.31",
+				"@babel/helper-fixtures": "7.0.0-beta.31"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.31",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-7bReCToEzwhNNFQD5rOGtoMF643OUuEg7E6LHoeRiMk8HXqYzHbPdF5JaW/bh+APNeahp3rA6kn8o5+KUEHsBQ==",
+				"shasum": "5712bae2d2d9afcbc8b112c863928c3941f2a32f",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.31.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.31.tgz_1509739422354_0.7059349522460252"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.32": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.32",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.32",
+				"@babel/register": "7.0.0-beta.32",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.32"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.32",
+				"@babel/helper-fixtures": "7.0.0-beta.32"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.32",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-L3KQ+kp+6+lUw1NT6YKEiicsosnx/+kbKbZXLEZZJcBqdiLcgR52LzkNA4MFawi5pUX9ZrbQ0LWrHFMzhtM9RA==",
+				"shasum": "ed9053cd8acc69d36fd083c7cedd34e8a0b9c53c",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.32.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.32.tgz_1510493613672_0.745368306292221"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.33": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.33",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.33",
+				"@babel/register": "7.0.0-beta.33",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.33"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.33",
+				"@babel/helper-fixtures": "7.0.0-beta.33"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.33",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-vJjyUJ42cEb0jC4yvvrp4pSHDvvCINPlUUy2kUD419/Eu6YHhmlm7H2QXuwY8vYQjTLDk/KEFAG7pJgpePjZbA==",
+				"shasum": "94d447554ecc9098e6ef6547a22c72fe3c0f0ee4",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.33.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.33.tgz_1512138520907_0.04017769149504602"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.34": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.34",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.34",
+				"@babel/register": "7.0.0-beta.34",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.34"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.34",
+				"@babel/helper-fixtures": "7.0.0-beta.34"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.34",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-PUNxQ5btVMf6xUr+21FIGPXQ7zL1jS8oh4uZuEyVOinAQzjR4g5d1DCi0xDbib758tGw2J4rXyALckw2Wx3PTw==",
+				"shasum": "456bbed4dab3a88bbb26285035810bded2f269c7",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.34.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.34.tgz_1512225580807_0.9476738097146153"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.35": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.35",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.35",
+				"@babel/register": "7.0.0-beta.35",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.35"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.35",
+				"@babel/helper-fixtures": "7.0.0-beta.35"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.35",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-hk2pJYpEyijXiY/8+OghWow1i7fj3BSTI4cNXb++qJvxvQgRw1cQljbjUCzjMY2OxAnxckSuY8aUNpgaoBSpXA==",
+				"shasum": "ffd43a9367c4b6ce7a13af6f1dea06b2d23145c8",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.35.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.35.tgz_1513288082253_0.9013401383999735"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.36": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.36",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.36",
+				"@babel/register": "7.0.0-beta.36",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.36"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.36",
+				"@babel/helper-fixtures": "7.0.0-beta.36"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.36",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-H+8/H8/fQcrFKCcpH9TBYvLe7TolM1ooceWkrfY8uJ5/0eccye579Vj9Pd3+zUdX5hsl+m9wQuQ+K76nmoKw6A==",
+				"shasum": "4626995d10284ce24b7aaac7aea34ae6986fb024",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.36.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "james@henry.sc",
+					"name": "jameshenry"
+				},
+				{
+					"email": "kent@doddsfamily.us",
+					"name": "kentcdodds"
+				},
+				{
+					"email": "kaicataldo@gmail.com",
+					"name": "kaicataldo"
+				},
+				{
+					"email": "teddy.katz@gmail.com",
+					"name": "not-an-aardvark"
+				},
+				{
+					"email": "star.ctor@gmail.com",
+					"name": "mysticatea"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.36.tgz_1514228700415_0.5990710926707834"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.37": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.37",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.37",
+				"@babel/register": "7.0.0-beta.37",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.37"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.37",
+				"@babel/helper-fixtures": "7.0.0-beta.37"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.37",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-nyirZ7qtl15hDEjbLRNqxUfsexQTFSOU0A2XpUOp4PPtxnZH9I9XP6pW6M6a4QQi5uzyDd7RyL0Pl5Z4JNzNRg==",
+				"shasum": "8384126bf612e379a934cad407329e2534e70b8b",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.37.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.37.tgz_1515427364774_0.8793013773392886"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.38": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.38",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.38",
+				"@babel/register": "7.0.0-beta.38",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.38"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.38",
+				"@babel/helper-fixtures": "7.0.0-beta.38"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.38",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-JtbqWAUbHCDssbIa/TxfQjXxmHn+EP6c8PaodDq+foLUTXjhWQjq/vGZaMxVQQLH+SfjJdm2ahu5SiL6NthRIg==",
+				"shasum": "577af631cdaca97c510e3de0c6efa2620f19fb3e",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.38.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.38.tgz_1516206732328_0.7400750929955393"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.39": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.39",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.39",
+				"@babel/register": "7.0.0-beta.39",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.39"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.39",
+				"@babel/helper-fixtures": "7.0.0-beta.39"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.39",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-PKaN0JIMETLXQnamHb5oa9D7i5qdH6dROehIxobFwf8BHucUsjCp3DvjkZ/m98ojOHIyOKdcCudryvciO6yBvw==",
+				"shasum": "84f69ef597aba934c69e0583d104d24189882965",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.39.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node-7.0.0-beta.39.tgz_1517344065467_0.4208019769284874"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.40": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.40",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.40",
+				"@babel/register": "7.0.0-beta.40",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.40"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.40",
+				"@babel/helper-fixtures": "7.0.0-beta.40"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.40",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-92J6uthVDE+F2YBBlpIIa/j0tToCgCWFMVyJ+sWWaRrxmqu1iVPWu3/qdPnWCe+l4RMrDD9anJUKy/YnsmTljg==",
+				"shasum": "2c5246a85d7d614b97e76806f950da6dd60cb2df",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.40.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8471
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.40_1518453719292_0.9509119368986847"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.41": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.41",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.41",
+				"@babel/register": "7.0.0-beta.41",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.41"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.41",
+				"@babel/helper-fixtures": "7.0.0-beta.41"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.41",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-A+fXs4WxJPMfonEZQ36AKQW9Tdzqr6vW+N0BgIBdQDvpX5DcS3Wrq4I2abOO42AaGYHYTSPs/CisGgp319fvnA==",
+				"shasum": "d450163eeb5ee135a792aa42e54e7d4abb3ae425",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.41.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8596
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.41_1521044746660_0.32204633684965933"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.42": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.42",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.42",
+				"@babel/register": "7.0.0-beta.42",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.42"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.42",
+				"@babel/helper-fixtures": "7.0.0-beta.42"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.42",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-iEsbkU77HKa54ykiD4SThzsYg1KKwLNIe39+3f/RzsSAxFW9MGO2rZLGfL1ZX1bbDfahBptLNhyfD6V9vdv5bg==",
+				"shasum": "0983512763598258e16a38d6095453a18f7407a8",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.42.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8596
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.42_1521147021965_0.8720235309156932"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.43": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.43",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.43",
+				"@babel/register": "7.0.0-beta.43",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.43"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.43",
+				"@babel/helper-fixtures": "7.0.0-beta.43"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.43",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-4GLqhQwSP0tqoC5GKrO1UAPeURAKJ5Ie2dfu5B19faeQAF7o4fh77335bzQSkN/HAbBi50FJXwRom2ZMQm3pgQ==",
+				"shasum": "e18e9bd3b8a875922998951bd65da61727d13ba1",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.43.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9859
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.43_1522687690595_0.5260047840919699"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.44": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.44",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.44",
+				"@babel/register": "7.0.0-beta.44",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.44"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.44",
+				"@babel/helper-fixtures": "7.0.0-beta.44"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.44",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-vrp1NPhok4WXCUqAQ/8mVl8N9YQwwZ3vd0e6/yUYbmB8G/vLVbBvkS8Yw6pQrHk6CLmzFXUE+c2cHQlGT3HqNg==",
+				"shasum": "aa729d285b71bfd1d221c6d925430b86b4c965cb",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.44.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10078
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.44_1522707592236_0.741242140456515"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.45": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.45",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.45",
+				"@babel/register": "7.0.0-beta.45",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.45"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.45",
+				"@babel/helper-fixtures": "7.0.0-beta.45"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.45",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-FzlY81An6pWTR/moqgRDhwxU8w55JA0Z4NlMsZB/I9RBDKi625cpaHt//aslp/QyJuIl5YzWmv6kKZyTOj4qEQ==",
+				"shasum": "6f70a9e53a42558999a53f5d2da09c687a4eab12",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.45.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10078,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3T0tCRA9TVsSAnZWagAA0VUP/iugabGxhX9m3iCJE1CP\nB6ZGreiS0MkmVGs2SiMu0/zqoj8YETxabrC2lAezpRTsZvIl7C9yKqsl01OK\nsDUcRSTi83dmjSA7rFWxSzJP6IBuUcsqOSQUGbMiUwAVRUGrAlKYGon0I6j4\noCLg8B9Q0Uxj2fE3wTGYvqwfQbECCNL/ZHG8I9reqPs9Jkost3tlsjtAJlx1\nozulRIlda1e93JBXWGnsNFT1Ai5XkTgosmoMiXKTVktMtFQr4+yYEFvkx5B3\nPh9p6qRDb44sVyv9DoZcGu2u5q8ufALR+P54efTdNKQOONRg9DbdjC1O0aid\nKo9fE8qiV1EHQsoK9mIGYGp3W6JaHSPEPfyU8YKSGc14FWy2CPAX8K5//Fxt\npkxbyCARhk0iNrAMmPabeZYQk0npQGGnk2AwgxwtuYXU+0Wi1jw8ifsDkgNz\na6GNHpGn+PeeSHgHf6Y5fzRsZRiLalJ735YesPnZ3TSZwMN0a8dVMu9XaEaH\ntFmUfPwDk6hBMjhVSWACCHEJJutZc1k6YwYMN5t7QEpfFqDvBq7lPBjpp7w0\nIJuicHSEPc3m5jwv8Y31sYz2gRdGLEyu6my/CogFj30ASE53KnnaN6EkuO1K\nWjIwm6hZqnS85A7vkDFK9v8WkM5Ug4wPne+sAzJ4ZM3our+06Fr8yxVH71P5\nzJxM\r\n=k1WF\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.45_1524448557061_0.37900872584940637"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.46": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.46",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.46",
+				"@babel/register": "7.0.0-beta.46",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.2.0",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.46"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.46",
+				"@babel/helper-fixtures": "7.0.0-beta.46"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.46",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-4WQ5r490HyIybmhbNNJ1+qHVMxJ+tysKyIRfHb8b4Gxyhr1+FUZTlMjv4WSKPGWwhULStXiicLweLD/Ls4SQCg==",
+				"shasum": "88ec3ca630b93829fa9422af4bd8ba964c2ddd76",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.46.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10078,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3WFeCRA9TVsSAnZWagAA64sP/jt8qoA0EuMZM5hyG052\nlqmX3aQVxuqEmQ3Yj0Re1FXzMxXFJGHiDfw7g2Ukxyb2SThFYZkEN3uG3b3n\nhVIlRVHxF6cNBSvpRMJbeMTat9DfgELGRqAMNyYqKrgXKRQJ345A6YtUe9tG\nF54B62O0g8uRSdW3upPcOO5+FKZ1jIRplevS4dUylBKdsWRxz2qo235U/qMJ\nTCD8bzwx0bZfXaTF/85bk5O7oBc0mYBCW27i+7dH+xusdL8L51zzYGASyijL\nuEPdgQHBwbZeb285xwk04NEPH5JNWz8kUl6AvJR636CAfIYm+hxFzg636pHm\n35/pgkqrIS24upR8UQzbnyhQtvv1kxHRgf2PJrH315oxrcnegLpttJackgV6\nihUi8G3WllrXkuKIChNQs1Yz2s8r1ToR0wPRxrpkjm1dxqXwOBB8mLVueyBc\nG03tiv1Gu12YSyMBJ5lcpbWYaEi1a1sAbObooZH8RGyLyAZSGKAP+F6TYjhi\nREgI5IzxbmMssemvcczlwbctGu2U1lEavdDn0fWDbH0B5Zud1XbBc9a3sN0e\nGX3tGQRFB9tFRt6JlhaRLzDNiE2Tdfvl16abym4NpurK6IGxYCsyiwv/gjSp\n5VtS5u6uKiZhNmhzMrkFThvNwj7mvLuCVlU0Av6qYs7X6zAONB+gllhFmBG5\nSqCm\r\n=Khol\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.46_1524457821739_0.25745291611726384"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.47": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.47",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.47",
+				"@babel/register": "7.0.0-beta.47",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.5",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.47"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.47",
+				"@babel/helper-fixtures": "7.0.0-beta.47"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.47",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-5Xe2Quan7OMPWvxzoH8/Drh7mV8LFefK6+b5/OKr/zYo1wMtf40fh/bfSCrOsoivb9OFD14NaeTbeZLNXbZGYA==",
+				"shasum": "fe0425303a78beb455d5c8be72212d3172c48a9b",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.47.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9927,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+iTYCRA9TVsSAnZWagAA6q0P/0L+YRh/affU38rCIlKn\ncG9d4N6acfjY5oJ09Zkn+zEtl7R3gMnt+PYpkBS0DKsIyZP8et97sdfYq5Cf\n2LcJo/bqH4v1Qm2fV+UxJS/siT+2+xKGYBR0y/jFWgV8I/EgQxoWCLthRDac\nk6qm4izajg8ZlQRxECy0/tiWACeY5fYBRc/PGDAam8fu47oOqBHBWBsaRjk0\n0kgMbC30Vxg1lG3xXU/R/Aysd4uxZZm3md0wMbIXv1OLAm+7pXfKn2Vy+irg\n+lc+KJBgZo9eCSOHUl+D7XgJuiueiMXTCnGlL+N6+ZdkTLgWwz7o4uSmclnw\nwRSALOvcSS9ih5B75DecqMm24UzSTuHjIFpDudIJ9cNjtNx7YvHJLx7A8nwF\nlzs75rYbOknXTWjWh6Xw26HJDgVKM/qlSJUDi+cPA4MioTkB6NoVlxxgw3SC\nm1iXrTZ5eLxUiKE5LLBpuTmCSy/T8E5jTyeeZK7zHMWKlpbcM1nUqpfPa/Ep\nrxmJh2n5anPLKUOKKWZdkFhdCTSu6YmhxEZKddNc0OxePA9mmu7eITBKkF0/\nTOqeJvAXEIwf5/muJ7PtDvPNgMZwJCvLC9DKAmBOJwIveKpBKPbU1gyX2EOc\nqCQq4u6CZkUWRQq0GO+Jh31n64Sq6nEBZJEz32NkhT/VKFqhgnKRyaDqz6DY\n+YXT\r\n=J/Cl\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.47_1526342871763_0.28530814502156265"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.48": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.48",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.48",
+				"@babel/register": "7.0.0-beta.48",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.5",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.48"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.48",
+				"@babel/helper-fixtures": "7.0.0-beta.48"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.48",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-O/WfTd7uoyxQ0tnrrGXm+D1Xq7LJMrL76GefCVIOyA/MMUWu4Qw7k7qUbkE0moGlBbxj0eE7udSDP7WlQXM+Pg==",
+				"shasum": "345e541b53fca259158b87532f3b90cc78fcf27d",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.48.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10398,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBxClCRA9TVsSAnZWagAALwIP/RwwWgP48FgLUOLTu6oi\nrIaQQF3vi9wbhOrsIHTZsJ+XLO4Sa2NcRoR32ZeEnhvXjPy2hB6xnTnt2WVL\nVAFNCjGGR1aUfplUm7FfZLUzT8t+0njKqJqEy52bomsDUpCxftMe/heTM5DA\nHULA+wSAxvXiyy+BvGOTYlUtAdy6BqNXu61OZWOtiF2NBEhodS/gT4TbUd2Q\nc4/q7aDwUwsnCGrjfxfMcp6iei4LEMQm+HTaFxDc7r2OK1vEJGOCgjPnOFvh\n/+g4qe/o0Y1vrFscrd3up/KA2m8pcpm2EYGod5PpwUyu4T4BLy0OZ0yheOr+\nWNFD0MLI4koW4x3CbQf5mhgUuO185vbF12Yo5Fz2kon6MsUQk6Uh41/lCdHB\nWEt69NeN8ru8cYOzPH87ZkGglCY8S350vmETzcj2Zo1y550RQ6ckf/P0/BP+\nOmEqBbadQz9/0Lr+jOEF+hpLkcrqGrGC6tIF6BmVLTFLSBlAL5L5R3y6HaYm\nkP8nXJ6ZA7r4Et3M9w/SQnfepGRdJWETK8qv4o9Z5y7CD7Z9Gi2YQgqJ4dm+\nhpoOVUdi0yb944GUyF/HFxGY+MY2pvPC4XIZp8967Z56KLU51WhsQJ38HRCo\nJWmcxXf39ys2j3eDO9dRwpsew3iZfXe5/s/ecHk/aJa3ur3O2yKWVtD9Q4LG\neU5M\r\n=q+mI\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.48_1527189669518_0.255756520212403"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.49": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.49",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.49",
+				"@babel/register": "7.0.0-beta.49",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.5",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.49",
+				"@babel/helper-fixtures": "7.0.0-beta.49"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.49",
+			"scripts": {},
+			"_shasum": "95b6c785f1b5350838c6933347017af514108930",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.12.3",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"shasum": "95b6c785f1b5350838c6933347017af514108930",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.49.tgz",
+				"fileCount": 6,
+				"unpackedSize": 10499,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbCDM0CRA9TVsSAnZWagAApuUP/iRI2VD9kRvKkbCzWSL7\nIVChFxk6poqzx5MBc+4nuV2trmDHlnUrYLxZKHQag+EQr6NLC9PVsJFzXy3h\nAzI70+7zVG71GQps3pit01mLHq2UYgvUW5QS+pKkCMhT+lwo4xT1DUwpksUW\nFIV3zDUSxQkbSabPz3Dn7FiHiWPVjYeuBqu8L+noxqilZ8s3oR9NxQwhjVzQ\nd1YFdmIbJOfMereG11nyg9HGV/E9OssMSi9K86OeF3Q3JDchqESj8D9eTTQp\nb2K0SWslRpkEZKScAER05/j2LsUOhUXgTooclKsXt/X8vjwhGY0eNtSyBx/i\nfEa+jg3RRInrOF2B79qJ/l4LoC9mmTfkejLC5j7GGThbmfNu8+XAxJtW27kL\nW/QMmE9j7VjRmasahHZ6yRb1AoSjitKtFsrMxxJzkc2PSIG8K1Gn79iE8H03\nVTUZ2+4bsIaPZF6GVKRz1w893ZBz8C2i5oRWS6gkWcHtZ1q4PRybQ6xBD4y8\ntTRKhuLMQ6jqe/uwglr4P1c0N3pyqkncjh5JAyga35t4oiC34WKip3ewBEm6\nG7XtW1xtAxtieQXQxFM07vOvfPhbIJGwXlyS7zISvs3DAzItRYX2TzDHY/WP\nchYyfQBkmTpce0XRAB/283XbspgCpZJy/fgt4pZ2vKQ6+HJniF9AE3joJL4O\n7yIY\r\n=PO3T\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.49_1527264051613_0.23704873937859539"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.50": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.50",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.50",
+				"@babel/register": "7.0.0-beta.50",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.5",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.50",
+				"@babel/helper-fixtures": "7.0.0-beta.50"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.50",
+			"dist": {
+				"shasum": "7e138914007bf3720aa715a64af4eda7027a5832",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.50.tgz",
+				"fileCount": 8,
+				"unpackedSize": 10541
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.50_1528832816143_0.04979317273341333"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.51": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.51",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.51",
+				"@babel/register": "7.0.0-beta.51",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.5",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.51",
+				"@babel/helper-fixtures": "7.0.0-beta.51"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.51",
+			"dist": {
+				"shasum": "fe6f4507b5633b822892be854c24c684c6606c18",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.51.tgz",
+				"fileCount": 8,
+				"unpackedSize": 10555
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.51_1528838363461_0.5514006490241723"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.52": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.52",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.52",
+				"@babel/register": "7.0.0-beta.52",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.5",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.52",
+				"@babel/helper-fixtures": "7.0.0-beta.52"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.52",
+			"dist": {
+				"shasum": "13333a50e80ae4f52b5359f7ccda1402464e9198",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.52.tgz",
+				"fileCount": 8,
+				"unpackedSize": 10403
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.52_1530838754451_0.18532014741803549"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.53": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.53",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.53",
+				"@babel/register": "7.0.0-beta.53",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.5",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.53",
+				"@babel/helper-fixtures": "7.0.0-beta.53"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.53",
+			"dist": {
+				"shasum": "25323cdcc38dfec8deb2afd5f4e053013c910c40",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.53.tgz",
+				"fileCount": 8,
+				"unpackedSize": 10403
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.53_1531316404097_0.7489561368655064"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.54": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.54",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.54",
+				"@babel/register": "7.0.0-beta.54",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.5",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.54",
+				"@babel/helper-fixtures": "7.0.0-beta.54"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.54",
+			"dist": {
+				"shasum": "d2c24da199bbc457403a3400799cb6071ca4bfab",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.54.tgz",
+				"fileCount": 8,
+				"unpackedSize": 10403
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.54_1531763994374_0.7375827315020895"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.55": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.55",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.55",
+				"@babel/register": "7.0.0-beta.55",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.10",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.55",
+				"@babel/helper-fixtures": "7.0.0-beta.55"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.55",
+			"dist": {
+				"shasum": "d86293451eda2d21cf7f4607386050685340cb72",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.55.tgz",
+				"fileCount": 8,
+				"unpackedSize": 10404
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.55_1532815618312_0.8547789724765895"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.56": {
+			"name": "@babel/node",
+			"version": "7.0.0-beta.56",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-beta.56",
+				"@babel/register": "7.0.0-beta.56",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.10",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.56",
+				"@babel/helper-fixtures": "7.0.0-beta.56"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-beta.56",
+			"dist": {
+				"shasum": "ec6d2599c543fd46b07efb81678d84f8be7eaffa",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.56.tgz",
+				"integrity": "sha512-HT+JX6ZbyWRR11cN7WglLdKP6j4YXwuk/HK5MVsvsQkjo6MsqhRhXR0/UmWs8oHnraeLQCgQrtobXoyLv6RNiw==",
+				"fileCount": 8,
+				"unpackedSize": 10404,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbZPt3CRA9TVsSAnZWagAAA/MP/3xA7QzxXPjUreQEWWWi\n+GEXlWQeWWVmbezO3nOPZGorY7qch6Eo7VForJ+B2nQDVxA6t8U8qf1OmHtw\nZlIKdzcE9ra+0zibHSM7KEQ5NYPmImdvhsFH6nLu+IK4VKKRpMwuWlHqAnqx\n6gSGDc3UQ4BunM/GgieWkNb/aUeadTA346EqUHwbCL1xzbfUyVq/d7BCxdpq\n0TaSMNwPyOeH89GiI0VOjk/igNnKzTX3kaOROKz7L3hbWH9jMWF861PpEu/3\nXyM9pWKUfGwBiL46KJnuxXQ1fe3pxR4d7EU5VMUVbHsNxrTUfbEjsO2C1ZIo\npeHGE7dtn5uMBA0rDLbicc1VnzztzFQW7lWatoAcYmBs1X4yGJIWS5F+eibG\n6iFtcvMUOLQnCn3GNBJ9kepNMOzJyK5d+i9NX9DulZHGL9uCIyVzteBRSSY8\nUyeDmeWqlFBuTq0cS1aNmD1MczFf4eNxyXLeUfk+zEs4ertb0MNZpJjAXvXB\nBxMsX+las8/siH32bdL9AJvIFVhGYgmymhh0ozc5Vqwm/TOs+58rAMxWnO61\nBTgg0QprQ1EIP6qlNBy5nCae7S5ohsKlx5XGasSBE3MYcxAUrFt0gogbiOn5\n/bWd6zDl8SsMvyWT1HMmigH/RcJZutcZwfIyOu+XCLyJ5nTSx30n/Rh7/Fe5\nI/06\r\n=uB1h\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-beta.56_1533344631054_0.7869458055783978"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.0": {
+			"name": "@babel/node",
+			"version": "7.0.0-rc.0",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-rc.0",
+				"@babel/register": "7.0.0-rc.0",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.10",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.0",
+				"@babel/helper-fixtures": "7.0.0-rc.0"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-rc.0",
+			"dist": {
+				"shasum": "1037e4b0fa9fb25b3e30db8272d0fa61da621385",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.0.tgz",
+				"integrity": "sha512-zjpIBswRGBdvoHrQWfy14B+oTsdXwqqZ9dxco9rs/nWYSp6I7Lx54Ue43HBh+tdCq1NGej1QWLwj6n6sgyFVtQ==",
+				"fileCount": 8,
+				"unpackedSize": 10426,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbGRQCRA9TVsSAnZWagAAmpcQAIM6uyLRGJ0tuEmIfvKv\nnkXfa/J4rZUyFvp2TAVilqZRUZVnmTs4RBL8sh/XG4uSK5hYW0z6sLTehqlk\naT828hVoPn6iXo6w1vG+SiZCoBjSj2nCQRXb8lAos+49lF73fCX2U0bxQd75\n3jWDNMPETAZY+9i+XXwpwukfNN1DuR1zoItrmBtngQ7uFf/CLsHtUMTVI2Su\nZSWV5gYpk92zP7/uGhvsVHSUKZ+LZusq99MYzGL2fAt4fVcuSHku5lBo09G6\nvttH31lvFzgitqvwkgo+hxylwuRHpm6FJ21p55NyKxmHLUwjT5nydsDzhAaG\n8wHVdVTWcrVwwPG98Q/jffwbo6Zs3zn913U9anX+z/YmVjcPFWVBmQIutIuB\ndaKIWegH7OlgrkET258tvPTdCPgJVL6yGgzbPTHiV799stchJkSP8C9/fUnH\n299x01SzOoxT3CxyIu4hMU8F/CA0lxRjBEMWcvYII5A+Xj/xyxw6ZMdKsejK\nS1dK6W1oWHUBLH4e089UQGjWr0bdhRpUy5zbLu9VwIl2IwTaoaEY1XdheyYt\ntBac2SncwJVjilvFD0Qz/A3b1M1aftrBUh/8XYGbU6Om3NeGvCW1cnB6kVN6\nuabvTzvibSwvauR8kGd18ZBKvZkjuxtGNcibN+dlLwWbnWkbEnKCWXmgEvNo\ni4LJ\r\n=nK7u\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-rc.0_1533830223714_0.10024168590731786"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.1": {
+			"name": "@babel/node",
+			"version": "7.0.0-rc.1",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-rc.1",
+				"@babel/register": "7.0.0-rc.1",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.10",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.1",
+				"@babel/helper-fixtures": "7.0.0-rc.1"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-rc.1",
+			"dist": {
+				"shasum": "35b741f5f4c02285c9f300429b3eef2e419ca11b",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.1.tgz",
+				"integrity": "sha512-4LirWm4/o4DyWZ6yFZLcBwFnigsVYX+1dI2X8/WmyR0v2pxuITa5Hb9FF4haOCaX68w1bY+i68v4BS/hqGOuhA==",
+				"fileCount": 8,
+				"unpackedSize": 10407,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbJ7eCRA9TVsSAnZWagAAoWYP/3No60LWsOB/2TjXTXJC\nuc99aoUOtQ9rqfMPb+aE+B4rjvYNQKgDFHRocDAmanDQSdqUsmEsSZKyI3Rk\nMSpYAKDFMCmcrD2j6FQQkkG3nWzqqOElmbdUZ9KXqh4RlqZ1awWHgEsMcxOp\nJv+IJiFNyjeZGEHMhFl/Ao1dpfOQCpdSgjxKpMI9e+LRHF7fcF+MzV0vPM+s\nG3RXDraTNb5U0Bswtv73nr6dK74UY13f2kFOXT2owJDt84ghyPxi+ethnNv6\ndjEI2eFLZe3WkuB69t+rjdJe/NBprOwd+TlECYCARgOoTgv7F4DzRKWP+bJB\ntCKS5csyMUjgBMCgx3qmM/0U/CLr8QQCfZqxuv8S6ReaX2fiCo1hJgvAmX5c\npLhO66TsVkgfxJa/oomaXyP/Sj7olZj/BMG+fTEt/JdWxyAyFI0REM20DQnt\nd0z3MQTytSuXmDmHV5I9AEBrU6SbZQTFZ77NJ76O6x6PQXJNOcnHKxpqIEA7\nabkoO1mw7tDqlpwSYDeJU2nmNzzLkobFt7OBy1Jv8CDbG7XpYEQCh5txFiSl\nZDRtHxqLfomeVVMG3bXRevqkkznrl0e5BeNteZGE7gJ/PESF5x5/J5vSetFs\n4GEq8weg9olWiHUVd0xrOcxZGixdEG9s5Z4OTOqwE09KH4cDH5bc1VVZgSX6\nDKBP\r\n=vMnl\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-rc.1_1533845214172_0.8221250762328207"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.2": {
+			"name": "@babel/node",
+			"version": "7.0.0-rc.2",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-rc.2",
+				"@babel/register": "7.0.0-rc.2",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.10",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.2",
+				"@babel/helper-fixtures": "7.0.0-rc.2"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"_id": "@babel/node@7.0.0-rc.2",
+			"dist": {
+				"shasum": "3148d8dafad3eba5bbb5084c1c9462f9eebee300",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.2.tgz",
+				"integrity": "sha512-Z2iY4mhvLJyrYMbTmYGG8ppIdoTVvZuyC8K4P1f+bfEc9fDvEuwDb6fqdASK0VfCd4xBK9hG7ScJX509v8qdOA==",
+				"fileCount": 8,
+				"unpackedSize": 10448,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfGaQCRA9TVsSAnZWagAAsu8P/1faq0Vws9SGMgfNyyVW\ntjcgMzPN0WfTWw6JjPd5e730JjtweKcNQxUfNnKi/75plcogcIXXP5nOquKS\n5DX6NTPC046LnhsZ22ahQSC2RfIcFAmlPqQ8fVrXhf20CrWChyo+mXcOlbTW\n7zo0InSkiGa84A9+f8Pl+sFS20Pwh/FCYRUJCQK2vQ3OBp1oapMbIr0BN5ly\nE1Dqj/LG9FIAD8gYvr9W4HoUgexSWgyxF6PQ6V9EtagG998b/v75EXnQwshR\nRLNC8geMTU+HzqJaBgiVyq6e0T3R5dz5zN1l7fOVdGTLpqic+JN4uo2aSE3x\ndaWkWlaqhHXfVB06BS5aJBwM8abnFA7eGGAxdLSJgjdHvdcBFWIL9Mw8FinB\nt68zX5d1ySYfHVLC4yAbuVSDiyF8fg4lpJXTPS56fkcCt6Qi4wy2hTvs51RY\ndazbr2ekAodUA7Mn9ijlvdKmT/QTfUpU5KyOnRhHB12Zu+zRsr8f4Ltl2fyN\nUYVIb1lruYBtAOtz/P2KTKr2HUyc9zeiqjuvjjnt85/Xz5hxayiHlca0x1Ut\nxhlabqSfZHQg+vMbLGWn9GT2r6yiGGZWuYOwJMetkwh80yKls4pjrQOAUJcl\n20JMMQ1VjgOOxRHMQA5sPmzGXYSwHPrd17Y6X3MjaffDOTx0++2yFeDqDkqH\niHsT\r\n=4Zqd\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-rc.2_1534879376337_0.8707291903496952"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.3": {
+			"name": "@babel/node",
+			"version": "7.0.0-rc.3",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "7.0.0-rc.3",
+				"@babel/register": "7.0.0-rc.3",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.10",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.3",
+				"@babel/helper-fixtures": "7.0.0-rc.3"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/node@7.0.0-rc.3",
+			"dist": {
+				"shasum": "23b86fc1f53bedd6aa87dae5d567f9029036deba",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.3.tgz",
+				"integrity": "sha512-k0EGNC0yxc/eNYUygkOcYlYgeAEYCYBpDAcN4YeWeLaXCAnA4gD6bRnbibkDFX5xMcIa7gRWZOhVNj/lhyOYlA==",
+				"fileCount": 9,
+				"unpackedSize": 11547,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbgEk9CRA9TVsSAnZWagAATWQP/iXYSuzmxeMD3VlKXIUl\nWIGl/+4Ds9LK7B7qJZH4jPj+1nU03vUyJivyrAaQWD+E2/sOZmVyFNEDjWqU\nlkLlSk7S9/yqOuPP+wO4+vrunaW5lu/xVPVjOicFiDC98KMQpevSYr6ziSay\n6HeNEqmVK2vjI2E0WGBxdFLgAQ3cXu7cHC8ck59UtjUdp645KJ6iaaAKZaKp\nWzZrkDscp3rXIawRo6D1HcGj4vAc0CpK/fKsE6zg6XHovAMJShzjRtKsBPW/\nUnC9PUMQ0HlUkmNsne+2XBsS2Oadk44yX4yiOhx1QEDgE4KUM9UFpWyGXku4\nsBZk9ATtGfmBNdIWMhXbRjlntnLcvXlmWh3mN1YWVNSgVmyI0mEObZw036HL\nCst0hfXj4Ke4JBHXTnm8ecPssMCOiXiFFanwFUCoh0ywuTanzKK4QBOSgXkv\nkPOlTZsNrsL5u9HCcK4RAeutxzGOvYCexg07QWarDR3C6X32rdgQPSjGWU0E\nbmMknCKZX5r+IyEsSYzeXCZyqvePN0Sbwzzl2RNOEcHbPfm87lYNxLE+5V4o\nKMd33QWgasuUeXCp6Yiu4BaS3o9c4zqDxSHc8OudSYx86MoAQrdRrzKOGkHk\nsU0U/tcAd61hBDbljSbvzy4uGP4/XO4uXeDJjBH2yT4Qvznot2H+Emg7cUNg\ndanT\r\n=ID/w\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-rc.3_1535134012273_0.5720527453013806"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.4": {
+			"name": "@babel/node",
+			"version": "7.0.0-rc.4",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "^7.0.0-rc.4",
+				"@babel/register": "^7.0.0-rc.4",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.10",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0-rc.4",
+				"@babel/helper-fixtures": "^7.0.0-rc.4"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/node@7.0.0-rc.4",
+			"dist": {
+				"shasum": "8959f3f22674cc8428d5509e63454cd3e2cfd9a6",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.4.tgz",
+				"integrity": "sha512-0C7KyDoNzK3fdDB4IS3F3NHLhDlPsm9xYikl7rie7Ocr21Jp43NdUKgqtDt/we+ytJrFEKAsbSfib8OVGFU3Bw==",
+				"fileCount": 9,
+				"unpackedSize": 11551,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhCoZCRA9TVsSAnZWagAAIacP/32wtgfRy7iPp0XVGdLB\n033bj4vDEeu2Prmp3SKinOFHCqNKqsM4d/hxCThgW06aUsQEQziEKaw24zXc\n9Nt7WkCqgGqY/3RTx4dIQBTBGiDi/atNphFNYK4XDvby1kJUER2LoHXQ/ZVF\nMn5rDIO9i3YVeQh/jmGMlCIsUfdJ1yqSk6G9zWG/MBY58wCxiqEhCD2EXV8F\nFcXknsN9CU1HBIC7TH2lneRf1qnwG6U5SIWAsZZZ+VOb6cVYtcGpRQlrvOOS\n6/7XGkSjqOet93jEZJyBFUQL7Y3uiExdUxxO5R2ALxp7gpzz/fNriVDrvniL\n/c868hebXLwAAHS3Sq4ZW6c+JyJGOPAwQ+UHBiwgP6r0m1OZWFhh8dUAw+yR\n4GPatn1db8Sw1z2XcAC/j4EmnzjoBSi9Lb0DhXHCFdpvysIql6heyt3kjEMR\nFkX3aHFRcbFF6xlf2oRcuOVbJqDiDclgUgoDOK5JVMLMs0eaIqblpkEmqfUj\n5WYl6YS1TnLGjIxY4HEwFiBQiSV1DGEMQAfGOtV/kdLqw+1ps8NJH3S2AeFT\nlssdsMGUcm0pqnuiVRpOsUreqAt1v9KPLHzIy2ORjUBJNj/hmq5z1hhJbBAe\nDPDPk6CS79M014vaH/Q15LdygjGqq03iKsBO7v981SA0zWzo+2yUQqplxTJ9\nyOnl\r\n=Xo8H\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0-rc.4_1535388185197_0.6516719437112166"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0": {
+			"name": "@babel/node",
+			"version": "7.0.0",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"commander": "^2.8.1",
+				"fs-readdir-recursive": "^1.0.0",
+				"lodash": "^4.17.10",
+				"output-file-sync": "^2.0.0",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0",
+				"@babel/helper-fixtures": "^7.0.0"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"readmeFilename": "README.md",
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/node@7.0.0",
+			"dist": {
+				"shasum": "20e55bb0e015700a0f6ff281c712de7619ad56f4",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.0.0.tgz",
+				"integrity": "sha512-mKbN8Bb1TzH9YnKMWMhBRX+o5MVJHtUSalNcsiGa4FRgVfY7ozqkbttuIDWqeXxZ3rwI9ZqmCUr9XsPV2VYlSw==",
+				"fileCount": 9,
+				"unpackedSize": 11526,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhHA2CRA9TVsSAnZWagAAldUP/0w+Lr/nrXbTi0H+MlJ0\nFczi0PJGlSP+5TrXimk6EzD2m2iZrag4UhdPGZ0eAyMzsg/bmlwdSAcKoEHJ\nCIPIr+HU0J8bCunD5CQJyrFHAGn1Xf4m8PqUH1tXAMMe/hlKO6IlouFyLcB+\nkvof0rcpJo+qCYrRyZlW3HE++JOQs26g60OBC1Rc5F+Dcc6VeEu7QTTBAqFK\nEKqN/s8fuiBVel4mia72g2pj/RNqdsk3/Jmeekz5BbKAuUYhZpqN/+NHzfkz\noKDBZ9XRICtRLjaJqV1Os2SgUmcC7bgzPaNXI9q3at+AShsrjrVUtexNOEMe\n887YB8NsMi/cW8HQWZfZS3N0HCCTVnYV/oAM9knWn0ATxZwpnDsn6Do9kJIO\nsv7cRAXrMSM4J1IRj4evbNOKW5HOh5xDClDsk9T1sCgVXE7H84qXPvM/uBIS\nqWRzhi58iKG5SpCIbAunfHJ0hRVMQltb9JXQoGzA6PzODr4cV9/ST9Qy98XZ\n4V9AfU0pBfkGpx3KqNvTXtyhXB+MHSOndc9dmyk2Y4XUTJL24eGeZBQ104A9\nu267NBkrEapUX7yRiY+QmkxZb0VpoKfDaGzFvNFkaFqNZCmr1MDigIYXJ9Li\nNYEq5OvaMBxNhMkIauroXXRCP0Cw71B+Uz6GPcQg79uEUr2WCjzqj/cciMUD\n3gDs\r\n=g8Ni\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.0.0_1535406133377_0.7610028318221853"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.2.0": {
+			"name": "@babel/node",
+			"version": "7.2.0",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"commander": "^2.8.1",
+				"lodash": "^4.17.10",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.2.0",
+				"@babel/helper-fixtures": "^7.2.0",
+				"fs-readdir-recursive": "^1.0.0",
+				"output-file-sync": "^2.0.0"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/node@7.2.0",
+			"dist": {
+				"shasum": "0b601be8ef03897923e3908dc18129836d44e6fa",
+				"integrity": "sha512-RFwVH5xWpwd4SfkOI0WsK9AnF5o+C9iMTvUkkTb7jUNaiDieV8BGK38t74bTPjgc4FCxSAWNKqaqgDW4fenkyA==",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.2.0.tgz",
+				"fileCount": 9,
+				"unpackedSize": 11926,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcBXyLCRA9TVsSAnZWagAAEs0P/1mZtDtiaj6qY2MfNlnG\n4ATFSEiArbaGTvZW+8JRZ4l9pNj+AFwWlxyyhlsj8qnbJJMA66Pm71sy9L/A\nUwenixvDX7KrpzQC9Dt+tJ0EUcIX4zwLwGl2im80g2aoLW1CZ2gC0TmAcoIN\nUC337PTHUUeY/qMnmsc89BL4KxpYi1P8p4J0YIwJzN96dV3ClraiE8S2d9RL\nJadrEfiwHdw75fWaOvlnwccDNlerqPkJbOLhLF8GDYP2IGVk7NPRuXMM2Fch\nIJqok+cFg7th92158cD0ZBvIWLpPgQ1dJNvXKK/7gw+odb62Ql5uznVlDTkF\n9eaAgfIn/+kUQ39XK2tVRoSRDZGn/AAQqm4g8R/pI7GsBWbqM64IQ6PY0vaO\nNzWZ5sAgEXO74tdPU83gVnFmd6adRuWCqgmsDEOHayIiVD1X/teDVYtMZ+dJ\nHHHzMi9WVixVw9y0Sf5We6RorCD1CenMeMljmosb2nJhrLM9W4ACwtho6YQB\nNAzTkj83Ndvq8qDgDpTKMx/c/jK87csQ7PZcO9my3miny3ow17OlwzpWU0/h\nE6dnKXcO055fnP4M/TOeTlFTohWX25LsaVRhs8EUmtTXy4W8RbZcXn+bkWkJ\nadvRTpedxOMqWYmO9jS7I6hrO+2di4vSC7pSxAGL8zaZ53/XW7cRPpbgJS9p\nF6eQ\r\n=D1Xt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "nicolo.ribaudo@gmail.com",
+					"name": "nicolo-ribaudo"
+				}
+			],
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.2.0_1543863435334_0.35843414799610085"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.2.2": {
+			"name": "@babel/node",
+			"version": "7.2.2",
+			"description": "Babel command line",
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"homepage": "https://babeljs.io/",
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+			},
+			"keywords": [
+				"6to5",
+				"babel",
+				"es6",
+				"transpile",
+				"transpiler",
+				"babel-cli",
+				"compiler"
+			],
+			"dependencies": {
+				"@babel/polyfill": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"commander": "^2.8.1",
+				"lodash": "^4.17.10",
+				"v8flags": "^3.1.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.2.2",
+				"@babel/helper-fixtures": "^7.2.0",
+				"fs-readdir-recursive": "^1.0.0",
+				"output-file-sync": "^2.0.0"
+			},
+			"bin": {
+				"babel-node": "./bin/babel-node.js"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/node@7.2.2",
+			"dist": {
+				"shasum": "1557dd23545b38d7b1d030a9c0e8fb225dbf70ab",
+				"integrity": "sha512-jPqgTycE26uFsuWpLika9Ohz9dmLQHWjOnMNxBOjYb1HXO+eLKxEr5FfKSXH/tBvFwwaw+pzke3gagnurGOfCA==",
+				"tarball": "https://registry.npmjs.org/@babel/node/-/node-7.2.2.tgz",
+				"fileCount": 9,
+				"unpackedSize": 11911,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcFNHcCRA9TVsSAnZWagAAfqwQAI/ESPtrwSNNufETzP3F\nUML6p8hDluwYAdpaSlD8BefeB7uyiEDE/KMVS4x5eA2fZYrIC8wZZbhRoD92\nCepYyXzS7rausgA4UkId9Ap1CiWSXJVRYEU5XiMCVhJG4ROJ622XppBnUQJC\n1qcIQgZkF1uqn43c6phf2uLnmWUO6WUElDVDu4N2tM8U8LzTsTlK4Skb/P65\nAmb46eFLASJohb1GF1opzIfqakvNfUUPpDD5Y+ze7tQayFzlHBIeyPqPnBX6\nV4KaKo56ukv8LvHW5kvP0iz9bARLXuFf/TbmJYP1ekUpNLdwJYmmFi5VCdIy\n+nrhS68n71uR7og9i4JYsAHW1cXRCQ9jZLeHxy9trRS/UqTwwKXo/duaCazA\n20QUqjm7CBT46z2STqgLkpyW13bCllJ/NIx2ctInOaJ/YaRoS0WF5xtFFy4S\neyUJ2iaxYIxO2syiw6BzXvU0mdFywwbhA885Ewjnomjrsy0QPWOGnGNqLohS\nWSzB0Ilhwgk4+W14LpDQap2neh7QnI3UvAEH3kZ5MvaS6nMBG/gs95d7kmL8\nTJV0ik0AFAOgvVcpKRgEiizWyoTxarlDQ1CnTp581KG6aVjzrTXB27L+00Rx\noygsfItwyPMp+MhqQbcB6gnPs6II0rWQ4V+wb10tXfvrXWQQeDceLIKXzMWD\nD+DE\r\n=e7f7\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "nicolo.ribaudo@gmail.com",
+					"name": "nicolo-ribaudo"
+				}
+			],
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/node_7.2.2_1544868315616_0.07514049622592012"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2018-12-28T20:15:30.626Z",
+		"created": "2017-10-30T18:36:38.013Z",
+		"7.0.0-beta.4": "2017-10-30T18:36:38.013Z",
+		"7.0.0-beta.5": "2017-10-30T20:58:17.683Z",
+		"7.0.0-beta.31": "2017-11-03T20:03:42.414Z",
+		"7.0.0-beta.32": "2017-11-12T13:33:34.572Z",
+		"7.0.0-beta.33": "2017-12-01T14:28:41.827Z",
+		"7.0.0-beta.34": "2017-12-02T14:39:41.771Z",
+		"7.0.0-beta.35": "2017-12-14T21:48:02.376Z",
+		"7.0.0-beta.36": "2017-12-25T19:05:00.543Z",
+		"7.0.0-beta.37": "2018-01-08T16:02:44.902Z",
+		"7.0.0-beta.38": "2018-01-17T16:32:12.412Z",
+		"7.0.0-beta.39": "2018-01-30T20:27:45.529Z",
+		"7.0.0-beta.40": "2018-02-12T16:41:59.544Z",
+		"7.0.0-beta.41": "2018-03-14T16:25:46.739Z",
+		"7.0.0-beta.42": "2018-03-15T20:50:22.342Z",
+		"7.0.0-beta.43": "2018-04-02T16:48:10.643Z",
+		"7.0.0-beta.44": "2018-04-02T22:19:52.385Z",
+		"7.0.0-beta.45": "2018-04-23T01:55:57.141Z",
+		"7.0.0-beta.46": "2018-04-23T04:30:21.801Z",
+		"7.0.0-beta.47": "2018-05-15T00:07:51.905Z",
+		"7.0.0-beta.48": "2018-05-24T19:21:09.563Z",
+		"7.0.0-beta.49": "2018-05-25T16:00:51.675Z",
+		"7.0.0-beta.50": "2018-06-12T19:46:56.199Z",
+		"7.0.0-beta.51": "2018-06-12T21:19:23.551Z",
+		"7.0.0-beta.52": "2018-07-06T00:59:14.490Z",
+		"7.0.0-beta.53": "2018-07-11T13:40:04.167Z",
+		"7.0.0-beta.54": "2018-07-16T17:59:54.430Z",
+		"7.0.0-beta.55": "2018-07-28T22:06:58.438Z",
+		"7.0.0-beta.56": "2018-08-04T01:03:51.126Z",
+		"7.0.0-rc.0": "2018-08-09T15:57:04.455Z",
+		"7.0.0-rc.1": "2018-08-09T20:06:54.260Z",
+		"7.0.0-rc.2": "2018-08-21T19:22:56.395Z",
+		"7.0.0-rc.3": "2018-08-24T18:06:52.355Z",
+		"7.0.0-rc.4": "2018-08-27T16:43:05.288Z",
+		"7.0.0": "2018-08-27T21:42:13.461Z",
+		"7.2.0": "2018-12-03T18:57:15.454Z",
+		"7.2.2": "2018-12-15T10:05:15.745Z"
+	},
+	"dist-tags": {
+		"latest": "7.2.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"761183d6e2706bbaf74ead6ec4e7c0f3\"",
+			"fetched": 1551301854845
+		}
+	},
+	"_distfiles": {
+		"node-7.0.0-beta.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.4.tgz",
+			"sha": "c1c10c6003e7a3e838cb9c2fe49badca2360fc2c",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.5.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.5.tgz",
+			"sha": "a3d625aaf5621b98aadd5308c38202dae691f27a",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.31.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.31.tgz",
+			"sha": "5712bae2d2d9afcbc8b112c863928c3941f2a32f",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.32.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.32.tgz",
+			"sha": "ed9053cd8acc69d36fd083c7cedd34e8a0b9c53c",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.33.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.33.tgz",
+			"sha": "94d447554ecc9098e6ef6547a22c72fe3c0f0ee4",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.34.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.34.tgz",
+			"sha": "456bbed4dab3a88bbb26285035810bded2f269c7",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.35.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.35.tgz",
+			"sha": "ffd43a9367c4b6ce7a13af6f1dea06b2d23145c8",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.36.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.36.tgz",
+			"sha": "4626995d10284ce24b7aaac7aea34ae6986fb024",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.37.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.37.tgz",
+			"sha": "8384126bf612e379a934cad407329e2534e70b8b",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.38.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.38.tgz",
+			"sha": "577af631cdaca97c510e3de0c6efa2620f19fb3e",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.39.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.39.tgz",
+			"sha": "84f69ef597aba934c69e0583d104d24189882965",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.40.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.40.tgz",
+			"sha": "2c5246a85d7d614b97e76806f950da6dd60cb2df",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.41.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.41.tgz",
+			"sha": "d450163eeb5ee135a792aa42e54e7d4abb3ae425",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.42.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.42.tgz",
+			"sha": "0983512763598258e16a38d6095453a18f7407a8",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.43.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.43.tgz",
+			"sha": "e18e9bd3b8a875922998951bd65da61727d13ba1",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.44.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.44.tgz",
+			"sha": "aa729d285b71bfd1d221c6d925430b86b4c965cb",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.45.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.45.tgz",
+			"sha": "6f70a9e53a42558999a53f5d2da09c687a4eab12",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.46.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.46.tgz",
+			"sha": "88ec3ca630b93829fa9422af4bd8ba964c2ddd76",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.47.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.47.tgz",
+			"sha": "fe0425303a78beb455d5c8be72212d3172c48a9b",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.48.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.48.tgz",
+			"sha": "345e541b53fca259158b87532f3b90cc78fcf27d",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.49.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.49.tgz",
+			"sha": "95b6c785f1b5350838c6933347017af514108930",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.50.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.50.tgz",
+			"sha": "7e138914007bf3720aa715a64af4eda7027a5832",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.51.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.51.tgz",
+			"sha": "fe6f4507b5633b822892be854c24c684c6606c18",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.52.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.52.tgz",
+			"sha": "13333a50e80ae4f52b5359f7ccda1402464e9198",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.53.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.53.tgz",
+			"sha": "25323cdcc38dfec8deb2afd5f4e053013c910c40",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.54.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.54.tgz",
+			"sha": "d2c24da199bbc457403a3400799cb6071ca4bfab",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.55.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.55.tgz",
+			"sha": "d86293451eda2d21cf7f4607386050685340cb72",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-beta.56.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-beta.56.tgz",
+			"sha": "ec6d2599c543fd46b07efb81678d84f8be7eaffa",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.0.tgz",
+			"sha": "1037e4b0fa9fb25b3e30db8272d0fa61da621385",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.1.tgz",
+			"sha": "35b741f5f4c02285c9f300429b3eef2e419ca11b",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-rc.2.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.2.tgz",
+			"sha": "3148d8dafad3eba5bbb5084c1c9462f9eebee300",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-rc.3.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.3.tgz",
+			"sha": "23b86fc1f53bedd6aa87dae5d567f9029036deba",
+			"registry": "npmjs"
+		},
+		"node-7.0.0-rc.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0-rc.4.tgz",
+			"sha": "8959f3f22674cc8428d5509e63454cd3e2cfd9a6",
+			"registry": "npmjs"
+		},
+		"node-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.0.0.tgz",
+			"sha": "20e55bb0e015700a0f6ff281c712de7619ad56f4",
+			"registry": "npmjs"
+		},
+		"node-7.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.2.0.tgz",
+			"sha": "0b601be8ef03897923e3908dc18129836d44e6fa",
+			"registry": "npmjs"
+		},
+		"node-7.2.2.tgz": {
+			"url": "https://registry.npmjs.org/@babel/node/-/node-7.2.2.tgz",
+			"sha": "1557dd23545b38d7b1d030a9c0e8fb225dbf70ab",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"node-7.2.2.tgz": {
+			"shasum": "1557dd23545b38d7b1d030a9c0e8fb225dbf70ab"
+		}
+	},
+	"_rev": "4-d69d29f96523dbd9",
+	"readme": "# @babel/node\n\n> Babel command line\n\nSee our website [@babel/node](https://babeljs.io/docs/en/next/babel-node.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/node\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/node --dev\n```"
+}

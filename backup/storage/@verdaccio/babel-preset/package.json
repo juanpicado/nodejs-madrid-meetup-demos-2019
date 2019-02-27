@@ -1,0 +1,461 @@
+{
+	"name": "@verdaccio/babel-preset",
+	"versions": {
+		"0.0.1": {
+			"name": "@verdaccio/babel-preset",
+			"version": "0.0.1",
+			"description": "A common preset for Verdaccio projects",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"@babel/cli": "7.2.3",
+				"@babel/core": "7.2.2",
+				"@babel/node": "7.2.2",
+				"@babel/plugin-proposal-class-properties": "7.2.3",
+				"@babel/plugin-proposal-decorators": "7.2.3",
+				"@babel/plugin-proposal-export-namespace-from": "7.2.0",
+				"@babel/plugin-proposal-function-sent": "7.2.0",
+				"@babel/plugin-proposal-json-strings": "7.2.0",
+				"@babel/plugin-proposal-numeric-separator": "7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "7.2.0",
+				"@babel/plugin-proposal-throw-expressions": "7.2.0",
+				"@babel/plugin-syntax-dynamic-import": "7.2.0",
+				"@babel/plugin-syntax-import-meta": "7.2.0",
+				"@babel/plugin-transform-async-to-generator": "7.2.0",
+				"@babel/plugin-transform-classes": "7.2.2",
+				"@babel/plugin-transform-runtime": "7.2.0",
+				"@babel/polyfill": "7.2.3",
+				"@babel/preset-env": "7.2.3",
+				"@babel/preset-flow": "7.0.0",
+				"@babel/preset-react": "7.0.0",
+				"@babel/register": "7.0.0",
+				"@babel/runtime": "^7.2.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-eslint": "10.0.1",
+				"babel-jest": "23.6.0",
+				"babel-loader": "8.0.4",
+				"babel-plugin-dynamic-import-node": "2.2.0",
+				"babel-plugin-emotion": "9.2.10",
+				"babel-plugin-flow-runtime": "0.17.0"
+			},
+			"devDependencies": {
+				"eslint": "5.10.0",
+				"eslint-config-google": "0.11.0",
+				"eslint-config-prettier": "3.3.0",
+				"eslint-loader": "2.1.1",
+				"eslint-plugin-babel": "5.3.0",
+				"eslint-plugin-import": "2.14.0",
+				"eslint-plugin-prettier": "3.0.0",
+				"eslint-plugin-verdaccio": "0.0.5",
+				"prettier": "1.14.3"
+			},
+			"scripts": {
+				"lint": "eslint lib/*.js"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@verdaccio"
+				]
+			},
+			"_id": "@verdaccio/babel-preset@0.0.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-kvDgPPkpyo1Tcrdo2sVZVrCc6fHgvzvDIMbecP3lEUuGBF48Z1DJp86t9oOQytL8MmJD63LWFCNfmaRZjd2hww==",
+				"shasum": "59bfa21b86aa75d83b707a939209f6582815003c",
+				"tarball": "https://registry.npmjs.org/@verdaccio/babel-preset/-/babel-preset-0.0.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 11523,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcTB30CRA9TVsSAnZWagAA8UYP/3NUYfMNMR747klWtyAv\nTjzp012myp/b3qpElAxRllFnqtxO91iE++YErqtDAci0Tz2Kesy4aQvz06y/\n0jAPIiGqpHZgBEnFt/Dk+1kEyV0LsjPPQNjMqlFT0x/IVUwby52+QWLQMqmZ\njP8oEy3o5WZaFm14SGfE56+LlWha3FfGJ29FeVpoXQTwffo+do5gUHunRBQS\nSCN1IceMJuqTNepNiXqQftaT3AZhfJiuPuabO02HbXhJlmHAcvq+B1NCvexm\nPs85ZNVgqKSkUblc9yf/RTa2Up4Gc1vrNxWrXc5hIrHbo26Wn/jyAkIzFBJV\nIvN4ZXKM22T97uuCYXexg7Qv4Ehk3I+hnxjjWFka6ETZx8TgfEI9pAAp9Iv8\ne5uI8G3lCCpB3Yb9reMsRzvq3qYWZWXNuFlAFgj7IZfMAksl1ylKft0uwS2k\nPHqPwvvzlDEcunsOVH+XcrfRMH+dbCbmqKfuMMGmBqaj2Sceep1daem5Oz2G\nKMe06oaQy7erLrJyDJSQ6WPPSSRz61KdbsBcdRLNFDiUolmt3frtlqA+6Hb3\nEUV+Po7gRlo9lhA/Zbzd983Rbpo2CqRFitY3kgzgdb+9pS5M7jPDYzCVc2+g\nMb6G3q2x19lcMTn6KlX3ReZaISXl0U/Q3xR8dXiOsaVqnY2VN4FMmuJndhYl\n/W0L\r\n=gAYA\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "sergiohgz",
+					"email": "sergio@sergiohgz.eu"
+				},
+				{
+					"name": "verdaccio.npm",
+					"email": "verdaccio.npm@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				},
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-preset_0.0.1_1548492275473_0.9959764773098607"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.0.2": {
+			"name": "@verdaccio/babel-preset",
+			"version": "0.0.2",
+			"description": "A common preset for Verdaccio projects",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"@babel/cli": "7.2.3",
+				"@babel/core": "7.2.2",
+				"@babel/node": "7.2.2",
+				"@babel/plugin-proposal-class-properties": "7.3.0",
+				"@babel/plugin-proposal-decorators": "7.3.0",
+				"@babel/plugin-proposal-export-namespace-from": "7.2.0",
+				"@babel/plugin-proposal-function-sent": "7.2.0",
+				"@babel/plugin-proposal-json-strings": "7.2.0",
+				"@babel/plugin-proposal-numeric-separator": "7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "7.3.1",
+				"@babel/plugin-proposal-throw-expressions": "7.2.0",
+				"@babel/plugin-syntax-dynamic-import": "7.2.0",
+				"@babel/plugin-syntax-import-meta": "7.2.0",
+				"@babel/plugin-transform-async-to-generator": "7.2.0",
+				"@babel/plugin-transform-classes": "7.2.2",
+				"@babel/plugin-transform-runtime": "7.2.0",
+				"@babel/polyfill": "7.2.5",
+				"@babel/preset-env": "7.3.1",
+				"@babel/preset-flow": "7.0.0",
+				"@babel/preset-react": "7.0.0",
+				"@babel/preset-typescript": "^7.1.0",
+				"@babel/register": "7.0.0",
+				"@babel/runtime": "^7.2.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-eslint": "10.0.1",
+				"babel-jest": "23.6.0",
+				"babel-loader": "8.0.5",
+				"babel-plugin-dynamic-import-node": "2.2.0",
+				"babel-plugin-emotion": "9.2.10",
+				"babel-plugin-flow-runtime": "0.18.0"
+			},
+			"devDependencies": {
+				"eslint": "5.12.1",
+				"eslint-config-google": "0.11.0",
+				"eslint-config-prettier": "4.0.0",
+				"eslint-loader": "2.1.1",
+				"eslint-plugin-babel": "5.3.0",
+				"eslint-plugin-import": "2.15.0",
+				"eslint-plugin-prettier": "3.0.1",
+				"eslint-plugin-verdaccio": "0.0.5",
+				"prettier": "1.16.1"
+			},
+			"scripts": {
+				"lint": "eslint lib/*.js"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@verdaccio"
+				]
+			},
+			"gitHead": "dbd71049d062b587e159c35355d6fe97d46d2e94",
+			"_id": "@verdaccio/babel-preset@0.0.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-+RI0hK2Griuu47m3yqfD82tlsPL3SUnNHikl3VI6kI+SqKJoBoJyawO9yAhyvx9xu6ojMD+/lf0e30z5eJgxuQ==",
+				"shasum": "b1a06675feb9ea1b9c8fe49ba74bc571d24808e9",
+				"tarball": "https://registry.npmjs.org/@verdaccio/babel-preset/-/babel-preset-0.0.2.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12980,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcTHfDCRA9TVsSAnZWagAAzmcQAIYBgUUIjAJsYYODiZwD\nFAS7W1UVvOa7WPnuc5Iv6YLNlBIXy/AKRjhlLVJzqKYQ4L20OeksK4jKbcmY\nXnEhxi9FxMVwhzQkcGGQUI34lNo9D3fv+vVyZl4Gy6xsSlZTMmwQnQvxKO3r\npYAxA11tITOshUefj/Rpx247TS521y7yg8kVM+B09w0KOgecjdU0hp30RfP6\nnU4ToOFxXk9IB5Y7MtSOrjhkfwRhCN5pJAnx8wjqGFZ/kagNXooMSJMIGr3N\n8qyyxUzQdK/OZBDNzEOcm18sdz/Wvr9yCOmzMWxm/SBSdNerqGQqmz+poDOq\nx23tMAbYY+zPQWJE4GLOKemBKIPF1AK+6c/bqlkZetGXvfv8IDyKPQXT4iNv\n7rmSyv0R15nO4++GBMvt3oGs+1HK56jcQwo/YfFWzGHO4rPN9C38f0Xwy84h\nuUjJypDdeKRfll83EL0WvSu3+Tfvft6pn3Ih7VySRZB6OgMo37HP7madlxsx\nTjcUed8LwakGGWRP/X5HI9/IrHLcXt4POBJKm7zOSuABjw2gAN2YNAd8jq7G\nKzjrMy69fKuY7d1SBemqDU7hZqpuxXuFS0viB5TaB0Xm/0wEdu3tRSMK2BkZ\nO0ncG/KzN+w3BUyAbMBCjnoUS+PFPjLAmlkDnQqyH7DjeEJB4euu5AdTVDIQ\nC4dY\r\n=lJ9r\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				},
+				{
+					"name": "sergiohgz",
+					"email": "sergio@sergiohgz.eu"
+				},
+				{
+					"name": "verdaccio.npm",
+					"email": "verdaccio.npm@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-preset_0.0.2_1548515267022_0.46951148903799167"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.0.3": {
+			"name": "@verdaccio/babel-preset",
+			"version": "0.0.3",
+			"description": "A common preset for Verdaccio projects",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"@babel/cli": "7.2.3",
+				"@babel/core": "7.2.2",
+				"@babel/node": "7.2.2",
+				"@babel/plugin-proposal-class-properties": "7.3.0",
+				"@babel/plugin-proposal-decorators": "7.3.0",
+				"@babel/plugin-proposal-export-namespace-from": "7.2.0",
+				"@babel/plugin-proposal-function-sent": "7.2.0",
+				"@babel/plugin-proposal-json-strings": "7.2.0",
+				"@babel/plugin-proposal-numeric-separator": "7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "7.3.1",
+				"@babel/plugin-proposal-throw-expressions": "7.2.0",
+				"@babel/plugin-syntax-dynamic-import": "7.2.0",
+				"@babel/plugin-syntax-import-meta": "7.2.0",
+				"@babel/plugin-transform-async-to-generator": "7.2.0",
+				"@babel/plugin-transform-classes": "7.2.2",
+				"@babel/plugin-transform-runtime": "7.2.0",
+				"@babel/polyfill": "7.2.5",
+				"@babel/preset-env": "7.3.1",
+				"@babel/preset-flow": "7.0.0",
+				"@babel/preset-react": "7.0.0",
+				"@babel/preset-typescript": "^7.1.0",
+				"@babel/register": "7.0.0",
+				"@babel/runtime": "^7.2.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-eslint": "10.0.1",
+				"babel-jest": "23.6.0",
+				"babel-loader": "8.0.5",
+				"babel-plugin-dynamic-import-node": "2.2.0",
+				"babel-plugin-emotion": "9.2.10",
+				"babel-plugin-flow-runtime": "0.18.0"
+			},
+			"devDependencies": {
+				"eslint": "5.12.1",
+				"eslint-config-google": "0.11.0",
+				"eslint-config-prettier": "4.0.0",
+				"eslint-loader": "2.1.1",
+				"eslint-plugin-babel": "5.3.0",
+				"eslint-plugin-import": "2.15.0",
+				"eslint-plugin-prettier": "3.0.1",
+				"eslint-plugin-verdaccio": "0.0.5",
+				"prettier": "1.16.1"
+			},
+			"scripts": {
+				"lint": "eslint lib/*.js"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@verdaccio"
+				]
+			},
+			"gitHead": "b08f11363030b668955be12357716080d6079a0c",
+			"_id": "@verdaccio/babel-preset@0.0.3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-kL6pubq/VEIJNWBNIu62vsGrgC0d7EHUVbtGMxbb5k9pER1iUdCqAnhUW54BVQL3ZDkI3rS7Yd5kabPseBDUKQ==",
+				"shasum": "8ae91e8812dc2988b9c776eb015cd600fc4f534d",
+				"tarball": "https://registry.npmjs.org/@verdaccio/babel-preset/-/babel-preset-0.0.3.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12975,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcTYauCRA9TVsSAnZWagAAlGkP/0zOKes+cfkdn4ZCmkBn\nZB8mJFzL/Mt6HgySyV1QhOyduhw3ImQO6JZFfSHhdcS2GtfJ2esa6mr4QLbO\n1Uy40Kwyb+JvlA85dyD4Jq5MfjYIWrYFDhrZnDHmA2awcr3yIB1GJ4WluNDO\nMt4WOnCJJQzYw7UlR5K6P8go99Rtxqw0pAVeNWBAq5NLlKnnkyDLTrHy9In1\nwfA38aSnxOnw0BxpsVCvwxNucpMewCt303o9sfyQa9rdCwZMX+7g0l1SIVSU\nUWUHoTqT6pz7oM4itG6ZmOxfIf3ZDsmDxChpnJCbAhd38pudA8eHUyaGxNf4\nPzrDQr3vJbABYhy6jq+peNofIJkyo9e7RpnkK4DQYzHGmYZObpRCuufe/aZP\nIjGsL44ISKXep737V/5xNf2EVX+97IXMQU0C0jiB92uF+kL9xZXoBmmJeAFe\nQYihch0iZr1SGjUH9TheWEmH4Nia9L17dFPpZVdXQxdc/A1Oe2ULiUMPHgOp\n0gbH1bjsbmaXDd4iYNG33kPY/tM5gIrSM1FSbFuNHsUPMjW17WTnjBX5C7aE\niQCCsYIhi6kpP5AJjNCpY3ulMW27qfeyk7YqfR8AlQiFe86FOsOD7RYg0kfB\nRnUfBdHuwdWTk2wGbVDW6T1hW3VEA6mGANIOJo3Jsm0WdX/fkGp18M0C5ksK\ngB8X\r\n=16PM\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"name": "ayusharma",
+					"email": "ayush.aceit@gmail.com"
+				},
+				{
+					"name": "jotadeveloper",
+					"email": "juanpicado19@gmail.com"
+				},
+				{
+					"name": "sergiohgz",
+					"email": "sergio@sergiohgz.eu"
+				},
+				{
+					"name": "verdaccio.npm",
+					"email": "verdaccio.npm@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-preset_0.0.3_1548584621387_0.699556971676097"
+			},
+			"_hasShrinkwrap": false
+		},
+		"0.0.4": {
+			"name": "@verdaccio/babel-preset",
+			"version": "0.0.4",
+			"description": "A common preset for Verdaccio projects",
+			"main": "lib/index.js",
+			"author": {
+				"name": "Juan Picado",
+				"email": "juanpicado19@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"@babel/cli": "7.2.3",
+				"@babel/core": "7.2.2",
+				"@babel/node": "7.2.2",
+				"@babel/plugin-proposal-class-properties": "7.3.0",
+				"@babel/plugin-proposal-decorators": "7.3.0",
+				"@babel/plugin-proposal-export-namespace-from": "7.2.0",
+				"@babel/plugin-proposal-function-sent": "7.2.0",
+				"@babel/plugin-proposal-json-strings": "7.2.0",
+				"@babel/plugin-proposal-numeric-separator": "7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "7.3.1",
+				"@babel/plugin-proposal-throw-expressions": "7.2.0",
+				"@babel/plugin-syntax-dynamic-import": "7.2.0",
+				"@babel/plugin-syntax-import-meta": "7.2.0",
+				"@babel/plugin-transform-async-to-generator": "7.2.0",
+				"@babel/plugin-transform-classes": "7.2.2",
+				"@babel/plugin-transform-runtime": "7.2.0",
+				"@babel/polyfill": "7.2.5",
+				"@babel/preset-env": "7.3.1",
+				"@babel/preset-flow": "7.0.0",
+				"@babel/preset-react": "7.0.0",
+				"@babel/preset-typescript": "^7.1.0",
+				"@babel/register": "7.0.0",
+				"@babel/runtime": "^7.2.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-eslint": "10.0.1",
+				"babel-jest": "23.6.0",
+				"babel-loader": "8.0.5",
+				"babel-plugin-dynamic-import-node": "2.2.0",
+				"babel-plugin-emotion": "9.2.10",
+				"babel-plugin-flow-runtime": "0.18.0"
+			},
+			"devDependencies": {
+				"eslint": "5.12.1",
+				"eslint-config-google": "0.11.0",
+				"eslint-config-prettier": "4.0.0",
+				"eslint-loader": "2.1.1",
+				"eslint-plugin-babel": "5.3.0",
+				"eslint-plugin-import": "2.15.0",
+				"eslint-plugin-prettier": "3.0.1",
+				"eslint-plugin-verdaccio": "0.0.5",
+				"prettier": "1.16.1"
+			},
+			"scripts": {
+				"lint": "eslint lib/*.js"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@verdaccio"
+				]
+			},
+			"gitHead": "01321bbffd6374d5233ab028182f37ef717c274f",
+			"_id": "@verdaccio/babel-preset@0.0.4",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "jotadeveloper",
+				"email": "juanpicado19@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-5iND5/uCFL2/HJ0AgS2z6d1DC4U+Czn1I5G3MUqR4hy3q+vNNl3Tm+18dxVukn6OI5obFoeSIQCZ/d6OCsAnpw==",
+				"shasum": "ad99e8404c3522d90190efc34308505cf19180ea",
+				"tarball": "https://registry.npmjs.org/@verdaccio/babel-preset/-/babel-preset-0.0.4.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12975,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcVLctCRA9TVsSAnZWagAAkDsP/RJo1ONIH4/OaKRUzn2R\nz1+eIngJn4irVVhXVTRIJkpYFx1Zd1SC08S9oh1wMA+eBzeiyhRsEmd+5GJL\nu+HWu7/yHVvvcLJhWXYNv0PQe6GUkyof8IJXPPvvej1+9q00qTvvbB9HouxY\nUo1raafizmDfIwy0nf9KL5a2OadEqGcm8Uyovl/MD5lnQTXH0hCicQm/vBso\nVlbxL05Jye8TTWQskV4pGi1WWeDo2gPcNAvRcE0A9P46z5ntZdRpu6AkQXSy\nPUjrsac2e1GkPnd0HlPNKydaljflfx4XsDrZbByrhUHusN2OKI7Z6dEs6yUV\n8+L+RMFcjmc0bMUKkHxeldabb4f2raGmYKYaIhzQ5PIL9p+rCqoDdHQjJpqa\nrYePkc8pfYEGXf28Hp1NozWAt8Y2Fg3awa6mMw00w2X/W/tsg/olS2EkN/Qu\nZdQaykODQTvnnKoO4sD5k8bLkGX5GC8dIhnvi3+8t6+cLgfdFEhodtOkbW6O\nev7yi5aPqstfIPWpJD6dnEBUNPmQkVQKtqAouCLk8eJpkqplArD4Q/A8/Bqg\nvu6uqxXYPdxiMGPZoHUO+ze1vIImEE551Cg/0gvL6otvkfExc/FlSGOgGb+T\nlE5wFKTDvmjAaTHQAvZXXvW1Bm0QnwWPziTSp1aq+pyh5TqWyOsOgMl0O033\nQiVZ\r\n=Zm+Y\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "ayush.aceit@gmail.com",
+					"name": "ayusharma"
+				},
+				{
+					"email": "juanpicado19@gmail.com",
+					"name": "jotadeveloper"
+				},
+				{
+					"email": "priscila.oliveira@eversports.com",
+					"name": "priscila.oliveira"
+				},
+				{
+					"email": "sergio@sergiohgz.eu",
+					"name": "sergiohgz"
+				},
+				{
+					"email": "verdaccio.npm@gmail.com",
+					"name": "verdaccio.npm"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-preset_0.0.4_1549055788716_0.2920056976843002"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2019-01-26T08:44:35.359Z",
+		"0.0.1": "2019-01-26T08:44:35.620Z",
+		"modified": "2019-02-01T21:16:33.025Z",
+		"0.0.2": "2019-01-26T15:07:47.122Z",
+		"0.0.3": "2019-01-27T10:23:41.515Z",
+		"0.0.4": "2019-02-01T21:16:28.796Z"
+	},
+	"dist-tags": {
+		"latest": "0.0.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5c8299b7462042a3aa43b5f35731a3c0\"",
+			"fetched": 1551301854547
+		}
+	},
+	"_distfiles": {
+		"babel-preset-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/babel-preset/-/babel-preset-0.0.1.tgz",
+			"sha": "59bfa21b86aa75d83b707a939209f6582815003c",
+			"registry": "npmjs"
+		},
+		"babel-preset-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/babel-preset/-/babel-preset-0.0.2.tgz",
+			"sha": "b1a06675feb9ea1b9c8fe49ba74bc571d24808e9",
+			"registry": "npmjs"
+		},
+		"babel-preset-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/babel-preset/-/babel-preset-0.0.3.tgz",
+			"sha": "8ae91e8812dc2988b9c776eb015cd600fc4f534d",
+			"registry": "npmjs"
+		},
+		"babel-preset-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@verdaccio/babel-preset/-/babel-preset-0.0.4.tgz",
+			"sha": "ad99e8404c3522d90190efc34308505cf19180ea",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"babel-preset-0.0.4.tgz": {
+			"shasum": "ad99e8404c3522d90190efc34308505cf19180ea"
+		}
+	},
+	"_rev": "4-5a8f1691e8c5e8a3",
+	"readme": "# @verdaccio/babel-preset\n\nConfigurable Babel preset for Verdaccio projects\n\n## Usage\n\nTo use the preset in your `.babelrc` file, you have to add it using:\n\n```json\n{\n  \"presets\": [\"@verdaccio\"]\n}\n```\n\n`BABEL_ENV` options possibles are: `ui`, `test`, `registry` and `docker`.\n\nNote: `docker` has a fixed Node targed with `10`;\n\n### Options\n\nFlow transpile is enabled by default, but can be explicitely enabled like:\n\n```json\n{\n  \"presets\": [[\"@verdaccio\", {\"flow\": true}]]\n}\n```\n\nTo use Typescript\n\n```json\n{\n  \"presets\": [[\"@verdaccio\", {\"typescript\": true}]]\n}\n```\n\nTo use a different Node targed version (by default is `6.10`)\n\n```json\n{\n  \"presets\": [[\"@verdaccio\", {\"node\": \"6.10\"}]]\n}\n```\n\nEnable debug\n\n```json\n{\n  \"presets\": [[\"@verdaccio\", {\"debug\": true}]]\n}\n```\n\n@verdaccio/babel-preset is a open source project with [MIT license](LICENSE)"
+}

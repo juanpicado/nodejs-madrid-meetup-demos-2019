@@ -1,0 +1,2762 @@
+{
+	"name": "@babel/register",
+	"versions": {
+		"7.0.0-beta.4": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.4",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"@babel/core": "7.0.0-beta.4",
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"devDependencies": {
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.4",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-EjZ4MJCELrfBSX188PvEq0pUmCmd84+cDAoP4/BywYyOnCcaoCbyVAazRn9NGkOegyas4ZVZVpK6ADnMOftRIQ==",
+				"shasum": "7f9bb895716e9957d9573f23632306ebf47e5aab",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.4.tgz_1509388592801_0.7697194775100797"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.5": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.5",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"@babel/core": "7.0.0-beta.5",
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"devDependencies": {
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.5",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-vnk5YZjeVyjNb/ULVcxymhQ8U0LNwqR9Lksm4MOYnTVi3E1n708gKblGNhOrUbst9Msmcs6EPTSf4prnn4bgpg==",
+				"shasum": "9a528bd7e11baeef167dba193faf18af15f1e12a",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.5.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.5.tgz_1509397090562_0.2778422071132809"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.31": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.31",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.31"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.31",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.31",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-yS0+jqYBvuR3r5Ds0zY+QQ26zxGtLjzkPF+FInacIcQTDxLlWage+IiRF0VVjt+lpYWfZiYTvNsNrY6XtnSkPw==",
+				"shasum": "e53953916edb18ace8a9a4b89cc381e2fcdf5907",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.31.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.31.tgz_1509739413486_0.8083173194900155"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.32": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.32",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.32"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.32",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.32",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-PF3uWQWjX8rmnOe03blhGG2pkaHcy6TbVPTg1DfqJzKAT6Fdw1og1JmijenKtMMazZi4DNE2B7U7TD0LUgBOEA==",
+				"shasum": "cc4e5fe695395fda7377fa9f3adbab6f75339662",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.32.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.32.tgz_1510493605388_0.581737115746364"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.33": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.33",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.33"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.33",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.33",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-TKSpbTNd++3yTzH4ayA2PpKnxBoH557rCcYAGwoaQPRVO30R7w8HNakCpxdZGSz3Qr9GlpbMdQzE/BY8Kmwd/w==",
+				"shasum": "a9ce8d4c0c83ab5bd9659d7bf10c5dcbe560c65a",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.33.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.33.tgz_1512138510091_0.6988786514848471"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.34": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.34",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.34"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.34",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.34",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-PS77/e1lYZlBzPrcumuz46YndJ3ANqc27nFsHTdRcty9uVG8CQD4mwWQWseS1NrUKVp+6Cmpe39AFDF+BOUyHQ==",
+				"shasum": "b39f3fbe2f288cd2f76a0727bce77920b925d984",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.34.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.34.tgz_1512225569795_0.4545013294555247"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.35": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.35",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.35"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.35",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.35",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-2ywXBebjCTlAbKpLL2UCtJa/TpfILCVs5kowCFxPfmKNzWkChwp7n54jl6jO7ERsePz877PFqGxFUl3GC0QQJA==",
+				"shasum": "0af044c0476f5f68535feb73242f8da66e0e4a8b",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.35.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.35.tgz_1513288075421_0.7235616568941623"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.36": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.36",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.36"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.36",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.36",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-BhwVDihQIyueuZJ0P2TtUzkJPnWUCxCNOi9vdJcWWqfw4v/ZrDFYK0g24yDL1o58Cmdc/Wgg/2zw+f9i9USNKw==",
+				"shasum": "dc3b32c0f70d3a11fc49402626a585147e114831",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.36.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "james@henry.sc",
+					"name": "jameshenry"
+				},
+				{
+					"email": "kent@doddsfamily.us",
+					"name": "kentcdodds"
+				},
+				{
+					"email": "kaicataldo@gmail.com",
+					"name": "kaicataldo"
+				},
+				{
+					"email": "teddy.katz@gmail.com",
+					"name": "not-an-aardvark"
+				},
+				{
+					"email": "star.ctor@gmail.com",
+					"name": "mysticatea"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.36.tgz_1514228688655_0.8633483562152833"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.37": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.37",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.37"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.37",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.37",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-lhuCwm0dcUgg3ZdlUTI9+5F0birGH6WbKZTFjojmkG4XPdfUOMGeoFZgTvxZWw9ohlrxN8r9TSzvUDEm5pnlKw==",
+				"shasum": "961fbaa537b7fbfbffc7c293acef7460c714225b",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.37.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.37.tgz_1515427356814_0.6434098645113409"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.38": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.38",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.4.0",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.38"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.38",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.38",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-szE2vMZ8FB6NkywESqDGcAtchQafaWLQgJo3xro7GIgNRmJoAX2xZijU1e5AKT4zWkRRc53aBBwfZy03aWsPgw==",
+				"shasum": "3336e7bf5e830eb464a2b47c4df28b52e519f873",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.38.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.38.tgz_1516206723248_0.3937169392593205"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.39": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.39",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.3",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.39"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.39",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.39",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-nipN2qZVT+hPlfaWaOLw3GqQLvNKUovj2ckdipffy2jJtE01uInVqZ52daiAkUGAi51l/LLmrr7+XRGlhx1zDA==",
+				"shasum": "40994219d69963a88c55e259e32fd076cdd668dc",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.39.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register-7.0.0-beta.39.tgz_1517344058729_0.2823364019859582"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.40": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.40",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.3",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.40"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.40",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.40",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-/9ATJf2/YN6MyU1FvagOEh8BhYrCMZRHYgmRPX9T+w0w5ALM8hXCCzmdlxz70dxDfLrf+h4UoFhIdAb+FC8nOw==",
+				"shasum": "40df0bdbb2fe74a7c7b09af3d59b71c8cd53c4da",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.40.tgz",
+				"fileCount": 6,
+				"unpackedSize": 10002
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.40_1518453706977_0.6644371969484579"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.41": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.41",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.3",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.41"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.41",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.41",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-Yq+ubQQxN/UUtRU4epuzn5Ou2FgoYs0yTG7d3Ax6NS3l9q8UVZJUhFJVgXoqUOi7Vybc6VpCxg/oVy7ehTPq6Q==",
+				"shasum": "0df0ea8431607ba1a12187efaf472314ca6d6518",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.41.tgz",
+				"fileCount": 6,
+				"unpackedSize": 10224
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.41_1521044734544_0.140346863094297"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.42": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.42",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.3",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.42"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.42",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.42",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-15mi2lyyMDZ2reaZgEnQI9oM7shEMohjH8L/rMLdLtbgIYNtK5STK6ECLPCy3V6VWURGCSCOZCc0YFtl+OQTfg==",
+				"shasum": "169503a36ce44ca4a2c6ad4d561e6795a583259c",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.42.tgz",
+				"fileCount": 6,
+				"unpackedSize": 10933
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.42_1521147010492_0.7828393447987867"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.43": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.43",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.3",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.43"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.43",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.43",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-NIyWWwJdsz6rsKS5kiq5hzbYI2/vz3EPZl7f5mHudYqC8b6P5nM7Cw/Qpfa0F9P8Wl+69LPPZaNn2o57UBQKUw==",
+				"shasum": "c03f30dbe18b7fc412775a025f66f9433a38e69b",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.43.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12289
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.43_1522687681363_0.906195947365652"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.44": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.44",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.3",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.44"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.44",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.44",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-7DlnSyWKnBE+MS+mFPsp5T+2+vz9d5GUDwIJtyCdKGeYkme6uakFVH7qpp4eMpYc47wTANoVbCEDugRQXUeTzg==",
+				"shasum": "89cce279f1444aa560f10597073d0e448482d960",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.44.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12484
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.44_1522707584045_0.6324529687401532"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.45": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.45",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.3",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.45"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.45",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.45",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-wo78AFXiSMMAGoio8XK0PO7l1u1oo0jyf8FdRMIXcQEek/U/R/kxYYHue7rMihiAN4fq4cLM9sDmzV69Ry5JwQ==",
+				"shasum": "c4903b140cfd1ddb7a10d0097a4cd58c0fa77303",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.45.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12484,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3T0TCRA9TVsSAnZWagAA4IQQAI9wJ8j31Pz4fFOlB/zO\nDTJ0Sn40Gt3pxJfDTrEmVrhleXr0Rpiormm/reF4W5BFttBpvlgkso7F2pNu\ntVqy2zI6rz1ngr2BmP4Klp5E79mLLg2cZ2r6d/wucNRMsvlBO4LL76VANOeg\n08rM7dbiapV1MZ7yVIsP3qXTciuTb5458LUZgI4k5b9Sz1IPqr6eHgASRz9S\n+QPVJYe513Z5opEoYPUnjF3uJ7ZJgX3RX4Ejq9RAozmYWfRTM4OtFoR3pOLu\n1Gg4p2ty8jqDLT55EtOz2b3QX1TkvAUmKgrMb5ttc07jGzwNYIKvFJ2onR0Y\n+q+m9dl7YKKC2CFEKLTWvbgMnce5pKIkhsdb9ZqHOfsH/0OSTgiHHGnRR7jh\nHdRP7125X3v9ECTv4e5iZTcAbAgLwjtkWFTwMHKaWlUCNAPtrnl3ao/1cf0u\nt5wYtvAxRLjnRKMXeWiHQQfoaItOzDQ7O2Lj01O+jlQjjnVklz20c4fpN8YH\noeNzmN1tkYdO7ewPbNgpgoblu2/K+NGRPBoEvhvmBktqFqpZRjxKZMaHGUDe\nawDAHX8MHTmrIiibwCb8PQBUWnmDSNtex1qUFgkUnjK5jb9o1331q4m1/4Ov\nkSwSYj15mWI2Y9pgDu348H39DZVmKYyIxVZth4cioK9gZ0tG64iqYELw6D5S\nyRrd\r\n=1YYa\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.45_1524448530409_0.8828462058199649"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.46": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.46",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.3",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.2.0",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.46"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.46",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.46",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-S43PemtH5CSDE9GJesjUoAQGfC2rwLcc35gq/y6WQHPzWOd90yOvKydUk/pS7aSMrDiJSXYtyEeZFsq/8dtLhg==",
+				"shasum": "695629b28902b832be02b418c96e17e6b099e9d5",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.46.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12484,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3WFFCRA9TVsSAnZWagAA6rQQAI7gPocQrN4eFJp9u+RF\n3tZnD8SHhnmpfVBNSrm66mbl4hljZtZKzWpGBkV4b4rH9R+TT027Gd73AYU9\nngMo7PaoAVcotODkEvoBf04/lTSVlBUoT6yL1tBEHnGb8d/NI0l6U6f/UgPK\nnTv+6GERA5nhT4PCgBKm4+4Y0wOOej06A5DJgilek6MR9gwr49vpQn5j5YQ7\nDnVn9PpixwJqn9Ol1aBz0/WlVGFLqkJKK+s9Jv5kjV6OdmQ2FKwl36Pl1QbS\nAW1SSn3pzwDHv9E/Q0eJnaJRwGuz1Fo8ebJSDXsS8nlFRLNsD4mlqGQjOPpb\nZfst/HIQIqltZNUQp4QTXB3XJOt4SPffuc6LYHdTMpBSTCKP1zWr9EfMGPSn\nO1K38JCls9Lg+ECSVAroPFuUVph7wIrc+6tPvxuyaA9JwflWyMvuyrAvPzi5\naKL+qwbmmJheyXcZVIVUTvUsEDomPo3PPCmaMULLY7qEpNaYO7OWMngtAqNJ\nrxMJBPtSi1M4VOQC9YEPGVnd/Cvfzecyr521w7v1KvCt/YfjjjZHoEdh0Yw/\nV9+L3K+cP05KA/0sA8Obwm9fjPRR+k7i2R8NbBnITkOfN9PCoqZit/iZ3COQ\n8aAR8NpKInxO6kehLn34am5YmpPgyTLhHoftikJCuT9Nc+X/3bKJq3aKvfjC\nbxf8\r\n=NeXN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.46_1524457796546_0.13670956931996536"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.47": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.47",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.3",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.5",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.47"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.47",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.47",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-r5aS1bAqW0tHvwUNPRRdmIedSWGK/oyv598EENpV/+VZF8EkX9TiVqCpJyg6zucPPyMjtdXN1pK/Yljp5NdGGA==",
+				"shasum": "ac53bc357ca59979db0e306aa5d3121aa612a7a2",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.47.tgz",
+				"fileCount": 6,
+				"unpackedSize": 11708,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+iS2CRA9TVsSAnZWagAAaH0P/R310l1DoYNkWi0OGVb/\n+NmPi+k1vDlqpYO+IHEEUraLJbFSrTB2hVvAM6U2Y9CbSr1BzfzXdN5b/g8S\n3qskmMkYbNRmGDzHgNclPLN2zMP5VbmOb8I5UgbCCA4qfH5a6+OhT6/ADBN9\nSaV2IeLQMR2DoM5PCDBGNPu0KptnOTrUx5zp59IQf/fwBYt+xnw476BdX4ym\nGGS38aikzDNc0Uq3pgEtLMcb9Xws2VluYcXBNRhkEszDnyEqzk7JMno4+Xjz\n/JQRxXL7u7Oza+LT9zLlqBOuIGoTxiVnfc8TlXz2qKm/fugnu8G8DdUI09RF\nYPGsiMX5u15N9i31SPERv1ZUnTzVRvbqNK1BbO5cIxUIRjrOH0W+udmfBuDh\nFmwgETfHcJFfVRR+2XDA6f62chA81OrAziszvI1GsGBzPE8LbS/8Y3cawLHt\nBfoMrQiCQXfq8ITTws7e/EkZdoj8UYGSiQltOTK+ic8FczdVsTTB+WgEJiSy\nFTYYjh5mPBLtx4JJSrEsBRBaddgxkhB6k9oNFH80UZ1fyd+7W2JIHxumKg1l\nk8ZCRlWzE2M1fKggQt++HX2SH5zktMyhNk+uOdees8Ntj10lJksweE8ZvEQj\n4hfvEmGCfmI+OhnvV9yv516tT0a2sBMKQVSQm+wCYKRLQ5w+NOvct9neFrnH\nAeKU\r\n=qYet\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.47_1526342837902_0.500306878228922"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.48": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.48",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.6",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.5",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.48"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.48",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.48",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-btLgdY0zw1BjQic93Pn1+p2WrFxKjqX9yt3UiYSBJ9Wt5g6cIETs0QupTcn2wpNGx/iOl/S4XhGbHlaGDlxqJg==",
+				"shasum": "6cd2eb31afdbe7a58c395436559f4be861fee7ff",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.48.tgz",
+				"fileCount": 6,
+				"unpackedSize": 11561,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBw8lCRA9TVsSAnZWagAAJCEP/jwumLkxAX1EKkH1y1bf\nS3RL+7LjfNkKNpRG5jirec66mYLgVzGwKsc+LX31m9KsEfZelFY0kbk29GiY\nrZgUw/KYrI/FKGvjp6QnF45bPj0GPC8yjNDgFJsc9CY4FeifOy0VHEBiMm7+\n7mL1IEZB1DoXUc0Io08E3rQT7DwJ0MFOP7JkFKZCAsHEhmGKwxg0swShWDvU\n5pPfgDpEpcFsYswjQDA5HpkU3wyf20N4CDWd7MYmI3vCVMfevWwwvDwudecL\nIwKLgIW4Q1P6NhSoynaRF82qrAdj5x/NI9Rj8ijsd7TX469Quq5RBfHFeZIk\ncDeufpj2N4sPsH6KnG21fPcDpZlhDeJTsAQ4KlJZXzZgzK/wpJIxDE4iA8ev\n8nwvCndHYRbHaGfqHXPgAlclenjqMxONb6/UJ6cpP69uTRX/p2P9hyZ9TLrJ\nlzQ3atWWjg9t5rYWxkl+8SZTOg3/50BEgbJWaTmwfqbVpH4gN/Hw0qX4n+2K\nFDkEfBdDchOFqVNS78+0jPw9WGkClhuj3Yn3oeZySYxQXRxT3p9XCuXjYrco\nyjuTv2pZkcHH3Cky5agJGOPZF/VvKbslTWTkObPwO68OdfYII3BtFesrxRfV\njrHCKowLbnDhsB3gXyTu06BEXgua447tjKCL3iXUu8NBs3Kg0lwz8GLuNBlb\nDrQx\r\n=vrWu\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.48_1527189285061_0.08591736977835507"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.49": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.49",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.6",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.5",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.49",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.49",
+			"scripts": {},
+			"_shasum": "57e823a5062e3ddd25548398e9f5077c17991f08",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.12.3",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"shasum": "57e823a5062e3ddd25548398e9f5077c17991f08",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.49.tgz",
+				"fileCount": 7,
+				"unpackedSize": 11576,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbCDMVCRA9TVsSAnZWagAAIqoP/1mB6TIAUhZYiLgfhv4e\n5zwTkxrZOTQMSfNJ97JzHc/HYF4APuSPogdj8vV8mkiZu8GNDPt3vPJOqjGy\ncjdnaemY4el3rGE6l8i0+BeW+LY9h04qTl6Y5lQbFkuu+pw7rJB6i9uwHxbw\ni6Nmj5aVBkavNAgGK8mVOlp3qdNyEeo2kKhcqESZeUPsfiNQPlqssIiXNPsx\nbGleKdpZyKw4DvuQCJd1BYUJjxHosA4dmoHsstg7jfiSKARyWK4R4ha0z3oM\nGAaC0ofYFSLjj2JXkfXvD22+7Ra7ewW/vREIJNXYRcPYtGKFYQdZKJRmRoHI\nqTXWoNaI2Fji19PYSc07RHdxUXH56kakiu6IZ+UlJ7sCTqawpTsvI0nqp2rA\nvslyBoRtODoCIg2PErPq44f85+eD3eO5ZJn9LTWTqJEmS521yM2WyGPBPo75\nRTkBIqIeY6RoYUOFKhXWG3Y7L+BsrfpSWNj5++7wf2zMAxiuUC1C8uAepxfa\nPHlyeRBw3FtVQfuIISwpL4Pi/2z2UGSWW6kYMDpbRNGczPDPL+zVGoP5Zdr1\ntJg4WtbqRQNNsp8fadIwVSsNH6mVVZaMv3CNwukA758rB/GsMQFXa+4OWRKW\nyEk8jLXm2HCYepGCu69YRdbyFGxGZjLzBsMGD60mXIharckXbxCv0gZUlpOg\nAq9B\r\n=G6oQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.49_1527264020633_0.5889715949615966"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.50": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.50",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.5",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.50",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.50",
+			"dist": {
+				"shasum": "9848936936452156092cf9c19f44108dae73ee7a",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.50.tgz",
+				"fileCount": 8,
+				"unpackedSize": 7710
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.50_1528832804335_0.20239140358901286"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.51": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.51",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.5",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.51",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.51",
+			"dist": {
+				"shasum": "31a6d27f124cc7a2a0a603b65d23d5644b979aa0",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.51.tgz",
+				"fileCount": 8,
+				"unpackedSize": 7724
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.51_1528838349651_0.7027958911174756"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.52": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.52",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.5",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.52",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.52",
+			"dist": {
+				"shasum": "011f925e087919ac3a75a3e8b8606d1d224046e5",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.52.tgz",
+				"fileCount": 8,
+				"unpackedSize": 7723
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.52_1530838747520_0.22470652517504996"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.53": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.53",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.5",
+				"mkdirp": "^0.5.1",
+				"pirates": "^3.0.1",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.53",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.53",
+			"dist": {
+				"shasum": "a3c62be5256b9ce0b940b6a34d793e8bc97b7654",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.53.tgz",
+				"fileCount": 8,
+				"unpackedSize": 7723
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.53_1531316396886_0.24404700961658277"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.54": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.54",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.5",
+				"mkdirp": "^0.5.1",
+				"pirates": "^4.0.0",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.54",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.54",
+			"dist": {
+				"shasum": "108284ab394788cb86687087871ad8e949abefb8",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.54.tgz",
+				"fileCount": 8,
+				"unpackedSize": 7670
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.54_1531763987635_0.7083564240833526"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.55": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.55",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.10",
+				"mkdirp": "^0.5.1",
+				"pirates": "^4.0.0",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.55",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.55",
+			"dist": {
+				"shasum": "930bf5a13f99eeb22c276b346a54586abb01e611",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.55.tgz",
+				"fileCount": 8,
+				"unpackedSize": 7671
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.55_1532815608133_0.4823864258243826"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.56": {
+			"name": "@babel/register",
+			"version": "7.0.0-beta.56",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.10",
+				"mkdirp": "^0.5.1",
+				"pirates": "^4.0.0",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.56",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-beta.56",
+			"dist": {
+				"shasum": "bc228ccb87308bbf9dc0d2b4e1dca0490ac178cb",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.56.tgz",
+				"integrity": "sha512-QnCpfPKYQ/RCbD8hNYOugbdI+pBVZgRNcq012jB9fbu2Ca/H2xinFF2ycMWCkEKDNfmo/FqVfezivtb4VILeNA==",
+				"fileCount": 8,
+				"unpackedSize": 7656,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbZPtTCRA9TVsSAnZWagAAKMMP/3Nki4DXOfSuGglQJzk8\ngYyC8S3ldPV92JTNCsBHRx23dTf3Hh14tevkDb8pUwCBjHxmq5Qgo0LKWTva\n/b6wdb10EQ/ynxr2onbUEvElOQhwuzze3J0H9IPNckWXxyc/mNe9865EB0XS\nnNn5LuZFEnKO2X6c9YBw9j/iFWoVHf/NpdAI1H1hU2AtJaBJwRcVEUBrKP/K\nSsDt+ycISOtkxCYl9ZoclApXqrnrqgpsaETkIFfsqJMahEcNEghwqnzuHjBc\nDjvnCYCJMYZQl52kU1ZoGHqc4pGTm8pEYmXAZZNhfr4lxHq9OwWEjxnEdlPR\nAV4Qig35/ohUu5Jkx192syDVy3apUvxeYjFuS2PuPoCwgn7skTimhso2bQu9\njCFidVEqJ8m17+Fq8XBQq5BYsGtDJa0iOuV5WzQpyJCS8qjlj2vMkwsXnGNw\ntho4mzk+dHgmbFikuHSywGsS9/Uc4RAJVbfsBbbNLHxSkC+gGnZbr5WW3bLS\nL4E83Vb0+NwOBRy2R9xZcR4KY66yJ2aml6YtrWa2B/ZU4Vxt4w/16g+uZ2xe\nY+cYvw1HuaKGCuEMEQea4uspOe0OJWg9eEh8j0/ElqzY+feEY31JOyHkjV5O\nk0APTQYSkVFcaLDU3sDq651ApkiaKO0pATKgtReuclZguVd4bSjQdILwtoo/\nnbQa\r\n=C/mQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-beta.56_1533344594634_0.3347197310083925"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.0": {
+			"name": "@babel/register",
+			"version": "7.0.0-rc.0",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.10",
+				"mkdirp": "^0.5.1",
+				"pirates": "^4.0.0",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.0",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-rc.0",
+			"dist": {
+				"shasum": "6d9c5d3cd4985fd0e04b39d14de8844f174ca046",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.0.tgz",
+				"integrity": "sha512-UwtSniyEoykLSQwywEk1BDp+2njISv6VFOpUTukmz/xBG+duDIxU3etVX0UZb/CEzBGDz6Yg86N50EuoWRd6Ug==",
+				"fileCount": 8,
+				"unpackedSize": 7650,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbGQvCRA9TVsSAnZWagAARw0P/jv8yrkPDC1e1jdqaqE7\nmqYMjpR8S1p26FN0Pzz8NhBn1Fwiq6F5U9xPTeMqTbErNC2VpzjBn2Nk+nKI\ni6EMEYuWLIcE7GoBWYGejK6Rhcemrsgd9IQMNSYTtOIKVMDAki6MRS8N+XgP\nGKZzr1w+PKS4K4BFicR2NCzpUBCb7y1f4d6nPq51p07XZKk2keA1McnDR8oy\nmCTAye2ZVlMk0KN6VyihEWi1VMZCjkrv+yaFrAVOryTnJAesoskivJKHeqDr\nqLYkdA+ffVNgtHx8YOaunqBAVEk4V6XSGPxzZTx1WsxKnFzA+j9/n0r0KK1u\n7otx8MosouvlnBwKQJKYls2JjoiD1rBZ9tJmkYO3mMmOpxY9cfqAurvplp30\njUdOsEbafY21g0MeTsNwhbZTXb5eLXjb2414nqJ2RSnt63feS8aAmWPDVd2E\n2td1VVpUHK0vhLz9abEOOl8quQWGgUSs88771qoGZFbVai3y0KjzxyKB+Pj7\noFri9m4dHCKKOh6mQ3qE0sjgbdeG4/sj237ToMx2cYcj9Cu2m1cnKgbbWh4i\nxVdCsF6aNfzbHGf6yRthEJel4x1Q08IcCpJFrauMLe7xsFtp0pBMeRPK06T2\nsCV+wVc/Pe7Gtn+vLgFn1sObyMuKWEzJpDPEC/vZOAffD7ao3udUun4h65Mz\nFBxZ\r\n=rwNs\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-rc.0_1533830190973_0.2456746735510671"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.1": {
+			"name": "@babel/register",
+			"version": "7.0.0-rc.1",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.10",
+				"mkdirp": "^0.5.1",
+				"pirates": "^4.0.0",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.1",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-rc.1",
+			"dist": {
+				"shasum": "a120415f5e3613115277c0857cdedf27ead78657",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.1.tgz",
+				"integrity": "sha512-Q6WtPB7kzWjNppoy2K47Hs9Kw/TvY7QtMw+E3PuTJvybWSPbqIOvNLrAHzWj+CSx3Ueuf+/gSU83RN57+7tDiQ==",
+				"fileCount": 8,
+				"unpackedSize": 7631,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbJ7CCRA9TVsSAnZWagAAdnwP/2rio9zztCiSNqnHNtMf\nh2iPHBNlP594t+0dkWmoO3WFdgD1ISSL/8GWsma5m0wmgJ0u8cpasL8N4KbR\nLk3pwfjde4eABQGn6hPr7ZuWpqu5oRPCT9jSB5m1Xb3YQ2H+nS4/eI3MKqS0\nQINYikXTtDZwp0XWpsiMTIvvOdeNzwVZIDl/YiIX/5dPoNEw72RyY/fbJl94\nBy3hUYX55Zncr+Jgfwigmgn2XNolS9rk2beAcJdzmLtT35876ksa3U1jzvnS\ne6+O/CovFnSslmzpbE5eujGoSj301b7RfAUYcEHSxW9lJViNlBo0izJ/B5b3\nIymFprc7YVWHcN/yPt6AOZeUkBWRmXUvpgJ1U3fEmnGmDeZ/rLHGav2Hq0Vz\nZOqN5sjFtTAFc872nhECHf/f+vyjwpEna/AjEJglUb65jfQLLzqO70tCTCm8\nw4RetZHH8iQm+EFTQIAghlu909IerrwjrlpqPQQtX79rRWbqoFUyRzrOVE5d\njPYt+CZjIe7QPDv+aJh7XHeUD9vGkH3IoyvOWECbqhRc2mIhJt1m3Ap9U8Ix\np+bdl2ZVDl5OjjjyKm4HDiISXo8n7veRtM5X1oTVzFj/u72o1MFenBlOLV+4\n5Z3xz9uozBK0F0nbgBPLdcd6YbKnzZcWOjaM/FmR/rXVQHUI8UnpWunu1Jjw\ncSbV\r\n=n4M9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-rc.1_1533845186594_0.4812400332866533"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.2": {
+			"name": "@babel/register",
+			"version": "7.0.0-rc.2",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.10",
+				"mkdirp": "^0.5.1",
+				"pirates": "^4.0.0",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.2",
+				"default-require-extensions": "^2.0.0"
+			},
+			"_id": "@babel/register@7.0.0-rc.2",
+			"dist": {
+				"shasum": "1289243dd0ac7deec918c236d4b31aa91fbcd760",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.2.tgz",
+				"integrity": "sha512-pn3aYDXhuMx36ZygTnxxRXmmmKwZlDFo4ysg4PgQ7goe01GAL5hC7FBgzv+bGbVuSMwD40VnpeiIJev2HQvffw==",
+				"fileCount": 8,
+				"unpackedSize": 7722,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfGZ1CRA9TVsSAnZWagAA2F8QAKMoXVm4GjJEQzrxFKfU\nu4Lyk1bfKgyyoCSaCxwRyMeQBj5aKu/mUcP6TehfMBDn1RGDfI4KusR8FJ3k\nX4WNdAMS5uZC/oV4qxmkr1FOD24frYWuqNsEqgoDsn6/uDHwdufUtcPjk9sj\nFBvwyq24/jyBwUcjYwMks2SjUQP5orZQadDN90kTbqO3FJrw1WtwgMGIqKFX\nhLlEQumrMx8QkhsDiprwTNI/1hMNCl/7++ft5tzYIFpwQlgPEYs4Xdk+a202\nx/0RUW8I3GXeCtpAovCy2YIiIyuRSOX5TCP9v5Zu47T2vVueBpeyLHlRJK7q\n8to0Y4SvAbJ/b5UeV7qChzwVTlsC4XRrtUTut3IdArVMioa9WL6pCr95ks0R\nItdrpgHHa/mf1TlhhvoARnHU+niZDDV+5Xoptlia3O9ZH2ERe7LOUsc2FLpb\ndeyRfQMQH1PDZrq9sFjq7mees83473j4kGvHdj0zdNiqwjpA1IsYgC9gpJdT\n9Nkw+V0TV3zZhM6fTknrZfk5NysPKpvNl5x5X9hb3vNEupudcAyjyvKHQDu3\nLxsy3/T6+EQ55QXCM3Ds0+7HsLuDFQigq9CzkFDTtIMZGFYQlvYU32qE9ecx\nLAjBsOK54GAn/Vt+7UGzzprK3OACiVZoeY7Vt8PqaE42BbIRNIysTRyX6EAe\n1biQ\r\n=ZjnD\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-rc.2_1534879349113_0.189163959537348"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.3": {
+			"name": "@babel/register",
+			"version": "7.0.0-rc.3",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.10",
+				"mkdirp": "^0.5.1",
+				"pirates": "^4.0.0",
+				"source-map-support": "^0.4.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.3",
+				"default-require-extensions": "^2.0.0"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/register@7.0.0-rc.3",
+			"dist": {
+				"shasum": "0eb39271b5c19272bf8d90fad5f56ec9b184cb34",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.3.tgz",
+				"integrity": "sha512-6sQNC794oMxpfWHAE/f0fLTWY1bYrn3XcGNh1nAP5DJaSCBZS5pFnbKz2m5Kcd0na8sads4+FipolCo+lrY0/A==",
+				"fileCount": 9,
+				"unpackedSize": 8821,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbgEkjCRA9TVsSAnZWagAAMHwQAKG4xCl4RnHkBgbL5i/n\nAkUga3Sb4neuC3kZLniSkjJt8lJh9cEb+ydN87qWkDDSC75o7bh0vK35X3ZJ\nt41MSDL4sCKdAOzn7EPanFCUj1opKDYsGK+rPQc0HKW6pSZDQYMWUx6PdITM\nXYND41dYVwXk+WNWTDqGV8v4hqjXu4LLvQmYYlI3QLXE96DDAg4wLskHqUCF\nXBNkKuVMLFtp+GKIqvIc3IhfoXi3Uxks82wPLp06CUuvORoLVyAE14GTNxj5\na1Ohhq/18S4Lu1Oaxa0r7cgRi/8MI5BYT/2tlWVqt3wxim4V9k1uT+A4/uH1\nR8+hpzcO6mfjJw17djlhMGMaGluU3zWPkisnem96sA9zpR5uMZegx72OkQNn\nX55qUr6Bd/wSpL8To1z8Wt56szMNZfi+BGtc+3Eiw3R2nUwp6p1sN1ljdRB5\nJXCvKWPfv0CCvb6lSStzop/DUOfF5aXOjqQGCVWZmRu1zLbGHGvARFZxv8t5\n+a90KUCm05aL5h9wzgMVjwInLqtX5PCuq0QMFSzGSkcjWAQmYdoyrfFBZGsv\nKGbqPJOMr8wgdJ+zmMJ928zGx5h+G5SLWluY+nLeXrbdmyhDjv54EshMTnTP\nUulsmUozL1tCvTJkMdTcGnPHmD9J59H7Q56fELCdsPSxjy4SJ0+PTFWiZ+h+\n4eDx\r\n=I8M0\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-rc.3_1535133986661_0.3880835904958999"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.4": {
+			"name": "@babel/register",
+			"version": "7.0.0-rc.4",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.10",
+				"mkdirp": "^0.5.1",
+				"pirates": "^4.0.0",
+				"source-map-support": "^0.5.9"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0-rc.4",
+				"default-require-extensions": "^2.0.0"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/register@7.0.0-rc.4",
+			"dist": {
+				"shasum": "431ccf2e8c2cb0bcef6d7006782e386539177fca",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.4.tgz",
+				"integrity": "sha512-SxuC2/wzc8LFlJMhn25vGLHoHoHTJbM0pn5kRSd2G+UqmWf/3xVGBn1zpn2Td8vuNcwylUYMC6aXC8l5GTbjmg==",
+				"fileCount": 9,
+				"unpackedSize": 8822,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhCn2CRA9TVsSAnZWagAAg1QP/iX9T3TIXE3RvExUZ2wC\nE/tIYyKhRP9GfzPud6hxpvk/VIDfIvCCLyCR6tEs9Q0tXGrf8WrPDaJt7VPB\n2iNV4TrcIFpdQ3QjSMgJ80g9S7olQnE+12XQrTex/gJ6jdoJPzCfoQ2/qlIe\nA+NxdmlXPiCKRXPWoJbF/mxmcVHk2wmcksdhkDlCVe1pfp2NFLFYJWdif3Vx\n5ddEwSKCv/FMbwrphZutq6aos2NPAprPyjjEvWDebCdVh0QbrfUYtRQMDYUS\nBJcpOehZtbpssKxta5yOsfCv2zXM13ejIIqBgq44S424nPDp5sF2zrme+Tvl\nJU0b12lecchS3ybQZBLT4vpHVZylJvQ0whY95VXjJkOWxFaVV5RivdmGjT1n\nLljbnoumSSzR5hRyjVBgABGb8SPxpKdrMnYGbSZ3orkXgTisVFMYwAp39Gl7\n78NomVJd945CEDYew+tlvmXTcfe7T4MW+AhFwqp+hntEFv2e7jGaH7CirfLc\ndQBjC89ANnmCGAan2Ium0xRSMzIHKRHydGhOKDKAkvWJSU6pdELh1xMOMfis\n5lwmhR86WOq6/7b3NChJF0Zhylbw9fGI/ba1n5XdI5z5eZF7eU8+bm6LMcHo\nJ4/3zfi0Bj+Fm0MBDwga4IcXVZfOxt6PEANsCDS2rBxjSSR4CO8fCe0IdZk3\nPjeS\r\n=N9ly\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0-rc.4_1535388150010_0.06404244898263367"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0": {
+			"name": "@babel/register",
+			"version": "7.0.0",
+			"description": "babel require hook",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-register"
+			},
+			"author": {
+				"name": "Sebastian McKenzie",
+				"email": "sebmck@gmail.com"
+			},
+			"main": "lib/index.js",
+			"browser": {
+				"./lib/node.js": "./lib/browser.js"
+			},
+			"dependencies": {
+				"core-js": "^2.5.7",
+				"find-cache-dir": "^1.0.0",
+				"home-or-tmp": "^3.0.0",
+				"lodash": "^4.17.10",
+				"mkdirp": "^0.5.1",
+				"pirates": "^4.0.0",
+				"source-map-support": "^0.5.9"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0",
+				"default-require-extensions": "^2.0.0"
+			},
+			"readmeFilename": "README.md",
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/register@7.0.0",
+			"dist": {
+				"shasum": "fa634bae1bfa429f60615b754fc1f1d745edd827",
+				"tarball": "https://registry.npmjs.org/@babel/register/-/register-7.0.0.tgz",
+				"integrity": "sha512-f/+CRmaCe7rVEvcvPvxeA8j5aJhHC3aJie7YuqcMDhUOuyWLA7J/aNrTaHIzoWPEhpHA54mec4Mm8fv8KBlv3g==",
+				"fileCount": 9,
+				"unpackedSize": 8812,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhHAbCRA9TVsSAnZWagAAcAwP/12W4QxDtsUfLImoLg8o\n/kZNce3hY8cvcQpCmnnRleDXcO48xy7kiESW0jtUWSFG1T8erstVsvscwkqj\nAFT6+TqI9GUK5CDlmB/4QvcDGqlW7E97PBIsLaqGGEZLdQcTO6z99QUCTOtx\nNQClW2p20XWEbtzNqGKn+BANT/dNJJNMu29aObFq4CVJ26m6DtU8xh4XnKSC\nb4WnTi6vXzdXG/0eeScK7q3L5I13NfcWiJ6HjiCgy7G6Pa1xnVQ9FBgNkv07\nn8va8cKwOp8PYQkjdaeJO/4l5vzriKNOJU3/JjbWcyv4FBKE4tUZ/HPwy9YC\nOT262Klg/LtttOg51bOO9vkm7UwxDoqX7V1DX44S+ZqgAezRv9wiVtHhCFTm\nKKaHryBDQdMjJSAPxQdp+VOgpixleixcLfk5V6cWkzC0JRSp+imJJwdhX5iW\npLX4ncFTGLG3gT6HvfLDo4CAAwwvmDvCJccE33nSNcSV/qXjW73LesLXJouq\n6iIktFyiVxuvapuqiTOdgsa6yMKntTQfrs0WbS7kcw7fIbDklMHiLYTJZz7l\n1LklMpuBscRJujaeRZJVd7QW8rlYfA/3FGN4a/Q2HhoxqJnR7Jh5PjSkOV08\n1kukL8/2vAZDsXYurPGXSF5iSWRAPK+l6MBn0IRVYc587+D1wrkOFuk0BQFx\nUkYo\r\n=DYm3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/register_7.0.0_1535406106927_0.5165362232645414"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2018-12-28T20:16:16.464Z",
+		"created": "2017-10-30T18:36:32.919Z",
+		"7.0.0-beta.4": "2017-10-30T18:36:32.919Z",
+		"7.0.0-beta.5": "2017-10-30T20:58:11.939Z",
+		"7.0.0-beta.31": "2017-11-03T20:03:33.554Z",
+		"7.0.0-beta.32": "2017-11-12T13:33:26.264Z",
+		"7.0.0-beta.33": "2017-12-01T14:28:31.064Z",
+		"7.0.0-beta.34": "2017-12-02T14:39:29.861Z",
+		"7.0.0-beta.35": "2017-12-14T21:47:55.484Z",
+		"7.0.0-beta.36": "2017-12-25T19:04:49.557Z",
+		"7.0.0-beta.37": "2018-01-08T16:02:36.894Z",
+		"7.0.0-beta.38": "2018-01-17T16:32:03.303Z",
+		"7.0.0-beta.39": "2018-01-30T20:27:38.790Z",
+		"7.0.0-beta.40": "2018-02-12T16:41:47.063Z",
+		"7.0.0-beta.41": "2018-03-14T16:25:34.706Z",
+		"7.0.0-beta.42": "2018-03-15T20:50:10.534Z",
+		"7.0.0-beta.43": "2018-04-02T16:48:01.439Z",
+		"7.0.0-beta.44": "2018-04-02T22:19:44.132Z",
+		"7.0.0-beta.45": "2018-04-23T01:55:30.470Z",
+		"7.0.0-beta.46": "2018-04-23T04:29:56.596Z",
+		"7.0.0-beta.47": "2018-05-15T00:07:18.018Z",
+		"7.0.0-beta.48": "2018-05-24T19:14:45.147Z",
+		"7.0.0-beta.49": "2018-05-25T16:00:20.719Z",
+		"7.0.0-beta.50": "2018-06-12T19:46:44.440Z",
+		"7.0.0-beta.51": "2018-06-12T21:19:10.377Z",
+		"7.0.0-beta.52": "2018-07-06T00:59:07.587Z",
+		"7.0.0-beta.53": "2018-07-11T13:39:58.219Z",
+		"7.0.0-beta.54": "2018-07-16T17:59:47.679Z",
+		"7.0.0-beta.55": "2018-07-28T22:06:48.184Z",
+		"7.0.0-beta.56": "2018-08-04T01:03:14.762Z",
+		"7.0.0-rc.0": "2018-08-09T15:56:31.241Z",
+		"7.0.0-rc.1": "2018-08-09T20:06:26.663Z",
+		"7.0.0-rc.2": "2018-08-21T19:22:29.218Z",
+		"7.0.0-rc.3": "2018-08-24T18:06:26.800Z",
+		"7.0.0-rc.4": "2018-08-27T16:42:30.092Z",
+		"7.0.0": "2018-08-27T21:41:47.004Z"
+	},
+	"dist-tags": {
+		"latest": "7.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"dfa218e2742241c22c8d0e2e246f6cae\"",
+			"fetched": 1551301855198
+		}
+	},
+	"_distfiles": {
+		"register-7.0.0-beta.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.4.tgz",
+			"sha": "7f9bb895716e9957d9573f23632306ebf47e5aab",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.5.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.5.tgz",
+			"sha": "9a528bd7e11baeef167dba193faf18af15f1e12a",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.31.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.31.tgz",
+			"sha": "e53953916edb18ace8a9a4b89cc381e2fcdf5907",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.32.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.32.tgz",
+			"sha": "cc4e5fe695395fda7377fa9f3adbab6f75339662",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.33.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.33.tgz",
+			"sha": "a9ce8d4c0c83ab5bd9659d7bf10c5dcbe560c65a",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.34.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.34.tgz",
+			"sha": "b39f3fbe2f288cd2f76a0727bce77920b925d984",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.35.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.35.tgz",
+			"sha": "0af044c0476f5f68535feb73242f8da66e0e4a8b",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.36.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.36.tgz",
+			"sha": "dc3b32c0f70d3a11fc49402626a585147e114831",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.37.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.37.tgz",
+			"sha": "961fbaa537b7fbfbffc7c293acef7460c714225b",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.38.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.38.tgz",
+			"sha": "3336e7bf5e830eb464a2b47c4df28b52e519f873",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.39.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.39.tgz",
+			"sha": "40994219d69963a88c55e259e32fd076cdd668dc",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.40.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.40.tgz",
+			"sha": "40df0bdbb2fe74a7c7b09af3d59b71c8cd53c4da",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.41.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.41.tgz",
+			"sha": "0df0ea8431607ba1a12187efaf472314ca6d6518",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.42.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.42.tgz",
+			"sha": "169503a36ce44ca4a2c6ad4d561e6795a583259c",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.43.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.43.tgz",
+			"sha": "c03f30dbe18b7fc412775a025f66f9433a38e69b",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.44.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.44.tgz",
+			"sha": "89cce279f1444aa560f10597073d0e448482d960",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.45.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.45.tgz",
+			"sha": "c4903b140cfd1ddb7a10d0097a4cd58c0fa77303",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.46.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.46.tgz",
+			"sha": "695629b28902b832be02b418c96e17e6b099e9d5",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.47.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.47.tgz",
+			"sha": "ac53bc357ca59979db0e306aa5d3121aa612a7a2",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.48.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.48.tgz",
+			"sha": "6cd2eb31afdbe7a58c395436559f4be861fee7ff",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.49.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.49.tgz",
+			"sha": "57e823a5062e3ddd25548398e9f5077c17991f08",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.50.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.50.tgz",
+			"sha": "9848936936452156092cf9c19f44108dae73ee7a",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.51.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.51.tgz",
+			"sha": "31a6d27f124cc7a2a0a603b65d23d5644b979aa0",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.52.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.52.tgz",
+			"sha": "011f925e087919ac3a75a3e8b8606d1d224046e5",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.53.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.53.tgz",
+			"sha": "a3c62be5256b9ce0b940b6a34d793e8bc97b7654",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.54.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.54.tgz",
+			"sha": "108284ab394788cb86687087871ad8e949abefb8",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.55.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.55.tgz",
+			"sha": "930bf5a13f99eeb22c276b346a54586abb01e611",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-beta.56.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-beta.56.tgz",
+			"sha": "bc228ccb87308bbf9dc0d2b4e1dca0490ac178cb",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.0.tgz",
+			"sha": "6d9c5d3cd4985fd0e04b39d14de8844f174ca046",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.1.tgz",
+			"sha": "a120415f5e3613115277c0857cdedf27ead78657",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-rc.2.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.2.tgz",
+			"sha": "1289243dd0ac7deec918c236d4b31aa91fbcd760",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-rc.3.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.3.tgz",
+			"sha": "0eb39271b5c19272bf8d90fad5f56ec9b184cb34",
+			"registry": "npmjs"
+		},
+		"register-7.0.0-rc.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0-rc.4.tgz",
+			"sha": "431ccf2e8c2cb0bcef6d7006782e386539177fca",
+			"registry": "npmjs"
+		},
+		"register-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/register/-/register-7.0.0.tgz",
+			"sha": "fa634bae1bfa429f60615b754fc1f1d745edd827",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"register-7.0.0.tgz": {
+			"shasum": "fa634bae1bfa429f60615b754fc1f1d745edd827"
+		}
+	},
+	"_rev": "4-ed9882c9406d6cb6",
+	"readme": "# @babel/register\n\n> babel require hook\n\nSee our website [@babel/register](https://babeljs.io/docs/en/next/babel-register.html) for more information or the [issues](https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20register%22+is%3Aopen) associated with this package.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/register\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/register --dev\n```"
+}

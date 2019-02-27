@@ -1,0 +1,2686 @@
+{
+	"name": "@babel/preset-flow",
+	"versions": {
+		"7.0.0-beta.4": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.4",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.4"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.3"
+			},
+			"devDependencies": {
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.4"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.4",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-k9IFbOUgBfCwTzra25vdchP4xJA1vQiZssMtL8LLGq39zCP+R2n+yCNCU4HWVSv77Q0t5XqBe9GTVnl7KYquyA==",
+				"shasum": "ac79ab761b16c05b97f3fb15c427d5dbc44531ed",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.4.tgz_1509388547301_0.9262747236061841"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.5": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.5",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.5"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.4 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.5"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.5",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-QbUPD7/k/wJzhfRIMzr6nkQAx8K9FA+IVGgxrobLsedMIQnTkfbTHoK+mAVlIDeFGALd3pZOGms1HLDK8CBrrg==",
+				"shasum": "dd03c3c04e5a248ee17362e788df1a22592c8730",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.5.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.5.tgz_1509397046042_0.6916771058458835"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.31": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.31",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.31"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.31"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.31",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.31"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.31",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-MDkp+IioYk9KFNM3wA804P9APiPQQ6eTJSHHmE12essNoJpjFuFFqXpJ1qbNtkdfPNYR5xiBbuqMGa8oiRt+Jg==",
+				"shasum": "113393d921716520110f87f8d51da92647b31437",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.31.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.31.tgz_1509739449846_0.8187605319544673"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.32": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.32",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.32"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.32"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.32",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.32"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.32",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-yBGOSuFBE8uNRcAkp8UNRzD8m7yHHposv8OAtVJIir/BUiGTB7GYmycy/vj/v2QGUZ0xoadByHjJ0GEZTYZaFQ==",
+				"shasum": "d3235a530330df21fdf2d583a5206a7f8ea5bee2",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.32.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.32.tgz_1510493630378_0.41139302076771855"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.33": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.33",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.33"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.33"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.33",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.33"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.33",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-HfE58SPC02rrkFr/zvjd+h0hgbuujzY5Mt3U0PGFLNQSM6woxC2kAgpkLfuDQ4G71ufFL0coo+2lE5S3wPxYDw==",
+				"shasum": "b7c590dfc97943e5283b7ef64e61ac04c912cee1",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.33.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.33.tgz_1512138546273_0.9324523087125272"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.34": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.34",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.34"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.34"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.34",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.34"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.34",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-9RpTc6ijQeKmg4bHt9hSYhQ1AjtlKvPSdDpBuRe0gyVQ4w1KhkJ/lip7d/j+ZRkdyGtFfMiM9SlPSgWd+rZVzw==",
+				"shasum": "4ec87fa9348a743359723a83fb3d249175ff9e2a",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.34.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.34.tgz_1512225602962_0.1717964205890894"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.35": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.35",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.35"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.35"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.35",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.35"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.35",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-SMyE22uN4aP1uHaLVhov9AWQ/bRdj1fqGqIlQWpGLJnb9O8m0QN40KAs2pL9N+orIQNTzzRUjqqH1y8csZRWdQ==",
+				"shasum": "3f67f6160bc14418f1dc3535416c3f7ce3fd395b",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.35.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.35.tgz_1513288099455_0.5549384921323508"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.36": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.36",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.36"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.36"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.36",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.36"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.36",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-JiJxWspxRB6QxvavDrb0sPp8spo3axU5bo+dQ8PST6To2HG+dJmT0muTHdQQ4O5sRM/MhqRWE4Bbj9dCX55zUw==",
+				"shasum": "b9b2f519f2a389e95483f36ec616ad8d42a9cf6b",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.36.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "james@henry.sc",
+					"name": "jameshenry"
+				},
+				{
+					"email": "kent@doddsfamily.us",
+					"name": "kentcdodds"
+				},
+				{
+					"email": "kaicataldo@gmail.com",
+					"name": "kaicataldo"
+				},
+				{
+					"email": "teddy.katz@gmail.com",
+					"name": "not-an-aardvark"
+				},
+				{
+					"email": "star.ctor@gmail.com",
+					"name": "mysticatea"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.36.tgz_1514228726935_0.6445608539506793"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.37": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.37",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.37"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.37"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.37",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.37"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.37",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-Jv/vbpNPMSd6d+v+Src1LPGQmituAWEVIWCVomk1mzCs5iLOQMsQe4B0K7bLA0hRlijNXjz7fBx86aD6QcCP6g==",
+				"shasum": "16b0af607963182bcb7252aebdd6ff5df4c3cf94",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.37.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.37.tgz_1515427414154_0.6352287277113646"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.38": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.38",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.38"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.38"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.38",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.38"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.38",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-o68SM95ysAD16vQYc9hNhmGSCfzWslwYs+vtXURsSCskMy42KCxohPSwVYAA1xE/4rYRk5ucRn2mXWK4TqL2nw==",
+				"shasum": "dda9cb14833cf353cc5e9db7a7a13fb7e5f84fba",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.38.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.38.tgz_1516206751335_0.9742165443021804"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.39": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.39",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.39"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.39"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.39",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.39"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.39",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-eyc6ghFLe72ZlsxvU9qv/mOxahU2koWbovIlj7cYwNwxI+k+a9ui3GaSJFMfBSTrDKGGRchb4WlxOg0dJqRXUQ==",
+				"shasum": "2a104114c71fbce992af0ed6ba633ac8f1be7277",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.39.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow-7.0.0-beta.39.tgz_1517344077631_0.7342451685108244"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.40": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.40",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.40"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.40"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.40",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.40"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.40",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-PVAn6HXlzboz8eD7Wa3kNqNwkzYTHPBiifhMChnlFBzTWItNoXvqB5mjrW20QmdPeIG7eNxGLowaFFYPr13Llw==",
+				"shasum": "08784f5a847bf1a7fc7ea031977c5e43ef72753a",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.40.tgz",
+				"fileCount": 3,
+				"unpackedSize": 1767
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.40_1518453743227_0.8647138051989252"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.41": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.41",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.41",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.41"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.41"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.41",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.41"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.41",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-dcy2f9JpEjuFBOfFWhdw3ugHfD8QlnZoxMKb2TsRPZ8yPOI88V/brkqwGONrrGWK8ih8qT5PS9hMx69kbxcGVA==",
+				"shasum": "f33914a40fd8578ad0b8dae7acd8bac5b4aa444f",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.41.tgz",
+				"fileCount": 3,
+				"unpackedSize": 1978
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.41_1521044799464_0.9178936755808289"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.42": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.42",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.42",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.42"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.42"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.42",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.42"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.42",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-8Fs4BIzJwH1W2+PU19mKkj7DsbpvJ/pz/mAksy8fb1Dk03k2VkMbxXS0z0QNrtM/PMoZBYqvvdPZfX26qzP3Iw==",
+				"shasum": "580d8d1e418ac1bd0032436a02639267ebdbe1c7",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.42.tgz",
+				"fileCount": 3,
+				"unpackedSize": 1978
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.42_1521147113959_0.43291547199628266"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.43": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.43",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.43",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.43"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.43"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.43",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.43"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.43",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-xh6SHbKPgNNB0yPdrQ2BPnuZ8WAGXyAcHv3+9grZPEG5dbQtykx7aNPW8iNAW3s6UiIXfDedvuEcpFatDLGeMA==",
+				"shasum": "0a81fc6db12b78e4bebccd07cc1eaab1292d1202",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.43.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2224
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.43_1522687728079_0.5745233386386703"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.44": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.44",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.44",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.44"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.44"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.44",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.44"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.44",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-trM5rKyzdNmAoy0FzSVjVMuWP9NDgj0kHJFy6+uYYUIxyzOK/5byr+O6Gg7hlnWd2qLOZIbmqyfFxWX3KYyhsA==",
+				"shasum": "0adc4674743a29e6f303dc542d2d35eaec095673",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.44.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2276
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.44_1522707628206_0.1750553751611721"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.45": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.45",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.45",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.45"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.45"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.45",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.45"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.45",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-/WRyPOXw7XkDM0QPxz925h29kvv5ccL0mnHJM4/d7s/kydvVecWPJqEae5VhD9T2mbPZnksHtIawkyEAa+CRrg==",
+				"shasum": "71cfdcc92b4533e0a90f0f13b90867c0dbceb0a9",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.45.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2276,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3T2uCRA9TVsSAnZWagAAeSwP/RAmNWl4ROJsXb/JXzFT\n4xM1aZvRakNt+KdyLYFMPa3OEhf7mPxZpcHDfKv5xeM5RteIsvA6RrainPyh\nfzkjq/QMKOl0jlf1Dj1MozAenQ1mr8gQKuRVSwJYDRII76q1wvJz4g5m6rlk\nQD9Nm3xG3kDulYzHYzMoLRIlpTJPPbYTQk0/RXQdS/D67k+jT6kk3RkpjhSO\n6ejfDR45CAOUXUnAnwoJy2yRn2pO1fYJY3RGzZBFuClY2YdgJjbgH/vY/0BQ\nskQ+UgwWgilWnnUZstS4ikV5sw98w4SB7U0/BKzTnEVlKSBv+zCFCAo+k2zp\nHY3OF7rjqEsqsXVxY5j3qKyRXW3zrnPzd33nnXTrWLTK8imBchPsjwUhm04D\n4MoZbuRujaJdJ7xdOe59oDR/8qTQjAW058LTUFdCFH5Hx41NUhWsJo7TgzZE\nLm/zcTyqMjThH68ZC2lyuv9s/3As/QZ+M97qLQzGr7L6QOKNJQgP3ccvtBOI\njeK1hhlDcobvMsrI/zJAw466BLwlWCxQ3Z35felH9Iktn0pkM92P77JAvmj8\neLglDTNvIed7J/MoNzZY1QsraPnbowUWACpDWdHa9LjM7IBRr1W+MM2Amm8J\nnq05smB+qeS6uLnHx2+EbygAqAl7JJPUTy3LcUee7PMXd2hKqveyL8/0YRQh\n0gLG\r\n=bJDx\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.45_1524448685891_0.6584053766191398"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.46": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.46",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.46",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.46"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.46"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.46",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.46"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.46",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-jMr6EbFKPnh1vLLMFxqpac+DSEbfQQLdjllePy4b58fD1Z/F7uG5L52S5WdqGBuHr/dZysHAhexI72BKFWSEXg==",
+				"shasum": "1491a70eb254c5bf3221af42edf04bcf0df95435",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.46.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2276,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3WHXCRA9TVsSAnZWagAAjtoP/iIebB7banu699xZ7e6t\n6mteWJirMrX4GCYHaOnHPv0ry3upPClGwR8JCJuAylZmaFLEjRpYG+8NIQPg\n28uA4OjnRV/hGyu3HGeh3MFP7txJhxL02+XfqUXSz3mPJC6SLxpmJbQExVLd\nd6zO7pIKJy/TZ52E8DA6eAkL8UzgM+9xRWmIgB1WWKEujgslQ6M7hXMl7YtA\n1zUTOptyXYm9ZqSyW22XsP8E1HBo1kZoraBji/ircLlRJtreJjLSztE7Qwi4\n4XL4DBTnP8kprYTS9hyKQodweArb2fZmhSNKolRcDuPG4BFjFIXQbCtnQggu\n4yVvkQwHxMdBA9QwigheKzD+4BYToCv0he6mPxhxsfQ43vorVH/BCFvhEcLY\n5r4tZ6ibwbGPd82LgdCLVA5SeyleTjyiQPdW/5V2Yr40VnTK4oY2vgre1MKz\ngnp9O1/NZoMQb+Ydk+7QtlHiAfqD65VacEy77tbMX8v0t9G4UU5vqmWEWiDT\npMcwhrDnv+RszslpMzCekYde78kt+tuHE0zUx0esYhSZOXGs1rom6/St2lMr\nmT5WVgtUOJLtuu/iow4Arx5HHgXR1M8iECIVn1GYBXXQn/c8y2w/gBy5vwVN\nXUeMzbnEFeWcIZz3abjkBjYJvM0oBZAywJNd0o7d8xX5l23BAV2ywyYA4MEO\nuk3H\r\n=LYGk\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.46_1524457942980_0.9185498890575976"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.47": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.47",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.47",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.47"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.47"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.47",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.47"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.47",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-wh9kGw341dcocCUu0O4gquH2uKxOREf7LJ4aQBuCxGLX5rduOQ2jrr2nXJ7dAnpdR0lciyzpnBCXDaRJUhRhPg==",
+				"shasum": "ad74dc20429718f70ffaf91f280790474f55060a",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.47.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2272,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+icTCRA9TVsSAnZWagAA1IIP/i3H5XtuPkpQEEB1FKLZ\n27JpVbco766h9UUUOpP4NQT/oWEKOY3dExF67g295FFIYuc16XSpBSvnAzck\nD8n2y/1o84IBzVdxfA9GAvn2V4iX4pcOWh8LiDeirC9qZxEh9CypTchUZGkT\nvd4cVTXu1yrjPMBPpcu68uq5QyjiafifQn05FGayrIfNgL40ilUfuAG3IYtN\nqjS57iH1OaAqWFNHz3iW+0ad7OCu2GofPWCROmT0DcHXDxQzMUMSq+yK3xyM\nWEmzTOuIqq+3lFA3CIMGyOBW9bQekRuvRZfw2HMVEKzoPm/ME1UTPfl6UYjg\nMjXr6RUZH00zRwAV2wLzFpAtbQ5jeALFu4QZK6egmymrxAOF9RGxo/73aD9D\n/K0X/eueciDLDcFX1Iib3t2qX3ayICjCzmkqXRLR2lEcb/TVY9NOTm+wd2MG\nmJiL69KYxd1mGEOb4CJtYqGYtoIaG++ZG3YnOrpaLoV1MtzrwvBdX/dE29zn\nYijHZJ102SagICuMZ8VqeXG8u5VwhcJ0OCaVI3FLnqc+MxgQztezEvOHOVo5\nvQBf6CqU88MIlmxbD/HhewSy5LD+0L+Y0FF9+opk88kXkYocnX+bwccgsFzD\n/vCAcQHt2HkMKg200jbx9MlA6NrF8fwmrDjx89DoV4jxDC6NRI03H9z0ksbV\n+uMT\r\n=dxSs\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.47_1526343442693_0.4710025578209345"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.48": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.48",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.48",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.48"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.48"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.48",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.48"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.48",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-BAOf/83Ph25hZ4KIRcYbZL0O7ova3r5d4XZEtfzGFCYxrv26xtdzNFflMMslhnSX/kd2UzhAaWzfBPLjC9zp3A==",
+				"shasum": "c4a91eb2eef0203270fbf1896460bf55f8dec7cf",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.48.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2258,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBxFkCRA9TVsSAnZWagAAqH0P/32xhpxR7MaTJQuUN2Cl\nsPu9RUaK/RgoO4yJXhZNBED+UqpVP3tV6bRNzv8+9O0qou2XCycw5PW2ovak\nJFMaxrhwc0Ll5r5CWjYtPdFSfH9J2I+0ZZyOZ5hWIOxSEAAz6RKMzTYcHbFK\nW7DaTlGU80NyoorGSbTQaKo3DFzha1dU3HbC2/fQlofnmlon7YDf6Shcj+Os\nTbKZgI/VH5iWdxuPnV3Lr1FAwNiz/WOT6ENLhMQaGFNE1/KHHK5MSquLupyi\nC9XGYouSv51W3JkTfxwrYCbIAkz0wHXnfln2O479aLYI+noFkRYWetzuh6hi\n6qg8g1oU8l1Mm3suazFMI4bpcKYsqHOKo/avnctmwdPiY3sIy4uNU+aGgZnp\nNj85xqbT4i9IZPnHCExtC29o2PIk1/mBl+c831yPq5m/LBcL4MiJCPbVaCeK\nMHI84h3SH7kPm9CiC/RpSQfUP7EGA6hh0obKOAt51H724OI7zuJLY+Q4afGp\nNyxuJXou6Yx7k0NyDG7EknT+BNvzP072tCg3wdpWYbuW5WtzZtTFc8UaR1sJ\nbZgbcukfg9We+rVD3wo4thOS5Jtwn+CoNw4vSFBexHbaVc+MWeAk0PM8CV8f\nQco1fQ33Kh6eMSYfNeDoBhLh+xnbwaqic8hLoP+F9iOMbglypU51BEqhL74n\n/UcE\r\n=AAC4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.48_1527189859162_0.9268452331568144"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.49": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.49",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.49",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.49"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.49",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.49"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.49",
+			"scripts": {},
+			"_shasum": "10cbee1a60db207120a4443c54c0ca5f734eb390",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.12.3",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"shasum": "10cbee1a60db207120a4443c54c0ca5f734eb390",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.49.tgz",
+				"fileCount": 4,
+				"unpackedSize": 2273,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbCDPtCRA9TVsSAnZWagAARu4P/Ah2MMlHCyjaJ6VaPZbJ\noIv1H1b38ktkOkSvulksAcTckzdi44ayNSvimQ1JnMCNC9FEW7/Ve6p32isL\njtXWCXU4BhXgKPHWpDuTbVRrt07tRfaGx0/7iKd6jSw2IAzNGL3dfrjcmJ+D\nCnAqgYd/t3SbLrCPQq6sVtpIn/ZlXE1sG+7UgIej6ny6BhsGrtNtxJfWZMEr\nQdielgKM+XHZ9fvcXIWd1IifK0dVP2CtEpLDd2DcgLWYiMjxjavNfoweLCLk\nFQJok1ppThUcu3bVYmubxONps9cG9m9GCEf8LWNVaByfWwrZg3yvHhKw5/39\neZhnDnVcmrTFAte8fVeRve7DENb/h95IOJyuO766wDbGgXfPQx7QOJg6rBz1\nDr939oqAMqTe9EDedDKwyhGEsBDooFL+nW+FTkyOyN3z0jCqRimbt28DtIt+\ngdlwOJeUqhAeRmqYjR59iH4QKTkwDnwe06BI+pGFW4DQ9DIX5OuB+8eNGJlK\nIi+QIr29Z6M3AIxcoYNCRn+/kItfss8ow/sj+MdTs1LeOVyxaOlBEikyzJ/S\nDCPLxHjJCQ9Rz/Ztye0/ty1BFCegDmEsRSIkPo6H6vEZDXtAXQY36m5Ur3vp\nsFOwZwU/WYQtMJQgJ5D7JdarM3OnpJdqxj2c9oEImlwERc0ZE1KDTUxk/f2T\nKxTC\r\n=WRfs\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.49_1527264236366_0.40125041408399365"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.50": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.50",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.50",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.50"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.50",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.50"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.50",
+			"dist": {
+				"shasum": "3be6549467945ebde88d657dbc031e65abad93a0",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.50.tgz",
+				"fileCount": 5,
+				"unpackedSize": 1989
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.50_1528832869114_0.24318794824514622"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.51": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.51",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.51",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.51"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.51",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.51"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.51",
+			"dist": {
+				"shasum": "5f92cb981afad0f221a1b7a403ce082d378012db",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.51.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2003
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.51_1528838431322_0.3150198588826787"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.52": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.52",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.52",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.52"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.52",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.52"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.52",
+			"dist": {
+				"shasum": "da2a0f576dfbe78b920a2ac2c47831a89c526004",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.52.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2002
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.52_1530838781428_0.23037407140037058"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.53": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.53",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.53",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.53"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.53",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.53"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.53",
+			"dist": {
+				"shasum": "6a2961dee4a12bd6f5cb61161b453df7b217441e",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.53.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2002
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.53_1531316440480_0.9342062692630879"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.54": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.54",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.54",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.54"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.54",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.54"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.54",
+			"dist": {
+				"shasum": "7a6f5b75297047ec36d5b3fd0b5009d59bb4240f",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.54.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2002
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.54_1531764022506_0.8757594098916841"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.55": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.55",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.55",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.55"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.55",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.55"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.55",
+			"dist": {
+				"shasum": "76c2a8987a79a29d4c462f10ad3c05245dcb95e2",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.55.tgz",
+				"fileCount": 5,
+				"unpackedSize": 2002
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.55_1532815667690_0.40642118663570037"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.56": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-beta.56",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.56",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-beta.56"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.56",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.56"
+			},
+			"_id": "@babel/preset-flow@7.0.0-beta.56",
+			"dist": {
+				"shasum": "845b7fe966f2bae17afb782e27f24b041b6cfa02",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.56.tgz",
+				"integrity": "sha512-33aSPZvSIrtYlyFIUB41nMPdlqqVgO5q93x2xYyg9MbLXV2pTC20doXcilWlx0S8fMdQ3GMVBWH/y3EUIecOgg==",
+				"fileCount": 5,
+				"unpackedSize": 2002,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbZPxsCRA9TVsSAnZWagAA2+8P/jPpTKelxHoGD9DW+Rs3\nx7EXgsfleO7ykLVea+h719Z3OWeOxK/ad/VGnqWvjuCYIgtOPem5MApmQgCx\nNUPuqxzhldzLWhOT6Xw2jLH6rRGi1l1XIvfDZua/0p3u0TAMC3syMpcE+5bE\nVlTmwEqoQmvmKwhCEOvO4SK5/n5SHw2Oo7knXqANTllQAW/Sz6HuLKiRjywz\n4Tp+k0DOzwO3Hnyvffw975f9DW8W4eZ92Rp95SE2VVMUm8aH4aGQY57mDNnw\nTBz537d2h0dauEg33o7Ps2SZKCjxFr8dp839wS4GUjhoeldWcBCEoiDF8dgo\nA65A8ErxdTIgsy39motJlvnQHfuZ8tyQld6TrOZjq9OIQMnXzWG5Lp1uo9Pa\nGZzgz+NCe3a7xHB8ohiRbBnFDwSostt/C6TDDBvOd26NFYm0+8GxS/8/mKhw\nwcEua38UjnLBV7EhytqeOEZfr0Q+Lae1DQBvZf+m/YoWOKmX+NmaCtKzoRhP\n/qU9Clc/OiCuANmBXcJ+EsArj0kjdpwZ8M0ifz8+Xv6duHRJMCu6/oth278T\n5A1IBPks81wjwd7ZO4vwxgUCzEejAzccny+jwuwOBbxQdDwPw8U6Pnef55I5\nw6xG9EvmkOsrgMlVtHCCRfJsqcszL85+GDOxbpUuxl0qmCA49ZqyDhq7rDc8\nysRd\r\n=AczY\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-beta.56_1533344875541_0.19093446451333662"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.0": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-rc.0",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.0",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-rc.0"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.0",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.0"
+			},
+			"_id": "@babel/preset-flow@7.0.0-rc.0",
+			"dist": {
+				"shasum": "88e67082f3b478c4b24f9cbb8ed4300f9926e292",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.0.tgz",
+				"integrity": "sha512-qZw/Cnq8U9pHaAoYg4lqFgB1csZHkwqGcbG/b+QQKl38rSUovDFgPQsNGElqSyxoAsjOjg8VWpVZcHYwwsGtDw==",
+				"fileCount": 5,
+				"unpackedSize": 1987,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbGTmCRA9TVsSAnZWagAAUvQP/0pq746K3mF0xS1u1QT2\nrr6dHs3IzQFkzZ9e8RuaUxOrYZ2L51V/RkZF2Tq51njZ2YtO17yTAbwyIfCQ\nDyXS/eoOyas1l6aXIlgXT8Jc9g+aj4kTefiih792P6BPNbHFV7lRc4/a9oBF\ny5QoUVVyHxDlJVEM15XHkB8XDSruLk4vvti7bCDtV6nEvSKSwQSGK7Xrv8Jy\nByqNaJDIYA0lKzVdsXC8BVlIh4DBp7WdHwXnXoG0tvBKa9eo32HBsQpMtc2w\nQpQoilVCxgiP+QYTSuqujkpmOgXSNAdPEDL+pxz1gtMg+7ZKzn+xStik+pwm\nfI1hEcRiebLsdXAPeTSPvGUumSpZkCgMOhC1jqUfZICZeELNAYLAwjDKWOP3\nfdZ77GyrXxkvP6vuTu4InCknu3GZ7LoMOslTf7yGCabeD1f42UbuBzRipFtB\nkP9rvyh4JRmOUcMrikYaOu1bGATwHPHjw2FILLzXuJ+F9mFv6jIVVlyr/wO0\nP4nCgLS6PrDcfrbp6tA7v9dJkAe41gp2sAj0gfkBM9tR2cLSuPmSNskr9WPT\ngkoes+6tQYfHG20aPr+Fz4zynW6r/Uw15Vx2JnRkHx6mNey8nB10TevogrHR\n55t7ktE18lvtMsyWbU4KgwGGLdv8iIOAOb7QrVVT+D/r70rt9YxgZBvFC60l\nDmlK\r\n=NNtX\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-rc.0_1533830374135_0.6043160560011329"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.1": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-rc.1",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.1",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-rc.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.1",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.1"
+			},
+			"_id": "@babel/preset-flow@7.0.0-rc.1",
+			"dist": {
+				"shasum": "d7a9e4a39bdd5355dc708a70fbbf7ce49a4b429b",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.1.tgz",
+				"integrity": "sha512-oio8NsN69HsoRmc5xoHfH5x3g3woCzLyNlnMthGyxolYckoTZiY2inRSIc7+1mPGXzIgIDmVTZnZqm7BTCsn8g==",
+				"fileCount": 5,
+				"unpackedSize": 1968,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbJ92CRA9TVsSAnZWagAAasMP/AwiRow1NSXy47FTjLwu\n3hVUIkpwXy++vIlJCwi914b/HeBanXR/odPfGUR0vXlGXv/xaExs1miX3cZQ\nawRlmWuWElsh41ych1UmuXCnISvColsd+LhTNVTPQsGFfuSt5OpeEbYnr3TE\nXI9LuT28XMJAc0Yt2oDxQWjdFan2yxMvhq0/Bm4vTzOcKLO2bx6+1gdSBkYW\nSTk5kbXDU4YHbv/Vdpqw9kMYTgswcVv6yivhrBPDVI7pwJsll9Rvy9BAozPI\nVYSni6CPk85Pb8GSrdanLdoHT19KagC6PcayVLakucUjgOKNPaW1t3kXSX7V\nPcwigymHUR/VkPE7JLrqX+l/TSv1RIcYKaDor+Y4kg4/wNrPUFGso65mAGUq\nw4v16lu3gugJ7i28Hzw2IBXfiYRB1cM+aVqaQ8+TzAgPxu2WFvenTw10Py/z\nSH4+sGdWe4X5RdPyJTkdu9DYLQB9QFm4e3J6eXkVJBdEtdlJnOR74186nV2e\nMOI3ZJNBrL4aDbbyJB0EGjCaUqppdZksuyPRl2gvB5neON2KtkSObPMsfdoR\n8E+obXlgt/gvoW4QX/a8HNc4c3F0n+/6c7VXxwbbX4HIFJOwpFJH8briJaQd\nlDNfR3956K9K25zc5az7H10Aiv5805zxAMGAHuUzjhSgn09/jGXFUHBvokrM\n24TN\r\n=obKq\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-rc.1_1533845365581_0.14258968138206418"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.2": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-rc.2",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.2",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-rc.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.2",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.2"
+			},
+			"_id": "@babel/preset-flow@7.0.0-rc.2",
+			"dist": {
+				"shasum": "415539cd74968b1d2ae5b53fe9572f8d16a355b9",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.2.tgz",
+				"integrity": "sha512-eLGCaAeha9feCgGBUzhjRJg5t3k3A1A25ZdGqNFTZy4KR3Cuuk4wzQvq5sGFb/eBjOM64zddNC3DpFA13J3xQA==",
+				"fileCount": 5,
+				"unpackedSize": 1968,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfGcvCRA9TVsSAnZWagAAh2wP+we4fUCrwIkMenUn0q+0\nS774aJZcx05lxqOygFpny7T4on76PCwYyVTL1ZIExwH/O2vu6vWsin2qgnzT\n5orNT2Xok9Tsn0gvYjsSLO0woDNHxT9vQKv6nY5ECRQjcuu+LHpA5nWGIQRl\nE2GSCUU6AarNw2XViMJUiFJMjKM4ONv3R+FtwKeBPnxfczUWbevldX5DJtOt\niG/3ghDBqUrIBn5JZ8tG0zJVTcyEAN9qy7qxWMX9MvFvYoOcxR2d6o+ZXExI\nnYmr0IU32nE/GCgNtzoKV403gOXHkDvSZQZxLzgVRdxN2i9T2eja3pFxCd3B\npVX02PfSoCVFGigDY11b1IaKz8xvjWcgm5zH437RTW2KaQ5ZVmTROG//qTEf\nPpKklKYFHWF2QO0OUZL05kz9hZGfHMx76tumlEdbOQ0hnjoSuQKpm1Gr5SBv\nXtWJ4AZRdvT5kcRNf84lyojD+5E0T+v2W7VTdrqUHi4+tsysRoS6c9Kz9x1m\nfu4vyiER3zR9AjHyvMBz/OZ8kJ6CpWrFDrSsb5raD/QtNF7G6nOdKRzO+GvX\nPuZlISf1yOilxMuqN+50KoxsCxfNaav0Uery008TbFvbCWuY9cjUSfZKv0Ak\npVgXhAU9Iv/P8+HaM7vR5OuAAy92jmx9JzkhIK3mtyJAb/WEofef+aq/xwRw\n0oxM\r\n=DuBn\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-rc.2_1534879535372_0.17644434101278095"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.3": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-rc.3",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.3",
+				"@babel/plugin-transform-flow-strip-types": "7.0.0-rc.3"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.3",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.3"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/preset-flow@7.0.0-rc.3",
+			"dist": {
+				"shasum": "78927d4c4d882ad4bf9ccfe6c78d202e57ec2f90",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.3.tgz",
+				"integrity": "sha512-ERebKzoDbdPyOl8l6WgtbRf+Qs+NzIP9v3BOfz8oLCavBoOc+2Ds1Jo5l3bqmW2xqZHH5DdIZR4FJD0FqmG7Aw==",
+				"fileCount": 6,
+				"unpackedSize": 3067,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbgEnICRA9TVsSAnZWagAA0jsP/1/TgWM/OLsevs0JnSos\nS4iI1Any109D+1S3LYtotTCDcamt1OhkaxAVAgVoSdc3ro64H5ueLXpwcLcs\ndXsNRgHwAA6G+YRaoRQh1qUrf9RQ8Oheapsc2jJevi0MkOms9zc/YSyhtgrK\n79vndAIpTnfoIJQXaq3HWlzn5g6OyPVbLg7ckF9H/3zQAp3S1qicpeRPCJSu\napGaPYYRCocrkSYgAHOGS+vBPKjijWrfidTA6hPMNqDBbkTgGkr6+7MbI+ui\nyZo97ouJWJ4EIOiY37NJcXFnqpAOTvwpnsPHyYNAlpoX8Fv7tii1b05ltwDS\nUuslZvN8d35/S9N9xFQj41wkBufekrf0O/yLXeGDO2FwPl1NLZWHHwD8YGOA\nOPVY3hZ1UOMAcYWpbNEvwDjZoYgJPWEgR5cdaz2GvFKZ3fBn03sRW5CVKVXZ\nG0o+qklC7+Q7P/cOaX2E76Am9keNrAljUG86KUb6gvXVcMp7nnrH0WC0oCAh\ndzC2UB7pj03giSxgc0feyZwf0T4MgzQ0I0DZbAFi5uRKS3v18ANwaO/+Uxt2\nql0ZsNpkN/BX2MS9VvOowKG/c7MRbOolRyxCT5lQ3QGKPCUILqC3LW9FK3kz\nrHY9YmI5XGWcIfcwgxdoKeA3gncnerUk28zdcHwhgX7IPOL8M93xhKOCC9gS\nhKcK\r\n=LT5W\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-rc.3_1535134152265_0.8013366232386798"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.4": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0-rc.4",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.0.0-rc.4",
+				"@babel/plugin-transform-flow-strip-types": "^7.0.0-rc.4"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0-rc.4",
+				"@babel/helper-plugin-test-runner": "^7.0.0-rc.4"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/preset-flow@7.0.0-rc.4",
+			"dist": {
+				"shasum": "546a484118f89d0aae3830395b308fe1fa38056a",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.4.tgz",
+				"integrity": "sha512-Woczu8/E3sTffBce0/1JYVT/P2cMAE9mM0mY6hAgwvl6p1iQowpe4kQwhQ8lEzh4J3evfuZrX6xTaxBJyCKrpg==",
+				"fileCount": 6,
+				"unpackedSize": 3071,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhCrICRA9TVsSAnZWagAAUiEQAINI4Kjb/+btGduokzQl\nruhW3yGv0fDaZNwqTZW5o3xN6FGW3mhG1TFDDp6zOxqjDMdeVLURNVQB4Zg1\njxpRsA7Sth3Mm/kMP6w2Mko1DENQAR+Vz7iTusJBPLQgdTww3wEDxoPrFpnh\nxKM74oc9i6ZKxbAlHJ5QljKaiGEB0LFfTK08x18425t3oGQkI3cxy/L6XuF3\n3lflJbD/b26HdO6cXZV9ANllBYicyvvLHBqq5RCqZpFukKL3NVj0ra6lU+XR\nHgNk2ytufwiWdiqiu1yW0XhOz1441rglf+hGBoV5LSBwzANVjLTM8pnVKQZA\nv0wmV3+6yCJ8ljm4V+ORKD5rdlSh8ml3xDEeMJWiaob1dCLG2UOj2ogbGoDd\n/mpqriSERKeoB2sozsENDJ/+lBH0KwrVssHts3v9OiQsusVjAdW38sZBCxIA\nVBYCAN5i4cul6bHFYieMN/GsQ0TM0OOCRjmNMqfNtRb4eeSmcbFKxjU238x4\nZm41GmDw5KVTJ8aTzV6VRsq5DMqrowtnPmCv5ReMfxqrp1uwuyJa4G7IR//t\nTrypoG/uQhCuXDR7DkLLnRfIM/ROi4LqPwJrH7J6fcCYHYasoesIEKCHUmOy\n4KJwf+M8kmfFpawL6zEaTLDtzjRYwir+0Lswn1TnR1PxsrT0ElqPksFHPTs/\nF0kl\r\n=05C6\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0-rc.4_1535388360182_0.5509441245913291"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0": {
+			"name": "@babel/preset-flow",
+			"version": "7.0.0",
+			"description": "Babel preset for all Flow plugins.",
+			"author": {
+				"name": "James Kyle",
+				"email": "me@thejameskyle.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-preset-flow"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-preset",
+				"flowtype",
+				"flow",
+				"types"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.0.0",
+				"@babel/plugin-transform-flow-strip-types": "^7.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0",
+				"@babel/helper-plugin-test-runner": "^7.0.0"
+			},
+			"readmeFilename": "README.md",
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/preset-flow@7.0.0",
+			"dist": {
+				"shasum": "afd764835d9535ec63d8c7d4caf1c06457263da2",
+				"tarball": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0.tgz",
+				"integrity": "sha512-bJOHrYOPqJZCkPVbG1Lot2r5OSsB+iUOaxiHdlOeB1yPWS6evswVHwvkDLZ54WTaTRIk89ds0iHmGZSnxlPejQ==",
+				"fileCount": 6,
+				"unpackedSize": 3046,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhHC4CRA9TVsSAnZWagAAcsoQAJhU0TGjDI0i/JOI/v3W\n/iI7tCFwg8fVXFR58vTkAduGpwIvnMHOWtmjptI7Rryz2n83lH4trVvzN8xl\nUn+O/bAaWwk3C/L1oWK9kmx++s4hm6dWd2G+mmjIGkZUvEnzob5Xy+lZXKiv\n69WD0POVXQKe1+sfDqAUnNeN9S4mTT4qBCxo4rqqQVPUDmlcH2cDgihDCLr+\npowd8Q0KTwPNkmMvvMkAjAM+H9GJRLVcwq158Zv2IhSdcjuZWwdW5vSP8Woi\nG8jCBGY4jNc39tPHRHGcttXg5S7+E5v9CJ7avYaxlFKD1QB/QSZHI0gpMuh3\n15pM3xsq8JpO/rGQH/cMVl+ajyk1PXxTrOhTOUHxvIj1Tpk4xTvS9KIk7ILS\naEwOb2jvbz0E8oPCdYIfAgdROP/rq+6xPsQPaqGuCRcaw0fMOBVUyRE9XFcW\n4yY0xY+5qfQEzP7+IOZBboAvpviewnzSzPnvkKTD9SfkXPSqK3F7sx0p8nGN\nSzrQ+UkjdnzmDTIaaNfweNllDV2N6cbupPqDZqvgU1ZpOQGIo7A89tsk35Bm\nsJMtycfr0GhXNfA21noB84rKWg5MARGj9eNF6OMOfkPRWmBKkQRKpD7rRrRV\nlk7QGWgcJHl7aNv26UzHhCtVN/E/OPyAV/f5uypzOV/ri8nt/6CgSReGXU2Z\nye/9\r\n=V51V\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/preset-flow_7.0.0_1535406264115_0.2917744688838202"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2018-12-28T20:16:13.565Z",
+		"created": "2017-10-30T18:35:47.365Z",
+		"7.0.0-beta.4": "2017-10-30T18:35:47.365Z",
+		"7.0.0-beta.5": "2017-10-30T20:57:26.176Z",
+		"7.0.0-beta.31": "2017-11-03T20:04:09.951Z",
+		"7.0.0-beta.32": "2017-11-12T13:33:51.301Z",
+		"7.0.0-beta.33": "2017-12-01T14:29:06.342Z",
+		"7.0.0-beta.34": "2017-12-02T14:40:03.945Z",
+		"7.0.0-beta.35": "2017-12-14T21:48:19.533Z",
+		"7.0.0-beta.36": "2017-12-25T19:05:27.870Z",
+		"7.0.0-beta.37": "2018-01-08T16:03:34.396Z",
+		"7.0.0-beta.38": "2018-01-17T16:32:31.737Z",
+		"7.0.0-beta.39": "2018-01-30T20:27:57.718Z",
+		"7.0.0-beta.40": "2018-02-12T16:42:23.266Z",
+		"7.0.0-beta.41": "2018-03-14T16:26:39.506Z",
+		"7.0.0-beta.42": "2018-03-15T20:51:54.006Z",
+		"7.0.0-beta.43": "2018-04-02T16:48:48.158Z",
+		"7.0.0-beta.44": "2018-04-02T22:20:28.265Z",
+		"7.0.0-beta.45": "2018-04-23T01:58:05.956Z",
+		"7.0.0-beta.46": "2018-04-23T04:32:23.058Z",
+		"7.0.0-beta.47": "2018-05-15T00:17:22.767Z",
+		"7.0.0-beta.48": "2018-05-24T19:24:19.961Z",
+		"7.0.0-beta.49": "2018-05-25T16:03:56.422Z",
+		"7.0.0-beta.50": "2018-06-12T19:47:49.185Z",
+		"7.0.0-beta.51": "2018-06-12T21:20:31.386Z",
+		"7.0.0-beta.52": "2018-07-06T00:59:41.513Z",
+		"7.0.0-beta.53": "2018-07-11T13:40:40.579Z",
+		"7.0.0-beta.54": "2018-07-16T18:00:22.582Z",
+		"7.0.0-beta.55": "2018-07-28T22:07:47.779Z",
+		"7.0.0-beta.56": "2018-08-04T01:07:55.658Z",
+		"7.0.0-rc.0": "2018-08-09T15:59:34.179Z",
+		"7.0.0-rc.1": "2018-08-09T20:09:25.666Z",
+		"7.0.0-rc.2": "2018-08-21T19:25:35.431Z",
+		"7.0.0-rc.3": "2018-08-24T18:09:12.378Z",
+		"7.0.0-rc.4": "2018-08-27T16:46:00.348Z",
+		"7.0.0": "2018-08-27T21:44:24.183Z"
+	},
+	"dist-tags": {
+		"latest": "7.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"da58c527f07ab4f8b64ceab14ed6cc71\"",
+			"fetched": 1551301855194
+		}
+	},
+	"_distfiles": {
+		"preset-flow-7.0.0-beta.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.4.tgz",
+			"sha": "ac79ab761b16c05b97f3fb15c427d5dbc44531ed",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.5.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.5.tgz",
+			"sha": "dd03c3c04e5a248ee17362e788df1a22592c8730",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.31.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.31.tgz",
+			"sha": "113393d921716520110f87f8d51da92647b31437",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.32.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.32.tgz",
+			"sha": "d3235a530330df21fdf2d583a5206a7f8ea5bee2",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.33.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.33.tgz",
+			"sha": "b7c590dfc97943e5283b7ef64e61ac04c912cee1",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.34.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.34.tgz",
+			"sha": "4ec87fa9348a743359723a83fb3d249175ff9e2a",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.35.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.35.tgz",
+			"sha": "3f67f6160bc14418f1dc3535416c3f7ce3fd395b",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.36.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.36.tgz",
+			"sha": "b9b2f519f2a389e95483f36ec616ad8d42a9cf6b",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.37.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.37.tgz",
+			"sha": "16b0af607963182bcb7252aebdd6ff5df4c3cf94",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.38.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.38.tgz",
+			"sha": "dda9cb14833cf353cc5e9db7a7a13fb7e5f84fba",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.39.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.39.tgz",
+			"sha": "2a104114c71fbce992af0ed6ba633ac8f1be7277",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.40.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.40.tgz",
+			"sha": "08784f5a847bf1a7fc7ea031977c5e43ef72753a",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.41.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.41.tgz",
+			"sha": "f33914a40fd8578ad0b8dae7acd8bac5b4aa444f",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.42.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.42.tgz",
+			"sha": "580d8d1e418ac1bd0032436a02639267ebdbe1c7",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.43.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.43.tgz",
+			"sha": "0a81fc6db12b78e4bebccd07cc1eaab1292d1202",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.44.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.44.tgz",
+			"sha": "0adc4674743a29e6f303dc542d2d35eaec095673",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.45.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.45.tgz",
+			"sha": "71cfdcc92b4533e0a90f0f13b90867c0dbceb0a9",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.46.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.46.tgz",
+			"sha": "1491a70eb254c5bf3221af42edf04bcf0df95435",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.47.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.47.tgz",
+			"sha": "ad74dc20429718f70ffaf91f280790474f55060a",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.48.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.48.tgz",
+			"sha": "c4a91eb2eef0203270fbf1896460bf55f8dec7cf",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.49.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.49.tgz",
+			"sha": "10cbee1a60db207120a4443c54c0ca5f734eb390",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.50.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.50.tgz",
+			"sha": "3be6549467945ebde88d657dbc031e65abad93a0",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.51.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.51.tgz",
+			"sha": "5f92cb981afad0f221a1b7a403ce082d378012db",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.52.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.52.tgz",
+			"sha": "da2a0f576dfbe78b920a2ac2c47831a89c526004",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.53.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.53.tgz",
+			"sha": "6a2961dee4a12bd6f5cb61161b453df7b217441e",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.54.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.54.tgz",
+			"sha": "7a6f5b75297047ec36d5b3fd0b5009d59bb4240f",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.55.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.55.tgz",
+			"sha": "76c2a8987a79a29d4c462f10ad3c05245dcb95e2",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-beta.56.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-beta.56.tgz",
+			"sha": "845b7fe966f2bae17afb782e27f24b041b6cfa02",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.0.tgz",
+			"sha": "88e67082f3b478c4b24f9cbb8ed4300f9926e292",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.1.tgz",
+			"sha": "d7a9e4a39bdd5355dc708a70fbbf7ce49a4b429b",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-rc.2.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.2.tgz",
+			"sha": "415539cd74968b1d2ae5b53fe9572f8d16a355b9",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-rc.3.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.3.tgz",
+			"sha": "78927d4c4d882ad4bf9ccfe6c78d202e57ec2f90",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0-rc.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0-rc.4.tgz",
+			"sha": "546a484118f89d0aae3830395b308fe1fa38056a",
+			"registry": "npmjs"
+		},
+		"preset-flow-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/preset-flow/-/preset-flow-7.0.0.tgz",
+			"sha": "afd764835d9535ec63d8c7d4caf1c06457263da2",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"preset-flow-7.0.0.tgz": {
+			"shasum": "afd764835d9535ec63d8c7d4caf1c06457263da2"
+		}
+	},
+	"_rev": "4-bb41c20053b3c465",
+	"readme": "# @babel/preset-flow\n\n> Babel preset for all Flow plugins.\n\nSee our website [@babel/preset-flow](https://babeljs.io/docs/en/next/babel-preset-flow.html) for more information or the [issues](https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22area%3A%20flow%22+is%3Aopen) associated with this package.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/preset-flow\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/preset-flow --dev\n```"
+}

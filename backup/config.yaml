@@ -1,12 +1,27 @@
 storage: ./storage
+plugins: ./plugins
 
 auth:
+  auth-endpoint:
   htpasswd:
     file: ./htpasswd
+# security:
+#   api:
+#     legacy: false
+#     jwt:
+#       sign:
+#         expiresIn: 10s
+#         notBefore: 0
 uplinks:
   npmjs:
     url: https://registry.npmjs.org/
+  verdaccio:
+    url: https://verdaccio.npmjs.org/
 packages:
+  # 'jquery':
+  #   access: $authenticated
+  #   publish: $authenticated
+  #   proxy: verdaccio
   '@*/*':
     access: $all
     publish: $authenticated
@@ -19,4 +34,5 @@ middlewares:
   audit:
     enabled: true
 logs:
- - {type: stdout, format: pretty, level: http}
+ #  - {type: stdout, format: pretty, level: warn}
+  - {type: stdout, format: pretty, level: trace}

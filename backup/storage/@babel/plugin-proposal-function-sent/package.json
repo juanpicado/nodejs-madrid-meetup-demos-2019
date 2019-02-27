@@ -1,0 +1,2632 @@
+{
+	"name": "@babel/plugin-proposal-function-sent",
+	"versions": {
+		"7.0.0-beta.4": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.4",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.4",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.4"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.3"
+			},
+			"devDependencies": {
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.4"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.4",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-K0vx+BjthXYGq7JV26agc/Hr/79IumDamJTCQX24FNnL3z8RZRC5yS56mkEt/fQMp5viQfgXFvc8Mu+Cevg/bA==",
+				"shasum": "6e16b0049541d1311f333cf8dd7979a8ed1244f6",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.4.tgz"
+			},
+			"maintainers": [
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.4.tgz_1509388587962_0.2042090380564332"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.5": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.5",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.5",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.5"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.4 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.5"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.5",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-/Kp2mTyXJLzTe1Wq1ZqUo1k8v9e51hhhCRxsiaHNLrTr29lENMDaHVidpXHJDL1AepIuOdlAcGG0FQypppP5ZA==",
+				"shasum": "a53257064a313560156f7af950aafd7c9f45be9b",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.5.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.5.tgz_1509397084456_0.12402742076665163"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.31": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.31",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.31",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.31"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.31"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.31",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.31"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.31",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-6mYM2Twgc2CIVeIOwwnWtAjY3Ps+GrfrZUCvPgTR6S8EnmS15aAtfS9JFqZDuxyuMtFRJBVr33ZvDQSP7NBlmw==",
+				"shasum": "608b65dc18ca4ffd5301753b5273ba23fa8ee6e0",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.31.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.31.tgz_1509739475927_0.3910442579071969"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.32": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.32",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.32",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.32"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.32"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.32",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.32"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.32",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-46bDPpCODwSnHk1bNUPnzS7isPDIe1w1BZSuetyiYTY4ZPSFjhoSoZsIJNcmttx3WQDjTdfYSsRNDEogk7s0yw==",
+				"shasum": "7c35b8177328bdfafe90e5225963b5cd348f7315",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.32.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.32.tgz_1510493647880_0.20669547212310135"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.33": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.33",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.33",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.33"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.33"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.33",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.33"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.33",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-+HJHLr6Y7j94zUl5manXHZdk+CadtBKXp/mvdZfORhydxKtF6wRYUjMuMhCDbIkFrvHWfxhfMNMJSNMoa3r2Lg==",
+				"shasum": "efc35d8593a007ca45aa8dd6ae5ecc3062904b8a",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.33.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.33.tgz_1512138564672_0.025878859916701913"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.34": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.34",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.34",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.34"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.34"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.34",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.34"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.34",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-Jg35xHZST56EjMnllDFEgkkU28H5ZhbYO2flPiATlD1lVi2DpBRjPuZdCmHfJqTKygY6pFQaKLPx3EyRCF+Fqg==",
+				"shasum": "a92dcec52927e33e0794aa8ebc069fc90c75cec0",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.34.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.34.tgz_1512225623546_0.25804266170598567"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.35": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.35",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.35",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.35"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.35"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.35",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.35"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.35",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-/gOozAm7QlgRfzT1ond/0ceeXo9NQBm4H/LcH/HVxns0Ow55RgDw7UhvtVeUuS8XoWWklLSvIJmdYLWZtS5d6A==",
+				"shasum": "b9656a042d0f8613a6194e965e1a80cf0a30112f",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.35.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.35.tgz_1513288112309_0.6546732280403376"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.36": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.36",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.36",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.36"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.36"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.36",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.36"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.36",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-GXMYCsXsLr7rD96aVqHbYir4rUgk/Pd/NzXGL5TyL7+j8UNKucBfHStw7cSvlTIbimbHHRUF6a8+pry9f+jczA==",
+				"shasum": "bca255030cb9a9839eb7e765639b2653fe20f13e",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.36.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "james@henry.sc",
+					"name": "jameshenry"
+				},
+				{
+					"email": "kent@doddsfamily.us",
+					"name": "kentcdodds"
+				},
+				{
+					"email": "kaicataldo@gmail.com",
+					"name": "kaicataldo"
+				},
+				{
+					"email": "teddy.katz@gmail.com",
+					"name": "not-an-aardvark"
+				},
+				{
+					"email": "star.ctor@gmail.com",
+					"name": "mysticatea"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.36.tgz_1514228748283_0.2859990254510194"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.37": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.37",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.37",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.37"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.37"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.37",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.37"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.37",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-6eeP9m2QsqGD4Hjpfzxf+yMabmpRwCmh+DS2pKR5skC+evKP/adaksjn0NHNvVZE7H58VOO+PyPOdRw5P0p8SQ==",
+				"shasum": "8596f132d61bf339f5e26779c38cb4378ff60b57",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.37.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.37.tgz_1515427427939_0.5852267609443516"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.38": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.38",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.38",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.38"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.38"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.38",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.38"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.38",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-GAIDJorQ09jt/BO0X8tx6rOr0CKPaVIZ1cewQ46S2PgJxLqSaL6n2ZTG/bRgGURu3BMUJQKA16c0XnkJA3qJxw==",
+				"shasum": "dcb65afc888f9caaf8f3f60254fc8521ba701ba9",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.38.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.38.tgz_1516206767058_0.24639838025905192"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.39": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.39",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.39",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.39"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.39"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.39",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.39"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.39",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-kiECAASf7o4xH4gEmRXQVkRK6HMzlRN5srSuRdqfF/vaS2E6d5+i4in7a4TrYo/9woGNVZhKaRJmUyl9WCnnyQ==",
+				"shasum": "af6d2995f3157727b9afe49902a9ec35e0b28931",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.39.tgz"
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent-7.0.0-beta.39.tgz_1517344129201_0.20222318288870156"
+			},
+			"directories": {}
+		},
+		"7.0.0-beta.40": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.40",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-wrap-function": "7.0.0-beta.40",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.40"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.40"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.40",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.40"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.40",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-FjU0zE5c862wv2JsSpRLTwyEds1tLEKeURUwaubZsEy+VKUT2PZ3AE/ArnrfdhnoNBibI9akDXwetqLaOZsMfA==",
+				"shasum": "9e99c4f8cd63f32849534a6888480af2d1e09e24",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.40.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3978
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.40_1518453774056_0.7840465311823868"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.41": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.41",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.41",
+				"@babel/helper-wrap-function": "7.0.0-beta.41",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.41"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.41"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.41",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.41"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.41",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-Ky1GkMgp3L1/YiAhu/UQKCu+dzGynhf0++vM95sZB5E2FOzz9IUI6MnLfEARDKzbK0l3XodkHNOqrErM6uG/pg==",
+				"shasum": "57d1ba376a0f60df31fb681aa88c260cf125ae5a",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.41.tgz",
+				"fileCount": 3,
+				"unpackedSize": 4190
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.41_1521044824671_0.11905314197096462"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.42": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.42",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.42",
+				"@babel/helper-wrap-function": "7.0.0-beta.42",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.42"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.42"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.42",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.42"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.42",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-RjMfUKvF5xLsq4Az/xMGUcJKrnzsNNIIACKdXn3nwN7FposisVbmjIw2B/CRvsBCMhJrOc70Ei1M3Zd1sdvQsQ==",
+				"shasum": "e4a8e615ad5aa4a1f1be815b6fc59aba64e247a0",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.42.tgz",
+				"fileCount": 3,
+				"unpackedSize": 4190
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.42_1521147134531_0.16481350910971182"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.43": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.43",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.43",
+				"@babel/helper-wrap-function": "7.0.0-beta.43",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.43"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.43"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.43",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.43"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.43",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-nEX6fwvH0mAi0exGYa8fqGBAOqX/eV8ymaCmedLJ7RSshtP9DN6Sz1QCECXvcf9gB5SfMLZ2sJP9gPjLcWHsQA==",
+				"shasum": "61e0796f939901f0e3e88afd1b6aed7ab96a43f9",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.43.tgz",
+				"fileCount": 3,
+				"unpackedSize": 4467
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.43_1522687743468_0.1449835323543618"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.44": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.44",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.44",
+				"@babel/helper-wrap-function": "7.0.0-beta.44",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.44"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.44"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.44",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.44"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.44",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-O1ioLgmGc1zo79ITEM3k6MAiPyus/YYmorQ9gT32OTJgY3NdWJJHULLYFdJ0vqciZ12lf53tOYkUKpk42piqjQ==",
+				"shasum": "9137c9cf082c73e1014d3ecfb8f741bf466d5093",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.44.tgz",
+				"fileCount": 3,
+				"unpackedSize": 4710
+			},
+			"maintainers": [
+				{
+					"email": "mateuszburzynski@gmail.com",
+					"name": "andarist"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.44_1522707643101_0.8563430983174096"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.45": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.45",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.45",
+				"@babel/helper-wrap-function": "7.0.0-beta.45",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.45"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.45"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.45",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.45"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.45",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-IhKAhJGo06GWyBqDXAjpznoujAzsoRqS3YWnKvInTtDbE5pPFzzB4TshrF5X5YRW4wXQlBRZaCtM7ClA5fssMw==",
+				"shasum": "e2d82ca8e86646f2c2df15cc081de500f890d967",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.45.tgz",
+				"fileCount": 3,
+				"unpackedSize": 4710,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3T3fCRA9TVsSAnZWagAA/OQP/j/HcY3JyWzDAleLCRw/\nS5xgWhCSrDyeqqXEabDmBJCx8vEj5wXskqvbgyV5Jy8tzwD3y1s5ZQD8+Tp/\nvD5qpRgYsH4SEps4Yp4YBVPSQLZIRfSbfA5TfSAVL5N65mPX3vyQ+1W9GWmU\nSRKiQX+6PAPQrMQ72yPkq1X39C3f7Mil2hxgm85N3V4Pd031tZsOb6VujGBf\n+h2AHRsIASiBFn6dzeMapMaX5SbJt7OGxuQi9WXuV/fHoNWKnyZUjEyaTMZ0\npTPtQ4H/oGJZQRximMvTyDM9f4uePgWVWLPTI192IiLEaPHUuYULDJd0tOpn\nZSgkJ86aBT43OXrKl4PZQQv7OU+Jnw0whhzqkbNOulJmKx1PPcO7wlvKGnJa\njqWUD/xs6OOexb9uxtURFVSzaSwPEx8xYuWxkCIT4lGm4rppG8TGR3HNqRlb\nDp5RARKObyvc2eg+oRZZh69TZUclff7rtzRK4P7p2zeOhiP/IgYNnrFGPcT8\np/oi3oDci1uqdhHi0L0ac3srv4/BLhmGJtpuOp8cuysrX8wMR/NN0dyiMVZG\nhPCt28WaL285u4PO4ud7bihlKGgQzqkIHhLkH0JHGlMAyjBncgsxwIbYhVfc\njA96ilTLhDVS0xyLoxsEpVsM6AZvvaRmxETs6DoGfR0sDQFaekapO2o7R/s7\n2dBp\r\n=FIR+\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.45_1524448734415_0.044938436044489105"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.46": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.46",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.46",
+				"@babel/helper-wrap-function": "7.0.0-beta.46",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.46"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.46"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.46",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.46"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.46",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-mRkAbYO+uW70bXstzChyf3Tj+39CO4X/+FoPVG7Tb2CmvX5/m4+WPi/5DhW27Gc4zGk6hd90bV6n485JwQYsRw==",
+				"shasum": "86c6fbf204a338c32c8ad223ca437c5652845f39",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.46.tgz",
+				"fileCount": 3,
+				"unpackedSize": 4710,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa3WIECRA9TVsSAnZWagAAr/oP/1BAzzmvr0TweVjiwTKe\nFeXZZP1EMFfHLVVOzZmbLcn8BuNLmhPXEzdrfeODRw4d3Lqo4jNyYoNyWCsi\npa8NwWerm0vDzBhBVo+OffevLAKCybvPik5Ot6JU8MPpZjrEGx8i5g+KQ96f\nCqgAlPIqoju7mdeMQDfrIDe1GuotpcEeMlovSGvQVJSNJXbkfaoGfXmzRE7j\n/4Ngw+lkEeHH4KFKe933ISywro1vPzGNr56wxV96P/7Lym2jt+SQiVBvpK9w\ntBQ0FSP9cr6UiwYt808vI2n0dkRIT0t7QjtRN3Et0aV63irv0jRuzp4+UsYh\nvwV/2h4kaR+xWL7wKqkclDt3JA/TgCSODApGrI2WUdcoaM/NNHHvr3TZQtLk\n57qHaR3mLtGz9c53IDE6hKGnTq4AlMnvMkeYn1FzD4GdjU//OHAxLXEQpiEU\nZXz1AUTL6DdbVmK3xs5BH+It2KH/SWAyFnnl9ripyZtFwZgOKMSjyTc4wJM8\n4h29xSbv5S+6a7riAvbLykVZpqaZWUkuPJ/ZYPfe792QyhTB+ISugbTMXF65\nbmuWc9pIwz0BSC/rmBp08/NfoW/djpgIHkdYaVs2quokiY990zDHbpvK+rpe\nTimQz3JdFMpp9KmjRsBceYZWiVGBNjZyyQHY9yRT3SON2wNk37F2AXyDi63c\nQYuZ\r\n=Gktt\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.46_1524457988403_0.6453066639172058"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.47": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.47",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.47",
+				"@babel/helper-wrap-function": "7.0.0-beta.47",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.47"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.47"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.47",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.47"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.47",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-253O7PlXtV1LjJkRSMCzG7L16JaQE62AWFVUbbd/8LZI7evyGE5pP90d4R7V+ir/Ra17tL+nk9GfUpEKG7KT4A==",
+				"shasum": "3ad46c04a277a887731f21843013292d254f7ba9",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.47.tgz",
+				"fileCount": 3,
+				"unpackedSize": 4534,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+idECRA9TVsSAnZWagAAOQEP/2lzUhg5oyYhxYlnTUqn\nlZ2xcZYdKb1aKxx2OO+OQlpoOHBsFzS44uyhKqcQof1HcjC5c5vTbR4gjIr9\ndqdCeUgBjGAwdzNBb4b3EbWKk55sX9oE3Y8RlefYzjGEg60eKSUAEMuHpeeS\nIbtkeTXz/WUSFC0oO02//zLUgsQS8Qy45xx/Gr/A3OQRYE4Ezj3o+sSbIETN\nAtqlZYDesJUyXSEln2HXOZysENyPK5HNUFLiZDaiviDMyrz7uVv6TdNPOwEr\n9vK/1yq/JOQvAjkFw2RqT+6sb9JHeq6sWG7eqa5JgiUfz1S2SjrNtkKzei8Y\nQwuZ/Tm+8zBTS4HuN2yTrgYUBfUHXRd1kFNKVD9SYFvqk8ohNtUshbLzIW3j\nrk8nkTySNzdFghSWs/Bl9FBBL/McrsvlvlP+MQGq0eEnC0rjeqR+mTmqaw4M\nIA0jQpghuPUt0TmPz1lmimao4IIRHXmqtKN8MBLWf4fGttnWCbj5u5cpxTPw\nzSzpsY8Pi0FI8U73vyVO/nr1+z99AXEEx3wJu7FzylXviKYpdGV4wksPZUEN\n2i4eUf6ZznRx2A3RAV5tQPu7bbGQ4uia/fckPUOMEMTjrj6xwWY4XaGJPaaF\nyGuMk+susUnnzvptO9R/ddXdd/al0RXmnE0vUdtgUPeb6vQnEyl5b9bnf7AJ\nYn2H\r\n=24lA\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.47_1526343492112_0.5309672375911649"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.48": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.48",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.48",
+				"@babel/helper-wrap-function": "7.0.0-beta.48",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.48"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.48"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.48",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.48"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.48",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.10.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-o0C0gbcuFyFF1BXqpqm5aro+QHVFrEg+dXCHPKgZ6/buFs1LDjsAv+nyXxWdGCKEqm8fxwx7sv5ji5Cxx1FLwg==",
+				"shasum": "fc97c51487900fb803b35279fa417f2bbbc08ce0",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.48.tgz",
+				"fileCount": 3,
+				"unpackedSize": 4467,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbBxGRCRA9TVsSAnZWagAAW08P/2xRTVkt0kx6s8gkwDJr\ntylD2qOLju2bRZTneVfkRsGJpirE94vPjVUV053b+14HSYFtdYFoKA5hB0Rn\nqyZhccyMwjxpLiSv0PVDUwvNEnm3m21mKW24C4q31ARk850gDBACq/XK9ciG\nyr4CzJK3CWSMRAr6Rt9lEPToB9JnCPK3ptH2f3pif9XgoiPcWy4wzOYLQzYy\nLTLl4wqQ8YjTYmo7o0H6pgu7oKLEu5R1txnKFR5l85LASArVBDyPGTNHFZrh\n92D+o28n5w8VDA5bGJAA4up2trE4FlOMp1jTbKg76UZ94qhXFo7jlXztUPAy\nFNA+9X85txyEEICO/AABwbbRdCvdIhhKyrLmBwauRco2ivE338g7CTqjbI9o\nQoRJfkFTD9qclsvzDRkhaLNt9qG61ZnWI8uJ1ur4m9H3V2zQ/SBOT9YDPIt9\ncbBGwn0jMq+guMaV3m3IGDFJBc+HS6R5n/6Vc4Zf8hw2oJCparQYlPxO0UX9\nAAkni02gD7ngat26ivoS3tfsienOnoZK4rSnR1a0zJGyLeTLQqmRLtoQwid0\nvzVCE67XMg9congj7UJTeZW/WwneCzFOBa5NBmkePigrrrkI4jpYYtPlWHv9\n78UALREiKALmWVrf97s/hcNUcM5yL8D+xPDnTK4SKkupep+Meq59aK9i2p2p\ng7v8\r\n=OuQg\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.48_1527189905244_0.41748917391547113"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.49": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.49",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.49",
+				"@babel/helper-wrap-function": "7.0.0-beta.49",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.49"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.49",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.49"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.49",
+			"scripts": {},
+			"_shasum": "458997827cf69f8460bd3138d19b917c25eb9ec7",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.12.3",
+			"_npmUser": {
+				"name": "loganfsmyth",
+				"email": "loganfsmyth@gmail.com"
+			},
+			"dist": {
+				"shasum": "458997827cf69f8460bd3138d19b917c25eb9ec7",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.49.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4482,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbCDQoCRA9TVsSAnZWagAArDQP/0L9utrXNYBLWBoPDSnC\n20cWC2mNfu3/muAXHEaRv3mvfLzHwE6RiMcH1zoWfbd04EaLPbiud8kMdf/c\nUQy0VzkSoMrBzsa9rUae1tVLdQSwMvncrzfWcAyRKEqCJHOh2pn37HFHhcI4\nci7D0cQtHBFjKB1FZ+NhoAoQ/xiJMB1UDavt+X7goNPciTfzfa0W3+uk23yG\n8G/raO0GIAtQrGlqEv8nWNFHKpqeono4dy84nrUpA+xq2wjFHSQhMsDehm8E\nCiuAwUQxMEAQkME+bkjLJnw4OEAdDSAztm5R84F6u26LsIoMfW35ZDL3zIC2\nRokJBxXjnG9grbx+Lf+osM5cHB4Y/7tBlhNzUCZMnEaxnPFHytCOHglyLzOo\nFEY7z43IrZQy855AHBTtvI6BQAMd/DfIcSnRv0x5XyRzGffkgkOHWxrSgNm/\nbEYOlX5JvVoHoQBFkWjattRCuJN3K65IGgx3fy49ZW3IdhTucaLDGeQKMhUZ\noZxiKGl1d4ZXms5fSJRYUv9fdGoA7I10vBtlR8vFeQtgCMUi3bjQTQkT0T5w\nGNOZSRCvL70XKZ/UbNAMc4ha35yyuji7jl/feh0mIwS/Y7uM/qHsee+QhtwG\n6qheL/hr4bU19+kFtKEHwI68NOCL29gp+w3QhyWttJ/4WdQ/3yg3Ty9X/QsH\nV63C\r\n=+Wb3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.49_1527264296054_0.6244732434454576"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.50": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.50",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.50",
+				"@babel/helper-wrap-function": "7.0.0-beta.50",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.50"
+			},
+			"peerDependencies": {
+				"@babel/core": "7.0.0-beta.49"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.50",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.50"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.50",
+			"dist": {
+				"shasum": "2a32d6f7fee6a128f164ddffe92d4af10d8398a7",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.50.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3685
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.50_1528832898313_0.9480505566007666"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.51": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.51",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.51",
+				"@babel/helper-wrap-function": "7.0.0-beta.51",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.51"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.51",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.51"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.51",
+			"dist": {
+				"shasum": "7f5ead6bbdef6dc9b5984260301995d1edd78dda",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.51.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3699
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.51_1528838459708_0.17829756927562457"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.52": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.52",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.52",
+				"@babel/helper-wrap-function": "7.0.0-beta.52",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.52"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.52",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.52"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.52",
+			"dist": {
+				"shasum": "dc4a36c8276d92712cc9fbf60fa4ae0a5fdb6a86",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.52.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3698
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.52_1530838791156_0.019188430220236086"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.53": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.53",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.53",
+				"@babel/helper-wrap-function": "7.0.0-beta.53",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.53"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.53",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.53"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.53",
+			"dist": {
+				"shasum": "cf449d4b1deebd4782961c1c19d5912811ce55ba",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.53.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3698
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.53_1531316454280_0.09531176778006567"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.54": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.54",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.54",
+				"@babel/helper-wrap-function": "7.0.0-beta.54",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.54"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.54",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.54"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.54",
+			"dist": {
+				"shasum": "18c3327ce497dc1014190581a2ba0aa67bbaa2f1",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.54.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3698
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.54_1531764031683_0.09410312819823763"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.55": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.55",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.55",
+				"@babel/helper-wrap-function": "7.0.0-beta.55",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.55"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.55",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.55"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.55",
+			"dist": {
+				"shasum": "e669269f6f63722342d63635209f13dc58707488",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.55.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3698
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.55_1532815716714_0.9916902428162386"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-beta.56": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-beta.56",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-beta.56",
+				"@babel/helper-wrap-function": "7.0.0-beta.56",
+				"@babel/plugin-syntax-function-sent": "7.0.0-beta.56"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-beta.56",
+				"@babel/helper-plugin-test-runner": "7.0.0-beta.56"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-beta.56",
+			"dist": {
+				"shasum": "6bb81b4440375f1b648652f5032fde6f33ee85b0",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.56.tgz",
+				"integrity": "sha512-9ZHiVvxUA4tRCbKTnQRdLSwlhbf2OFCk6l9v6yGC0t7PLoADlL9MSkfltvpKNfYiTXXeux9v76WJfUoyZOoQBg==",
+				"fileCount": 5,
+				"unpackedSize": 3698,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbZPy2CRA9TVsSAnZWagAA5asP/Aulx8dHFFfKTFX/JZsR\n8bBhNgvK4QA+fMDWZXDOR9lsu3yXJrl3JYUY39YRIWQW4/51x4xR0NCpu6pz\nfqHdb2ks25kaJhmUdNalku0U7oqbMeRud6XHbHlAiPf+EYEGnF63PBErLBvA\nKA3gUMYMBP55MKvT3HRApXLoEJc7JVDH26F23D8+BBp4A+Xn8M/amsbg3487\nacb0pEIWCNBBlugE+RWDAp8w3lX5tLj2XxI5ElgWDyeuCqaoyNdQkuR/oAyq\nwqCeySqmtxYh1daFJGECqNASM6jfjEuQLlt94Nr35S3kvgUa4tufN/dMBKvi\nXotxmIbGA0dVvNUpO9Jw3mV24VV1nKaerseJERuU2o7ka/+Nvg2J1tfaVnGd\nLmDHuRDFCkv13jAtvu+DdTB37Kye+OW0O0EQ4f/ARJtBlmBplWHyrGtG1xi6\nXgpF7jtUkFRDGz4b2nztF9oLw7jxqURHRlNibe6/jBhmChEsToi9B9hSrPUj\nqAg7sZs/aNGw9bdTL4UNTdTUZW4MGQaNMet46sXHi18seqEFyYUtcPex2dHs\npru6OdhyurahX6waaIVdcG4nEgVYRBToHcqP7Oa2dSIp/7F52uKKZMPh+ErZ\n+gPN4Nhw4BN+TqemthidxcyIyl9VWZFqGGKp2vpK9Rik+ZjY2zx6eNPAPygY\nC+fe\r\n=kUgV\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-beta.56_1533344950176_0.034504214630551866"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.0": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-rc.0",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.0",
+				"@babel/helper-wrap-function": "7.0.0-rc.0",
+				"@babel/plugin-syntax-function-sent": "7.0.0-rc.0"
+			},
+			"peerDependencies": {
+				"@babel/core": ">=7.0.0-beta.50 <7.0.0-rc.0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.0",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.0"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-rc.0",
+			"dist": {
+				"shasum": "f8392f2be108d991296c154ad5afb8a60d0adb41",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.0.tgz",
+				"integrity": "sha512-bXpbQmr1QFEgFHxIIh22InAsMWSxbl+202vWh7P4hBHYX8x8I22h9FKfxrJ3ObgrzGDKcinS/YEMpHEN24luQA==",
+				"fileCount": 5,
+				"unpackedSize": 3680,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbGUdCRA9TVsSAnZWagAA+l0QAJAhnscnqb54kBZyQuBa\nEKQV5LQozFK0l8XHDS1oD76P/DrjhmDN60wQVZN16ktqePc7xqh4oiSDTvLX\nFT6hlSv7AmTn+WRgi7NVGkVUX5BljXGspYWlsHsLR/hERNWi0APV7ypV7R7O\nGZzbCRGYSU9t2/aae0P3e9JgxSlRvvb3gmr2kJiuv/C8I+6rIHvdQ/dEV7aD\nChPHVX3QQ9qm9THGa3nvnPG84yFWOQf/Ftp5ObPsQDUlf+5/BON1z4bRfDwN\nZiiMP4e6mKzSZlPACUpp+aO4JZVXynoKgti/glCUqcD1gxxHk8D5afmwChA5\n04YyDXjZM5831NraQ6ZRsfPuhUUfkE1W27+SFC0eD9xtYrPDQ7+87asZJaeZ\n9qDBK61pydE1PeYEeYa5TjqKj7t+JiqA+8SqEbmIGigwoIPqUEIKE7vCymWw\nZdU5F2OVgUiLZeOrzOxpH+pfY5TJ7Opv7Y/aRmt4jhWnNM/iSuMcAD63sqEs\n241iJcyAS+mzp3rpUzlowZcQY6DJaKDHgH5FK48QBws3xoE3gZyMl3p42COV\nNTkUoFhzBh5DA3I2XLZ7Y21goN0YqFxlWKs9MHcNm8f2coAxyVaWYB1y2dbL\ndvJpiNg6yxkCmFpB35TPQBniS0CDWYgfiR/OGjp69lXkIfs6yrn+Msh/T74M\nEoVi\r\n=3wpm\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-rc.0_1533830428885_0.8338957714997435"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.1": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-rc.1",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.1",
+				"@babel/helper-wrap-function": "7.0.0-rc.1",
+				"@babel/plugin-syntax-function-sent": "7.0.0-rc.1"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.1",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.1"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-rc.1",
+			"dist": {
+				"shasum": "5923cda889cb6bfc89b90bc5ddecccdbb93d0414",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.1.tgz",
+				"integrity": "sha512-azoyZks/5C7p4oZfBDz0ql7PRglesTGa994kACY3e2q+/bWTKFOEdJDsGrwjbXIlMc6YesrXWvYcrnwcaQyvXg==",
+				"fileCount": 5,
+				"unpackedSize": 3661,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbJ+kCRA9TVsSAnZWagAAs/QP/1N9iKYIRyuDEifzPea6\nsBolfpPScyJWF+JvA8kJI3uOo1g06aialnahoYi4CwwXhoxWhOqyMRppplBx\nfAtj2VbKJK22ru8N2YGzKmkXMWXjHkwXgrOfwoUQUvNffkDDPlHnAL4gNaD1\n2jUVrpmWT6kivtMeSfeG2LTaM7d/YCAw47wUikIz+TY+LSUlqDaTjSxR9DlT\njaKxJ6feJO/IUiXLaTZdiTG+XkiGIjaoqg0mjllp5nm1LRrebdz4BlBtnSyn\ntebdGwCM/sziMwf9m5rY+btz5diNNbaxcNkvDo/BcP5bMJBIbA/CrvFYL5E4\nlBEIxWEyIxJjDEoUd2uP+jIVIEb9NIQSNjnlWWuTHUaTTe4Q2KZSzMeLO6mA\nIzsvkPStVRQzdapsmTC7P4fR0S68FgCTy4rhn0S8KwAgS38eGelfCV9PtTND\nY7iJ0eZM0vqbOf0AeNLNEwyCfgeh/J+RT8RbUOt9+10DORYphUG5SJsn6OAP\nOS3QfmkaWpnkua3bWKa5Y+ENP5tToNKyHBCeLu1fB1X6cwPXokAqBun874Ut\n9N3fxV553Q4x99iH6QC37C951eOUXK/lah6YP9wfVLCqmoH0lPx8XEHoQ+5g\ntMM6Rjgdww0QJkjJ42PCh1JM2Yl/M39M6o5G6yO57CeLPmGGfixgVvmVPBCG\nGzy1\r\n=vpP5\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-rc.1_1533845411808_0.012294887990916159"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.2": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-rc.2",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.2",
+				"@babel/helper-wrap-function": "7.0.0-rc.2",
+				"@babel/plugin-syntax-function-sent": "7.0.0-rc.2"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.2",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.2"
+			},
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-rc.2",
+			"dist": {
+				"shasum": "fb474c3ac03ac10499193f7e019f9b04046a2ed3",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.2.tgz",
+				"integrity": "sha512-JwPmz8Bi6wh7Fu5CibTKMLkmhpEBqxalEr6bqXrRhQoZgBQ9+gSzBtCKVhwomK01J1UmLEnrxrfw/WO8+j+IyA==",
+				"fileCount": 5,
+				"unpackedSize": 3661,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbfGdXCRA9TVsSAnZWagAAx3UQAJ4PyVQC84+1g93oazVr\n6c8AlRXa3vfPPRqYTxpPga0yux38OtfiH+qwn0hhA9SIQ6WNnXvMKcVaBFfv\ntfYmLLc5OijWrOcfpIqoqoew6P6mm8I/IkEAPoxyAk2KCmBfWQp1xBTzB0xD\ns3supnXeyFf787gMn8e2ZXd2GVlQPNLqK+aUlIu0hlPRp2gTr/i61gWd6g0s\nzhcrECd9o/kIfIajTjLLFGI23y4TJmUxSHDNwQDERRgnvLBnx8w0MYycxMg+\nKbB82pQmHbMmhY1bBnt6/PfT2SxYhrMmasHucGLNo38NkVhoil89L1EB9m+8\npLnIItDe1R66aGLO+uxLzZgQ1MvS6K6ublzoj7qeKPnsM11dRPz79XAkfp1J\nGykR0Z3TdD474jGIv3pLNlYsjuiqq69zwX04KsombGNpMceNZfm+wKeViic4\nRwEDdEo5atlB5N1URZWmLqeiPdhqixVz9sAoKz6GRTWJdvgRFyb3jbRw3ki7\nYTQVwQTRlCbtAUIzRgMAFqM22WUb9jtP3ONK6/B98WFIxL5k3mqUH81IzuH+\n0Uf0Y92DihPIWHs6AcY7nWueOXTmx95KUbxaYpNLZKDCvrVb4vUcon/iR3dw\np/HomrvprUD4j/PYBlsPpoNPASkru/HFg6b//+ya/8Na/WMYg5Z6JxkSk/jV\nW8k+\r\n=In1M\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-rc.2_1534879575136_0.49582251190381554"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.3": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-rc.3",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "7.0.0-rc.3",
+				"@babel/helper-wrap-function": "7.0.0-rc.3",
+				"@babel/plugin-syntax-function-sent": "7.0.0-rc.3"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "7.0.0-rc.3",
+				"@babel/helper-plugin-test-runner": "7.0.0-rc.3"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-rc.3",
+			"dist": {
+				"shasum": "2fe26d90ae30682c3be83fdec98954da65560f81",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.3.tgz",
+				"integrity": "sha512-bGTGUuvQGt1oNQECtdJ40maS/Su9AyAiqBUqoEps8WPVOqtbRQ2uVSMuruyqlP7VVpqzG8J+tWAeXraxLldFFg==",
+				"fileCount": 6,
+				"unpackedSize": 4760,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbgEn4CRA9TVsSAnZWagAAVokQAJTVn7IO0KZTyUYSUqIK\nu7Qi0mBYt6W5DrfA3Bn3SUEYm639d2Df0svpiqq5qT7vvF12Skj59VxRre5Z\npTunlnZoxBI1+mgkpE+9sZL2twk9cmt2dV3e2cATu5KtHpRb26B3oQuVxhly\nD3Ecpmkk/z0FF0X3APnEbxa1YmfYnrG0Pj22Pe3A0Lv9iWYFliv/2UtxFg0V\nZ26XflJb25DibGUxUp76Yh6Atu4PKTwNteMEgfktWLbVOEmQSs6WvzYX3ztA\n62EAmMhQ4mhMi54pr5M2KhVCzx49jHVBCARrBj/6P/oHu5/QxHYgHG01H1ZW\ntR0oIOmjSX0Kt1kGLJcujI0Vob0OfRgT/96kzbB/kaveKX7VUBy2Z30Tl7qF\nOevjpoO5yuto5TI5Z1thXXHUx1m3UaXnN+Z6ooqDX8awgbDLy0sCoS7ftugD\nCsyQOfk7wfYQiJRwijBmfSa80Bpi/bxxThJ6mvSyvEoYYX2buKQSlBhzQFF8\n1g2lsWQpCumJ/JpLQ7eCnVhlP5X+0x/TBqisBzeAKgOTin9cehGqYO0HLT1t\nY/92PuDz3qX/5aDy80+EAoUdrR19H+jisQDSMUyTYfV/r3FLeIB1uJnop7H8\nyBcyDofuCqel2rscPayUeEnA/vtm2oytteq05lj49++Eo6VaLUx4eO7UGR+v\nnHa2\r\n=sNEo\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-rc.3_1535134199922_0.5476065875743525"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0-rc.4": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0-rc.4",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.0.0-rc.4",
+				"@babel/helper-wrap-function": "^7.0.0-rc.4",
+				"@babel/plugin-syntax-function-sent": "^7.0.0-rc.4"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0-rc.4",
+				"@babel/helper-plugin-test-runner": "^7.0.0-rc.4"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0-rc.4",
+			"dist": {
+				"shasum": "70c115950ddce64451feee7779e430fc4341539b",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.4.tgz",
+				"integrity": "sha512-AfMSb3koRWcGHuElJtVsMmr90KYfHzKaSb1qG+0GlfKQq2JpmPB2w0dw23ppXY7wTppjVBxIMCYKu/m8UhLnqg==",
+				"fileCount": 6,
+				"unpackedSize": 4765,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhCr6CRA9TVsSAnZWagAAVyYP/3OhEvSjXodBngSfbJYI\nAKz79a8Z8gAJ6SDYadmIQSWX3MddT/oN8EHVOlnvIbSnU87AvnrCHptNFHnx\nsFcs8VVIHerCOYy30nAkQ5Lwi2oOOkmLEtH7Pz+JY9oYaXdQfcyg70aZZAEr\nEgoh3JWbMLsVO74f/4MKgrPDDGreb0Ncr6tSwOSINxFOKha6nVr1m7KNrrtT\nJjysIewXmVgCnmP32mRgJKvDVoqOoD9uw226CoYgSAppTeL1lEQQiqKu3eVY\n7N3jsRxvmD4OcvTviolFUluxqH2oYi3UkLPFIx6lBaNaR0HTt5901XzIKrEG\nd9ww37vHCQ2bJwww6xN0zBLiFvhii7Jp4V6zyagHHfKcZeG8kKn6GpZq54zB\npdtEpNWZ9wPsYKU7qCegiX7xngHG+YwTuQWcEDayGfBkZvc5PsRPBx4WHkly\nqQEUPpc9Eo4S7ve5PSDzIMh17B8E6u6pY0tCXaW0HuZhXi3IYj+QoR/OhRPu\nh5OTCzGEhMbqRShjlSN/WYkRYQTY+cPXPB26/J1jrI1jYAsgtKiQ+3YRe5CY\nQWSjsAmLurG33W9YrHRNd6dE0XO7VrIVQVhKgVfUaeEkGL5cmd4PlJDm0HOv\nuaQOd+LxPj9MQ2wq/sOOFaG8uPIGzNWigTKJ27mKrq/ftEOLX2zPfGXl0EaN\n6DjR\r\n=699d\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0-rc.4_1535388409739_0.0789431667381908"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.0.0",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.0.0",
+				"@babel/helper-wrap-function": "^7.0.0",
+				"@babel/plugin-syntax-function-sent": "^7.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0",
+				"@babel/helper-plugin-test-runner": "^7.0.0"
+			},
+			"readmeFilename": "README.md",
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/plugin-proposal-function-sent@7.0.0",
+			"dist": {
+				"shasum": "61ce7f009f4e80cea70b96ac6a91b433e035bb6f",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0.tgz",
+				"integrity": "sha512-XE5UdOfJy1w/m8vKhDuuHq8ZaQkcjxlzJ7i0IZ0eAhzxlA2f4UOKT39dsTgukgUgu7YK98XFAHoRFWizLg8MQg==",
+				"fileCount": 6,
+				"unpackedSize": 4735,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbhHDqCRA9TVsSAnZWagAARhcP/3CHNjLhQRTtU05zIrng\nCw/LlPWNzNIXwqA5FzrhytRSKrXPbk5HcvK58jOgAGKGCsNaug9Mq5EU7AAM\n7X4ZrsI+dlLxsVnaibKe+oSwMElEn37dlaAPgf+UEi19wuCFTCr16KY1LHn8\n2GnzcvtE6ggUPbTT3eVeQgBSXeh99bANKxrDaaUvhA7r3NgkrQXX2C+e/PP3\nDPr9UQQJ72Z/snVJAgc0axSagMkSC/vuA/ZQahYiEuXSVYHXKqvcw23z7Ozj\n/amz/AopYaWte3KptaR3IfjnuCrhsuCiE4hS/QWetrCRgnU/EgZlMLmZ38HX\n8ydVg4EnZDomDvyHaVhqhw8wzLLAvtQBu9UGbtn4Sb7w4GWySaNFLnwx1Ww9\ngc6wDQ5wDOtPy2XVuObKqSM/k1S64UaSVAvG3UTXERhBXNhiE29f8LqeVThZ\ntfpgXT+nhlboVUBwV3IhEQAmkt3iaEkr7rh7lDJ4S2kIMw1PlbFJ1nDPivmT\n7u3AGl0k00JdmgEMtdXJVWHmEXpsQR9Y1pe9PI40VSBx8fPkqjVDvmwG9xF6\nxv4XNnQ1lM/kHCFBPSrpDV6qr4hk0dX3fnCh4WxCUuOy2xG7SBPgUKzjRB+8\n1VtktESoWQNyEYUqsZxixbyeLippjojEBXl3S3RxwG5uL9buHozvKX1RBvrP\nA7L4\r\n=sgRu\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "contact@xtuc.fr",
+					"name": "xtuc"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.0.0_1535406314239_0.7096104625756745"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.1.0": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.1.0",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.0.0",
+				"@babel/helper-wrap-function": "^7.1.0",
+				"@babel/plugin-syntax-function-sent": "^7.0.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.0.0",
+				"@babel/helper-plugin-test-runner": "^7.0.0"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/plugin-proposal-function-sent@7.1.0",
+			"dist": {
+				"shasum": "1c4eb7748812c89b772a2d699cf6a9c074f3e166",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.1.0.tgz",
+				"integrity": "sha512-yciM4dketj0pjd1enirzfVWclzSCzjOljHx8E4DJUBq/q65CuaKsX2zhpdImzcn6TtFupzdcuchbqN00IEKDAA==",
+				"fileCount": 6,
+				"unpackedSize": 4788,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJboAEKCRA9TVsSAnZWagAAresQAI7cZmIxun/PWUV6Lr0j\nj4WS8Nl6sVxa4u4bIVKCIvwtC20ydk6v36Q9QjN3wK7wn3jCt4ZH16Fie9qa\ni68l1lBv0vhXRTyJIckAg2rYfkuLttDOIRKguXtrZM+mYCUy7OD9n6GreFBR\nDycKNHLxcRnEyDtLvSFIruaaOk4/Rg5ntOzCtwsjZJbthkGdaHTATDLriO7C\naguXZIl+oyAce9MYgQLxt4sUpa3+yGpO+k7gpERDMdlQafAAAvTffrEFNmmd\n05dNrTzbcdfC0JoXIgHU2WumkquBQCZfK47/Sk64ldvW0XB47mJitn/Hc0dV\nTThFfN9bU6x8Al14BsQG+EkF51uqm18odrUUWD7NXo2VHkm1g6LXicEKKlNe\nMPzIwtIat3VTlDwBdeapBT3UjUZ+o0ia8baJyEMkqkLNVTjKHz7l/7JWmxNZ\nJY1kX6IZWTY+nvsBstZzshMvaOOJAcGR5QEhOz9TmuREhQDgO1vRLKg4Rosb\nJbPAiDOgFngs4T+ZFRrK62wND84TFSRFPPwGuNUtzDyImTM+sVL5LKVcB84+\nc/HvUJCIFinrvgkURz0fDIwA9pgX6Az/ljMcmYKL0XUgJPbgG+oWCgt1JmiG\nq0KKqYMDZdxL6c6eAB+SUc2ezxn1dACpt28HBh6r/WP7jqJY76KV+KkR5KMh\n/qnS\r\n=3PmA\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.1.0_1537212681987_0.7057959773615143"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.2.0": {
+			"name": "@babel/plugin-proposal-function-sent",
+			"version": "7.2.0",
+			"description": "Compile the function.sent meta propety to valid ES2015 code",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-function-sent"
+			},
+			"license": "MIT",
+			"publishConfig": {
+				"access": "public"
+			},
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"@babel/helper-plugin-utils": "^7.0.0",
+				"@babel/helper-wrap-function": "^7.2.0",
+				"@babel/plugin-syntax-function-sent": "^7.2.0"
+			},
+			"peerDependencies": {
+				"@babel/core": "^7.0.0-0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.2.0",
+				"@babel/helper-plugin-test-runner": "^7.0.0"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@babel/plugin-proposal-function-sent@7.2.0",
+			"dist": {
+				"shasum": "f707d78551f49162e152d477fba32357341915d1",
+				"integrity": "sha512-qQBDKRSCu1wGJi3jbngs18vrujVQA4F+OkSuIQYRhE6y19jcPzeEIGOc683mCQXDUR3BQCz8JyCupIwv+IRFmA==",
+				"tarball": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.2.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 4824,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcBX3gCRA9TVsSAnZWagAAxhYP/2fYMtkUmRb/B039e/Au\nl5Tmn3eaGnDHMyRY72hyYwK8jCCFfAYf1p/y2RT0yKXoXi5IcRSZ1QRLsPpz\nXTS3DdNpVjptioC6cVN67lXEBRk2Lyx7d5/tY+GN7fg8UeMb9sxVwOPqp6pz\nbuoHAQgYj07D0TWnX0lSbXF9FX4e9XLU9N/GbsKZo/VVWe/V/rmVx9F41pdI\nMpDinjQdVYR5dQoQsvEqdJlQaKOFm5JOPpfyVr3mDzaQeoUvlRPJkn8DuzhN\nqnSJC0mAG64XNIvNXCs2JV4Ia9nRQUhjN9pNnz1Cr72E1PJUWRqp1qgy7TxV\noTH3s0ZfFFSDZpFU4TlP/jLickTeBxjqa7J1e/ZXR123doFSq35GQJFDMxoD\nrTYp7UgJp6MWoqre2XbLBaCji86I1LBSgxz31TCIgl2HJ1l9wJjarsXGI2mK\n3ytiUR07IUgFQvmJVV7JUIalcOV8xrYFDDtCKR055qmZbyZ6+lkdKo2yuUBK\nERv2srrIXNGcgMxgwr4viQbH+dXIFkR1lREpsC2j6CYVNeO+u7rc96xgxV0M\nE4/cM2+tQDnq3cXA4U2HJB7Fdiu/8ZhzW9qwbYPMg71vgkwmx+AqBmmckBVm\nIIEWtj4Wx4aMjznYPI3SPcsOssHhUvaNdA/NBiQDi5nB+qXf6Osu+EQYhYY7\nAgwg\r\n=nXsf\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"maintainers": [
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				},
+				{
+					"email": "nicolo.ribaudo@gmail.com",
+					"name": "nicolo-ribaudo"
+				}
+			],
+			"_npmUser": {
+				"name": "nicolo-ribaudo",
+				"email": "nicolo.ribaudo@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin-proposal-function-sent_7.2.0_1543863776404_0.7818564252110352"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2018-12-28T20:15:35.057Z",
+		"created": "2017-10-30T18:36:28.013Z",
+		"7.0.0-beta.4": "2017-10-30T18:36:28.013Z",
+		"7.0.0-beta.5": "2017-10-30T20:58:04.506Z",
+		"7.0.0-beta.31": "2017-11-03T20:04:35.984Z",
+		"7.0.0-beta.32": "2017-11-12T13:34:08.840Z",
+		"7.0.0-beta.33": "2017-12-01T14:29:25.549Z",
+		"7.0.0-beta.34": "2017-12-02T14:40:24.462Z",
+		"7.0.0-beta.35": "2017-12-14T21:48:32.380Z",
+		"7.0.0-beta.36": "2017-12-25T19:05:49.352Z",
+		"7.0.0-beta.37": "2018-01-08T16:03:48.086Z",
+		"7.0.0-beta.38": "2018-01-17T16:32:47.200Z",
+		"7.0.0-beta.39": "2018-01-30T20:28:49.262Z",
+		"7.0.0-beta.40": "2018-02-12T16:42:54.109Z",
+		"7.0.0-beta.41": "2018-03-14T16:27:04.716Z",
+		"7.0.0-beta.42": "2018-03-15T20:52:14.596Z",
+		"7.0.0-beta.43": "2018-04-02T16:49:03.528Z",
+		"7.0.0-beta.44": "2018-04-02T22:20:43.232Z",
+		"7.0.0-beta.45": "2018-04-23T01:58:54.601Z",
+		"7.0.0-beta.46": "2018-04-23T04:33:08.459Z",
+		"7.0.0-beta.47": "2018-05-15T00:18:12.171Z",
+		"7.0.0-beta.48": "2018-05-24T19:25:05.303Z",
+		"7.0.0-beta.49": "2018-05-25T16:04:56.148Z",
+		"7.0.0-beta.50": "2018-06-12T19:48:18.375Z",
+		"7.0.0-beta.51": "2018-06-12T21:20:59.769Z",
+		"7.0.0-beta.52": "2018-07-06T00:59:51.251Z",
+		"7.0.0-beta.53": "2018-07-11T13:40:54.367Z",
+		"7.0.0-beta.54": "2018-07-16T18:00:31.726Z",
+		"7.0.0-beta.55": "2018-07-28T22:08:36.856Z",
+		"7.0.0-beta.56": "2018-08-04T01:09:10.253Z",
+		"7.0.0-rc.0": "2018-08-09T16:00:29.003Z",
+		"7.0.0-rc.1": "2018-08-09T20:10:11.930Z",
+		"7.0.0-rc.2": "2018-08-21T19:26:15.238Z",
+		"7.0.0-rc.3": "2018-08-24T18:10:00.031Z",
+		"7.0.0-rc.4": "2018-08-27T16:46:49.835Z",
+		"7.0.0": "2018-08-27T21:45:14.360Z",
+		"7.1.0": "2018-09-17T19:31:22.093Z",
+		"7.2.0": "2018-12-03T19:02:56.482Z"
+	},
+	"dist-tags": {
+		"latest": "7.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e55d126e8a50c349db29c45d26e1e6f6\"",
+			"fetched": 1551301854839
+		}
+	},
+	"_distfiles": {
+		"plugin-proposal-function-sent-7.0.0-beta.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.4.tgz",
+			"sha": "6e16b0049541d1311f333cf8dd7979a8ed1244f6",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.5.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.5.tgz",
+			"sha": "a53257064a313560156f7af950aafd7c9f45be9b",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.31.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.31.tgz",
+			"sha": "608b65dc18ca4ffd5301753b5273ba23fa8ee6e0",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.32.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.32.tgz",
+			"sha": "7c35b8177328bdfafe90e5225963b5cd348f7315",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.33.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.33.tgz",
+			"sha": "efc35d8593a007ca45aa8dd6ae5ecc3062904b8a",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.34.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.34.tgz",
+			"sha": "a92dcec52927e33e0794aa8ebc069fc90c75cec0",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.35.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.35.tgz",
+			"sha": "b9656a042d0f8613a6194e965e1a80cf0a30112f",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.36.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.36.tgz",
+			"sha": "bca255030cb9a9839eb7e765639b2653fe20f13e",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.37.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.37.tgz",
+			"sha": "8596f132d61bf339f5e26779c38cb4378ff60b57",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.38.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.38.tgz",
+			"sha": "dcb65afc888f9caaf8f3f60254fc8521ba701ba9",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.39.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.39.tgz",
+			"sha": "af6d2995f3157727b9afe49902a9ec35e0b28931",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.40.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.40.tgz",
+			"sha": "9e99c4f8cd63f32849534a6888480af2d1e09e24",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.41.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.41.tgz",
+			"sha": "57d1ba376a0f60df31fb681aa88c260cf125ae5a",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.42.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.42.tgz",
+			"sha": "e4a8e615ad5aa4a1f1be815b6fc59aba64e247a0",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.43.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.43.tgz",
+			"sha": "61e0796f939901f0e3e88afd1b6aed7ab96a43f9",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.44.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.44.tgz",
+			"sha": "9137c9cf082c73e1014d3ecfb8f741bf466d5093",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.45.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.45.tgz",
+			"sha": "e2d82ca8e86646f2c2df15cc081de500f890d967",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.46.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.46.tgz",
+			"sha": "86c6fbf204a338c32c8ad223ca437c5652845f39",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.47.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.47.tgz",
+			"sha": "3ad46c04a277a887731f21843013292d254f7ba9",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.48.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.48.tgz",
+			"sha": "fc97c51487900fb803b35279fa417f2bbbc08ce0",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.49.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.49.tgz",
+			"sha": "458997827cf69f8460bd3138d19b917c25eb9ec7",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.50.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.50.tgz",
+			"sha": "2a32d6f7fee6a128f164ddffe92d4af10d8398a7",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.51.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.51.tgz",
+			"sha": "7f5ead6bbdef6dc9b5984260301995d1edd78dda",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.52.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.52.tgz",
+			"sha": "dc4a36c8276d92712cc9fbf60fa4ae0a5fdb6a86",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.53.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.53.tgz",
+			"sha": "cf449d4b1deebd4782961c1c19d5912811ce55ba",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.54.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.54.tgz",
+			"sha": "18c3327ce497dc1014190581a2ba0aa67bbaa2f1",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.55.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.55.tgz",
+			"sha": "e669269f6f63722342d63635209f13dc58707488",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-beta.56.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-beta.56.tgz",
+			"sha": "6bb81b4440375f1b648652f5032fde6f33ee85b0",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.0.tgz",
+			"sha": "f8392f2be108d991296c154ad5afb8a60d0adb41",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.1.tgz",
+			"sha": "5923cda889cb6bfc89b90bc5ddecccdbb93d0414",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-rc.2.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.2.tgz",
+			"sha": "fb474c3ac03ac10499193f7e019f9b04046a2ed3",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-rc.3.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.3.tgz",
+			"sha": "2fe26d90ae30682c3be83fdec98954da65560f81",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0-rc.4.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0-rc.4.tgz",
+			"sha": "70c115950ddce64451feee7779e430fc4341539b",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.0.0.tgz",
+			"sha": "61ce7f009f4e80cea70b96ac6a91b433e035bb6f",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.1.0.tgz",
+			"sha": "1c4eb7748812c89b772a2d699cf6a9c074f3e166",
+			"registry": "npmjs"
+		},
+		"plugin-proposal-function-sent-7.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@babel/plugin-proposal-function-sent/-/plugin-proposal-function-sent-7.2.0.tgz",
+			"sha": "f707d78551f49162e152d477fba32357341915d1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"plugin-proposal-function-sent-7.2.0.tgz": {
+			"shasum": "f707d78551f49162e152d477fba32357341915d1"
+		}
+	},
+	"_rev": "4-2e892e2b10e7c3e7",
+	"readme": "# @babel/plugin-proposal-function-sent\n\n> Compile the function.sent meta propety to valid ES2015 code\n\nSee our website [@babel/plugin-proposal-function-sent](https://babeljs.io/docs/en/next/babel-plugin-proposal-function-sent.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-proposal-function-sent\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-proposal-function-sent --dev\n```"
+}
