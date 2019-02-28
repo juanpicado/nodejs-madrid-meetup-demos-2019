@@ -1,5 +1,3 @@
-storage: /verdaccio/storage
-
 store:
   s3-storage:
     bucket: localstack.s3.plugin.test
