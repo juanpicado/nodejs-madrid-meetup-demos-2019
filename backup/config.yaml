@@ -2,7 +2,7 @@ storage: ./storage
 plugins: ./plugins
 
 auth:
-  auth-endpoint:
+  # auth-endpoint:
   htpasswd:
     file: ./htpasswd
 # security:
