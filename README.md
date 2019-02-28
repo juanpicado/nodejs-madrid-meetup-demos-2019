@@ -16,7 +16,7 @@ Prerequisitos
 Ejecutar en la terminal
 
 ```
-npm install -g verdaccio
+npm install -g verdaccio@next
 
 verdaccio -c backup/config.yaml
 ```
@@ -32,9 +32,10 @@ docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio
 
 ## Demostraciones
 
+- Lo basico con Verdaccio (Ejecutar con npm)
 - Amazon S3 Bucket como almacenamiento con LocalStack
-- Link 3 registros con UpLinks y Permisos por Paquete
 - Creando un Plugin de autenticación.
+- Link 3 registros con UpLinks y Permisos por Paquete
 
 
 ## Mas Demos
