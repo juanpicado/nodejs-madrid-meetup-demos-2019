@@ -38,5 +38,25 @@ listen:
 ## Uso
 
 ```
-docker-compose up --force-recreate --build --always-recreate-deps
+docker-compose up
+```
+
+## Comandos Utiles
+
+Listar el bucket
+```
+aws --endpoint-url=http://localhost:4572 s3 ls s3://localstack.s3.plugin.test --recursive --human-readable --summarize
+```
+
+## Test
+
+Instalar `siege`
+```
+brew install siege
+``
+
+Test de stress multiples conexiones
+```
+siege -b -t10S http://localhost:4874/jquery
+siege -c=2000 -b -t10S http://localhost:4874/jquery
 ```
