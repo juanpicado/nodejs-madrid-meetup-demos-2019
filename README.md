@@ -34,3 +34,8 @@ docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio
 - Amazon S3 Bucket como almacenamiento con LocalStack
 - Link 3 registros con UpLinks y Permisos por Paquete
 - Creando un Plugin de autenticación.
+
+
+## Mas Demos
+
+- https://github.com/verdaccio/docker-examples

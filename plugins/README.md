@@ -1,4 +1,35 @@
-## Creando un Plugin en Verdaccio
+# Creando un Plugin en Verdaccio
+
+
+## Como usar un plugin?
+
+Existen tres maneras de cargar un plugin
+
+* Folder externo
+
+```
+  /home/my-location/plugins
+  /home/my-location/plugins/my-plugin/package.json
+```
+
+```
+// config.yaml
+
+storage: ./storage
+plugins: /home/my-location/plugins
+
+auth:
+  my-plugin:
+    conf: 1
+```
+
+* Dependencia Global
+
+```
+  npm i -g my-plugin
+```
+
+## Estructura
 
 ```
 interface IPluginAuth extends IPlugin {
@@ -8,7 +39,7 @@ interface IPluginAuth extends IPlugin {
   allow_publish(helpers): void;
 }
 ```
- ### Obligatorio
+### Obligatorio
 
 * `authenticate` logea el usuario
 * `adduser` agrega un usuario
