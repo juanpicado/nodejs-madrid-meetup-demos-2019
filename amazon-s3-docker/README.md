@@ -43,7 +43,9 @@ docker-compose up
 
 ## Comandos Utiles
 
-Listar el bucket
+* Instalar AWS (https://docs.aws.amazon.com/cli/latest/userguide/install-macos.html)
+
+Listar el contenido del bucket bucket
 ```
 aws --endpoint-url=http://localhost:4572 s3 ls s3://localstack.s3.plugin.test --recursive --human-readable --summarize
 ```
@@ -57,6 +59,10 @@ brew install siege
 
 Test de stress multiples conexiones
 ```
+## Ejemplo 1 (metadata)
 siege -b -t10S http://localhost:4874/jquery
-siege -c=2000 -b -t10S http://localhost:4874/jquery
+## Ejemplo 2 (metadata concurrent)
+siege -c=2000  -t10S http://localhost:4874/jquery
+## Ejemplo 3 (tarball)
+siege -c=200 -t10S http://localhost:4874/jquery/-/jquery-3.3.1.tgz
 ```
