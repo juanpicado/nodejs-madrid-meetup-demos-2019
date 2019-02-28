@@ -58,11 +58,16 @@ brew install siege
 ``
 
 Test de stress multiples conexiones
+
+### Ejemplo 1 (metadata)
 ```
-## Ejemplo 1 (metadata)
 siege -b -t10S http://localhost:4874/jquery
-## Ejemplo 2 (metadata concurrent)
+```
+### Ejemplo 2 (metadata concurrent)
+```
 siege -c=2000  -t10S http://localhost:4874/jquery
-## Ejemplo 3 (tarball)
+```
+### Ejemplo 3 (tarball)
+```
 siege -c=200 -t10S http://localhost:4874/jquery/-/jquery-3.3.1.tgz
 ```
