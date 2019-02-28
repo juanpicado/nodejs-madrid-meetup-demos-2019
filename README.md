@@ -1,6 +1,6 @@
 # Node.js Madrid Meetup Demos de Verdaccio
 
-5 de Marzo 2019
+5 de Marzo de 2019
 
 * [https://www.meetup.com/es-ES/Node-js-Madrid/events/258299729/](https://www.meetup.com/es-ES/Node-js-Madrid/events/258299729/)
 * [https://verdaccio.org/](https://verdaccio.org/)
