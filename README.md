@@ -4,6 +4,8 @@
 
 * [https://www.meetup.com/es-ES/Node-js-Madrid/events/258299729/](https://www.meetup.com/es-ES/Node-js-Madrid/events/258299729/)
 * [https://verdaccio.org/](https://verdaccio.org/)
+* [Slides](https://docs.google.com/presentation/d/1ldlk0Krh2ZsRASLUvYX0dIqjWOkI7Hh9QhtbhWOZ4WU/edit?usp=sharing)
+
 
 
 Prerequisitos
